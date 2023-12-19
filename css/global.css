@@ -57,6 +57,18 @@ button,
   display: none;
 }
 
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
 /* Responsive styles */
 @media only screen and (max-width: 528px) {
   /*
