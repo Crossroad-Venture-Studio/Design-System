@@ -1,0 +1,82 @@
+@import "sizes.css";
+/*
+ * Spacing variables
+ * -----------------
+ */
+:root {
+  /* Dynamic spacing */
+  --padding: var(--size-24-48);
+  --padding-horizontal: var(--padding);
+  --padding-vertical: var(--padding);
+  --margin: var(--padding);
+  --margin-horizontal: var(--margin);
+  --margin-vertical: var(--margin);
+  --gap: var(--padding);
+  --button-padding-horizontal: 12px;
+  --button-padding-vertical: 8px;
+  --pill-padding-horizontal: 10px;
+  --pill-padding-vertical: 6px;
+  --safe-area-top: env(safe-area-inset-top, 0px);
+  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
+  --safe-area-left: env(safe-area-inset-left, 0px);
+  --safe-area-right: env(safe-area-inset-right, 0px);
+  --safe-area-horizontal: 0 var(--safe-area-left) 0 var(--safe-area-right);
+  --safe-area-vertical: var(--safe-area-top) 0 var(--safe-area-bottom) 0;
+  --safe-area: var(--safe-area-top) var(--safe-area-left) var(--safe-area-bottom) var(--safe-area-right);
+
+  /* Calculated */
+  --padding-half: calc(0.5 * var(--padding));
+  --padding-2x: calc(2 * var(--padding));
+  --padding-half-horizontal: calc(0.5 * var(--padding-horizontal));
+  --padding-2x-horizontal: calc(2 * var(--padding-horizontal));
+  --padding-half-vertical: calc(0.5 * var(--padding-vertical));
+  --padding-2x-vertical: calc(2 * var(--padding-vertical));
+  --margin-half: calc(0.5 * var(--margin));
+  --margin-2x: calc(2 * var(--margin));
+  --margin-half-horizontal: calc(0.5 * var(--margin-horizontal));
+  --margin-2x-horizontal: calc(2 * var(--margin-horizontal));
+  --margin-half-vertical: calc(0.5 * var(--margin-vertical));
+  --margin-2x-vertical: calc(2 * var(--margin-vertical));
+  --gap-half: calc(0.5 * var(--gap));
+  --gap-2x: calc(2 * var(--gap));
+}
+
+/*
+ * Spacing classes
+ * ---------------
+ */
+ .padding {
+  padding: var(--padding);
+ }
+
+ .padding-horizontal {
+  padding: 0 var(--padding-horizontal);
+ }
+
+ .padding-vertical {
+  padding: var(--padding-vertical) 0;
+ }
+
+ .margin {
+  margin: var(--margin);
+ }
+
+ .margin-horizontal {
+  margin: 0 var(--margin-horizontal);
+ }
+
+ .margin-vertical {
+  margin: var(--margin-vertical) 0;
+ }
+
+ .button {
+  padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+ }
+
+ .pill {
+  padding: var(--pill-padding-vertical) var(--pill-padding-horizontal);
+ }
+
+ .pill.small {
+  padding: 4px 8px;
+ }

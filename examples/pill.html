@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- META -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="../css/global.css">
+    <link rel="stylesheet" href="../css/page.css">
+    <link rel="stylesheet" href="../css/button.css">
+    <link rel="stylesheet" href="../css/pill.css">
+    <style>
+      /* General */
+      html, body {
+        padding: 0;
+        margin: 0;
+        overflow: hidden;
+        min-height: -webkit-fill-available;
+        height: 100%;
+        width: 100%;
+      }
+
+      /* Safe areas */
+      body {
+        padding: env(safe-area-inset-top, 0px) env(safe-area-inset-left, 0px) env(safe-area-inset-bottom, 0px) env(safe-area-inset-right, 0px);
+        background: tomato;
+        height: calc(100% - env(safe-area-inset-top, 0px) - env(safe-area-inset-bottom, 0px));
+        width: calc(100% - env(safe-area-inset-left, 0px) - env(safe-area-inset-right, 0px));
+      }
+
+      /* Augment classes */
+      .page {
+        background: olive;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: white;
+      }
+
+      .button,
+      .pill {
+        background: tomato;
+        color: white;
+      }
+    </style>
+  </head>
+  <!-- BODY -->
+  <body>
+    <!-- CONTENT -->
+    <div class="page">
+      <div class="pill large">large</div>
+      <div class="pill">normal</div>
+      <div class="pill small">small</div>
+    </div>
+  </body>
+
+</html>
