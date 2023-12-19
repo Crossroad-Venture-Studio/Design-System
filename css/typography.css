@@ -263,6 +263,10 @@ a,
   border: 0;
   font: var(--font-link);
   opacity: 1;
+  text-decoration: none;
+  -webkit-decoration: none;
+  -webkit-text-decoration: none;
+  transition: var(--transition-time);
 }
 
 a.dotted,
@@ -279,7 +283,6 @@ a, a:visited, a:hover, a:active,
 
 a:hover,
 .link:hover {
-  transition: var(--transition-time);
   opacity: 0.8;
   text-decoration: none;
   -webkit-decoration: none;
