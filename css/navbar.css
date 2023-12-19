@@ -6,11 +6,4 @@
   left: 0;
   display: flex;
   width: 100%;
-  margin: 0;
-  padding: var(--padding-half-vertical) var(--padding-half-horizontal);
-  gap: var(--gap);
-}
-
-.navbar.safearea {
-  padding: calc(var(--safe-area-top) + var(--padding-half-vertical)) calc(var(--safe-area-left) + var(--padding-half-horizontal)) calc(var(--safe-area-bottom) + var(--padding-half-vertical)) calc(var(--safe-area-right) + var(--padding-half-horizontal));
 }

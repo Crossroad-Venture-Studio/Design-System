@@ -5,12 +5,5 @@
   flex-direction: column;
   width: 100%;
   height: 100%;
-  margin: 0;
-  padding: var(--padding-vertical) var(--padding-horizontal);
-  gap: var(--gap);
   overflow: scroll;
-}
-
-.page.safearea {
-  padding: calc(var(--safe-area-top) + var(--padding-vertical)) calc(var(--safe-area-left) + var(--padding-horizontal)) calc(var(--safe-area-bottom) + var(--padding-vertical)) calc(var(--safe-area-right) + var(--padding-horizontal));
 }

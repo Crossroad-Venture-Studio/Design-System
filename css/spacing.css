@@ -45,38 +45,63 @@
  * Spacing classes
  * ---------------
  */
- .padding {
+.padding {
   padding: var(--padding);
- }
+}
 
- .padding-horizontal {
+.padding-horizontal {
   padding: 0 var(--padding-horizontal);
- }
+}
 
- .padding-vertical {
+.padding-vertical {
   padding: var(--padding-vertical) 0;
- }
+}
 
- .margin {
+.margin {
   margin: var(--margin);
- }
+}
 
- .margin-horizontal {
+.margin-horizontal {
   margin: 0 var(--margin-horizontal);
- }
+}
 
- .margin-vertical {
+.margin-vertical {
   margin: var(--margin-vertical) 0;
- }
+}
 
- .button {
+.safearea {
+  padding: var(--safe-area-top) var(--safe-area-left) var(--safe-area-bottom) var(--safe-area-right);
+}
+
+.button {
   padding: var(--button-padding-vertical) var(--button-padding-horizontal);
- }
+}
 
- .pill {
+.pill {
   padding: var(--pill-padding-vertical) var(--pill-padding-horizontal);
- }
+}
 
- .pill.small {
+.pill.small {
   padding: 4px 8px;
- }
+}
+
+.page {
+  margin: 0;
+  padding: var(--padding-vertical) var(--padding-horizontal);
+  gap: var(--gap);
+}
+
+.padding.safearea,
+.page.safearea {
+  padding: calc(var(--safe-area-top) + var(--padding-vertical)) calc(var(--safe-area-left) + var(--padding-horizontal)) calc(var(--safe-area-bottom) + var(--padding-vertical)) calc(var(--safe-area-right) + var(--padding-horizontal));
+}
+
+.navbar {
+  margin: 0;
+  padding: var(--padding-half-vertical) var(--padding-half-horizontal);
+  gap: var(--gap);
+}
+
+.navbar.safearea {
+  padding: calc(var(--safe-area-top) + var(--padding-half-vertical)) calc(var(--safe-area-left) + var(--padding-half-horizontal)) calc(var(--safe-area-bottom) + var(--padding-half-vertical)) calc(var(--safe-area-right) + var(--padding-half-horizontal));
+}
