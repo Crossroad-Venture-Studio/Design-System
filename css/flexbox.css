@@ -1,0 +1,73 @@
+/* 
+ * Classes
+ * -------
+ */
+
+.flex,
+.row,
+.column {
+  display: flex;
+}
+
+.flex.fill,
+.row.fill,
+.column.fill {
+  flex: 1;
+}
+
+.flex.center,
+.row.center {
+  align-items: center;
+}
+
+.flex.middle,
+.row.middle {
+  justify-content: center;
+}
+
+.row.full {
+  width: 100%;
+  height: auto;
+}
+
+.row.extend {
+  width: auto;
+  height: 100%;
+}
+
+.column.spread,
+.row.spread {
+  justify-content: space-between;
+}
+
+.column.spread.evenly,
+.row.spread.evenly {
+  justify-content: space-evenly;
+}
+
+.column.spread.around,
+.row.spread.around {
+  justify-content: space-around;
+}
+
+.column {
+  flex-direction: column;
+}
+
+.column.middle {
+  align-items: center;
+}
+
+.column.center {
+  justify-content: center;
+}
+
+.column.full {
+  width: auto;
+  height: 100%;
+}
+
+.column.extend {
+  width: 100%;
+  height: auto;
+}
