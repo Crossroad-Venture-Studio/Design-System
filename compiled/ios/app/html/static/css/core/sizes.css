@@ -1,0 +1,30 @@
+:root {
+  /* Dynamic sizes */
+  /* min(max( ((A + B) / (375 + 1280) * 100)vw, Apx), Bpx); */
+  --size-96-128: min(max(13.5347vw, 98px), 128px);
+  --size-64-128: min(max(11.6012vw, 64px), 128px);
+  --size-64-96: min(max(9.6677vw, 64px), 96px);
+  --size-48-96: min(max(8.7009vw, 48px), 96px);
+  --size-48-64: min(max(6.7673vw, 48px), 64px);
+  --size-40-48: min(max(5.4381vw, 40px), 48px);
+  --size-32-64: min(max(5.8006vw, 32px), 64px);
+  --size-27-42: min(max(4.1692vw, 27px), 42px);
+  --size-24-98: min(max(7.2508vw, 24px), 96px);
+  --size-24-48: min(max(4.3504vw, 24px), 48px);
+  --size-24-36: min(max(3.6254vw, 24px), 36px);
+  --size-24-32: min(max(3.3837vw, 24px), 32px);
+  --size-22-38: min(max(3.0211vw, 22px), 28px);
+  --size-20-24: min(max(2.6586vw, 20px), 24px);
+  --size-18-20: min(max(2.2961vw, 18px), 20px);
+  --size-16-32: min(max(2.9003vw, 16px), 32px);
+  --size-16-24: min(max(2.4169vw, 16px), 24px);
+  --size-16-18: min(max(2.0544vw, 16px), 18px);
+  --size-14-16: min(max(1.8126vw, 14px), 16px);
+  --size-13-16: min(max(1.7723vw, 13px), 16px);
+  --size-12-24: min(max(2.1752vw, 12px), 24px);
+  --size-12-16: min(max(1.6918vw, 12px), 16px);
+  --size-12-14: min(max(1.571vw, 12px), 14px);
+  --size-10-12: min(max(1.3293vw, 10px), 12px);
+  --size-8-12: min(max(1.2085vw, 8px), 12px);
+  --size-8-10: min(max(1.0876vw, 8px), 10px);
+}

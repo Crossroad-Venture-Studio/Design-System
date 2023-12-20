@@ -1,0 +1,5 @@
+com/crossroad/app/BuildConfig.java
+ com.crossroad.app.BuildConfig
+com/crossroad/app/MainActivity.java
+ com.crossroad.app.MainActivity
+ com.crossroad.app.MainActivity$LocalContentWebViewClient

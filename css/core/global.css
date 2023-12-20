@@ -1,0 +1,90 @@
+/* Global styles */
+* {
+  -webkit-tap-highlight-color: transparent;
+  box-sizing: border-box;
+  overflow: visible;
+  overflow-anchor: auto;
+  scroll-behavior: smooth;
+}
+
+*:focus {
+  outline: none;
+  outline-style: none;
+}
+
+/* Html, body, etc styles */
+html,
+body {
+  min-height: -webkit-fill-available;
+  background-color:black;
+  color:white;
+  font-family: "Avenir Next", Avenir, Calibri, Tahoma, Arial, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+}
+
+html,
+body,
+.full {
+  width: 100%;
+  height: 100%;
+}
+
+html,
+body,
+table,
+.no-space-around {
+  margin: 0;
+  padding: 0;
+}
+
+img,
+button,
+.no-select {
+  -webkit-touch-callout: none;
+  /* iOS Safari */
+  -webkit-user-select: none;
+  /* Safari */
+  -khtml-user-select: none;
+  /* Konqueror HTML */
+  -moz-user-select: none;
+  /* Old versions of Firefox */
+  -ms-user-select: none;
+  /* Internet Explorer/Edge */
+  user-select: none;
+  /* Non-prefixed version, currently
+     supported by Chrome, Edge, Opera and Firefox */
+}
+
+.hidden {
+  display: none;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.absolute {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* Responsive styles */
+@media only screen and (max-width: 528px) {
+  /*
+   * Hide scroll bar
+   * ---------------
+   */
+  /* Safari and Chrome */
+  ::-webkit-scrollbar {
+    display: none;
+  }
+
+  * {
+    /* IE and Edge */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+  }
+}

@@ -1,0 +1,26 @@
+@import "touchables.css";
+
+/* 
+ * Props
+ * -----
+ */
+:root {
+  /* Properties */
+  --button-corner: 8px;
+}
+
+/* 
+ * Classes
+ * -------
+ */
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: var(--button-corner);
+}
+
+.button.large {
+  min-width: var(--size-40-48);
+  min-height: var(--size-40-48);
+}

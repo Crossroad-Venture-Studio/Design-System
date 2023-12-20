@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <!-- META -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="../css/index.css">
+    <style>
+      /* Augment classes */
+      .page {
+        background: var(--olive);
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        color: var(--white);
+      }
+
+      .box {
+        background: var(--white);
+        width: 256px;
+        height: 256px;
+        outline: 1px solid var(--white);
+      }
+
+      .square {
+        background: var(--leather);
+        width: 25%;
+        height: 25%;
+        outline: 2px solid var(--white);
+        outline-offset: -1px;
+      }
+    </style>
+  </head>
+  <!-- BODY -->
+  <body>
+    <!-- CONTENT -->
+    <div class="page">
+      <div class="box row middle">
+        <div class="square"></div>
+        <div class="square"></div>
+      </div>
+    </div>
+  </body>
+
+</html>
