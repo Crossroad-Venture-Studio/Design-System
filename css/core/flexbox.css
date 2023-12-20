@@ -9,6 +9,15 @@
   display: flex;
 }
 
+/* Reverse ordering */
+.row.reverse {
+  flex-direction: row-reverse;
+}
+
+.column.reverse {
+  flex-direction: column-reverse;
+}
+
 /* Row positioning */
 /* Container: left middle right spread | top center bottom */
 /* Children: fill | extend */
