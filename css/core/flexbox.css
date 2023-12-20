@@ -10,6 +10,7 @@
 }
 
 /* Reverse ordering */
+.flex.reverse,
 .row.reverse {
   flex-direction: row-reverse;
 }
