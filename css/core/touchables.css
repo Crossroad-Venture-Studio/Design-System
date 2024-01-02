@@ -38,3 +38,9 @@
 .pill:hover {
   opacity: 0.8;
 }
+
+.touchable:disabled,
+.button:disabled,
+.pill:disabled {
+  opacity: 0.5;
+}
