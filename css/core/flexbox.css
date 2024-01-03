@@ -53,8 +53,10 @@
 }
 
 .flex .fill,
-.row .fill,
-.column .fill {
+.row .fill:not(.vertical),
+.row .extend.horizontal,
+.column .fill:not(.horizontal),
+.column .extend.vertical {
   flex: 1;
 }
 
@@ -63,7 +65,8 @@
   height: auto;
 }
 
-.row .extend {
+.row .extend:not(.horizontal),
+.row .fill.vertical {
   height: 100%;
 }
 
@@ -118,6 +121,7 @@
   height: 100%;
 }
 
-.column .extend {
+.column .fill.horizontal,
+.column .extend:not(.vertical) {
   width: 100%;
 }
