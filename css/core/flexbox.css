@@ -125,3 +125,10 @@
 .column .extend:not(.vertical) {
   width: 100%;
 }
+
+/* Responsive styles */
+@media only screen and (max-width: 528px) {
+  .row.responsive {
+    flex-direction: column;
+  }
+}
