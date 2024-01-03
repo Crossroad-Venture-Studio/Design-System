@@ -35,13 +35,13 @@ At the core of the design system lies the definition for colors, gradients, shad
 - shades of colors (e.g. *--blue-1, --blue-2, --blue-3, ...*),
 - gradients (e.g. *--purple-pink-horizontal, --orange-yellow-vertical, --green-lime-diagonal, etc*).
   
-Those variables can access in css with the **var()** keywords. For example:
+Those variables can access in css with the **var()** keyword. For example:
 
     ...
     <style>
       div {
         background: var(--green-lime-diagonal);
-        color: var(--dark)
+        color: var(--dark);
       }
     </style>
     ...
