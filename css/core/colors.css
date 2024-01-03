@@ -77,35 +77,35 @@
    * Horizontal gradients
    * --------------------
    */
-  --purple-pink-diagonal: linear-gradient(0deg, var(--purple), var(--pink));
-  --orange-yellow-diagonal: linear-gradient(0deg, var(--orange), var(--yellow));
-  --ocean-teal-diagonal: linear-gradient(0deg, var(--ocean), var(--teal));
-  --green-lime-diagonal: linear-gradient(0deg, var(--green), var(--lime));
-  --chocolate-leather-diagonal: linear-gradient(0deg, var(--chocolate), var(--leather));
-  --blue-cyan-diagonal: linear-gradient(0deg, var(--blue), var(--cyan));
-  --orange-pink-diagonal: linear-gradient(0deg, var(--orange), var(--pink));
-  --purple-blue-diagonal: linear-gradient(0deg, var(--purple), var(--blue));
-  --leather-olive-diagonal: linear-gradient(0deg, var(--leather), var(--olive));
-  --red-yellow-diagonal: linear-gradient(0deg, var(--red), var(--yellow));
-  --lime-yellow-diagonal: linear-gradient(0deg, var(--lime), var(--yellow));
-  --blue-1-ocean-diagonal: linear-gradient(0deg, var(--blue-1), var(--ocean));
+  --purple-pink-horizontal: linear-gradient(0deg, var(--purple), var(--pink));
+  --orange-yellow-horizontal: linear-gradient(0deg, var(--orange), var(--yellow));
+  --ocean-teal-horizontal: linear-gradient(0deg, var(--ocean), var(--teal));
+  --green-lime-horizontal: linear-gradient(0deg, var(--green), var(--lime));
+  --chocolate-leather-horizontal: linear-gradient(0deg, var(--chocolate), var(--leather));
+  --blue-cyan-horizontal: linear-gradient(0deg, var(--blue), var(--cyan));
+  --orange-pink-horizontal: linear-gradient(0deg, var(--orange), var(--pink));
+  --purple-blue-horizontal: linear-gradient(0deg, var(--purple), var(--blue));
+  --leather-olive-horizontal: linear-gradient(0deg, var(--leather), var(--olive));
+  --red-yellow-horizontal: linear-gradient(0deg, var(--red), var(--yellow));
+  --lime-yellow-horizontal: linear-gradient(0deg, var(--lime), var(--yellow));
+  --blue-1-ocean-horizontal: linear-gradient(0deg, var(--blue-1), var(--ocean));
 
   /*
    * Vertical gradients
    * -------------------
    */
-  --purple-pink-diagonal: linear-gradient(90deg, var(--purple), var(--pink));
-  --orange-yellow-diagonal: linear-gradient(90deg, var(--orange), var(--yellow));
-  --ocean-teal-diagonal: linear-gradient(90deg, var(--ocean), var(--teal));
-  --green-lime-diagonal: linear-gradient(90deg, var(--green), var(--lime));
-  --chocolate-leather-diagonal: linear-gradient(90deg, var(--chocolate), var(--leather));
-  --blue-cyan-diagonal: linear-gradient(90deg, var(--blue), var(--cyan));
-  --orange-pink-diagonal: linear-gradient(90deg, var(--orange), var(--pink));
-  --purple-blue-diagonal: linear-gradient(90deg, var(--purple), var(--blue));
-  --leather-olive-diagonal: linear-gradient(90deg, var(--leather), var(--olive));
-  --red-yellow-diagonal: linear-gradient(90deg, var(--red), var(--yellow));
-  --lime-yellow-diagonal: linear-gradient(90deg, var(--lime), var(--yellow));
-  --blue-1-ocean-diagonal: linear-gradient(90deg, var(--blue-1), var(--ocean));
+  --purple-pink-vertical: linear-gradient(90deg, var(--purple), var(--pink));
+  --orange-yellow-vertical: linear-gradient(90deg, var(--orange), var(--yellow));
+  --ocean-teal-vertical: linear-gradient(90deg, var(--ocean), var(--teal));
+  --green-lime-vertical: linear-gradient(90deg, var(--green), var(--lime));
+  --chocolate-leather-vertical: linear-gradient(90deg, var(--chocolate), var(--leather));
+  --blue-cyan-vertical: linear-gradient(90deg, var(--blue), var(--cyan));
+  --orange-pink-vertical: linear-gradient(90deg, var(--orange), var(--pink));
+  --purple-blue-vertical: linear-gradient(90deg, var(--purple), var(--blue));
+  --leather-olive-vertical: linear-gradient(90deg, var(--leather), var(--olive));
+  --red-yellow-vertical: linear-gradient(90deg, var(--red), var(--yellow));
+  --lime-yellow-vertical: linear-gradient(90deg, var(--lime), var(--yellow));
+  --blue-1-ocean-vertical: linear-gradient(90deg, var(--blue-1), var(--ocean));
 
    /*
    * Diagonal gradients

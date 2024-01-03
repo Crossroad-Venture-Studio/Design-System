@@ -30,6 +30,17 @@ At the core of the design system lies the definition for colors, gradients, shad
 [![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=0-1&mode=design)
 [![Css file](__assets__/css.svg)](/css/core/colors.css)
 
+[This](/css/core/colors.css) is where we define the set of colors, shades of colors (e.g. *--blue*) (e.g. *--blue-1, --blue-2, --blue-3, ...*) and gradients (e.g. *--purple-pink-horizontal, --orange-yellow-vertical, --green-lime-diagonal, etc*). Those variables can access in css with the **var()** keywords. For example:
+
+    ...
+    <style>
+    button {
+      background: var(--green-lime-diagonal);
+      color: var(--dark)
+    }
+    </style>
+    ...
+
 ## Shadows
 
 [![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=1-52&mode=design)
