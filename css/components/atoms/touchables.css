@@ -1,6 +1,6 @@
-@import "animation.css";
-@import "typography.css";
-@import "spacing.css";
+@import "../../core/animation.css";
+@import "../../core/typography.css";
+@import "../../core/spacing.css";
 
 /* 
  * Classes

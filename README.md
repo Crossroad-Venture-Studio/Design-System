@@ -7,27 +7,53 @@
 - [*Crossroad Venture Studio:* Design System](#crossroad-venture-studio-design-system)
   - [Table of content](#table-of-content)
 - [Terms and conditions](#terms-and-conditions)
+- [Default \& Globals](#default--globals)
 - [Core](#core)
   - [Colors \& Gradients](#colors--gradients)
   - [Shadows](#shadows)
   - [Fonts and Typography](#fonts-and-typography)
-  - [Icons](#icons)
 - [Components](#components)
-  - [Buttons \& Pills](#buttons--pills)
-  - [Flexbox](#flexbox)
+  - [Atomic Design](#atomic-design)
+    - [History](#history)
+    - [Definitions](#definitions)
+  - [Atoms](#atoms)
+    - [Icons](#icons)
+      - [Light Vs. Dark](#light-vs-dark)
+      - [Wired Vs. Filled](#wired-vs-filled)
+    - [Buttons](#buttons)
+    - [Pills](#pills)
+    - [Flexbox (*aka Auto layout in Figma*)](#flexbox-aka-auto-layout-in-figma)
+  - [Molecules](#molecules)
+    - [Nav Bars](#nav-bars)
+  - [Organisms](#organisms)
+  - [Templates](#templates)
+    - [Pages](#pages)
+- [Themes](#themes)
 
 # Terms and conditions
 By working with *Crossroad*, you are agreeing to the following term and conditions:
 - This is a proprietary suite of softwares, tools, framework, design sytem, etc.
 - Do not distribute, modify, sell unless consulted and agreed before by William Brendel (brendel.william@gmail.com)
 
-# Core
+# Default & Globals
 
-At the core of the design system lies the definition for colors, gradients, shadows, typography and icons used everywhere in the product we develop.
-All the core functionalities can be loaded using the [index.css](/css/index.css) file:
+All the design system styles can be loaded using the [index.css](/css/index.css) file:
 
     <head>
       <link rel="stylesheet" href="../css/index.css">
+    </head>
+
+By default:
+- padding and spacing are set to 0,
+- scrollbars disappear in mobile screen size
+
+# Core
+
+At the core of the design system lies the definition for colors, gradients, shadows, typography used everywhere in the product we develop.
+All the core styles can be loaded using the [index.css](/css/core/index.css) file:
+
+    <head>
+      <link rel="stylesheet" href="../css/core/index.css">
     </head>
 
 ## Colors & Gradients
@@ -84,13 +110,96 @@ The design system [typography](/css/core/typography.css) relies on a set of [fon
 
 💡 **NOTE:** The font size is already fully responsive to screen sizes.
 
-## Icons
+# Components
+
+At the component level of the design system lies the definition for atom styles, molecule styles, organism styles, template styles and icons used everywhere in the product we develop.
+All the component styles can be loaded using the [index.css](/css/components/index.css) file:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/index.css">
+    </head>
+
+## Atomic Design
+
+### History
+
+Brad Frost, a passionate young man is the one who deserves credit for the system we are about to discuss in the *Components* section. His insightful book, [Atomic Design by Brad Frost](https://atomicdesign.bradfrost.com/) explores the concept in great detail. Atomic Design was born out of a desire and necessity to have a responsive digital environment.
+
+### Definitions
+
+*Atomic design* is a process that consists of five separate steps that work together to build more coherent, hierarchical, and thoughtful interface design systems. The following are the five stages of atomic design:
+- Atoms
+- Molecules
+- Organisms
+- Templates
+- Pages
+
+In this design system, we limit ourselves to the top four, since *Pages* involve real assets that are not defined here. Instead, an extension of templates we call *Themes* will be defined after the *Components* section.
+
+## Atoms
+
+In science, an atom is the smallest unit of matter that makes up a chemical element, as well as the smallest unit of a cell. Every solid, liquid, gas, and plasma is made up of neutral or ionized atoms. Similarly, in design, atoms are the most basic components. They are the building blocks of design such as buttons, lines, shapes, icons, text fields, text labels, etc. All atom styles can be loaded using the [index.css](/css/components/atoms/index.css) file:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/index.css">
+    </head>
+
+### Icons
 
 [![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=22-1209&mode=design)
 [![Icon files](__assets__/library.svg)](/icons/)
 
-# Components
+Most [icons](/icons/) are normalized to be 24x24 pixels, exception being made for some social media icons for examples. Icons are oganized in different categories:
+- [Actions](/icons/actions/) related type of icons, like *share, add, delete, etc*
+- [App store](/icons/app-stores/) icons, i.e. *Google play store* and *Apple app store*
+- [Camera](/icons/camera/) icons, like *flash, torch, shutter*
+- [Menu](/icons/menu/) icons, like *home, stats, user, etc*
+- [Misc](/icons/misc/) icons, like *security, etc*
+- [Navigation](/icons/navigation/) icons, like *chevron left, arrow right, etc*
+- [Social](/icons/socials/) icons, like *facebook, instagram, etc*
+- [Status](/icons/socials/) related icons, like *check, success, warning, etc*
+- [Tech stack](/icons/tech-stack/) related icons, like *html, css, javascript, react, etc*
 
-## Buttons & Pills
+#### Light Vs. Dark
 
-## Flexbox
+Some icons come in both light and dark color. For example *facebook* has a light version (icon mostly white) [facebook-light.svg](/icons/socials/facebook-light.svg) and a dark version (icon mostly black) [facebook-dark.svg](/icons/socials/facebook-dark.svg). The suffix *-light* or *-dark* in the filename indicates which version it is.
+
+#### Wired Vs. Filled
+
+Some icons come in both wired and filled mode. Wired means the icon is contoured, but not filled. For example *dark calendar* has both a wired and a filled version, [calendar-wired-dark.svg](/icons/menu/calendar-wired-dark.svg) and [calendar-filled-dark.svg](/icons/menu/calendar-filled-dark.svg). The suffix *-filled* or *-wired* in the filename indicates which version it is.
+
+### Buttons
+
+### Pills
+
+### Flexbox (*aka Auto layout in Figma*)
+
+## Molecules
+
+Molecules are the group of atoms bound together to be the smallest fundamental unit. In design, a molecule can be created by combining two or more atoms. For instance, an input field and a button can combine to become a search form, which can perform the search function on the interface. All molecule styles can be loaded using the [index.css](/css/components/molecules/index.css) file:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/molecules/index.css">
+    </head>
+
+### Nav Bars
+
+## Organisms
+
+As molecules provide us with a basic unit or building block for designing further, multiple molecules can combine to make an organism. An organism is a collection of molecules that have been bonded together to form complex individual portions of the design such as a login page, form, etc. All organism styles can be loaded using the [index.css](/css/components/organisms/index.css) file:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/organisms/index.css">
+    </head>
+
+## Templates
+
+Templates are the glues that combine the different organisms or individual sections to create a complete design. For example, the search form (organism) can be used as a template in the hero section of our home page to fetch user information. Multiple such templates, like a login form, carousel, etc. can co-exist to create an interface design. All template styles can be loaded using the [index.css](/css/components/templates/index.css) file:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/templates/index.css">
+    </head>
+
+### Pages
+
+# Themes

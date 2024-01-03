@@ -1,4 +1,4 @@
-@import "spacing.css";
+@import "../../core/spacing.css";
 
 .page {
   display: flex;
