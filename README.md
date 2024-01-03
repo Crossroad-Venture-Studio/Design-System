@@ -28,18 +28,22 @@ At the core of the design system lies the definition for colors, gradients, shad
 ## Colors & Gradients
 
 [![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=0-1&mode=design)
+[![Css file](__assets__/css.svg)](/css/core/colors.css)
 
 ## Shadows
 
 [![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=1-52&mode=design)
+[![Css file](__assets__/css.svg)](/css/core/shadows.css)
 
 ## Fonts and Typography
 
 [![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=7-1084&mode=design)
+[![Css file](__assets__/css.svg)](/css/core/typography.css)
 
 ## Icons
 
 [![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=22-1209&mode=design)
+[![Icon files](__assets__/library.svg)](/icons/)
 
 # Components
 
