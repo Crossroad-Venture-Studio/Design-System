@@ -7,7 +7,7 @@
 - [*Crossroad Venture Studio:* Design System](#crossroad-venture-studio-design-system)
   - [Table of content](#table-of-content)
 - [Terms and conditions](#terms-and-conditions)
-- [Default \& Globals](#default--globals)
+- [Default Behavior \& Globals](#default-behavior--globals)
 - [Core](#core)
   - [Colors \& Gradients](#colors--gradients)
   - [Shadows](#shadows)
@@ -22,7 +22,7 @@
       - [Wired Vs. Filled](#wired-vs-filled)
     - [Buttons](#buttons)
     - [Pills](#pills)
-    - [Flexbox (*aka Auto layout in Figma*)](#flexbox-aka-auto-layout-in-figma)
+    - [Flexboxes](#flexboxes)
   - [Molecules](#molecules)
     - [Nav Bars](#nav-bars)
   - [Organisms](#organisms)
@@ -35,7 +35,7 @@ By working with *Crossroad*, you are agreeing to the following term and conditio
 - This is a proprietary suite of softwares, tools, framework, design sytem, etc.
 - Do not distribute, modify, sell unless consulted and agreed before by William Brendel (brendel.william@gmail.com)
 
-# Default & Globals
+# Default Behavior & Globals
 
 All the design system styles can be loaded using the [index.css](/css/index.css) file:
 
@@ -121,9 +121,11 @@ All the component styles can be loaded using the [index.css](/css/components/ind
 
 ## Atomic Design
 
+For years, designers have been creating style guides, elemental guidelines, mood boards, and various other tools to make our designs more understandable and comprehensive. Developers, meanwhile, have been embracing technologies like Bootstrap, Foundation, Bourbon, and others to make their lives easier when it comes to coding. However, we need compromise and collaboration to make life easier for designers and developers. Atomic design is here to help us with that.
+
 ### History
 
-Brad Frost, a passionate young man is the one who deserves credit for the system we are about to discuss in the *Components* section. His insightful book, [Atomic Design by Brad Frost](https://atomicdesign.bradfrost.com/) explores the concept in great detail. Atomic Design was born out of a desire and necessity to have a responsive digital environment.
+Brad Frost, a passionate young man is the one who deserves credit for the system we are about to discuss in the *Components* section. His insightful book, [Atomic Design by Brad Frost](https://atomicdesign.bradfrost.com/) explores the concept in great detail. Atomic Design was born out of a desire and necessity to have a responsive digital environment. See also [Atomic Design](https://medium.com/galaxy-ux-studio/principles-of-atomic-design-7b03a30c3cb6) blog for a summary.
 
 ### Definitions
 
@@ -172,7 +174,9 @@ Some icons come in both wired and filled mode. Wired means the icon is contoured
 
 ### Pills
 
-### Flexbox (*aka Auto layout in Figma*)
+### Flexboxes
+
+Flexboxes, *aka Auto layout in Figma*, allow users to create designs that can grow to fill or shrink to fit, and reflow as their contents change.
 
 ## Molecules
 
