@@ -38,6 +38,7 @@ At the core of the design system lies the definition for colors, gradients, shad
 Those variables can access in css with the **var()** keyword. For example:
 
     ...
+    <link rel="stylesheet" href="../css/colors.css">
     <style>
       div {
         background: var(--green-lime-diagonal);
@@ -50,6 +51,15 @@ Those variables can access in css with the **var()** keyword. For example:
 
 [![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=1-52&mode=design)
 [![Css file](__assets__/css.svg)](/css/core/shadows.css)
+
+[This](/css/core/shadows.css) is where we define the shadow preset styles. For example:
+
+    <head>
+      <link rel="stylesheet" href="../css/shadows.css">
+    </head>
+    <body>
+      <div class="close-shadow"> hello world! </div>
+    </body>
 
 ## Fonts and Typography
 
