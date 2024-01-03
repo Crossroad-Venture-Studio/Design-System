@@ -24,6 +24,11 @@ By working with *Crossroad*, you are agreeing to the following term and conditio
 # Core
 
 At the core of the design system lies the definition for colors, gradients, shadows, typography and icons used everywhere in the product we develop.
+All the core functionalities can be loaded using the [index.css](/css/index.css) file:
+
+    <head>
+      <link rel="stylesheet" href="../css/index.css">
+    </head>
 
 ## Colors & Gradients
 
@@ -65,6 +70,19 @@ Those variables can access in css with the **var()** keyword. For example:
 
 [![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=7-1084&mode=design)
 [![Css file](__assets__/css.svg)](/css/core/typography.css)
+
+The design system [typography](/css/core/typography.css) relies on a set of [font files](/fonts/) and [font definitions](/css/core/fonts.css). We typically use **Avenir Next** (*Metropolis* being the substitute font) for generl text, **Arial Black** for fat titles and buttons, **Anime Ace** for comic book style dialogs, and sometimes **Times** for cursive quotes. For example:
+
+    <head>
+      <link rel="stylesheet" href="../css/typography.css">
+    </head>
+    <body>
+      <div class="title"> This is a big title </div>
+      <div class="heading"> This is a big heading </div>
+      <div class="text"> This is regular text </div>
+    </body>
+
+💡 NOTE: The font size is already fully responsive to screen sizes.
 
 ## Icons
 
