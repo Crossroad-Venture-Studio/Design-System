@@ -32,17 +32,17 @@ At the core of the design system lies the definition for colors, gradients, shad
 
 [This](/css/core/colors.css) is where we define:
 - the set of colors (e.g. *--blue, --red, etc*),
-- shades of colors (e.g. *--blue-1, --blue-2, --blue-3, ...*)
-- and gradients (e.g. *--purple-pink-horizontal, --orange-yellow-vertical, --green-lime-diagonal, etc*).
+- shades of colors (e.g. *--blue-1, --blue-2, --blue-3, ...*),
+- gradients (e.g. *--purple-pink-horizontal, --orange-yellow-vertical, --green-lime-diagonal, etc*).
   
 Those variables can access in css with the **var()** keywords. For example:
 
     ...
     <style>
-    button {
-      background: var(--green-lime-diagonal);
-      color: var(--dark)
-    }
+      div {
+        background: var(--green-lime-diagonal);
+        color: var(--dark)
+      }
     </style>
     ...
 
