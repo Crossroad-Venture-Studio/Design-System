@@ -1,4 +1,0 @@
-#Thu Feb 16 15:56:46 PST 2023
-base.0=/Users/williambrendel/Development/Projects/Crossroad-v2/src/client/build/android/app/build/intermediates/dex/release/mergeDexRelease/classes.dex
-renamed.0=classes.dex
-path.0=classes.dex
