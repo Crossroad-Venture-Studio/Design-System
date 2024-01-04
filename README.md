@@ -71,7 +71,7 @@ All the core styles can be loaded using the [index.css](/css/core/index.css) fil
 Those variables can access in css with the **var()** keyword. For example:
 
     ...
-    <link rel="stylesheet" href="../css/colors.css">
+    <link rel="stylesheet" href="../css/core/colors.css">
     <style>
       div {
         background: var(--green-lime-diagonal);
@@ -88,7 +88,7 @@ Those variables can access in css with the **var()** keyword. For example:
 [This](/css/core/shadows.css) is where we define the shadow preset styles. For example:
 
     <head>
-      <link rel="stylesheet" href="../css/shadows.css">
+      <link rel="stylesheet" href="../css/core/shadows.css">
     </head>
     <body>
       <div class="close-shadow"> hello world! </div>
@@ -102,7 +102,7 @@ Those variables can access in css with the **var()** keyword. For example:
 The design system [typography](/css/core/typography.css) relies on a set of [font files](/fonts/) and [font definitions](/css/core/fonts.css). We typically use **Avenir Next** (**Metropolis** being the substitute font) for generl text, **Arial Black** for fat titles and buttons, **Anime Ace** for comic book style dialogs, and sometimes **Times** for cursive quotes. For example:
 
     <head>
-      <link rel="stylesheet" href="../css/typography.css">
+      <link rel="stylesheet" href="../css/core/typography.css">
     </head>
     <body>
       <div class="title"> This is a big title </div>
@@ -174,7 +174,42 @@ Some icons come in both wired and filled mode. Wired means the icon is contoured
 
 ### Buttons
 
+[![Css file](__assets__/css.svg)](/css/components/atoms/button.css)
+
+[Buttons](/css/components/atoms/button.css) have [touchables](/css/components/atoms/touchable.css) styling, with almost square corners and specific padding defined in [spacing](/css/core/spacing.css). For example:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/button.css">
+    </head>
+    <body>
+      <div class="button my-custom-button-style"> hello world! </div>
+    </body>
+
+Button sizes can be control with additional *small* / *large* styles, like:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/button.css">
+    </head>
+    <body>
+      <div class="button my-custom-button-style large"> large button </div>
+      <div class="button my-custom-button-style"> regular button </div>
+      <div class="button my-custom-button-style small"> small button </div>
+    </body>
+
 ### Pills
+
+[![Css file](__assets__/css.svg)](/css/components/atoms/pill.css)
+
+Like buttons, [pills](/css/components/atoms/pill.css) have [touchables](/css/components/atoms/touchable.css) styling, but with round corners and smaller font size and padding. For example:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/button.css">
+    </head>
+    <body>
+      <div class="pill my-custom-pill-style"> hello world! </div>
+    </body>
+
+Pill sizes can also be control with additional *small* / *large* styles, like buttons.
 
 ### Flexboxes
 
@@ -379,7 +414,7 @@ will produce:
     │   │   │   │   │ ◾️ │  
     └───┴───┴───┴───┴───┘
 
-which is similar to:
+which is also similar to:
 
     <head>
       <link rel="stylesheet" href="../css/components/atoms/flexbox.css">
@@ -391,7 +426,7 @@ which is similar to:
       </div>
     </body>
 
-In the latest code, we force the *fill* to be vertical, independently from the alignment direction (here *row*).
+In the latest code, we force the second *fill* to be vertical, independently from the alignment direction (here *row*).
 
 ## Molecules
 
