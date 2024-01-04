@@ -187,15 +187,15 @@ Some icons come in both wired and filled mode. Wired means the icon is contoured
     </head>
     <body>
       <div class="my-parent-style row top right">
-        <div class="my-child-style">...</div>
-        <div class="my-child-style">...</div>
+        <div class="my-child-style"> 1 </div>
+        <div class="my-child-style"> 2 </div>
       </div>
     </body>
 
 will position the children divs in a *row*, aligned at the *top right* corner of the parent, like this:
 
     ┌───┬───┬───┬───┬───┐  
-    │   │   │   │ X │ X │  
+    │   │   │   │ 1 │ 2 │  
     ├───┼───┼───┼───┼───┤  
     │   │   │   │   │   │  
     ├───┼───┼───┼───┼───┤  
@@ -212,27 +212,103 @@ On the other hand:
       <link rel="stylesheet" href="../css/components/atoms/flexbox.css">
     </head>
     <body>
-      <div class="my-parent-style row center spread evenly">
-        <div class="my-child-style">...</div>
-        <div class="my-child-style">...</div>
+      <div class="my-parent-style column top right">
+        <div class="my-child-style"> 1 </div>
+        <div class="my-child-style"> 2 </div>
       </div>
     </body>
 
-will position the children divs in a *row*, vertically aligned at the *center* of the parent and *spread evenly* accross the horizontal axis:
-
+will position the children divs in a *column*, aligned at the *top right* corner of the parent, like this:
 
     ┌───┬───┬───┬───┬───┐  
-    │   │   │   │   │   │  
+    │   │   │   │   │ 1 │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │ 2 │  
     ├───┼───┼───┼───┼───┤  
     │   │   │   │   │   │  
-    ├───┼───┼───┼───┼───┤  
-    │   │ X │   │ X │   │  
     ├───┼───┼───┼───┼───┤  
     │   │   │   │   │   │  
     ├───┼───┼───┼───┼───┤  
     │   │   │   │   │   │  
     └───┴───┴───┴───┴───┘
 
+In addition:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/flexbox.css">
+    </head>
+    <body>
+      <div class="my-parent-style row center spread evenly">
+        <div class="my-child-style"> 1 </div>
+        <div class="my-child-style"> 2 </div>
+      </div>
+    </body>
+
+will position the children divs in a *row*, vertically aligned at the *center* of the parent and *spread evenly* accross the horizontal axis:
+
+    ┌───┬───┬───┬───┬───┐  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │ 1 │   │ 2 │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    └───┴───┴───┴───┴───┘
+
+While:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/flexbox.css">
+    </head>
+    <body>
+      <div class="my-parent-style column middle spread evenly">
+        <div class="my-child-style"> 1 </div>
+        <div class="my-child-style"> 2 </div>
+      </div>
+    </body>
+
+will position the children divs in a *column*, horizontally aligned at the *middle* of the parent and *spread evenly* accross the vertical axis:
+
+    ┌───┬───┬───┬───┬───┐  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │ 1 │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │ 2 │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    └───┴───┴───┴───┴───┘
+
+Finally:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/flexbox.css">
+    </head>
+    <body>
+      <div class="my-parent-style column middle spread evenly reverse">
+        <div class="my-child-style"> 1 </div>
+        <div class="my-child-style"> 2 </div>
+      </div>
+    </body>
+
+will position the children divs in a *column*, horizontally aligned at the *middle* of the parent and *spread evenly* accross the vertical axis, but in reverse order:
+
+    ┌───┬───┬───┬───┬───┐  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │ 2 │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │ 1 │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    └───┴───┴───┴───┴───┘
 
 #### Parent Styles
 
@@ -245,6 +321,8 @@ Horizontal positioning (irrespectively of the alignment axis) **\[optional\]**: 
 Vertical positioning (irrespectively of the alignment axis) **\[optional\]**: *top* (default) / *center* / *bottom*
 
 Positioning with respect to the alignment direction **\[optional\]**: *spread* (same as *spread between*) / *spread around* / *spread evenly*
+
+Reverse order with respect to the alignment direction **\[optional\]**: *reverse*
 
 #### Children Styles
 
