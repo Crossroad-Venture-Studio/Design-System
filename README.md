@@ -314,23 +314,18 @@ will position the children divs in a *column*, horizontally aligned at the *midd
 
 There are several styles that need to be applied to the container, aka parent, html element to have that element be behaving like a flexbox:
 
-Alignment direction **\[required\]**: *row* (same as *flex*) / *column*
-
-Horizontal positioning (irrespectively of the alignment axis) **\[optional\]**: *left* (default) / *middle* / *right*
-
-Vertical positioning (irrespectively of the alignment axis) **\[optional\]**: *top* (default) / *center* / *bottom*
-
-Positioning with respect to the alignment direction **\[optional\]**: *spread* (same as *spread between*) / *spread around* / *spread evenly*
-
-Reverse order with respect to the alignment direction **\[optional\]**: *reverse*
+- Alignment direction **\[required\]**: *row* (same as *flex*) / *column*
+- Horizontal positioning (irrespectively of the alignment axis) **\[optional\]**: *left* (default) / *middle* / *right*
+- Vertical positioning (irrespectively of the alignment axis) **\[optional\]**: *top* (default) / *center* / *bottom*
+- Positioning with respect to the alignment direction **\[optional\]**: *spread* (same as *spread between*) / *spread around* / *spread evenly*
+- Reverse order with respect to the alignment direction **\[optional\]**: *reverse*
 
 #### Children Styles
 
 In addition to parent positioning and alignment, we can specify some filling style options to the children of a flexbox:
 
-Filling options depending on the main / secondary axis  **\[optional\]**: *fill* / *extend* (*fill*: main alignment direction,  *extend* is for the other axis)
-
-Filling options independent of the parent alignment direction: *fill horizontal* (same as *extend horizontal*) / *fill vertical* (same as *extend vertical*)
+- Filling options depending on the main / secondary axis  **\[optional\]**: *fill* / *extend* (*fill*: main alignment direction,  *extend* is for the other axis)
+- Filling options independent of the parent alignment direction: *fill horizontal* (same as *extend horizontal*) / *fill vertical* (same as *extend vertical*)
 
 ## Molecules
 
