@@ -176,7 +176,7 @@ Some icons come in both wired and filled mode. Wired means the icon is contoured
 
 [![Css file](__assets__/css.svg)](/css/components/atoms/button.css)
 
-[Buttons](/css/components/atoms/button.css) have [touchables](/css/components/atoms/touchable.css) styling, with almost square corners and specific padding defined in [spacing](/css/core/spacing.css). For example:
+[Buttons](/css/components/atoms/button.css) have [touchable](/css/components/atoms/touchable.css) styling, with almost square corners and specific padding defined in [spacing](/css/core/spacing.css). For example:
 
     <head>
       <link rel="stylesheet" href="../css/components/atoms/button.css">
@@ -200,7 +200,7 @@ Button sizes can be control with additional *small* / *large* styles, like:
 
 [![Css file](__assets__/css.svg)](/css/components/atoms/pill.css)
 
-Like buttons, [pills](/css/components/atoms/pill.css) have [touchables](/css/components/atoms/touchable.css) styling, but with round corners and smaller font size and padding. For example:
+Like buttons, [pills](/css/components/atoms/pill.css) have [touchable](/css/components/atoms/touchable.css) styling, but with round corners and smaller font size and padding. For example:
 
     <head>
       <link rel="stylesheet" href="../css/components/atoms/button.css">
@@ -438,6 +438,8 @@ Molecules are the group of atoms bound together to be the smallest fundamental u
 
 ### Nav Bars
 
+[![Css file](__assets__/css.svg)](/css/components/molecules/navbar.css)
+
 ## Organisms
 
 As molecules provide us with a basic unit or building block for designing further, multiple molecules can combine to make an organism. An organism is a collection of molecules that have been bonded together to form complex individual portions of the design such as a login page, form, etc. All organism styles can be loaded using the [index.css](/css/components/organisms/index.css) file:
@@ -455,5 +457,7 @@ Templates are the glues that combine the different organisms or individual secti
     </head>
 
 ### Pages
+
+[![Css file](__assets__/css.svg)](/css/components/templates/page.css)
 
 # Themes
