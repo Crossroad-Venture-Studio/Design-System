@@ -192,7 +192,21 @@ Some icons come in both wired and filled mode. Wired means the icon is contoured
       </div>
     </body>
 
-will position the children divs in a *row*, aligned at the *top right* corner of the parent. On the other hand:
+will position the children divs in a *row*, aligned at the *top right* corner of the parent, like this:
+
+┌───┬───┬───┬───┬───┐
+│   │   │   │ X │ X │
+├───┼───┼───┼───┼───┤
+│   │   │   │   │   │
+├───┼───┼───┼───┼───┤
+│   │   │   │   │   │
+├───┼───┼───┼───┼───┤
+│   │   │   │   │   │
+├───┼───┼───┼───┼───┤
+│   │   │   │   │   │
+└───┴───┴───┴───┴───┘
+
+On the other hand:
 
     <head>
       <link rel="stylesheet" href="../css/components/atoms/flexbox.css">
