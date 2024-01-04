@@ -327,6 +327,72 @@ In addition to parent positioning and alignment, we can specify some filling sty
 - Filling options depending on the main / secondary axis  **\[optional\]**: *fill* / *extend* (*fill*: main alignment direction,  *extend* is for the other axis)
 - Filling options independent of the parent alignment direction: *fill horizontal* (same as *extend horizontal*) / *fill vertical* (same as *extend vertical*)
 
+For example:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/flexbox.css">
+    </head>
+    <body>
+      <div class="my-parent-style row">
+        <div class="my-child-style fill"> 1 </div>
+        <div class="my-child-style fill"> 2 </div>
+      </div>
+    </body>
+
+will produce:
+
+    ┌───┬───┬───┬───┬───┐  
+    │ ▫️ │ 1 │▫️ ◾️│ 2 │ ◾️ │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    └───┴───┴───┴───┴───┘
+
+while:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/flexbox.css">
+    </head>
+    <body>
+      <div class="my-parent-style row">
+        <div class="my-child-style fill"> 1 </div>
+        <div class="my-child-style extend"> 2 </div>
+      </div>
+    </body>
+
+will produce:
+
+    ┌───┬───┬───┬───┬───┐  
+    │ ▫️ │ ▫️ │ 1 │ ▫️ │ ◾️ │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │ ◾️ │  
+    ├───┼───┼───┼───┼───┤
+    │   │   │   │   │ 2 │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │ ◾️ │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │ ◾️ │  
+    └───┴───┴───┴───┴───┘
+
+which is similar to:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/flexbox.css">
+    </head>
+    <body>
+      <div class="my-parent-style row">
+        <div class="my-child-style fill"> 1 </div>
+        <div class="my-child-style fill vertical"> 2 </div>
+      </div>
+    </body>
+
+In the latest code, we force the *fill* to be vertical, independently from the alignment direction (here *row*).
+
 ## Molecules
 
 Molecules are the group of atoms bound together to be the smallest fundamental unit. In design, a molecule can be created by combining two or more atoms. For instance, an input field and a button can combine to become a search form, which can perform the search function on the interface. All molecule styles can be loaded using the [index.css](/css/components/molecules/index.css) file:
