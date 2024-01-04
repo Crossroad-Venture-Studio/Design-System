@@ -24,3 +24,7 @@
   min-width: var(--size-40-48);
   min-height: var(--size-40-48);
 }
+
+.button.small {
+  border-radius: max(calc(var(--button-corner) - 2px), 0px);
+}
