@@ -195,15 +195,15 @@ Some icons come in both wired and filled mode. Wired means the icon is contoured
 will position the children divs in a *row*, aligned at the *top right* corner of the parent, like this:
 
 ┌───┬───┬───┬───┬───┐  
-│   │   │   │ X │ X │  
+│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│ X │ X │  
 ├───┼───┼───┼───┼───┤  
-│   │   │   │   │   │  
+│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│  
 ├───┼───┼───┼───┼───┤  
-│   │   │   │   │   │  
+│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│  
 ├───┼───┼───┼───┼───┤  
-│   │   │   │   │   │  
+│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│  
 ├───┼───┼───┼───┼───┤  
-│   │   │   │   │   │  
+│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│&nbsp;   &nbsp;   &nbsp;│  
 └───┴───┴───┴───┴───┘  
 
 On the other hand:
