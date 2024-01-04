@@ -218,7 +218,21 @@ On the other hand:
       </div>
     </body>
 
-will position the children divs in a *row*, vertically aligned at the *center* of the parent and *spread evenly* accross the horizontal axis.
+will position the children divs in a *row*, vertically aligned at the *center* of the parent and *spread evenly* accross the horizontal axis:
+
+
+    ┌───┬───┬───┬───┬───┐  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │ X │   │ X │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    ├───┼───┼───┼───┼───┤  
+    │   │   │   │   │   │  
+    └───┴───┴───┴───┴───┘
+
 
 #### Parent Styles
 
