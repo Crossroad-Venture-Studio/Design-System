@@ -1,7 +1,7 @@
 ![alt text](__assets__/crossroad.svg)
 # *Crossroad Venture Studio:* Design System
 
-[Crossroad Venture Studio](crossroadventurestudio.com) is a company that creates and builds startups. We typically help startups by providing an initial team, strategic direction, and operational support.
+[Crossroad Venture Studio](crossroadventurestudio.com) is a company focused on creating and building startups. We typically help startups by providing an initial team, strategic direction, and operational support. Contrary to incubators, accelerators and other investment entities, the main added value is on execution rather than financial help.
 
 ## Table of content
 - [*Crossroad Venture Studio:* Design System](#crossroad-venture-studio-design-system)
@@ -23,6 +23,8 @@
     - [Buttons](#buttons)
     - [Pills](#pills)
     - [Flexboxes](#flexboxes)
+      - [Parent Styles](#parent-styles)
+      - [Children Styles](#children-styles)
   - [Molecules](#molecules)
     - [Nav Bars](#nav-bars)
   - [Organisms](#organisms)
@@ -176,7 +178,53 @@ Some icons come in both wired and filled mode. Wired means the icon is contoured
 
 ### Flexboxes
 
-Flexboxes, *aka Auto layout in Figma*, allow users to create designs that can grow to fill or shrink to fit, and reflow as their contents change.
+[![Css file](__assets__/css.svg)](/css/components/atoms/flexbox.css)
+
+[Flexboxes](/css/components/atoms/flexbox.css), *aka Auto layout in Figma*, allow users to create designs that can grow to fill or shrink to fit, and reflow as their contents change. For example:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/flexbox.css">
+    </head>
+    <body>
+      <div class="my-parent-style row top right">
+        <div class="my-child-style">...</div>
+        <div class="my-child-style">...</div>
+      </div>
+    </body>
+
+will position the children divs in a *row*, aligned at the *top right* corner of the parent. On the other hand:
+
+    <head>
+      <link rel="stylesheet" href="../css/components/atoms/flexbox.css">
+    </head>
+    <body>
+      <div class="my-parent-style row center spread evenly">
+        <div class="my-child-style">...</div>
+        <div class="my-child-style">...</div>
+      </div>
+    </body>
+
+will position the children divs in a *row*, vertically aligned at the *center* of the parent and *spread evenly* accross the horizontal axis.
+
+#### Parent Styles
+
+There are several styles that need to be applied to the container, aka parent, html element to have that element be behaving like a flexbox:
+
+Alignment direction **\[required\]**: *row* (same as *flex*) / *column*
+
+Horizontal positioning (irrespectively of the alignment axis) **\[optional\]**: *left* (default) / *middle* / *right*
+
+Vertical positioning (irrespectively of the alignment axis) **\[optional\]**: *top* (default) / *center* / *bottom*
+
+Positioning with respect to the alignment direction **\[optional\]**: *spread* (same as *spread between*) / *spread around* / *spread evenly*
+
+#### Children Styles
+
+In addition to parent positioning and alignment, we can specify some filling style options to the children of a flexbox:
+
+Filling options depending on the main / secondary axis  **\[optional\]**: *fill* / *extend* (*fill*: main alignment direction,  *extend* is for the other axis)
+
+Filling options independent of the parent alignment direction: *fill horizontal* (same as *extend horizontal*) / *fill vertical* (same as *extend vertical*)
 
 ## Molecules
 
