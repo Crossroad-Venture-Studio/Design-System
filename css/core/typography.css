@@ -28,8 +28,8 @@
   --font-size-quote: var(--size-text);
   --font-size-legend: var(--size-12-14);
   --font-size-link: var(--size-text);
-  --font-size-button: 12px;
-  --font-size-pill: 10px;
+  --font-size-button: var(--size-12-14);
+  --font-size-pill: var(--size-10-12);
 }
 
 /* Text align classes */
@@ -337,14 +337,22 @@ title,
   font-size: var(--font-size-button);
 }
 
+.button.large {
+  font-size: calc(var(--font-size-button) + 2px);
+}
+
 .button.small {
-  font-size: 10px;
+  font-size: calc(var(--font-size-button) - 2px);
 }
 
 .pill {
   font-size: var(--font-size-pill);
 }
 
+.pill.large {
+  font-size: calc(var(--font-size-pill) + 2px);
+}
+
 .pill.small {
-  font-size: 8px;
+  font-size: calc(var(--font-size-pill) - 2px);
 }

@@ -12,6 +12,7 @@
   - [Colors \& Gradients](#colors--gradients)
   - [Shadows](#shadows)
   - [Fonts and Typography](#fonts-and-typography)
+  - [Spacing](#spacing)
 - [Components](#components)
   - [Atomic Design](#atomic-design)
     - [History](#history)
@@ -111,6 +112,35 @@ The design system [typography](/css/core/typography.css) relies on a set of [fon
     </body>
 
 💡 **NOTE:** The font size is already fully responsive to screen sizes.
+
+## Spacing
+
+[![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=59-3147&mode=design)
+[![Css file](__assets__/css.svg)](/css/core/spacing.css)
+
+[Spacing](/css/core/spacing.css) defines padding, margin and safe area metrics and styles based on [sizes](/css/core/sizes.css). For example to add some standard padding on a div element:
+
+    <head>
+      <link rel="stylesheet" href="../css/core/spacing.css">
+    </head>
+    <body>
+      <div class="padding"> This is a div with some responsive padding </div>
+    </body>
+
+To add a safe area + padding around an element:
+
+    <head>
+      <link rel="stylesheet" href="../css/core/spacing.css">
+    </head>
+    <body>
+      <div class="padding safearea"> This is a div with some responsive padding + safearea </div>
+    </body>
+
+This will be particularly useful for navbar and page styling defined below.
+
+💡 **NOTES:**
+- Spacing metrics are already fully responsive to screen sizes
+- *padding-2x* is twice the *padding* amount, same goes for the other metrics and other multipliers like *-4x*
 
 # Components
 

@@ -50,11 +50,13 @@
 }
 
 .padding-horizontal {
-  padding: 0 var(--padding-horizontal);
+  padding-left: var(--padding-horizontal);
+  padding-right: var(--padding-horizontal);
 }
 
 .padding-vertical {
-  padding: var(--padding-vertical) 0;
+  padding-top: var(--padding-vertical);
+  padding-bottom: var(--padding-vertical);
 }
 
 .margin {
@@ -62,11 +64,13 @@
 }
 
 .margin-horizontal {
-  margin: 0 var(--margin-horizontal);
+  margin-left: var(--margin-horizontal);
+  margin-right: var(--margin-horizontal);
 }
 
 .margin-vertical {
-  margin: var(--margin-vertical) 0;
+  margin-top: var(--margin-vertical);
+  margin-bottom: var(--margin-vertical);
 }
 
 .safearea {
