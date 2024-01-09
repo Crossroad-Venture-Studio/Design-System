@@ -27,8 +27,8 @@
       - [Parent Styles](#parent-styles)
       - [Children Styles](#children-styles)
   - [Molecules](#molecules)
-    - [Nav Bars](#nav-bars)
   - [Organisms](#organisms)
+    - [Nav Bars](#nav-bars)
   - [Templates](#templates)
     - [Pages](#pages)
 - [Themes](#themes)
@@ -466,10 +466,6 @@ Molecules are the group of atoms bound together to be the smallest fundamental u
       <link rel="stylesheet" href="../css/components/molecules/index.css">
     </head>
 
-### Nav Bars
-
-[![Css file](__assets__/css.svg)](/css/components/molecules/navbar.css)
-
 ## Organisms
 
 As molecules provide us with a basic unit or building block for designing further, multiple molecules can combine to make an organism. An organism is a collection of molecules that have been bonded together to form complex individual portions of the design such as a login page, form, etc. All organism styles can be loaded using the [index.css](/css/components/organisms/index.css) file:
@@ -477,6 +473,10 @@ As molecules provide us with a basic unit or building block for designing furthe
     <head>
       <link rel="stylesheet" href="../css/components/organisms/index.css">
     </head>
+
+### Nav Bars
+
+[![Css file](__assets__/css.svg)](/css/components/molecules/navbar.css)
 
 ## Templates
 

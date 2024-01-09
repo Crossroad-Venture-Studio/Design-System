@@ -18,13 +18,16 @@
   justify-content: center;
   align-items: center;
   border-radius: var(--button-corner);
+  padding: var(--button-padding-vertical) var(--button-padding-horizontal);
 }
 
 .button.large {
   min-width: var(--size-40-48);
   min-height: var(--size-40-48);
+  padding: calc(var(--button-padding-vertical) + 2px) calc(var(--button-padding-horizontal) + 2px);
 }
 
 .button.small {
   border-radius: max(calc(var(--button-corner) - 2px), 0px);
+  padding: calc(var(--button-padding-vertical) - 2px) calc(var(--button-padding-horizontal) - 2px);
 }

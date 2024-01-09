@@ -18,9 +18,15 @@
   justify-content: center;
   align-items: center;
   border-radius: var(--pill-corner);
+  padding: var(--pill-padding-vertical) var(--pill-padding-horizontal);
 }
 
 .pill.large {
   min-width: var(--size-40-48);
   min-height: var(--size-40-48);
+  padding: calc(var(--pill-padding-vertical) + 2px) calc(var(--pill-padding-horizontal) + 2px);
+}
+
+.pill.small {
+  padding: calc(var(--pill-padding-vertical) - 2px) calc(var(--pill-padding-horizontal) - 2px);
 }

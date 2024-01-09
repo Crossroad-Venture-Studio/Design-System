@@ -5,9 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
 
     <!-- STYLE -->
-    <link rel="stylesheet" href="../css/core/index.css">
-    <link rel="stylesheet" href="../css/core/typography.css">
-    <link rel="stylesheet" href="../css/components/templates/index.css">
+    <link rel="stylesheet" href="../css/index.css">
     <style>
       /* Augment classes */
       .page {
@@ -15,25 +13,32 @@
         color: var(--white);
       }
 
+      .navbar {
+        background: tomato;
+      }
+
       .button {
         background: transparent;
         color: var(--white);
+        opacity: 0.95;
       }
 
       .button:hover {
         background: #FFFFFF23;
+        opacity: 1;
       }
     </style>
   </head>
   <!-- BODY -->
   <body>
     <!-- CONTENT -->
-    <div class="page">
-      <!-- <div class="navbar">
-        <div class="button"> button </div>
-        <div class="button"> button </div>
-        <div class="button"> button </div>
-      </div> -->
+    <div class="page safearea">
+      <div class="navbar">
+        <div class="button small"> button </div>
+        <div class="button small"> button </div>
+        <div class="button small"> button </div>
+      </div>
+      
       <div id="content">
         <!-- Filled programatically (see below) -->
       </div>

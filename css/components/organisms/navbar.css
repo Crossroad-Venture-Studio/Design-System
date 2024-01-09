@@ -1,9 +1,30 @@
 @import "../../core/spacing.css";
 
+:root {
+  --navbar-padding-horizontal: var(--size-12-24);
+  --navbar-padding-vertical: 12px;
+  --navbar-gap: var(--size-12-24);
+  --navbar-height: var(--size-48-64);
+}
+
 .navbar {
   position: fixed;
   top: 0;
   left: 0;
-  display: flex;
   width: 100%;
+  height: var(--navbar-height);
+  padding-left: var(--navbar-padding-horizontal);
+  padding-right: var(--navbar-padding-horizontal);
+  display: flex;
+  align-items: center;
+  gap: var(--navbar-gap);
+}
+
+.page.safearea > .navbar,
+.page.safearea > * .navbar,
+.navbar.safearea {
+  height: calc(var(--safe-area-top) + var(--navbar-height));
+  padding-top: var(--safe-area-top);
+  padding-left: calc(var(--navbar-padding-horizontal) + var(--safe-area-left));
+  padding-right: calc(var(--navbar-padding-horizontal) + var(--safe-area-right));
 }

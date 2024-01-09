@@ -1,4 +1,4 @@
-@import "../../core/spacing.css";
+@import "../organisms/navbar.css";
 
 .page {
   display: flex;
@@ -6,4 +6,20 @@
   width: 100%;
   height: 100%;
   overflow: scroll;
+  margin: 0;
+  padding: var(--padding-vertical) var(--padding-horizontal);
+  gap: var(--gap);
+}
+
+.page.safearea {
+  padding: calc(var(--safe-area-top) + var(--padding-vertical)) calc(var(--safe-area-left) + var(--padding-horizontal)) calc(var(--safe-area-bottom) + var(--padding-vertical)) calc(var(--safe-area-right) + var(--padding-horizontal));
+}
+
+.page:has(.navbar) {
+  padding-top: calc(var(--navbar-height) + var(--padding-vertical));
+}
+
+.page:has(.navbar).safearea,
+.page:has(.navbar.safearea) {
+  padding-top: calc(var(--safe-area-top) + var(--navbar-height) + var(--padding-vertical));
 }
