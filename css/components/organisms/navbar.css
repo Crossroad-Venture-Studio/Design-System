@@ -1,5 +1,6 @@
 @import "../../core/spacing.css";
 
+/* Navbar variables */
 :root {
   --navbar-padding-horizontal: var(--size-12-24);
   --navbar-padding-vertical: 12px;
@@ -7,6 +8,7 @@
   --navbar-height: var(--size-48-64);
 }
 
+/* Navbar style */
 .navbar {
   position: fixed;
   top: 0;
@@ -20,6 +22,7 @@
   gap: var(--navbar-gap);
 }
 
+/* Tackling safe area at a parent page or current navbar */
 .page.safearea > .navbar,
 .page.safearea > * .navbar,
 .navbar.safearea {

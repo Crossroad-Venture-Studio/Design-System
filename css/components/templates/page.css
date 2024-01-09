@@ -1,5 +1,6 @@
 @import "../organisms/navbar.css";
 
+/* Page style */
 .page {
   display: flex;
   flex-direction: column;
@@ -11,14 +12,17 @@
   gap: var(--gap);
 }
 
+/* Add safearea */
 .page.safearea {
   padding: calc(var(--safe-area-top) + var(--padding-vertical)) calc(var(--safe-area-left) + var(--padding-horizontal)) calc(var(--safe-area-bottom) + var(--padding-vertical)) calc(var(--safe-area-right) + var(--padding-horizontal));
 }
 
+/* Add padding due to navbar */
 .page:has(.navbar) {
   padding-top: calc(var(--navbar-height) + var(--padding-vertical));
 }
 
+/* Tackling safe area at a current page or child navbar */
 .page:has(.navbar).safearea,
 .page:has(.navbar.safearea) {
   padding-top: calc(var(--safe-area-top) + var(--navbar-height) + var(--padding-vertical));
