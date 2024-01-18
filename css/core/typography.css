@@ -153,6 +153,10 @@ h1.large,
 h1 > a,
 h1,
 .h1,
+button,
+input[type=submit],
+input[type=button],
+input[type=reset],
 .button,
 .pill {
   font-family: "Arial Black";
@@ -224,6 +228,10 @@ h6,
 h1 > a,
 h1,
 .h1,
+button,
+input[type=submit],
+input[type=button],
+input[type=reset],
 .button,
 .pill,
 .heavy {
@@ -239,6 +247,10 @@ h1,
 .heading,
 .section,
 .subsection,
+button,
+input[type=submit],
+input[type=button],
+input[type=reset],
 .button,
 .pill,
 .balance {
@@ -274,6 +286,10 @@ h6,
 .heading,
 .section,
 .subsection,
+button,
+input[type=submit],
+input[type=button],
+input[type=reset],
 .button,
 .pill,
 .uppercase {
@@ -288,6 +304,10 @@ title,
 .heading,
 .section,
 .subsection,
+button,
+input[type=submit],
+input[type=button],
+input[type=reset],
 .button,
 .pill,
 .balance {
@@ -336,16 +356,28 @@ title,
   font-size: var(--font-size-legend);
 }
 
+button,
+input[type=submit],
+input[type=button],
+input[type=reset],
 .button {
   font-family: "Arial Black";
   letter-spacing: 0.1em;
   font-size: var(--font-size-button);
 }
 
+button,
+input[type=submit],
+input[type=button],
+input[type=reset],
 .button.large {
   font-size: calc(var(--font-size-button) + 2px);
 }
 
+button,
+input[type=submit],
+input[type=button],
+input[type=reset],
 .button.small {
   font-size: calc(var(--font-size-button) - 2px);
 }

@@ -13,6 +13,10 @@
  * Classes
  * -------
  */
+button,
+input[type=submit],
+input[type=button],
+input[type=reset],
 .button {
   display: flex;
   justify-content: center;
@@ -21,12 +25,20 @@
   padding: var(--button-padding-vertical) var(--button-padding-horizontal);
 }
 
+button.large,
+input[type=submit].large,
+input[type=button].large,
+input[type=reset].large,
 .button.large {
   min-width: var(--size-40-48);
   min-height: var(--size-40-48);
   padding: calc(var(--button-padding-vertical) + 2px) calc(var(--button-padding-horizontal) + 2px);
 }
 
+button.small,
+input[type=submit].small,
+input[type=button].small,
+input[type=reset].small,
 .button.small {
   border-radius: max(calc(var(--button-corner) - 2px), 0px);
   padding: calc(var(--button-padding-vertical) - 2px) calc(var(--button-padding-horizontal) - 2px);

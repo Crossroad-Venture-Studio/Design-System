@@ -13,6 +13,10 @@
  * Classes
  * -------
  */
+button.pill,
+input[type=submit].pill,
+input[type=button].pill,
+input[type=reset].pill,
 .pill {
   display: flex;
   justify-content: center;
@@ -21,12 +25,20 @@
   padding: var(--pill-padding-vertical) var(--pill-padding-horizontal);
 }
 
+button.pill.large,
+input[type=submit].pill.large,
+input[type=button].pill.large,
+input[type=reset].pill.large,
 .pill.large {
   min-width: var(--size-40-48);
   min-height: var(--size-40-48);
   padding: calc(var(--pill-padding-vertical) + 2px) calc(var(--pill-padding-horizontal) + 2px);
 }
 
+button.pill.small,
+input[type=submit].pill.small,
+input[type=button].pill.small,
+input[type=reset].pill.small,
 .pill.small {
   padding: calc(var(--pill-padding-vertical) - 2px) calc(var(--pill-padding-horizontal) - 2px);
 }
