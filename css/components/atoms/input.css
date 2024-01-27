@@ -1,0 +1,4 @@
+input:not([type=submit]):not(input[type=reset]):not([type=button]),
+.input {
+  
+}

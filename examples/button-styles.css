@@ -1,0 +1,20 @@
+/* @import url("https://raw.githubusercontent.com/Crossroad-Venture-Studio/Design-System/main/css/core/colors.css"); */
+/* @import url("https://github.com/Crossroad-Venture-Studio/Design-System/blob/main/css/index.css"); */
+/* @import "../css/index.css"; */
+
+.page {
+  background: var(--olive);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: var(--white);
+  /* background: red;
+  color: white; */
+}
+
+.button,
+.pill {
+  background: var(--leather);
+  color: var(--white);
+}
