@@ -8,7 +8,10 @@
  */
 .touchable,
 .button,
-.pill {
+.pill,
+input[type=submit],
+input[type=button],
+input[type=reset] {
   overflow: hidden;
   opacity: 1;
   cursor: pointer;
@@ -35,12 +38,18 @@
 
 .touchable:hover,
 .button:hover,
-.pill:hover {
+.pill:hover,
+input[type=submit]:hover,
+input[type=button]:hover,
+input[type=reset]:hover {
   opacity: 0.8;
 }
 
 .touchable:disabled,
 .button:disabled,
-.pill:disabled {
+.pill:disabled,
+input[type=submit]:disabled,
+input[type=button]:disabled,
+input[type=reset]:disabled {
   opacity: 0.5;
 }

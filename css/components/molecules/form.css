@@ -19,7 +19,6 @@
 form {
   display: flex;
   flex-direction: column;
-  /* padding: var(--padding-half); */
   border-radius: var(--form-border-radius);
   gap: var(--gap-half);
   align-items: flex-end;

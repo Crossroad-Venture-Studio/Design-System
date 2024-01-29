@@ -404,7 +404,7 @@ textarea,
   font-size: var(--font-size-input);
 }
 
-input::placeholder:not([type=submit]):not(input[type=reset]):not([type=button]),
+input:not([type=submit]):not(input[type=reset]):not([type=button])::placeholder,
 textarea::placeholder,
 .input::placeholder {
   font-style: italic;
