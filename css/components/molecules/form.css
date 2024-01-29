@@ -1,0 +1,26 @@
+@import "../../core/spacing.css";
+
+/* 
+ * Props
+ * -----
+ */
+ :root {
+  /* Properties */
+  --form-border-radius: var(--border-radius);
+  --form-padding: var(--padding-half);
+  --form-gap: var(--gap-half);
+}
+
+/* 
+ * Classes
+ * -------
+ */
+.form,
+form {
+  display: flex;
+  flex-direction: column;
+  /* padding: var(--padding-half); */
+  border-radius: var(--form-border-radius);
+  gap: var(--gap-half);
+  align-items: flex-end;
+}

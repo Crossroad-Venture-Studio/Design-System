@@ -6,7 +6,8 @@
  */
 :root {
   /* Properties */
-  --pill-corner: 1000px;
+  --pill-border-radius: var(--border-radius-round);
+  --pill-border-radius-square: var(--border-radius-half);
 }
 
 /* 
@@ -21,7 +22,7 @@ input[type=reset].pill,
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: var(--pill-corner);
+  border-radius: var(--pill-border-radius);
   padding: var(--pill-padding-vertical) var(--pill-padding-horizontal);
 }
 
@@ -41,4 +42,12 @@ input[type=button].pill.small,
 input[type=reset].pill.small,
 .pill.small {
   padding: calc(var(--pill-padding-vertical) - 2px) calc(var(--pill-padding-horizontal) - 2px);
+}
+
+button.pill.square,
+input[type=submit].pill.square,
+input[type=button].pill.square,
+input[type=reset].pill.square,
+.pill.square {
+  border-radius: var(--pill-border-radius-square);
 }

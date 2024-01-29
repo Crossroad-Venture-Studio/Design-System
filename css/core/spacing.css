@@ -23,6 +23,9 @@
   --safe-area-horizontal: 0 var(--safe-area-left) 0 var(--safe-area-right);
   --safe-area-vertical: var(--safe-area-top) 0 var(--safe-area-bottom) 0;
   --safe-area: var(--safe-area-top) var(--safe-area-left) var(--safe-area-bottom) var(--safe-area-right);
+  --border-radius: 8px;
+  --border-radius-round: 10000px;
+  --border-radius-square: 2px;
 
   /* Calculated */
   --padding-half: calc(0.5 * var(--padding));
@@ -39,6 +42,8 @@
   --margin-2x-vertical: calc(2 * var(--margin-vertical));
   --gap-half: calc(0.5 * var(--gap));
   --gap-2x: calc(2 * var(--gap));
+  --border-radius-half: calc(0.5 * var(--border-radius));
+  --border-radius-2x: calc(2 * var(--border-radius));
 }
 
 /*

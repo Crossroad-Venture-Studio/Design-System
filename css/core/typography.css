@@ -8,6 +8,8 @@
 
  :root {
   /* Global */
+  --font-family: "Avenir Next";
+  --font-family-touchable: "Arial Black";
   --line-height: 150%;
 
   /* Generic font sizes */
@@ -18,6 +20,7 @@
   --font-size-h4: var(--size-18-20);
   --font-size-h5: var(--size-16-18);
   --font-size-h6: var(--size-14-16);
+  --font-size-input: var(--size-13-16);
 
   /* Specific font sizes */
   --font-size-title: var(--size-48-64);
@@ -135,7 +138,7 @@ a:hover,
 /* Generic font */
 * {
   line-height: var(--line-height);
-  font-family: "Avenir Next";
+  font-family: var(--font-family);
 }
 
 *:not(h1, h2, h3, h4, h5, h6, a > *),
@@ -159,7 +162,7 @@ input[type=button],
 input[type=reset],
 .button,
 .pill {
-  font-family: "Arial Black";
+  font-family: var(--font-family-touchable);
   letter-spacing: 0.1em;
 }
 
@@ -361,7 +364,7 @@ input[type=submit],
 input[type=button],
 input[type=reset],
 .button {
-  font-family: "Arial Black";
+  font-family: var(--font-family-touchable);
   letter-spacing: 0.1em;
   font-size: var(--font-size-button);
 }
@@ -392,4 +395,17 @@ input[type=reset],
 
 .pill.small {
   font-size: calc(var(--font-size-pill) - 2px);
+}
+
+input:not([type=submit]):not(input[type=reset]):not([type=button]),
+textarea,
+.input {
+  font-weight: 400;
+  font-size: var(--font-size-input);
+}
+
+input::placeholder:not([type=submit]):not(input[type=reset]):not([type=button]),
+textarea::placeholder,
+.input::placeholder {
+  font-style: italic;
 }

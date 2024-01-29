@@ -9,7 +9,8 @@
 }
 
 /* Navbar style */
-.navbar {
+.navbar,
+nav {
   position: fixed;
   top: 0;
   left: 0;
@@ -25,7 +26,10 @@
 /* Tackling safe area at a parent page or current navbar */
 .page.safearea > .navbar,
 .page.safearea > * .navbar,
-.navbar.safearea {
+.navbar.safearea,
+.page.safearea > nav,
+.page.safearea > * nav,
+nav.safearea {
   height: calc(var(--safe-area-top) + var(--navbar-height));
   padding-top: var(--safe-area-top);
   padding-left: calc(var(--navbar-padding-horizontal) + var(--safe-area-left));

@@ -1,4 +1,37 @@
+@import "../../core/typography.css";
+@import "../../core/spacing.css";
+
+/* 
+ * Props
+ * -----
+ */
+ :root {
+  /* Properties */
+  --input-padding: var(--border-radius-round);
+  --input-border-radius: var(--border-radius);
+  --input-border-radius-square: var(--border-radius-square);
+  --input-border-radius-round: var(--border-radius-round);
+}
+
+/* 
+ * Classes
+ * -------
+ */
 input:not([type=submit]):not(input[type=reset]):not([type=button]),
+textarea,
 .input {
-  
+  padding: var(--input-padding);
+  border-radius: var(--pill-border-radius);
+}
+
+input:not([type=submit]):not(input[type=reset]):not([type=button]).square,
+textarea.square,
+.input.square {
+  border-radius: var(--pill-border-radius-square);
+}
+
+input:not([type=submit]):not(input[type=reset]):not([type=button]).round,
+textarea.round,
+.input.round {
+  border-radius: var(--pill-border-radius-round);
 }

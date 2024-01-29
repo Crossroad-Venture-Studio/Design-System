@@ -6,7 +6,9 @@
  */
 :root {
   /* Properties */
-  --button-corner: 8px;
+  --button-border-radius: var(--border-radius);
+  --button-border-radius-round: var(--border-radius-round);
+  --button-border-radius-square: var(--border-radius-square);
 }
 
 /* 
@@ -21,7 +23,7 @@ input[type=reset],
   display: flex;
   justify-content: center;
   align-items: center;
-  border-radius: var(--button-corner);
+  border-radius: var(--button-border-radius);
   padding: var(--button-padding-vertical) var(--button-padding-horizontal);
 }
 
@@ -40,6 +42,35 @@ input[type=submit].small,
 input[type=button].small,
 input[type=reset].small,
 .button.small {
-  border-radius: max(calc(var(--button-corner) - 2px), 0px);
+  border-radius: max(calc(var(--button-border-radius) - 2px), 0px);
   padding: calc(var(--button-padding-vertical) - 2px) calc(var(--button-padding-horizontal) - 2px);
+}
+
+button.round,
+input[type=submit].round,
+input[type=button].round,
+input[type=reset].round,
+.button.round,
+button.small.round,
+input[type=submit].small.round,
+input[type=button].small.round,
+input[type=reset].small.round,
+.button.small.round {
+  border-radius: var(--button-border-radius-round);
+}
+
+button.square,
+input[type=submit].square,
+input[type=button].square,
+input[type=reset].square,
+.button.square {
+  border-radius: var(--button-border-radius-square);
+}
+
+button.small.square,
+input[type=submit].small.square,
+input[type=button].small.square,
+input[type=reset].small.square,
+.button.small.square {
+  border-radius: max(calc(var(--button-border-radius-square) - 2px), 0px);
 }

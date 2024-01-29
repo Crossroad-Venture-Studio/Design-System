@@ -3,7 +3,6 @@
   <head>
     <!-- META -->
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
-    <meta charset="UTF-8">
 
     <!-- STYLE -->
     <link rel="stylesheet" href="./design-system.css">
@@ -16,8 +15,9 @@
         align-items: center;
       }
 
-      .button,
-      .pill {
+      input[type=submit],
+      input[type=button],
+      input[type=reset] {
         background: var(--leather);
         color: var(--white);
       }
@@ -27,9 +27,10 @@
   <body>
     <!-- CONTENT -->
     <main class="page">
-      <div class="button large">large</div>
-      <div class="button">normal</div>
-      <div class="button small">small</div>
+      <form>
+        <input class="input" type="text" placeholder="text...">
+        <input type="submit" value="Send">
+      </form>
     </main>
   </body>
 
