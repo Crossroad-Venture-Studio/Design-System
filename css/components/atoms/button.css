@@ -1,4 +1,5 @@
 @import "touchable.css";
+@import "../../core/spacing.css";
 
 /* 
  * Props
@@ -23,6 +24,8 @@ input[type=reset],
   display: flex;
   justify-content: center;
   align-items: center;
+  min-width: var(--size-32-40);
+  min-height: var(--size-32-40);
   border-radius: var(--button-border-radius);
   padding: var(--button-padding-vertical) var(--button-padding-horizontal);
 }
@@ -42,6 +45,8 @@ input[type=submit].small,
 input[type=button].small,
 input[type=reset].small,
 .button.small {
+  min-width: var(--size-24-32);
+  min-height: var(--size-24-32);
   border-radius: max(calc(var(--button-border-radius) - 2px), 0px);
   padding: calc(var(--button-padding-vertical) - 2px) calc(var(--button-padding-horizontal) - 2px);
 }

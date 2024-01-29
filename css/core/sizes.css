@@ -8,6 +8,7 @@
   --size-48-64: min(max(6.7673vw, 48px), 64px);
   --size-40-48: min(max(5.4381vw, 40px), 48px);
   --size-32-64: min(max(5.8006vw, 32px), 64px);
+  --size-32-40: min(max(4.3504vw, 32px), 40px);
   --size-27-42: min(max(4.1692vw, 27px), 42px);
   --size-24-98: min(max(7.2508vw, 24px), 96px);
   --size-24-48: min(max(4.3504vw, 24px), 48px);
