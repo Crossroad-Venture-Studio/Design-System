@@ -146,7 +146,7 @@ a:hover,
   font-size: var(--font-size-text);
 }
 
-/* Dynamic header styles */
+/* Dynamic header styles and font sizes */
 h1.large > a,
 h1.large,
 .h0 {
@@ -202,6 +202,7 @@ h6,
   font-size: var(--font-size-h6);
 }
 
+/* Font weight */
 h1.large > a,
 h1.large,
 .h0,
@@ -241,11 +242,55 @@ input[type=reset],
   font-weight: 900;
 }
 
+/* Font style */
 .quote,
 .italic {
   font-style: italic;
 }
 
+.oblique {
+  font-style: oblique;
+}
+
+/* Text decorations */
+.underline {
+  text-decoration-line: underline;
+}
+
+.overline {
+  text-decoration-line: overline;
+}
+
+.underline.overline,
+.overline.underline {
+  text-decoration-line: underline overline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.blink {
+  text-decoration-line: blink;
+}
+
+.dotted {
+  text-decoration-style: dotted;
+}
+
+.wavy {
+  text-decoration-style: wavy;
+}
+
+.double {
+  text-decoration-style: double;
+}
+
+.dashed {
+  text-decoration-style: dashed;
+}
+
+/* Text balance */
 .title,
 .heading,
 .section,
@@ -260,6 +305,7 @@ input[type=reset],
   text-wrap: balance;
 }
 
+/* Text transfrom */
 h1.large > a,
 h1.large,
 .h0,
@@ -303,20 +349,8 @@ input[type=reset],
   text-transform: lowercase;
 }
 
-title,
-.heading,
-.section,
-.subsection,
-button,
-input[type=submit],
-input[type=button],
-input[type=reset],
-.button,
-.pill,
-.balance {
-  text-wrap: balance;
-}
 
+/* Text overflow */
 .ellipsis {
   text-overflow: ellipsis;
 }
