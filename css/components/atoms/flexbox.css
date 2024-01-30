@@ -52,6 +52,7 @@
   justify-content: center;
 }
 
+/* Element stretching */
 .flex.fill,
 .navbar .fill,
 nav .fill,
@@ -73,6 +74,7 @@ nav .fill,
   height: 100%;
 }
 
+/* Element spacing */
 .column.spread,
 .row.spread {
   justify-content: space-between;
@@ -119,6 +121,7 @@ nav .fill,
   justify-content: center;
 }
 
+/* Element stretching */
 .column.full {
   width: auto;
   height: 100%;

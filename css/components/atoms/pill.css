@@ -26,6 +26,7 @@ input[type=reset].pill,
   padding: var(--pill-padding-vertical) var(--pill-padding-horizontal);
 }
 
+/* Large pill */
 button.pill.large,
 input[type=submit].pill.large,
 input[type=button].pill.large,
@@ -36,6 +37,7 @@ input[type=reset].pill.large,
   padding: calc(var(--pill-padding-vertical) + 2px) calc(var(--pill-padding-horizontal) + 2px);
 }
 
+/* Small pill */
 button.pill.small,
 input[type=submit].pill.small,
 input[type=button].pill.small,
@@ -44,6 +46,7 @@ input[type=reset].pill.small,
   padding: calc(var(--pill-padding-vertical) - 2px) calc(var(--pill-padding-horizontal) - 2px);
 }
 
+/* Square pill */
 button.pill.square,
 input[type=submit].pill.square,
 input[type=button].pill.square,

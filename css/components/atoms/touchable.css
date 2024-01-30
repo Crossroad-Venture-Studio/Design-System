@@ -9,6 +9,7 @@
 .touchable,
 .button,
 .pill,
+button,
 input[type=submit],
 input[type=button],
 input[type=reset] {
@@ -29,8 +30,12 @@ input[type=reset] {
   transition: var(--transition-time);
 }
 
+button,
 .button,
-.pill {
+.pill,
+input[type=submit],
+input[type=button],
+input[type=reset] {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -39,6 +44,7 @@ input[type=reset] {
 .touchable:hover,
 .button:hover,
 .pill:hover,
+button:hover,
 input[type=submit]:hover,
 input[type=button]:hover,
 input[type=reset]:hover {
@@ -48,6 +54,7 @@ input[type=reset]:hover {
 .touchable:disabled,
 .button:disabled,
 .pill:disabled,
+button:disabled,
 input[type=submit]:disabled,
 input[type=button]:disabled,
 input[type=reset]:disabled {

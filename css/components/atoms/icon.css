@@ -20,6 +20,7 @@
   height: var(--icon-size);
 }
 
+/* For icons that are buttons as well */
 button.icon,
 input[type=submit].icon,
 input[type=button].icon,
@@ -33,6 +34,7 @@ input[type=reset].icon,
   border-radius: 0;
 }
 
+/* Icons in the navbar */
 nav .icon,
 .navbar .icon {
   height: var(--nav-icon-size);

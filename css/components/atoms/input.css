@@ -50,6 +50,7 @@ textarea,
   transition: var(--transition-time)
 }
 
+/* Hover and focus */
 input:hover:not([type=submit]):not(input[type=reset]):not([type=button]),
 textarea:hover,
 .input:hover,
@@ -59,12 +60,14 @@ textarea:focus,
   opacity: 1;
 }
 
+/* Square */
 input:not([type=submit]):not(input[type=reset]):not([type=button]).square,
 textarea.square,
 .input.square {
   border-radius: var(--input-border-radius-square);
 }
 
+/* Round */
 input:not([type=submit]):not(input[type=reset]):not([type=button]).round,
 textarea.round,
 .input.round {

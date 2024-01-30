@@ -30,6 +30,7 @@ input[type=reset],
   padding: var(--button-padding-vertical) var(--button-padding-horizontal);
 }
 
+/* Large button */
 button.large,
 input[type=submit].large,
 input[type=button].large,
@@ -40,6 +41,7 @@ input[type=reset].large,
   padding: calc(var(--button-padding-vertical) + 2px) calc(var(--button-padding-horizontal) + 2px);
 }
 
+/* Small button and nav button */
 nav button,
 .navbar button,
 nav .button,
@@ -55,6 +57,7 @@ input[type=reset].small,
   padding: calc(var(--button-padding-vertical) - 2px) calc(var(--button-padding-horizontal) - 2px);
 }
 
+/* Round button */
 button.round,
 input[type=submit].round,
 input[type=button].round,
@@ -68,6 +71,7 @@ input[type=reset].small.round,
   border-radius: var(--button-border-radius-round);
 }
 
+/* Square button */
 button.square,
 input[type=submit].square,
 input[type=button].square,
