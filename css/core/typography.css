@@ -25,9 +25,9 @@
   /* Specific font sizes */
   --font-size-title: var(--size-48-64);
   --font-size-heading: var(--size-40-48);
-  --font-size-section: var(--size-14-16);
-  --font-size-subsection: var(--size-12-14);
-  --font-size-text: var(--size-13-16);
+  --font-size-section: var(--size-16-18);
+  --font-size-subsection: var(--size-14-16);
+  --font-size-text: var(--size-14-16);
   --font-size-quote: var(--size-text);
   --font-size-legend: var(--size-12-14);
   --font-size-link: var(--size-text);
