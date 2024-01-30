@@ -1,0 +1,46 @@
+@import "../../core/spacing.css";
+
+/* 
+ * Props
+ * -----
+ */
+ :root {
+  /* Properties */
+  --icon-size: var(--size-18-24);
+  --icon-size-half: calc(0.5 * var(--icon-size));
+  --nav-icon-size: 18px;
+  --nav-icon-size-half: calc(0.5 * var(--nav-icon-size));
+}
+
+/* 
+ * Classes
+ * -------
+ */
+.icon {
+  height: var(--icon-size);
+}
+
+button.icon,
+input[type=submit].icon,
+input[type=button].icon,
+input[type=reset].icon,
+.touchable.icon,
+.pill.icon,
+.button.icon {
+  padding: 0;
+  min-width: auto;
+  min-height: auto;
+  border-radius: 0;
+}
+
+nav .icon,
+.navbar .icon {
+  height: var(--nav-icon-size);
+  padding-left: var(--nav-icon-size-half);
+  padding-right: var(--nav-icon-size-half);
+}
+
+nav .icon:last-child,
+.navbar .icon:last-child {
+  padding-right: 0;
+}

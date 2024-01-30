@@ -52,6 +52,9 @@
   justify-content: center;
 }
 
+.flex.fill,
+.navbar .fill,
+nav .fill,
 .flex .fill,
 .row .fill:not(.vertical),
 .row .extend.horizontal,

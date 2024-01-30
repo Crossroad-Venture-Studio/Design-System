@@ -40,6 +40,10 @@ input[type=reset].large,
   padding: calc(var(--button-padding-vertical) + 2px) calc(var(--button-padding-horizontal) + 2px);
 }
 
+nav button,
+.navbar button,
+nav .button,
+.navbar .button,
 button.small,
 input[type=submit].small,
 input[type=button].small,
@@ -72,6 +76,10 @@ input[type=reset].square,
   border-radius: var(--button-border-radius-square);
 }
 
+nav button.square,
+.navbar button.square,
+nav .button.square,
+.navbar .button.square,
 button.small.square,
 input[type=submit].small.square,
 input[type=button].small.square,

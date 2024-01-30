@@ -369,18 +369,22 @@ input[type=reset],
   font-size: var(--font-size-button);
 }
 
-button,
-input[type=submit],
-input[type=button],
-input[type=reset],
+button.large,
+input[type=submit].large,
+input[type=button].large,
+input[type=reset].large,
 .button.large {
   font-size: calc(var(--font-size-button) + 2px);
 }
 
-button,
-input[type=submit],
-input[type=button],
-input[type=reset],
+nav button,
+.navbar button,
+nav .button,
+.navbar .button,
+button.small,
+input[type=submit].small,
+input[type=button].small,
+input[type=reset].small,
 .button.small {
   font-size: calc(var(--font-size-button) - 2px);
 }
@@ -395,6 +399,15 @@ input[type=reset],
 
 .pill.small {
   font-size: calc(var(--font-size-pill) - 2px);
+}
+
+nav button,
+.navbar button,
+nav .button,
+.navbar .button {
+  font-family: var(--font-family);
+  font-weight: 600;
+  text-transform: capitalize;
 }
 
 input:not([type=submit]):not(input[type=reset]):not([type=button]),
