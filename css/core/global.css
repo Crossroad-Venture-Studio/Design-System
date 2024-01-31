@@ -42,6 +42,8 @@ table,
 
 img,
 button,
+nav,
+.navbar,
 .no-select {
   -webkit-touch-callout: none;
   /* iOS Safari */

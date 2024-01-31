@@ -10,6 +10,7 @@
   --icon-size-half: calc(0.5 * var(--icon-size));
   --nav-icon-size: 18px;
   --nav-icon-size-half: calc(0.5 * var(--nav-icon-size));
+  --nav-icon-size-2x: calc(2 * var(--nav-icon-size));
 }
 
 /* 
@@ -31,18 +32,17 @@ input[type=reset].icon,
   padding: 0;
   min-width: auto;
   min-height: auto;
-  border-radius: 0;
+  /* border-radius: 0; */
 }
 
 /* Icons in the navbar */
 nav .icon,
 .navbar .icon {
-  height: var(--nav-icon-size);
-  padding-left: var(--nav-icon-size-half);
-  padding-right: var(--nav-icon-size-half);
+  height: var(--nav-icon-size-2x);
+  padding: var(--nav-icon-size-half);
 }
 
 nav .icon:last-child,
 .navbar .icon:last-child {
-  padding-right: 0;
+  margin-right: calc(-1 * var(--nav-icon-size-half));
 }

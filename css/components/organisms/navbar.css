@@ -1,10 +1,10 @@
+@import "../../core/color.css";
 @import "../../core/spacing.css";
 
 /* Navbar variables */
 :root {
-  --navbar-padding-horizontal: var(--size-12-24);
+  --navbar-padding-horizontal: var(--size-16-24);
   --navbar-padding-vertical: 12px;
-  /* --navbar-gap: var(--size-12-24); */
   --navbar-gap: var(--size-0-12);
   --navbar-height: var(--size-48-64);
 }
@@ -35,4 +35,130 @@ nav.safearea {
   padding-top: var(--safe-area-top);
   padding-left: calc(var(--navbar-padding-horizontal) + var(--safe-area-left));
   padding-right: calc(var(--navbar-padding-horizontal) + var(--safe-area-right));
+}
+
+/* Light / Dark pre-theemed navbars */
+nav.light,
+.navbar.light {
+  backdrop-filter: blur(15px);
+  color: var(--light);
+}
+
+nav.light .button,
+nav.light button,
+nav.light .button:active,
+nav.light button:active,
+nav.light .button:active:hover,
+nav.light button:active:hover,
+nav .button.light,
+nav button.light,
+nav .button.light:active,
+nav button.light:active,
+nav .button.light:active:hover,
+nav button.light:active:hover{
+  opacity: 1;
+  color: var(--light);
+  background: transparent;
+}
+
+nav.light .button.icon,
+nav.light button.icon,
+nav .button.icon.light,
+nav button.icon.light {
+  filter: brightness(100%) saturate(100%);
+}
+
+nav.dark,
+.navbar.dark {
+  backdrop-filter: blur(15px);
+  color: var(--dark);
+}
+
+nav.dark .button,
+nav.dark button,
+nav.dark .button:active,
+nav.dark button:active,
+nav.dark .button:active:hover,
+nav.dark button:active:hover,
+nav .button.dark,
+nav button.dark,
+nav .button.dark:active,
+nav button.dark:active,
+nav .button.dark:active:hover,
+nav button.dark:active:hover {
+  opacity: 1;
+  color: var(--dark);
+  background: transparent;
+}
+
+nav.dark .button.icon,
+nav.dark button.icon,
+nav .button.icon.dark,
+nav button.icon.dark {
+  filter: brightness(0) saturate(100%);
+}
+
+/* Only available for non-touchscreen devices */
+@media (any-pointer: fine) {
+  nav.dark .button:hover,
+  nav.dark button:hover,
+  nav .button.dark:hover,
+  nav button.dark:hover {
+    opacity: 1;
+    color: var(--black);
+    background: #00000011;
+  }
+
+  nav.light .button:hover,
+  nav.light button:hover,
+  nav .button.light:hover,
+  nav button.light:hover {
+    opacity: 1;
+    color: var(--white);
+    background: #FFFFFF23;
+  }
+
+  nav.dark.light-hover .button:hover,
+  nav.dark.light-hover button:hover,
+  nav.light-hover .button.dark:hover,
+  nav.light-hover button.dark:hover,
+  nav .button.dark.light-hover:hover,
+  nav button.dark.light-hover:hover {
+    background: #FFFFFF23;
+  }
+  
+  nav.light.dark-hover .button:hover,
+  nav.light.dark-hover button:hover,
+  nav.dark-hover .button.light:hover,
+  nav.dark-hover button.light:hover,
+  nav .button.light.dark-hover:hover,
+  nav button.light.dark-hover:hover {
+    background: #00000011;
+  }
+}
+
+/* Responsive styles: display button vs icons */
+nav button.icon:not(.dot-not-hide),
+.navbar button.icon:not(.dot-not-hide),
+nav .button.icon:not(.dot-not-hide),
+.navbar .button.icon:not(.dot-not-hide) {
+  display: none;
+}
+
+@media only screen and (max-width: 800px) {
+  /* Hide text buttons */
+  nav button:not(.dot-not-hide),
+  .navbar button:not(.dot-not-hide),
+  nav .button:not(.dot-not-hide),
+  .navbar .button:not(.dot-not-hide) {
+    display: none;
+  }
+
+  /* Show icon buttons */
+  nav button.icon:not(.dot-not-hide),
+  .navbar button.icon:not(.dot-not-hide),
+  nav .button.icon:not(.dot-not-hide),
+  .navbar .button.icon:not(.dot-not-hide) {
+    display: block;
+  }
 }
