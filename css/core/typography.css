@@ -161,6 +161,8 @@ input[type=submit],
 input[type=button],
 input[type=reset],
 .button,
+.back,
+.next,
 .pill {
   font-family: var(--font-family-touchable);
   letter-spacing: 0.1em;
@@ -397,9 +399,9 @@ button,
 input[type=submit],
 input[type=button],
 input[type=reset],
+.back,
+.next,
 .button {
-  font-family: var(--font-family-touchable);
-  letter-spacing: 0.1em;
   font-size: var(--font-size-button);
 }
 
@@ -407,6 +409,8 @@ button.large,
 input[type=submit].large,
 input[type=button].large,
 input[type=reset].large,
+.back.large,
+.next.large,
 .button.large {
   font-size: calc(var(--font-size-button) + 2px);
 }
@@ -415,10 +419,16 @@ nav button,
 .navbar button,
 nav .button,
 .navbar .button,
+nav .back,
+.navbar .back,
+nav .next,
+.navbar .next,
 button.small,
 input[type=submit].small,
 input[type=button].small,
 input[type=reset].small,
+.back.small,
+.next.small,
 .button.small {
   font-size: calc(var(--font-size-button) - 2px);
 }
