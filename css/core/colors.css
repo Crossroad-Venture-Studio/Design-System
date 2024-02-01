@@ -33,6 +33,7 @@
   --chocolate: #743F00;
   --leather: #B36C00;
   --cream: #FFFCF8;
+  --peach: #F77C6F;
 
   /*
    * Shades
@@ -78,7 +79,7 @@
    * --------------------
    */
   --purple-pink-horizontal: linear-gradient(0deg, var(--purple), var(--pink));
-  --purple-orange-horizontal: linear-gradient(0deg, var(--purple), var(--orange));
+  --purple-orange-horizontal: linear-gradient(0deg, var(--purple), var(--peach), var(--orange));
   --orange-yellow-horizontal: linear-gradient(0deg, var(--orange), var(--yellow));
   --ocean-teal-horizontal: linear-gradient(0deg, var(--ocean), var(--teal));
   --green-lime-horizontal: linear-gradient(0deg, var(--green), var(--lime));
@@ -96,7 +97,7 @@
    * -------------------
    */
   --purple-pink-vertical: linear-gradient(90deg, var(--purple), var(--pink));
-  --purple-orange-vertical: linear-gradient(90deg, var(--purple), var(--orange));
+  --purple-orange-vertical: linear-gradient(90deg, var(--purple), var(--peach), var(--orange));
   --orange-yellow-vertical: linear-gradient(90deg, var(--orange), var(--yellow));
   --ocean-teal-vertical: linear-gradient(90deg, var(--ocean), var(--teal));
   --green-lime-vertical: linear-gradient(90deg, var(--green), var(--lime));
@@ -114,7 +115,7 @@
    * ------------------
    */
   --purple-pink-diagonal: linear-gradient(45deg, var(--purple), var(--pink));
-  --purple-orange-diagonal: linear-gradient(45deg, var(--purple), var(--orange));
+  --purple-orange-diagonal: linear-gradient(45deg, var(--purple), var(--peach), var(--orange));
   --orange-yellow-diagonal: linear-gradient(45deg, var(--orange), var(--yellow));
   --ocean-teal-diagonal: linear-gradient(45deg, var(--ocean), var(--teal));
   --green-lime-diagonal: linear-gradient(45deg, var(--green), var(--lime));
