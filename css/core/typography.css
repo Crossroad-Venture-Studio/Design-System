@@ -161,6 +161,7 @@ input[type=submit],
 input[type=button],
 input[type=reset],
 .button,
+.logo-text,
 .pill {
   font-family: var(--font-family-touchable);
   letter-spacing: 0.1em;
@@ -397,6 +398,7 @@ button,
 input[type=submit],
 input[type=button],
 input[type=reset],
+.logo-text,
 .button {
   font-size: var(--font-size-button);
 }
