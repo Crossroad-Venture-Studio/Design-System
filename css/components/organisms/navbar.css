@@ -146,11 +146,11 @@ nav .button.icon:not(.dot-not-hide),
 }
 
 @media only screen and (max-width: 800px) {
-  /* Hide text buttons */
-  nav button:not(.dot-not-hide),
-  .navbar button:not(.dot-not-hide),
-  nav .button:not(.dot-not-hide),
-  .navbar .button:not(.dot-not-hide) {
+  /* Hide text buttons, that are not back or next */
+  nav button:not(.dot-not-hide):not(.back):not(.next):not(.icon),
+  .navbar button:not(.dot-not-hide):not(.back):not(.next):not(.icon),
+  nav .button:not(.dot-not-hide):not(.back):not(.next):not(.icon),
+  .navbar .button:not(.dot-not-hide):not(.back):not(.next):not(.icon) {
     display: none;
   }
 

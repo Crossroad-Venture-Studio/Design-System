@@ -1,4 +1,4 @@
-@import "sizes.css";
+@import "./typography.css";
 
 /* Global styles */
 * {
@@ -20,7 +20,7 @@ body {
   min-height: -webkit-fill-available;
   background-color:black;
   color:white;
-  font-family: "Avenir Next", Avenir, Calibri, Tahoma, Arial, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif;
+  /* font-family: "Avenir Next", Avenir, Calibri, Tahoma, Arial, "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, sans-serif; */
   font-weight: normal;
   font-size: var(--font-size-text);
 }

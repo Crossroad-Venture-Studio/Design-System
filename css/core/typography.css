@@ -415,14 +415,54 @@ nav button,
 .navbar button,
 nav .button,
 .navbar .button,
-nav .back-button,
-.navbar .back-button,
 button.small,
 input[type=submit].small,
 input[type=button].small,
 input[type=reset].small,
 .button.small {
   font-size: calc(var(--font-size-button) - 2px);
+}
+
+/* Font trim for Arial Black on buttons */
+button:not(nav button):not(.navbar button) > *:not(.icon):not(img):after,
+input[type=submit] > *:not(.icon):not(img):after,
+input[type=button] > *:not(.icon):not(img):after,
+input[type=reset] > *:not(.icon):not(img):after,
+.button:not(nav .button):not(.navbar .button) > *:not(.icon):not(img):after,
+.pill > *:not(.icon):not(img):after {
+  content: '';
+  margin-top: calc(-22.5 / 72 * 1em);
+  display: table;
+}
+
+button:not(nav button):not(.navbar button) > *:not(.icon):not(img):before,
+input[type=submit] > *:not(.icon):not(img):before,
+input[type=button] > *:not(.icon):not(img):before,
+input[type=reset] > *:not(.icon):not(img):before,
+.button:not(nav .button):not(.navbar .button) > *:not(.icon):not(img):before,
+.pill > *:not(.icon):not(img):before {
+  content: '';
+  margin-bottom: calc(-28 / 72 * 1em);
+  display: table;
+}
+
+/* Font trim for Avenir Next on nav buttons */
+nav button > *:not(.icon):not(img):after,
+.navbar button > *:not(.icon):not(img):after,
+nav .button > *:not(.icon):not(img):after,
+.navbar .button > *:not(.icon):not(img):after {
+  content: '';
+  margin-top: calc(-26.5 / 72 * 1em);
+  display: table;
+}
+
+nav button > *:not(.icon):not(img):before,
+.navbar button > *:not(.icon):not(img):before,
+nav .button > *:not(.icon):not(img):before,
+.navbar .button > *:not(.icon):not(img):before {
+  content: '';
+  margin-top: calc(-21 / 72 * 1em);
+  display: table;
 }
 
 .pill {
@@ -437,15 +477,19 @@ input[type=reset].small,
   font-size: calc(var(--font-size-pill) - 2px);
 }
 
-nav button,
-.navbar button,
-nav .button,
-.navbar .button {
-  font-family: var(--font-family);
-  font-weight: 600;
-  text-transform: capitalize;
+/* Font overload for navbar on desktop */
+@media only screen and (min-width: 800px) {
+  nav button,
+  .navbar button,
+  nav .button,
+  .navbar .button {
+    font-family: var(--font-family);
+    font-weight: 600;
+    text-transform: capitalize;
+  }
 }
 
+/* Font overload for input */
 input:not([type=submit]):not(input[type=reset]):not([type=button]),
 textarea,
 .input {

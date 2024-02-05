@@ -28,6 +28,15 @@ input[type=reset],
   min-height: var(--size-32-40);
   border-radius: var(--button-border-radius);
   padding: var(--button-padding-vertical) var(--button-padding-horizontal);
+  /* -webkit-leading-trim: both;
+  -webkit-text-edge: both;
+  -webkit-text-box-trim: both;
+  -webkit-text-box-edge: cap alphabetic;
+  leading-trim: both;
+  text-edge: cap alphabetic;
+  text-box-trim: both;
+  text-box-edge: cap alphabetic; */
+  vertical-align: middle;
 }
 
 /* Large button */

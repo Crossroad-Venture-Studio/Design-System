@@ -42,6 +42,13 @@ nav .icon,
   padding: var(--nav-icon-size-half);
 }
 
+nav .back .icon,
+.navbar .back .icon {
+  height: var(--nav-icon-size);
+  padding-right: var(--nav-icon-size-half);
+  /* padding: var(--nav-icon-size-half); */
+}
+
 nav .icon:last-child,
 .navbar .icon:last-child {
   margin-right: calc(-1 * var(--nav-icon-size-half));
