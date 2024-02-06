@@ -147,8 +147,8 @@ nav button.icon:not(.dot-not-hide),
 .navbar button.icon:not(.dot-not-hide),
 nav .button.icon:not(.dot-not-hide),
 .navbar .button.icon:not(.dot-not-hide),
-nav *:has(.button.icon:only-child):not(.dot-not-hide),
-.navbar *:has(.button.icon:only-child):not(.dot-not-hide) {
+nav *:has(.button.icon :only-child):not(.dot-not-hide),
+.navbar *:has(.button.icon :only-child):not(.dot-not-hide) {
   display: none;
 }
 
@@ -166,8 +166,8 @@ nav *:has(.button.icon:only-child):not(.dot-not-hide),
   .navbar button.icon:not(.dot-not-hide),
   nav .button.icon:not(.dot-not-hide),
   .navbar .button.icon:not(.dot-not-hide),
-  nav *:has(.button.icon:only-child):not(.dot-not-hide),
-  .navbar *:has(.button.icon:only-child):not(.dot-not-hide) {
+  nav *:has(.button.icon :only-child):not(.dot-not-hide),
+  .navbar *:has(.button.icon :only-child):not(.dot-not-hide) {
     display: block;
   }
 
