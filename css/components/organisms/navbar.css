@@ -24,6 +24,11 @@ nav {
   gap: var(--navbar-gap);
 }
 
+nav *:last-child,
+.navbar *:last-child {
+  gap: var(--navbar-gap);
+}
+
 /* Tackling safe area at a parent page or current navbar */
 .page.safearea > .navbar,
 .page.safearea > * .navbar,
