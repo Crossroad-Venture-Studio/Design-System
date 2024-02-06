@@ -37,22 +37,26 @@ input[type=reset].icon,
 
 
 /* Icons in the navbar */
-nav .button.icon,
-.navbar .button.icon {
+nav .icon,
+.navbar .icon {
   height: var(--nav-icon-size-2x);
   padding: var(--nav-icon-size-half);
 }
 
+/* Last icon in the navbar */
+nav *:last-child > .icon,
+nav > .icon:last-child,
+.navbar *:last-child > .icon,
+.navbar > .icon:last-child {
+  margin-right: calc(-1 * var(--nav-icon-size-half));
+}
+
+/* BACK and NEXT button in the navbar */
 nav .back .icon,
 nav .next .icon,
 .navbar .back .icon,
 .navbar .next .icon {
   height: var(--nav-icon-size);
-}
-
-nav *:last-child > .icon.button,
-nav > .icon.button:last-child,
-.navbar *:last-child > .icon.button,
-.navbar > .icon.button:last-child {
-  margin-right: calc(-1 * var(--nav-icon-size-half));
+  padding: 0;
+  margin: 0;
 }
