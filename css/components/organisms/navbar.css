@@ -146,7 +146,9 @@ nav button.icon.dark {
 nav button.icon:not(.dot-not-hide),
 .navbar button.icon:not(.dot-not-hide),
 nav .button.icon:not(.dot-not-hide),
-.navbar .button.icon:not(.dot-not-hide) {
+.navbar .button.icon:not(.dot-not-hide),
+nav *:has(.button.icon:only-child):not(.dot-not-hide),
+.navbar *:has(.button.icon:only-child):not(.dot-not-hide) {
   display: none;
 }
 
@@ -163,7 +165,20 @@ nav .button.icon:not(.dot-not-hide),
   nav button.icon:not(.dot-not-hide),
   .navbar button.icon:not(.dot-not-hide),
   nav .button.icon:not(.dot-not-hide),
-  .navbar .button.icon:not(.dot-not-hide) {
+  .navbar .button.icon:not(.dot-not-hide),
+  nav *:has(.button.icon:only-child):not(.dot-not-hide),
+  .navbar *:has(.button.icon:only-child):not(.dot-not-hide) {
     display: block;
   }
+
+  /* Slide BACK and NEXT buttons */
+  /* nav .back,
+  .navbar .back {
+    margin-left: calc(-1 * var(--button-padding-horizontal)) !important;
+  } */
+
+  /* nav .next,
+  .navbar .next {
+    margin-right: calc(-1 * var(--button-padding-horizontal)) !important;
+  } */
 }
