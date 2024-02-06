@@ -1,3 +1,4 @@
+@import "../../core/animation.css";
 @import "../../core/spacing.css";
 
 .overlay {
@@ -11,6 +12,15 @@
   gap: var(--gap);
   background: #000000AA;
   backdrop-filter: blur(30px);
+  opacity: 0;
+  pointer-events: none;
+  /* animation */
+  transition: var(--transition-time);
+}
+
+.overlay.opened {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 .overlay.light {
