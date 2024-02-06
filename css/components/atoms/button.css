@@ -66,20 +66,6 @@ input[type=reset].small,
   padding: calc(var(--button-padding-vertical) - 2px) calc(var(--button-padding-horizontal) - 2px);
 }
 
-nav button.back,
-.navbar button.back,
-nav .button.back,
-.navbar .button.back {
-  margin-left: calc(2px - var(--button-padding-vertical));
-}
-
-nav button.next,
-.navbar button.next,
-nav .button.next,
-.navbar .button.next {
-  margin-right: calc(2px - var(--button-padding-vertical));
-}
-
 /* Round button */
 button.round,
 input[type=submit].round,

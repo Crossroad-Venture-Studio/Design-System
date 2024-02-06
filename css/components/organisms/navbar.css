@@ -103,6 +103,17 @@ nav button.icon.dark {
   filter: brightness(0) saturate(100%);
 }
 
+/* Slide BACK and NEXT buttons */
+nav .back,
+.navbar .back {
+  margin-left: calc(2px - var(--button-padding-horizontal)) !important;
+}
+
+nav .next,
+.navbar .next {
+  margin-right: calc(2px - var(--button-padding-horizontal)) !important;
+}
+
 /* Only available for non-touchscreen devices */
 @media (any-pointer: fine) {
   nav.dark .button:hover,
@@ -147,8 +158,8 @@ nav button.icon:not(.dot-not-hide),
 .navbar button.icon:not(.dot-not-hide),
 nav .button.icon:not(.dot-not-hide),
 .navbar .button.icon:not(.dot-not-hide),
-nav *:has(.button.icon :only-child):not(.dot-not-hide),
-.navbar *:has(.button.icon :only-child):not(.dot-not-hide) {
+nav *:has(> .button.icon:only-child):not(.dot-not-hide),
+.navbar *:has(> .button.icon:only-child):not(.dot-not-hide) {
   display: none;
 }
 
@@ -166,19 +177,8 @@ nav *:has(.button.icon :only-child):not(.dot-not-hide),
   .navbar button.icon:not(.dot-not-hide),
   nav .button.icon:not(.dot-not-hide),
   .navbar .button.icon:not(.dot-not-hide),
-  nav *:has(.button.icon :only-child):not(.dot-not-hide),
-  .navbar *:has(.button.icon :only-child):not(.dot-not-hide) {
+  nav *:has(> .button.icon:only-child):not(.dot-not-hide),
+  .navbar *:has(> .button.icon:only-child):not(.dot-not-hide) {
     display: block;
   }
-
-  /* Slide BACK and NEXT buttons */
-  /* nav .back,
-  .navbar .back {
-    margin-left: calc(-1 * var(--button-padding-horizontal)) !important;
-  } */
-
-  /* nav .next,
-  .navbar .next {
-    margin-right: calc(-1 * var(--button-padding-horizontal)) !important;
-  } */
 }
