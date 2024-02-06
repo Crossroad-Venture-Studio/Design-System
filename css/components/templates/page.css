@@ -18,11 +18,14 @@
 }
 
 /* Add padding due to navbar */
+.page:has(nav),
 .page:has(.navbar) {
   padding-top: calc(var(--navbar-height) + var(--padding-vertical));
 }
 
 /* Tackling safe area at a current page or child navbar */
+.page:has(nav).safearea,
+.page:has(nav.safearea),
 .page:has(.navbar).safearea,
 .page:has(.navbar.safearea) {
   padding-top: calc(var(--safe-area-top) + var(--navbar-height) + var(--padding-vertical));

@@ -40,10 +40,10 @@ table,
   padding: 0;
 }
 
-img,
-button,
 nav,
 .navbar,
+img,
+button,
 .no-select {
   -webkit-touch-callout: none;
   /* iOS Safari */

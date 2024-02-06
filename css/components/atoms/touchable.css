@@ -39,6 +39,7 @@ input[type=reset] {
   display: flex;
   justify-content: center;
   align-items: center;
+  gap: 8px;
 }
 
 .touchable:hover,

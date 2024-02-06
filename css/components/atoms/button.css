@@ -52,8 +52,8 @@ input[type=reset].large,
 
 /* Small button and nav button */
 nav button,
-.navbar button,
 nav .button,
+.navbar button,
 .navbar .button,
 button.small,
 input[type=submit].small,

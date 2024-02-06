@@ -421,8 +421,8 @@ input[type=reset].large,
 }
 
 nav button,
-.navbar button,
 nav .button,
+.navbar button,
 .navbar .button,
 button.small,
 input[type=submit].small,
@@ -433,10 +433,10 @@ input[type=reset].small,
 }
 
 /* Font trim for Arial Black on buttons */
-button:not(nav button):not(.navbar button) > *:not(.icon):not(img):after,
 input[type=submit] > *:not(.icon):not(img):after,
 input[type=button] > *:not(.icon):not(img):after,
 input[type=reset] > *:not(.icon):not(img):after,
+button:not(nav button):not(.navbar button) > *:not(.icon):not(img):after,
 .button:not(nav .button):not(.navbar .button) > *:not(.icon):not(img):after,
 .pill > *:not(.icon):not(img):after {
   content: '';
@@ -444,10 +444,10 @@ input[type=reset] > *:not(.icon):not(img):after,
   display: table;
 }
 
-button:not(nav button):not(.navbar button) > *:not(.icon):not(img):before,
 input[type=submit] > *:not(.icon):not(img):before,
 input[type=button] > *:not(.icon):not(img):before,
 input[type=reset] > *:not(.icon):not(img):before,
+button:not(nav button):not(.navbar button) > *:not(.icon):not(img):before,
 .button:not(nav .button):not(.navbar .button) > *:not(.icon):not(img):before,
 .pill > *:not(.icon):not(img):before {
   content: '';
@@ -457,8 +457,8 @@ input[type=reset] > *:not(.icon):not(img):before,
 
 /* Font trim for Avenir Next on nav buttons */
 nav button > *:not(.icon):not(img):after,
-.navbar button > *:not(.icon):not(img):after,
 nav .button > *:not(.icon):not(img):after,
+.navbar button > *:not(.icon):not(img):after,
 .navbar .button > *:not(.icon):not(img):after {
   content: '';
   margin-top: calc(-26.5 / 72 * 1em);
@@ -466,8 +466,8 @@ nav .button > *:not(.icon):not(img):after,
 }
 
 nav button > *:not(.icon):not(img):before,
-.navbar button > *:not(.icon):not(img):before,
 nav .button > *:not(.icon):not(img):before,
+.navbar button > *:not(.icon):not(img):before,
 .navbar .button > *:not(.icon):not(img):before {
   content: '';
   margin-top: calc(-21 / 72 * 1em);
@@ -489,8 +489,8 @@ nav .button > *:not(.icon):not(img):before,
 /* Font overload for navbar on desktop */
 @media only screen and (min-width: 800px) {
   nav button,
-  .navbar button,
   nav .button,
+  .navbar button,
   .navbar .button {
     font-family: var(--font-family);
     font-weight: 600;

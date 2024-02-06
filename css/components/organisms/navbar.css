@@ -10,8 +10,8 @@
 }
 
 /* Navbar style */
-.navbar,
-nav {
+nav,
+.navbar {
   position: fixed;
   top: 0;
   left: 0;
@@ -24,25 +24,26 @@ nav {
   gap: var(--navbar-gap);
 }
 
-nav *:last-child,
-.navbar *:last-child {
+/* If there's a row of buttons at the end of the navbar */
+nav > div:last-child,
+.navbar > div:last-child {
   gap: var(--navbar-gap);
 }
 
 /* Tackling safe area at a parent page or current navbar */
-.page.safearea > .navbar,
-.page.safearea > * .navbar,
-.navbar.safearea,
 .page.safearea > nav,
 .page.safearea > * nav,
-nav.safearea {
+nav.safearea,
+.page.safearea > .navbar,
+.page.safearea > * .navbar,
+.navbar.safearea {
   height: calc(var(--safe-area-top) + var(--navbar-height));
   padding-top: var(--safe-area-top);
   padding-left: calc(var(--navbar-padding-horizontal) + var(--safe-area-left));
   padding-right: calc(var(--navbar-padding-horizontal) + var(--safe-area-right));
 }
 
-/* Light / Dark pre-theemed navbars */
+/* Light pre-theemed navbars */
 nav.light,
 .navbar.light {
   backdrop-filter: blur(15px);
@@ -60,7 +61,19 @@ nav button.light,
 nav .button.light:active,
 nav button.light:active,
 nav .button.light:active:hover,
-nav button.light:active:hover{
+nav button.light:active:hover,
+.navbar.light .button,
+.navbar.light button,
+.navbar.light .button:active,
+.navbar.light button:active,
+.navbar.light .button:active:hover,
+.navbar.light button:active:hover,
+.navbar .button.light,
+.navbar button.light,
+.navbar .button.light:active,
+.navbar button.light:active,
+.navbar .button.light:active:hover,
+.navbar button.light:active:hover {
   opacity: 1;
   color: var(--light);
   background: transparent;
@@ -69,10 +82,15 @@ nav button.light:active:hover{
 nav.light .button.icon,
 nav.light button.icon,
 nav .button.icon.light,
-nav button.icon.light {
+nav button.icon.light,
+.navbar.light .button.icon,
+.navbar.light button.icon,
+.navbar .button.icon.light,
+.navbar button.icon.light {
   filter: brightness(100%) saturate(100%);
 }
 
+/* Dark pre-theemed navbars */
 nav.dark,
 .navbar.dark {
   backdrop-filter: blur(15px);
@@ -90,7 +108,19 @@ nav button.dark,
 nav .button.dark:active,
 nav button.dark:active,
 nav .button.dark:active:hover,
-nav button.dark:active:hover {
+nav button.dark:active:hover,
+.navbar.dark .button,
+.navbar.dark button,
+.navbar.dark .button:active,
+.navbar.dark button:active,
+.navbar.dark .button:active:hover,
+.navbar.dark button:active:hover,
+.navbar .button.dark,
+.navbar button.dark,
+.navbar .button.dark:active,
+.navbar button.dark:active,
+.navbar .button.dark:active:hover,
+.navbar button.dark:active:hover {
   opacity: 1;
   color: var(--dark);
   background: transparent;
@@ -99,7 +129,11 @@ nav button.dark:active:hover {
 nav.dark .button.icon,
 nav.dark button.icon,
 nav .button.icon.dark,
-nav button.icon.dark {
+nav button.icon.dark,
+.navbar.dark .button.icon,
+.navbar.dark button.icon,
+.navbar .button.icon.dark,
+.navbar button.icon.dark {
   filter: brightness(0) saturate(100%);
 }
 
@@ -119,7 +153,11 @@ nav .next,
   nav.dark .button:hover,
   nav.dark button:hover,
   nav .button.dark:hover,
-  nav button.dark:hover {
+  nav button.dark:hover,
+  .navbar.dark .button:hover,
+  .navbar.dark button:hover,
+  .navbar .button.dark:hover,
+  .navbar button.dark:hover {
     opacity: 1;
     color: var(--black);
     background: #00000011;
@@ -128,7 +166,11 @@ nav .next,
   nav.light .button:hover,
   nav.light button:hover,
   nav .button.light:hover,
-  nav button.light:hover {
+  nav button.light:hover,
+  .navbar.light .button:hover,
+  .navbar.light button:hover,
+  .navbar .button.light:hover,
+  .navbar button.light:hover {
     opacity: 1;
     color: var(--white);
     background: #FFFFFF23;
@@ -139,7 +181,13 @@ nav .next,
   nav.light-hover .button.dark:hover,
   nav.light-hover button.dark:hover,
   nav .button.dark.light-hover:hover,
-  nav button.dark.light-hover:hover {
+  nav button.dark.light-hover:hover,
+  .navbar.dark.light-hover .button:hover,
+  .navbar.dark.light-hover button:hover,
+  .navbar.light-hover .button.dark:hover,
+  .navbar.light-hover button.dark:hover,
+  .navbar .button.dark.light-hover:hover,
+  .navbar button.dark.light-hover:hover{
     background: #FFFFFF23;
   }
   
@@ -148,17 +196,23 @@ nav .next,
   nav.dark-hover .button.light:hover,
   nav.dark-hover button.light:hover,
   nav .button.light.dark-hover:hover,
-  nav button.light.dark-hover:hover {
+  nav button.light.dark-hover:hover,
+  .navbar.light.dark-hover .button:hover,
+  .navbar.light.dark-hover button:hover,
+  .navbar.dark-hover .button.light:hover,
+  .navbar.dark-hover button.light:hover,
+  .navbar .button.light.dark-hover:hover,
+  .navbar button.light.dark-hover:hover {
     background: #00000011;
   }
 }
 
 /* Responsive styles: display button vs icons */
 nav button.icon:not(.dot-not-hide),
-.navbar button.icon:not(.dot-not-hide),
 nav .button.icon:not(.dot-not-hide),
-.navbar .button.icon:not(.dot-not-hide),
 nav *:has(> .button.icon:only-child):not(.dot-not-hide),
+.navbar button.icon:not(.dot-not-hide),
+.navbar .button.icon:not(.dot-not-hide),
 .navbar *:has(> .button.icon:only-child):not(.dot-not-hide) {
   display: none;
 }
@@ -166,18 +220,18 @@ nav *:has(> .button.icon:only-child):not(.dot-not-hide),
 @media only screen and (max-width: 800px) {
   /* Hide text buttons, that are not back or next */
   nav button:not(.dot-not-hide):not(.back):not(.next):not(.icon),
-  .navbar button:not(.dot-not-hide):not(.back):not(.next):not(.icon),
   nav .button:not(.dot-not-hide):not(.back):not(.next):not(.icon),
+  .navbar button:not(.dot-not-hide):not(.back):not(.next):not(.icon),
   .navbar .button:not(.dot-not-hide):not(.back):not(.next):not(.icon) {
     display: none;
   }
 
   /* Show icon buttons */
   nav button.icon:not(.dot-not-hide),
-  .navbar button.icon:not(.dot-not-hide),
   nav .button.icon:not(.dot-not-hide),
-  .navbar .button.icon:not(.dot-not-hide),
   nav *:has(> .button.icon:only-child):not(.dot-not-hide),
+  .navbar button.icon:not(.dot-not-hide),
+  .navbar .button.icon:not(.dot-not-hide),
   .navbar *:has(> .button.icon:only-child):not(.dot-not-hide) {
     display: block;
   }
