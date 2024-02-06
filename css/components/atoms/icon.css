@@ -49,8 +49,10 @@ nav .back .icon,
   /* padding: var(--nav-icon-size-half); */
 }
 
-nav .icon:last-child,
-.navbar .icon:last-child {
+nav *:last-child .icon.button,
+.navbar *:last-child .icon.button,
+nav > .icon.button:last-child,
+.navbar > .icon.button:last-child {
   margin-right: calc(-1 * var(--nav-icon-size-half));
 }
 
