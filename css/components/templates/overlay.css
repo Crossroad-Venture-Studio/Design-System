@@ -1,0 +1,18 @@
+@import "../../core/spacing.css";
+
+.overlay {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  margin: 0;
+  padding: var(--padding-vertical) var(--padding-horizontal);
+  gap: var(--gap);
+  background: #000000AA;
+  backdrop-filter: blur(30px);
+}
+
+.overlay.light {
+  background: #FFFFFFAA;
+}
