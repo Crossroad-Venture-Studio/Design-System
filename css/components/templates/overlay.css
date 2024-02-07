@@ -4,6 +4,9 @@
 .overlay {
   display: flex;
   flex-direction: column;
+  position: absolute;
+  left: 0;
+  right: 0;
   width: 100vw;
   height: 100vh;
   overflow: hidden;
@@ -12,7 +15,7 @@
   padding: var(--padding-vertical) var(--padding-horizontal);
   gap: var(--gap);
   /* background: #000000AA; */
-  background: red;
+  background: blue;
   backdrop-filter: blur(30px);
   opacity: 0;
   pointer-events: none;
