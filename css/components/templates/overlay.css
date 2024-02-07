@@ -27,6 +27,7 @@
 .overlay.opened {
   opacity: 1;
   pointer-events: auto;
+  cursor: pointer;
 }
 
 .overlay.light {
