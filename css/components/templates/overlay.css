@@ -8,6 +8,7 @@
   height: 100%;
   overflow: hidden;
   margin: 0;
+  border: 0;
   padding: var(--padding-vertical) var(--padding-horizontal);
   gap: var(--gap);
   background: #000000AA;
