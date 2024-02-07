@@ -102,11 +102,7 @@ strong.justify,
 
 /* Anchor style */
 a,
-.link,
-a:active,
-.link:active,
-a:active:hover,
-.link:active:hover {
+.link {
   cursor: pointer;
   margin: 0;
   padding: 0;
@@ -116,6 +112,7 @@ a:active:hover,
   text-decoration: none;
   -webkit-decoration: none;
   -webkit-text-decoration: none;
+  /* annimation */
   transition: var(--transition-time);
 }
 
@@ -139,6 +136,13 @@ a:disabled,
   text-decoration: none;
   -webkit-decoration: none;
   -webkit-text-decoration: none;
+}
+
+a:active,
+.link:active,
+a:active:hover,
+.link:active:hover {
+  opacity: 1;
 }
 
 a:disabled,
