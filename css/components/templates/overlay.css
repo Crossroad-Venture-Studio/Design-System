@@ -17,7 +17,7 @@
   padding: var(--padding-vertical) var(--padding-horizontal);
   gap: var(--gap);
   /* background: #000000AA; */
-  background: blue;
+  background: red;
   backdrop-filter: blur(30px);
   opacity: 0;
   pointer-events: none;
