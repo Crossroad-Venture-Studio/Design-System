@@ -16,8 +16,7 @@
   border: 0;
   padding: var(--padding-vertical) var(--padding-horizontal);
   gap: var(--gap);
-  /* background: #000000AA; */
-  background: green;
+  background: #000000AA;
   backdrop-filter: blur(30px);
   opacity: 0;
   pointer-events: none;
