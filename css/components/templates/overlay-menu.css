@@ -22,5 +22,4 @@
 .overlay .menu.opened {
   right: 0;
   pointer-events: auto;
-  cursor: pointer;
 }
