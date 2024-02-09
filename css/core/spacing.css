@@ -30,16 +30,16 @@
   /* Calculated */
   --padding-half: calc(0.5 * var(--padding));
   --padding-2x: calc(2 * var(--padding));
-  --padding-half-horizontal: calc(0.5 * var(--padding-horizontal));
-  --padding-2x-horizontal: calc(2 * var(--padding-horizontal));
-  --padding-half-vertical: calc(0.5 * var(--padding-vertical));
-  --padding-2x-vertical: calc(2 * var(--padding-vertical));
+  --padding-horizontal-half: calc(0.5 * var(--padding-horizontal));
+  --padding-horizontal-2x: calc(2 * var(--padding-horizontal));
+  --padding-vertical-half: calc(0.5 * var(--padding-vertical));
+  --padding-vertical-2x: calc(2 * var(--padding-vertical));
   --margin-half: calc(0.5 * var(--margin));
   --margin-2x: calc(2 * var(--margin));
-  --margin-half-horizontal: calc(0.5 * var(--margin-horizontal));
-  --margin-2x-horizontal: calc(2 * var(--margin-horizontal));
-  --margin-half-vertical: calc(0.5 * var(--margin-vertical));
-  --margin-2x-vertical: calc(2 * var(--margin-vertical));
+  --margin-horizontal-half: calc(0.5 * var(--margin-horizontal));
+  --margin-horizontal-2x: calc(2 * var(--margin-horizontal));
+  --margin-vertical-half: calc(0.5 * var(--margin-vertical));
+  --margin-vertical-2x: calc(2 * var(--margin-vertical));
   --gap-half: calc(0.5 * var(--gap));
   --gap-2x: calc(2 * var(--gap));
   --border-radius-half: calc(0.5 * var(--border-radius));

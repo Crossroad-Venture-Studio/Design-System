@@ -9,8 +9,11 @@
   height: 100%;
   margin: 0;
   border: 0;
-  padding: var(--padding-vertical) var(--padding-horizontal);
-  gap: var(--gap);
+  padding-top: calc(var(--safe-area-top) + var(--padding-vertical-half));
+  padding-bottom: calc(var(--safe-area-bottom) + var(--padding-vertical-half));
+  padding-left: var(--padding-horizontal-half);
+  padding-right: calc(var(--safe-area-right) + var(--padding-horizontal-half));
+  gap: var(--gap-half);
   pointer-events: none;
   /* animation */
   transition: var(--transition-time);

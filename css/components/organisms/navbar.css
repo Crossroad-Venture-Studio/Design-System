@@ -5,7 +5,7 @@
 :root {
   --navbar-padding-horizontal: var(--size-24-32);
   --navbar-padding-vertical: 12px;
-  --navbar-gap: var(--size-0-12);
+  --navbar-gap: var(--size-6-12);
   --navbar-height: var(--size-48-64);
 }
 
