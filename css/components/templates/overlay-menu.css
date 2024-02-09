@@ -1,0 +1,23 @@
+@import "overlay.css";
+
+.overlay .menu {
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  top: 0;
+  right: calc(-1 * min(30vw, 100px));
+  height: 100%;
+  margin: 0;
+  border: 0;
+  padding: var(--padding-vertical) var(--padding-horizontal);
+  gap: var(--gap);
+  pointer-events: none;
+  /* animation */
+  transition: var(--transition-time);
+}
+
+.overlay .menu.opened {
+  right: 0;
+  pointer-events: auto;
+  cursor: pointer;
+}
