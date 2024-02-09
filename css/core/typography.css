@@ -506,7 +506,9 @@ nav .button > *:not(.icon):not(img):before,
   nav button,
   nav .button,
   .navbar button,
-  .navbar .button {
+  .navbar .button,
+  .menu button,
+  .menu .button {
     font-family: var(--font-family);
     font-weight: 600;
     text-transform: capitalize;
