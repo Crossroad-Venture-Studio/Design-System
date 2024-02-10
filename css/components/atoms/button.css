@@ -54,7 +54,6 @@ input[type=submit].small,
 input[type=button].small,
 input[type=reset].small,
 .button.small {
-  outline: 2px solid green;
   min-width: var(--size-24-32);
   min-height: var(--size-24-32);
   border-radius: max(calc(var(--button-border-radius) - 2px), 0px);
