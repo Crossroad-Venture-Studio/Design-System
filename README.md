@@ -6,7 +6,7 @@
 ## Table of content
 - [*Crossroad Venture Studio:* Design System](#crossroad-venture-studio-design-system)
   - [Table of content](#table-of-content)
-- [Terms and conditions](#terms-and-conditions)
+  - [Terms and conditions](#terms-and-conditions)
 - [Default Behavior \& Globals](#default-behavior--globals)
 - [Core](#core)
   - [Colors \& Gradients](#colors--gradients)
@@ -33,7 +33,7 @@
     - [Pages](#pages)
 - [Themes](#themes)
 
-# Terms and conditions
+## Terms and conditions
 By working with *Crossroad*, you are agreeing to the following term and conditions:
 - This is a proprietary suite of softwares, tools, framework, design sytem, etc.
 - Do not distribute, modify, sell unless consulted and agreed before by William Brendel (brendel.william@gmail.com)
