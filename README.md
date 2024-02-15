@@ -1,4 +1,4 @@
-![Crossroad logo](__assets__/crossroad.svg)
+![Crossroad logo](assets/crossroad.svg)
 # *Crossroad Venture Studio:* Design System
 
 [Crossroad Venture Studio](crossroadventurestudio.com) is a company focused on creating and building startups. We typically help startups by providing an initial team, strategic direction, and operational support. Contrary to incubators, accelerators and other investment entities, the main added value is on execution rather than financial help.
@@ -61,8 +61,8 @@ All the core styles can be loaded using the [index.css](/css/core/index.css) fil
 
 ## Colors & Gradients
 
-[![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=0-1&mode=design)
-[![Css file](__assets__/css.svg)](/css/core/colors.css)
+[![Figma file](assets/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=0-1&mode=design)
+[![Css file](assets/css.svg)](/css/core/colors.css)
 
 [This](/css/core/colors.css) is where we define:
 - the set of colors (e.g. *--blue, --red, etc*),
@@ -83,8 +83,8 @@ Those variables can access in css with the **var()** keyword. For example:
 
 ## Shadows
 
-[![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=1-52&mode=design)
-[![Css file](__assets__/css.svg)](/css/core/shadows.css)
+[![Figma file](assets/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=1-52&mode=design)
+[![Css file](assets/css.svg)](/css/core/shadows.css)
 
 [This](/css/core/shadows.css) is where we define the shadow preset styles. For example:
 
@@ -97,8 +97,8 @@ Those variables can access in css with the **var()** keyword. For example:
 
 ## Fonts and Typography
 
-[![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=7-1084&mode=design)
-[![Css file](__assets__/css.svg)](/css/core/typography.css)
+[![Figma file](assets/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=7-1084&mode=design)
+[![Css file](assets/css.svg)](/css/core/typography.css)
 
 The design system [typography](/css/core/typography.css) relies on a set of [font files](/fonts/) and [font definitions](/css/core/fonts.css). We typically use **Avenir Next** (**Metropolis** being the substitute font) for generl text, **Arial Black** for fat titles and buttons, **Anime Ace** for comic book style dialogs, and sometimes **Times** for cursive quotes. For example:
 
@@ -115,8 +115,8 @@ The design system [typography](/css/core/typography.css) relies on a set of [fon
 
 ## Spacing
 
-[![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=59-3147&mode=design)
-[![Css file](__assets__/css.svg)](/css/core/spacing.css)
+[![Figma file](assets/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=59-3147&mode=design)
+[![Css file](assets/css.svg)](/css/core/spacing.css)
 
 [Spacing](/css/core/spacing.css) defines padding, margin and safe area metrics and styles based on [sizes](/css/core/sizes.css). For example to add some standard padding on a div element:
 
@@ -180,8 +180,8 @@ In science, an atom is the smallest unit of matter that makes up a chemical elem
 
 ### Icons
 
-[![Figma file](__assets__/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=22-1209&mode=design)
-[![Icon files](__assets__/library.svg)](/icons/)
+[![Figma file](assets/figma.svg)](https://www.figma.com/file/Vszpy1wYzuol556bh6gtty/Design-system?type=design&node-id=22-1209&mode=design)
+[![Icon files](assets/library.svg)](/icons/)
 
 Most [icons](/icons/) are normalized to be 24x24 pixels, exception being made for some social media icons for examples. Icons are oganized in different categories:
 - [Actions](/icons/actions/) related type of icons, like *share, add, delete, etc*
@@ -204,7 +204,7 @@ Some icons come in both wired and filled mode. Wired means the icon is contoured
 
 ### Buttons
 
-[![Css file](__assets__/css.svg)](/css/components/atoms/button.css)
+[![Css file](assets/css.svg)](/css/components/atoms/button.css)
 
 [Buttons](/css/components/atoms/button.css) have [touchable](/css/components/atoms/touchable.css) styling, with almost square corners and specific padding defined in [spacing](/css/core/spacing.css). For example:
 
@@ -228,7 +228,7 @@ Button sizes can be control with additional *small* / *large* styles, like:
 
 ### Pills
 
-[![Css file](__assets__/css.svg)](/css/components/atoms/pill.css)
+[![Css file](assets/css.svg)](/css/components/atoms/pill.css)
 
 Like buttons, [pills](/css/components/atoms/pill.css) have [touchable](/css/components/atoms/touchable.css) styling, but with round corners and smaller font size and padding. For example:
 
@@ -243,7 +243,7 @@ Pill sizes can also be control with additional *small* / *large* styles, like bu
 
 ### Flexboxes
 
-[![Css file](__assets__/css.svg)](/css/components/atoms/flexbox.css)
+[![Css file](assets/css.svg)](/css/components/atoms/flexbox.css)
 
 [Flexboxes](/css/components/atoms/flexbox.css), *aka Auto layout in Figma*, allow users to create designs that can grow to fill or shrink to fit, and reflow as their contents change. For example:
 
@@ -476,7 +476,7 @@ As molecules provide us with a basic unit or building block for designing furthe
 
 ### Nav Bars
 
-[![Css file](__assets__/css.svg)](/css/components/molecules/navbar.css)
+[![Css file](assets/css.svg)](/css/components/molecules/navbar.css)
 
 ## Templates
 
@@ -488,6 +488,6 @@ Templates are the glues that combine the different organisms or individual secti
 
 ### Pages
 
-[![Css file](__assets__/css.svg)](/css/components/templates/page.css)
+[![Css file](assets/css.svg)](/css/components/templates/page.css)
 
 # Themes
