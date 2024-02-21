@@ -88,6 +88,10 @@
   cursor: not-allowed;
 }
 
+.button, .button:visited, .button:hover, .button:active {
+  color: inherit;
+}
+
 /* Large button */
 .button.large {
   min-width: var(--button-large-min-height);
