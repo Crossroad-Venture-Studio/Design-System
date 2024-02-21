@@ -16,6 +16,13 @@
       nav {
         background: tomato;
       }
+
+      .button {
+        color: var(--light);
+      }
+      .button:hover {
+        background: #FFFFFF22;
+      }
     </style>
   </head>
   <!-- BODY -->
@@ -23,24 +30,24 @@
     <!-- PAGE -->
     <main class="page safearea">
       <!-- NAVIGATION -->
-      <nav class="safearea light">
+      <nav class="top-navbar safearea">
         <div class="row center left fill">
-          <a class="back button">
-            <img src="https://crossroad-venture-studio.github.io/Design-System/icons/navigation/chevron-left-filled-light.svg" class="icon" alt="chevron left">
-            <span> <!-- -->Back<!-- --> </span>
+          <a class="button">
+            <img src="https://crossroad-venture-studio.github.io/Design-System/icons/navigation/chevron-left-filled-light.svg" class="icon do-not-hide " alt="chevron left">
+            <span class="do-not-hide vertical-trim">Back</span>
           </a>
         </div>
         <a class="row center middle fill">
-          <div class="section"> <!-- -->logo<!-- --> </div>
+          <div class="vertical-trim">logo</div>
         </a>
         <div class="row center right fill">
-          <a href="https://google.com" class="button">home</a>
-          <a href="https://google.com">
-            <img src="https://crossroad-venture-studio.github.io/Design-System/icons/menu/home-filled-light.svg" class="button icon" alt="icon">
+          <a href="https://google.com" class="button">
+            <span class="vertical-trim">home</span>
+            <img src="https://crossroad-venture-studio.github.io/Design-System/icons/menu/home-filled-light.svg" class="icon" alt="icon">
           </a>
-          <a class="button">menu</a>
-          <a>
-            <img src="https://crossroad-venture-studio.github.io/Design-System/icons/menu/hamburger-menu-filled-light.svg" class="button icon" alt="icon">
+          <a href="https://google.com" class="button">
+            <span class="vertical-trim">menu</span>
+            <img src="https://crossroad-venture-studio.github.io/Design-System/icons/menu/hamburger-menu-filled-light.svg" class="icon" alt="icon">
           </a>
         </div>
         

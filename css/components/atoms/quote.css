@@ -1,0 +1,19 @@
+@import "../../core/spacing.css";
+
+/* 
+ * Props
+ * -----
+ */
+ :root {
+  /* Properties */
+  --quote-size: var(--size-14-16);
+  --quote-weight: 400;
+  --quote-line-height: 150%;
+}
+
+.quote {
+  font-size: var(--quote-size);
+  line-height: var(--quote-line-height);
+  font-weight: var(--quote-weight);
+  font-style: italic;
+}

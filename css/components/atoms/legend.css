@@ -1,0 +1,18 @@
+@import "../../core/spacing.css";
+
+/* 
+ * Props
+ * -----
+ */
+ :root {
+  /* Properties */
+  --legend-size: var(--size-12-14);
+  --legend-weight: 400;
+  --legend-line-height: 120%;
+}
+
+.legend {
+  font-size: var(--legend-size);
+  line-height: var(--legend-line-height);
+  font-weight: var(--legend-weight);
+}

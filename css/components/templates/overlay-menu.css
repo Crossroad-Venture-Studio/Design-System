@@ -1,26 +1,41 @@
 @import "overlay.css";
 
 .overlay .menu {
-  display: flex;
-  flex-direction: column;
+  /* Position */
   position: absolute;
   top: 0;
   right: calc(-1 * min(30vw, 100px));
-  height: 100%;
+  /* Alignment */
   margin: 0;
-  border: 0;
+  display: flex;
+  flex-direction: column;
   padding-top: calc(var(--safe-area-top) + var(--padding-vertical-half));
   padding-bottom: calc(var(--safe-area-bottom) + var(--padding-vertical-half));
   padding-left: var(--padding-horizontal-half);
   padding-right: calc(var(--safe-area-right) + var(--padding-horizontal-half));
   gap: var(--gap-half);
+  /* Sizes */
+  height: 100%;
+  /* Appearance */
+  border: 0;
   pointer-events: none;
   /* animation */
   transition: var(--transition-time);
 }
 
+.overlay .menu.left {
+  left: calc(-1 * min(30vw, 100px));
+  right: auto;
+}
+
 .overlay .menu.opened {
   right: 0;
+  pointer-events: auto;
+  cursor: default;
+}
+
+.overlay .menu.opened.left {
+  left: 0;
   pointer-events: auto;
   cursor: default;
 }

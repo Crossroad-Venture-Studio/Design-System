@@ -1,0 +1,22 @@
+@import "../../core/spacing.css";
+
+/* 
+ * Props
+ * -----
+ */
+ :root {
+  /* Properties */
+  --text-size: var(--size-14-16);
+  --text-weight: 400;
+  --text-line-height: 150%;
+}
+
+/* 
+ * Class
+ * -----
+ */
+.text {
+  font-size: var(--text-size);
+  line-height: var(--text-line-height);
+  font-weight: var(--text-weight);
+}

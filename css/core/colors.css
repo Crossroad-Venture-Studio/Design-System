@@ -34,6 +34,7 @@
   --leather: #B36C00;
   --cream: #FFFCF8;
   --peach: #F77C6F;
+  --leaf: #4AA220;
 
   /*
    * Shades
@@ -91,6 +92,8 @@
   --red-yellow-horizontal: linear-gradient(0deg, var(--red), var(--yellow));
   --lime-yellow-horizontal: linear-gradient(0deg, var(--lime), var(--yellow));
   --blue-1-ocean-horizontal: linear-gradient(0deg, var(--blue-1), var(--ocean));
+  --blue-leaf-horizontal: linear-gradient(0deg, var(--blue), var(--leaf));
+  --leaf-blue-horizontal: linear-gradient(0deg, var(--leaf), var(--blue));
 
   /*
    * Vertical gradients
@@ -109,6 +112,8 @@
   --red-yellow-vertical: linear-gradient(90deg, var(--red), var(--yellow));
   --lime-yellow-vertical: linear-gradient(90deg, var(--lime), var(--yellow));
   --blue-1-ocean-vertical: linear-gradient(90deg, var(--blue-1), var(--ocean));
+  --blue-leaf-vertical: linear-gradient(90deg, var(--blue), var(--leaf));
+  --leaf-blue-vertical: linear-gradient(90deg, var(--leaf), var(--blue));
 
    /*
    * Diagonal gradients
@@ -127,4 +132,6 @@
   --red-yellow-diagonal: linear-gradient(45deg, var(--red), var(--yellow));
   --lime-yellow-diagonal: linear-gradient(45deg, var(--lime), var(--yellow));
   --blue-1-ocean-diagonal: linear-gradient(45deg, var(--blue-1), var(--ocean));
+  --blue-leaf-diagonal: linear-gradient(45deg, var(--blue), var(--leaf));
+  --leaf-blue-diagonal: linear-gradient(45deg, var(--leaf), var(--blue));
 }

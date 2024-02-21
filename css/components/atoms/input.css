@@ -1,6 +1,6 @@
 @import "../../core/animation.css";
 @import "../../core/spacing.css";
-@import "../../core/typography.css";
+@import "./button.css";
 
 /* 
  * Props
@@ -14,6 +14,11 @@
   --input-border-radius: var(--border-radius);
   --input-border-radius-square: var(--border-radius-square);
   --input-border-radius-round: var(--border-radius-round);
+  --input-font-weight: 400;
+  --input-font-size: var(--size-13-16);
+  --input-min-height: var(--button-min-height);
+  --input-large-min-height: var(--button-large-min-height);
+  --input-small-min-height: var(--button-small-min-height);
 }
 
 /* Generic classes */
@@ -22,6 +27,7 @@ input,
 textarea,
 select,
 .input {
+  /* Appearance */
   outline: none;
   border: 0;
   appearance: none;
@@ -39,37 +45,50 @@ select,
  * Classes
  * -------
  */
-input:not([type=submit]):not(input[type=reset]):not([type=button]),
-textarea,
 .input {
   width: 100%;
   padding: var(--input-padding-vertical) var(--input-padding-horizontal);
   border-radius: var(--input-border-radius);
   opacity: 0.8;
+  min-height: var(--input-min-height);
+  /* Font */
+  font-weight: var(--input-font-weight);
+  font-size: var(--input-font-size);
   /* animation */
-  transition: var(--transition-time)
+  transition: var(--transition-time);
 }
 
 /* Hover and focus */
-input:hover:not([type=submit]):not(input[type=reset]):not([type=button]),
-textarea:hover,
 .input:hover,
-input:focus:not([type=submit]):not(input[type=reset]):not([type=button]),
-textarea:focus,
 .input:focus {
   opacity: 1;
 }
 
+/* Placeholder */
+.input::placeholder {
+  font-style: italic;
+  font-weight: calc(var(--input-font-weight) - 100);
+}
+
 /* Square */
-input:not([type=submit]):not(input[type=reset]):not([type=button]).square,
-textarea.square,
 .input.square {
   border-radius: var(--input-border-radius-square);
 }
 
 /* Round */
-input:not([type=submit]):not(input[type=reset]):not([type=button]).round,
-textarea.round,
 .input.round {
   border-radius: var(--input-border-radius-round);
+}
+
+.input.large {
+  min-height: var(--input-large-min-height);
+  padding: calc(var(--button-padding-vertical) + 2px) calc(var(--button-padding-horizontal) + 2px);
+  font-size: calc(var(--button-font-size) + 2px);
+}
+
+.input.small {
+  min-height: var(--input-small-min-height);
+  border-radius: max(calc(var(--input-border-radius) - 2px), 0px);
+  padding: calc(var(--input-padding-vertical) - 2px) calc(var(--input-padding-horizontal) - 2px);
+  font-size: calc(var(--button-font-size) - 2px);
 }

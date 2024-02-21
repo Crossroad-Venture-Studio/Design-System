@@ -8,9 +8,6 @@
   /* Properties */
   --icon-size: var(--size-18-24);
   --icon-size-half: calc(0.5 * var(--icon-size));
-  --nav-icon-size: 18px;
-  --nav-icon-size-half: calc(0.5 * var(--nav-icon-size));
-  --nav-icon-size-2x: calc(2 * var(--nav-icon-size));
 }
 
 /* 
@@ -19,51 +16,9 @@
  */
 .icon {
   height: var(--icon-size);
-}
-
-/* For icons that are buttons as well */
-button.icon,
-input[type=submit].icon,
-input[type=button].icon,
-input[type=reset].icon,
-.touchable.icon,
-.pill.icon,
-.button.icon {
   min-width: auto;
   min-height: auto;
-}
-
-button.icon:not(nav button.icon):not(.navbar button.icon),
-input[type=submit].icon:not(nav input[type=submit].icon):not(.navbar input[type=submit].icon),
-input[type=button].icon:not(nav input[type=button].icon):not(.navbar input[type=button].icon),
-input[type=reset].icon:not(nav input[type=reset].icon):not(.navbar input[type=reset].icon),
-.touchable.icon:not(nav .touchable.icon):not(.navbar .touchable.icon),
-.pill.icon:not(nav .pill.icon):not(.navbar .pill.icon),
-.button.icon:not(nav .button.icon):not(.navbar .button.icon) {
+  width: auto;
+  /* aspect-ratio: 1 / 1; */
   padding: 0;
-}
-
-/* Icons in the navbar */
-nav .icon,
-.navbar .icon {
-  height: var(--nav-icon-size-2x);
-  padding: var(--nav-icon-size-half);
-}
-
-/* Last icon in the navbar */
-nav *:last-child > .icon,
-nav > .icon:last-child,
-.navbar *:last-child > .icon,
-.navbar > .icon:last-child {
-  margin-right: calc(-1 * var(--nav-icon-size-half));
-}
-
-/* BACK and NEXT button in the navbar */
-nav .back .icon,
-nav .next .icon,
-.navbar .back .icon,
-.navbar .next .icon {
-  height: var(--nav-icon-size);
-  padding: 0;
-  margin: 0;
 }

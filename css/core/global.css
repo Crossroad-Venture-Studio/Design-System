@@ -40,10 +40,20 @@ table,
   padding: 0;
 }
 
+.viewport-width {
+  width: 100vw;
+}
+
+.viewport-height {
+  width: 100vh;
+}
+
 nav,
-.navbar,
 img,
 button,
+input[type=submit],
+input[type=button],
+input[type=reset],
 .no-select {
   -webkit-touch-callout: none;
   /* iOS Safari */

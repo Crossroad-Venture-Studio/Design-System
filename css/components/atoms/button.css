@@ -1,4 +1,4 @@
-@import "touchable.css";
+@import "../../core/animation.css";
 @import "../../core/spacing.css";
 
 /* 
@@ -6,91 +6,144 @@
  * -----
  */
 :root {
-  /* Properties */
+  /* Button properties */
   --button-border-radius: var(--border-radius);
   --button-border-radius-round: var(--border-radius-round);
   --button-border-radius-square: var(--border-radius-square);
+  --button-padding-horizontal: 12px;
+  --button-padding-vertical: 8px;
+  --button-gap: 8px;
+  --button-font-family: "Arial Black";
+  --button-font-size: var(--size-12-14);
+  --button-letter-spacing: 0.1em;
+  --button-min-height: var(--size-32-40);
+  --button-large-min-height: var(--size-40-48);
+  --button-small-min-height: var(--size-24-32);
+  /* Pill properties */
+  --pill-padding-horizontal: 10px;
+  --pill-padding-vertical: 6px;
+  --pill-border-radius: var(--border-radius-round);
+  --pill-border-radius-square: var(--border-radius-half);
+  --pill-font-family: "Arial Black";
+  --pill-font-size: var(--size-10-12);
+  --pill-letter-spacing: 0.1em;
 }
 
 /* 
  * Classes
  * -------
  */
-button,
-input[type=submit],
-input[type=button],
-input[type=reset],
 .button {
+  /* Display */
+  overflow: hidden;
+  opacity: 1;
+  cursor: pointer;
+  text-decoration: none;
+  /* Alignment */
   display: flex;
   justify-content: center;
   align-items: center;
-  min-width: var(--size-32-40);
-  min-height: var(--size-32-40);
+  vertical-align: middle;
+  gap: var(--button-gap);
+  /* Size and spacing */
+  min-width: var(--button-min-height);
+  min-height: var(--button-min-height);
+  width: fit-content;
+  block-size: fit-content;
   border-radius: var(--button-border-radius);
   padding: var(--button-padding-vertical) var(--button-padding-horizontal);
-  vertical-align: middle;
+  /* Font */
+  font-family: var(--button-font-family);
+  text-transform: uppercase;
+  letter-spacing: var(--button-letter-spacing);
+  font-size: var(--button-font-size);
+  text-wrap: balance;
+  text-decoration: none;
+  -webkit-decoration: none;
+  -webkit-text-decoration: none;
+  /* To prevent long press text selection */
+  -webkit-touch-callout: none;
+  -webkit-user-select: none;
+  -khtml-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  /* animation */
+  transition: var(--transition-time);
+}
+
+/* Hover, actie and disabled */
+.button:hover {
+  opacity: 0.8;
+}
+
+.button:active,
+.button:hover:active,
+.button:active:hover {
+  opacity: 1;
+}
+
+.button:disabled {
+  opacity: 1;
+  cursor: not-allowed;
 }
 
 /* Large button */
-button.large,
-input[type=submit].large,
-input[type=button].large,
-input[type=reset].large,
 .button.large {
-  min-width: var(--size-40-48);
-  min-height: var(--size-40-48);
+  min-width: var(--button-large-min-height);
+  min-height: var(--button-large-min-height);
   padding: calc(var(--button-padding-vertical) + 2px) calc(var(--button-padding-horizontal) + 2px);
+  font-size: calc(var(--button-font-size) + 2px);
 }
 
-/* Small button and nav button */
-nav button,
-nav .button,
-.navbar button,
-.navbar .button,
-.menu button,
-.menu .button,
-button.small,
-input[type=submit].small,
-input[type=button].small,
-input[type=reset].small,
+/* Small button */
 .button.small {
-  min-width: var(--size-24-32);
-  min-height: var(--size-24-32);
+  min-width: var(--button-small-min-height);
+  min-height: var(--button-small-min-height);
   border-radius: max(calc(var(--button-border-radius) - 2px), 0px);
   padding: calc(var(--button-padding-vertical) - 2px) calc(var(--button-padding-horizontal) - 2px);
+  font-size: calc(var(--button-font-size) - 2px);
 }
 
 /* Round button */
-button.round,
-input[type=submit].round,
-input[type=button].round,
-input[type=reset].round,
 .button.round,
-button.small.round,
-input[type=submit].small.round,
-input[type=button].small.round,
-input[type=reset].small.round,
 .button.small.round {
   border-radius: var(--button-border-radius-round);
 }
 
 /* Square button */
-button.square,
-input[type=submit].square,
-input[type=button].square,
-input[type=reset].square,
 .button.square {
   border-radius: var(--button-border-radius-square);
 }
 
-nav button.square,
-.navbar button.square,
-nav .button.square,
-.navbar .button.square,
-button.small.square,
-input[type=submit].small.square,
-input[type=button].small.square,
-input[type=reset].small.square,
 .button.small.square {
   border-radius: max(calc(var(--button-border-radius-square) - 2px), 0px);
+}
+
+/* Pill */
+.button.pill {
+  border-radius: var(--pill-border-radius);
+  padding: var(--pill-padding-vertical) var(--pill-padding-horizontal);
+  font-family: var(--pill-font-family);
+  font-size: var(--pill-font-size);
+  letter-spacing: var(--pill-letter-spacing);
+}
+
+/* Large pill */
+.button.pill.large {
+  min-width: var(--size-40-48);
+  min-height: var(--size-40-48);
+  padding: calc(var(--pill-padding-vertical) + 2px) calc(var(--pill-padding-horizontal) + 2px);
+  font-size: calc(var(--pill-font-size) + 2px);
+}
+
+/* Small pill */
+.button.pill.small {
+  padding: calc(var(--pill-padding-vertical) - 2px) calc(var(--pill-padding-horizontal) - 2px);
+  font-size: calc(var(--pill-font-size) - 2px);
+}
+
+/* Square pill */
+.button.pill.square {
+  border-radius: var(--pill-border-radius-square);
 }

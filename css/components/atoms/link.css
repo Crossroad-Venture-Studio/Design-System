@@ -1,0 +1,43 @@
+@import "../../core/animation.css";
+
+.link {
+  cursor: pointer;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  opacity: 1;
+  /* Appearance */
+  text-decoration: none;
+  -webkit-decoration: none;
+  -webkit-text-decoration: none;
+  /* annimation */
+  transition: var(--transition-time);
+}
+
+.link.dotted {
+  text-decoration: underline dotted;
+  -webkit-decoration: underline dotted;
+  -webkit-text-decoration: underline dotted;
+}
+
+/* Link statuses */
+.link, .link:visited, .link:hover, .link:active {
+  color: inherit;
+}
+
+.link:hover,
+.link:disabled {
+  opacity: 0.8;
+  text-decoration: none;
+  -webkit-decoration: none;
+  -webkit-text-decoration: none;
+}
+
+.link:active,
+.link:active:hover {
+  opacity: 1;
+}
+
+.link:disabled {
+  opacity: 0.5;
+}

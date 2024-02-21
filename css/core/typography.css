@@ -9,18 +9,15 @@
  :root {
   /* Global */
   --font-family: "Avenir Next";
-  --font-family-touchable: "Arial Black";
-  --line-height: 150%;
-
-  /* Generic font sizes */
-  --font-size-h0: var(--size-27-42);
-  --font-size-h1: var(--size-24-36);
-  --font-size-h2: var(--size-22-28);
-  --font-size-h3: var(--size-20-24);
-  --font-size-h4: var(--size-18-20);
-  --font-size-h5: var(--size-16-18);
-  --font-size-h6: var(--size-14-16);
-  --font-size-input: var(--size-13-16);
+  --fat-font-family: "Arial Black";
+  --font-size: var(--size-14-16);
+  --h0-font-size: var(--size-27-42);
+  --h1-font-size: var(--size-24-36);
+  --h2-font-size: var(--size-22-28);
+  --h3-font-size: var(--size-20-24);
+  --h4-font-size: var(--size-18-20);
+  --h5-font-size: var(--size-16-18);
+  --h6-font-size: var(--size-14-16);
 
   /* Specific font sizes */
   --font-size-title: var(--size-48-64);
@@ -33,6 +30,41 @@
   --font-size-link: var(--size-text);
   --font-size-button: var(--size-12-14);
   --font-size-pill: var(--size-10-12);
+}
+
+/* Generic font */
+* {
+  font-family: var(--font-family);
+  font-size: var(--font-size);
+}
+
+/* Dynamic header styles and font sizes */
+h1.large {
+  font-size: var(--h0-font-size);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h6-font-size);
 }
 
 /* Text align classes */
@@ -100,166 +132,48 @@ strong.justify,
   text-align: justify;
 }
 
-/* Anchor style */
-a,
-.link {
-  cursor: pointer;
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font: var(--font-link);
-  opacity: 1;
-  text-decoration: none;
-  -webkit-decoration: none;
-  -webkit-text-decoration: none;
-  /* annimation */
-  transition: var(--transition-time);
-}
-
-a.dotted,
-.link.dotted {
-  text-decoration: underline dotted;
-  -webkit-decoration: underline dotted;
-  -webkit-text-decoration: underline dotted;
-}
-
-a, a:visited, a:hover, a:active,
-.link, .link:visited, .link:hover, .link:active {
-  color: inherit;
-}
-
-a:hover,
-.link:hover,
-a:disabled,
-.link:disabled {
-  opacity: 0.8;
-  text-decoration: none;
-  -webkit-decoration: none;
-  -webkit-text-decoration: none;
-}
-
-a:active,
-.link:active,
-a:active:hover,
-.link:active:hover {
-  opacity: 1;
-}
-
-a:disabled,
-.link:disabled {
-  opacity: 0.5;
-}
-
-/* Generic font */
-* {
-  line-height: var(--line-height);
-  font-family: var(--font-family);
-}
-
-*:not(h1, h2, h3, h4, h5, h6, a > *),
-* :not(h1, h2, h3, h4, h5, h6, a > *) {
-  font-size: var(--font-size-text);
-}
-
-/* Dynamic header styles and font sizes */
-h1.large > a,
-h1.large,
-.h0 {
-  font-size: var(--font-size-h0);
-}
-
-h1 > a,
-h1,
-.h1,
-button,
-input[type=submit],
-input[type=button],
-input[type=reset],
-.button,
-.logo-text,
-.pill {
-  font-family: var(--font-family-touchable);
-  letter-spacing: 0.1em;
-}
-
-h1 > a,
-h1,
-.h1 {
-  font-size: var(--font-size-h1);
-}
-
-h2 > a,
-h2,
-.h2 {
-  font-size: var(--font-size-h2);
-}
-
-h3 > a,
-h3,
-.h3 {
-  font-size: var(--font-size-h3);
-}
-
-h4 > a,
-h4,
-.h4 {
-  font-size: var(--font-size-h4);
-}
-
-h5 > a,
-h5,
-.h5 {
-  font-size: var(--font-size-h5);
-}
-
-h6 > a,
-h6,
-.h6 {
-  font-size: var(--font-size-h6);
-}
-
 /* Font weight */
-h1.large > a,
-h1.large,
-.h0,
-h2 > a,
-h2,
-.h2,
-h3 > a,
-h3,
-.h3,
-h4 > a,
-h4,
-.h4,
-h5 > a,
-h5,
-.h5,
-h6 > a,
-h6,
-.h6,
-.title,
-.heading,
-.section,
-.subsection,
-.bold {
-  font-weight: 700 bold;
+.ultra-thin {
+  font-weight: 100;
 }
 
-h1 > a,
-h1,
-.h1,
-button,
-input[type=submit],
-input[type=button],
-input[type=reset],
-.button,
-.pill,
+.thin {
+  font-weight: 200;
+}
+
+.semi-thin {
+  font-weight: 300;
+}
+
+.regular {
+  font-weight: 400;
+}
+
+.medium {
+  font-weight: 500;
+}
+
+.semi-bold {
+  font-weight: 600;
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.ultra-bold {
+  font-weight: 800;
+}
+
 .heavy {
   font-weight: 900;
 }
 
+.fat {
+  font-family: var(--fat-font-family);
+}
+
 /* Font style */
-.quote,
 .italic {
   font-style: italic;
 }
@@ -306,57 +220,32 @@ input[type=reset],
   text-decoration-style: dashed;
 }
 
-/* Text balance */
-.title,
-.heading,
-.section,
-.subsection,
-button,
-input[type=submit],
-input[type=button],
-input[type=reset],
-.button,
-.pill,
+/* Text wrap */
 .balance {
   text-wrap: balance;
 }
 
+.nowrap {
+  text-wrap: nowrap;
+}
+
+.wrap {
+  text-wrap: wrap;
+}
+
+.pretty {
+  text-wrap: pretty;
+}
+
+.stable {
+  text-wrap: stable;
+}
+
 /* Text transfrom */
-h1.large > a,
-h1.large,
-.h0,
-h1 > a,
-h1,
-.h1,
-h2 > a,
-h2,
-.h2,
-h3 > a,
-h3,
-.h3,
-h4 > a,
-h4,
-.h4,
-h5 > a,
-h5,
-.h5,
-h6 > a,
-h6,
-.h6,
 .capitalize {
   text-transform: capitalize;
 }
 
-.title,
-.heading,
-.section,
-.subsection,
-button,
-input[type=submit],
-input[type=button],
-input[type=reset],
-.button,
-.pill,
 .uppercase {
   text-transform: uppercase;
 }
@@ -364,7 +253,6 @@ input[type=reset],
 .lowercase {
   text-transform: lowercase;
 }
-
 
 /* Text overflow */
 .ellipsis {
@@ -375,158 +263,97 @@ input[type=reset],
   text-overflow: clip;
 }
 
-/* Specific classes */
-.title {
-  font-size: var(--font-size-title);
+/* Font trim for Avenir Next on nav buttons */
+.vertical-trim:after {
+  content: '';
+  margin-top: calc(-14 / 72 * 1em);
+  display: table;
 }
 
-.heading {
-  font-size: var(--font-size-heading);
-}
-
-.section {
-  font-size: var(--font-size-section);
-}
-
-.subsection {
-  font-size: var(--font-size-subsection);
-}
-
-.page {
-  font-weight: normal;
-}
-
-.page,
-.text {
-  font-size: var(--font-size-text);
-}
-
-.quote {
-  font-size: var(--font-size-quote);
-}
-
-.legend {
-  font-size: var(--font-size-legend);
-}
-
-button,
-input[type=submit],
-input[type=button],
-input[type=reset],
-.logo-text,
-.button {
-  font-size: var(--font-size-button);
-}
-
-button,
-input[type=submit],
-input[type=button],
-input[type=reset],
-.button,
-.pill {
-  line-height: 0;
-}
-
-button.large,
-input[type=submit].large,
-input[type=button].large,
-input[type=reset].large,
-.button.large {
-  font-size: calc(var(--font-size-button) + 2px);
-}
-
-nav button,
-nav .button,
-.navbar button,
-.navbar .button,
-.menu button,
-.menu .button,
-button.small,
-input[type=submit].small,
-input[type=button].small,
-input[type=reset].small,
-.button.small {
-  font-size: calc(var(--font-size-button) - 2px);
+.vertical-trim:before {
+  content: '';
+  margin-top: calc(-7 / 72 * 1em);
+  display: table;
 }
 
 /* Font trim for Arial Black on buttons */
-input[type=submit] > *:not(.icon):not(img):after,
-input[type=button] > *:not(.icon):not(img):after,
-input[type=reset] > *:not(.icon):not(img):after,
-button:not(nav button):not(.navbar button) > *:not(.icon):not(img):after,
-.button:not(nav .button):not(.navbar .button) > *:not(.icon):not(img):after,
-.pill > *:not(.icon):not(img):after {
-  content: '';
-  margin-top: calc(-22.5 / 72 * 1em);
-  display: table;
-}
-
-input[type=submit] > *:not(.icon):not(img):before,
-input[type=button] > *:not(.icon):not(img):before,
-input[type=reset] > *:not(.icon):not(img):before,
-button:not(nav button):not(.navbar button) > *:not(.icon):not(img):before,
-.button:not(nav .button):not(.navbar .button) > *:not(.icon):not(img):before,
-.pill > *:not(.icon):not(img):before {
-  content: '';
-  margin-bottom: calc(-28 / 72 * 1em);
-  display: table;
-}
-
-/* Font trim for Avenir Next on nav buttons */
-nav button > *:not(.icon):not(img):after,
-nav .button > *:not(.icon):not(img):after,
-.navbar button > *:not(.icon):not(img):after,
-.navbar .button > *:not(.icon):not(img):after {
-  content: '';
-  margin-top: calc(-26.5 / 72 * 1em);
-  display: table;
-}
-
-nav button > *:not(.icon):not(img):before,
-nav .button > *:not(.icon):not(img):before,
-.navbar button > *:not(.icon):not(img):before,
-.navbar .button > *:not(.icon):not(img):before {
+.fat.vertical-trim:after {
   content: '';
   margin-top: calc(-21 / 72 * 1em);
   display: table;
 }
 
-.pill {
-  font-size: var(--font-size-pill);
+.fat.vertical-trim:before {
+  content: '';
+  margin-bottom: calc(-19.5 / 72 * 1em);
+  display: table;
 }
 
-.pill.large {
-  font-size: calc(var(--font-size-pill) + 2px);
+/* Font sizes */
+.font-size-96-128 {
+  font-size: var(--size-96-128);
 }
 
-.pill.small {
-  font-size: calc(var(--font-size-pill) - 2px);
+.font-size-64-96 {
+  font-size: var(--size-64-96);
 }
 
-/* Font overload for navbar on desktop */
-@media only screen and (min-width: 800px) {
-  nav button,
-  nav .button,
-  .navbar button,
-  .navbar .button,
-  .menu button,
-  .menu .button {
-    font-family: var(--font-family);
-    font-weight: 600;
-    text-transform: capitalize;
-  }
+.font-size-48-64 {
+  font-size: var(--size-48-64);
 }
 
-/* Font overload for input */
-input:not([type=submit]):not(input[type=reset]):not([type=button]),
-textarea,
-.input {
-  font-weight: 400;
-  font-size: var(--font-size-input);
+.font-size-40-48 {
+  font-size: var(--size-40-48);
 }
 
-input:not([type=submit]):not(input[type=reset]):not([type=button])::placeholder,
-textarea::placeholder,
-.input::placeholder {
-  font-style: italic;
+.font-size-36-44 {
+  font-size: var(--size-36-44);
+}
+
+.font-size-32-40 {
+  font-size: var(--size-32-40);
+}
+
+.font-size-28-36 {
+  font-size: var(--size-28-36);
+}
+
+.font-size-24-32 {
+  font-size: var(--size-24-32);
+}
+
+.font-size-22-28 {
+  font-size: var(--size-22-28);
+}
+
+.font-size-20-24 {
+  font-size: var(--size-20-24);
+}
+
+.font-size-18-20 {
+  font-size: var(--size-18-20);
+}
+
+.font-size-16-18 {
+  font-size: var(--size-16-18);
+}
+
+.font-size-14-16 {
+  font-size: var(--size-14-16);
+}
+
+.font-size-12-14 {
+  font-size: var(--size-12-14);
+}
+
+.font-size-10-12 {
+  font-size: var(--size-10-12);
+}
+
+.font-size-8-10 {
+  font-size: var(--size-8-10);
+}
+
+.font-size-6-8 {
+  font-size: var(--size-6-8);
 }
