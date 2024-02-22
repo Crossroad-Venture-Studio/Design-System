@@ -53,6 +53,11 @@
   opacity: 0.8;
 }
 
+.link-line a:disabled {
+  opacity: 0.5;
+  cursor: not-allowed;
+}
+
 .link-line a,
 .link-line a:hover,
 .link-line a:active,
