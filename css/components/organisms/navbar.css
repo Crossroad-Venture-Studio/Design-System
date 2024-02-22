@@ -47,7 +47,7 @@
 .top-navbar .button {
   font-family: var(--font-family);
   text-transform: capitalize;
-  font-size: var(--size-12-14);
+  font-size: var(--size-10-12);
 }
 
 /* Icon in the navbar */
