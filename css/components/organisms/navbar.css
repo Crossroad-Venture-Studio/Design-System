@@ -50,14 +50,18 @@
   font-size: var(--size-10-12);
 }
 
+.top-navbar .fat {
+  font-family: var(--font-family);
+}
+
 /* Font trim on buttons */
-.fat.vertical-trim:after {
+.top-navbar .fat.vertical-trim:after {
   content: '';
   margin-top: var(--vertical-trim-top);
   display: table;
 }
 
-.fat.vertical-trim:before {
+.top-navbar .fat.vertical-trim:before {
   content: '';
   margin-bottom: var(--vertical-trim-bottom);
   display: table;
