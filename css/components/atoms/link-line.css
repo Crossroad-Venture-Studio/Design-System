@@ -5,6 +5,7 @@
  * -----
  */
  :root {
+  --link-line-font-size: var(--size-10-12);
   --link-line-gap: 8px;
   --link-line-font-family: var(--fat-font-family);
  }
@@ -18,12 +19,12 @@
   display: flex;
   width: 100%;
   align-items: center;
-  gap: var(--link-line-ga);
+  gap: var(--link-line-gap);
   /* Font */
   vertical-align: middle;
   text-transform: uppercase;
   font-family: var(--link-line-font-family);
-  font-size: var(--size-12-14);
+  font-size: var(--link-line-font-size);
   text-wrap: balance;
   /* To prevent long press text selection */
   -webkit-touch-callout: none;
