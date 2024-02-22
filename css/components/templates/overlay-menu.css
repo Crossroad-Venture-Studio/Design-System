@@ -30,15 +30,18 @@
   text-transform: capitalize;
 }
 
-.overlay .menu.left {
-  left: calc(-1 * min(30vw, 100px));
-  right: auto;
-}
 
+/* Style when the menu opens */
 .overlay .menu.opened {
   right: 0;
   pointer-events: auto;
   cursor: default;
+}
+
+/* Left align menu */
+.overlay .menu.left {
+  left: calc(-1 * min(30vw, 100px));
+  right: auto;
 }
 
 .overlay .menu.opened.left {
