@@ -39,7 +39,7 @@
   overflow: hidden;
   opacity: 1;
   cursor: pointer;
-  text-decoration: none;
+  border: 0;
   /* Alignment */
   display: flex;
   justify-content: center;
