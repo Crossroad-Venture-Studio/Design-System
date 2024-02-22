@@ -1,4 +1,5 @@
 @import "overlay.css";
+@import "../../core/typography.css";
 
 .overlay .menu {
   /* Position */
@@ -21,6 +22,12 @@
   pointer-events: none;
   /* animation */
   transition: var(--transition-time);
+}
+
+/* Button in the menu */
+.overlay .menu .button {
+  font-family: var(--font-family);
+  text-transform: capitalize;
 }
 
 .overlay .menu.left {
