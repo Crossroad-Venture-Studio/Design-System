@@ -5,7 +5,7 @@
  * -----
  */
  :root {
-  --link-line-font-size: var(--size-10-12);
+  --link-line-font-size: var(--size-12-14);
   --link-line-gap: 8px;
   --link-line-font-family: var(--fat-font-family);
  }
