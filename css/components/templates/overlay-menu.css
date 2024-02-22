@@ -30,7 +30,6 @@
   text-transform: capitalize;
 }
 
-
 /* Style when the menu opens */
 .overlay .menu.opened {
   right: 0;
