@@ -72,7 +72,7 @@
   opacity: 0.8;
 }
 
-.link-line a:not(a[href]):not(a[onclick]):not(a[onmousedown]):not(a[ontouchstart]):hover {
+.link-line a:not(a[href]):not(a[onclick]):not(a[onmousedown]):not(a[ontouchstart]):not(a[onmouseup]):not(a[ontouchend]):not(a[onmousemove]):not(a[ondrag]):hover {
   opacity: 1;
   cursor: default;
 }
