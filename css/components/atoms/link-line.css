@@ -39,7 +39,7 @@
   display: flex;
   flex: 1;
   align-items: center;
-  gap: var(--link-line-ga);
+  gap: var(--link-line-gap);
   border: 0;
   padding: 0;
   font-family: inherit;

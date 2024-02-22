@@ -31,6 +31,12 @@
   --font-size-link: var(--size-text);
   --font-size-button: var(--size-12-14);
   --font-size-pill: var(--size-10-12);
+
+  /* Vertical trim */
+  --vertical-trim-top: calc(-14 / 72 * 1em);
+  --vertical-trim-bottom: calc(-7 / 72 * 1em);
+  --fat-vertical-trim-top: calc(-21 / 72 * 1em);
+  --fat-vertical-trim-bottom: calc(-19.5 / 72 * 1em);
 }
 
 /* Generic font */
@@ -271,26 +277,26 @@ strong.justify,
 /* Font trim for Avenir Next on nav buttons */
 .vertical-trim:after {
   content: '';
-  margin-top: calc(-14 / 72 * 1em);
+  margin-top: var(--vertical-trim-top);
   display: table;
 }
 
 .vertical-trim:before {
   content: '';
-  margin-top: calc(-7 / 72 * 1em);
+  margin-top: var(--vertical-trim-bottom);
   display: table;
 }
 
 /* Font trim for Arial Black on buttons */
 .fat.vertical-trim:after {
   content: '';
-  margin-top: calc(-21 / 72 * 1em);
+  margin-top: var(--fat-vertical-trim-top);
   display: table;
 }
 
 .fat.vertical-trim:before {
   content: '';
-  margin-bottom: calc(-19.5 / 72 * 1em);
+  margin-bottom: var(--fat-vertical-trim-bottom);
   display: table;
 }
 
