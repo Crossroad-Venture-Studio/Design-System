@@ -1,6 +1,15 @@
 @import "../../core/typography.css";
 
 /* 
+ * Props
+ * -----
+ */
+ :root {
+  --link-line-gap: 8px;
+  --link-line-font-family: var(--fat-font-family);
+ }
+
+/* 
  * Classes
  * -------
  */
@@ -9,11 +18,11 @@
   display: flex;
   width: 100%;
   align-items: center;
-  gap: 8px;
+  gap: var(--link-line-ga);
   /* Font */
   vertical-align: middle;
   text-transform: uppercase;
-  font-family: var(--fat-font-family);
+  font-family: var(--link-line-font-family);
   font-size: var(--size-12-14);
   text-wrap: balance;
   /* To prevent long press text selection */
@@ -30,9 +39,10 @@
   display: flex;
   flex: 1;
   align-items: center;
-  gap: 8px;
+  gap: var(--link-line-ga);
   border: 0;
   padding: 0;
+  font-family: inherit;
 }
 
 .link-line > :last-child {
