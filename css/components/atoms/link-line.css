@@ -35,6 +35,12 @@
   user-select: none;
 }
 
+.link-line * {
+  /* Font */
+  font-family: inherit;
+  font-size: inherit;
+}
+
 .link-line > :last-child,
 .link-line > :first-child {
   /* Alignment */
@@ -45,8 +51,6 @@
   border: 0;
   padding: 0;
   /* Font */
-  font-family: inherit;
-  font-size: inherit;
   text-overflow: ellipsis;
 }
 

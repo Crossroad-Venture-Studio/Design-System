@@ -73,6 +73,10 @@
   transition: var(--transition-time);
 }
 
+.button * {
+  font-size: inherit;
+}
+
 /* Hover, actie and disabled */
 .button:hover {
   opacity: 0.8;
