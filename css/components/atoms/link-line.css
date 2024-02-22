@@ -74,6 +74,7 @@
 
 .link-line a:not(a[href]):hover {
   opacity: 1;
+  cursor: default;
 }
 
 .link-line:disabled a,
