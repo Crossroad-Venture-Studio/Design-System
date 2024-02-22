@@ -37,13 +37,17 @@
 
 .link-line > :last-child,
 .link-line > :first-child {
+  /* Alignment */
   display: flex;
   flex: 1;
   align-items: center;
   gap: var(--link-line-gap);
   border: 0;
   padding: 0;
+  /* Font */
   font-family: inherit;
+  font-size: inherit;
+  text-overflow: ellipsis;
 }
 
 .link-line > :last-child {
