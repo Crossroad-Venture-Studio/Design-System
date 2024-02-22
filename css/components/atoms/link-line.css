@@ -1,7 +1,15 @@
+@import "../../core/typography.css";
+
+/* 
+ * Classes
+ * -------
+ */
 .link-line {
   display: flex;
   width: 100%;
   align-items: center;
+  font-family: var(--fat-font-family);
+  font-size: var(--size-12-14);
 }
 
 .link-line:last-child,

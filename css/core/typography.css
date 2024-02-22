@@ -1,5 +1,5 @@
-@import "sizes.css";
-@import "fonts.css";
+@import 'sizes.css';
+@import 'fonts.css';
 
 /* 
  * Font styles
@@ -8,8 +8,9 @@
 
  :root {
   /* Global */
-  --font-family: "Avenir Next";
-  --fat-font-family: "Arial Black";
+  --font-family: 'Avenir Next';
+  --fat-font-family: 'Arial Black';
+  --comic-font-family: 'Anime Ace';
   --font-size: var(--size-14-16);
   --h0-font-size: var(--size-27-42);
   --h1-font-size: var(--size-24-36);
@@ -171,6 +172,10 @@ strong.justify,
 
 .fat {
   font-family: var(--fat-font-family);
+}
+
+.comic {
+  font-family: var(--comic-font-family);
 }
 
 /* Font style */
