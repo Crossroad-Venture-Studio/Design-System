@@ -12,6 +12,7 @@
   --margin-horizontal: var(--margin);
   --margin-vertical: var(--margin);
   --gap: var(--padding);
+  --text-gap: var(--size-8-12);
   --safe-area-top: env(safe-area-inset-top, 0px);
   --safe-area-bottom: env(safe-area-inset-bottom, 0px);
   --safe-area-left: env(safe-area-inset-left, 0px);
@@ -38,6 +39,8 @@
   --margin-vertical-2x: calc(2 * var(--margin-vertical));
   --gap-half: calc(0.5 * var(--gap));
   --gap-2x: calc(2 * var(--gap));
+  --text-gap-half: calc(0.5 * var(--text-gap));
+  --text-gap-2x: calc(2 * var(--text-gap));
   --border-radius-half: calc(0.5 * var(--border-radius));
   --border-radius-2x: calc(2 * var(--border-radius));
 }

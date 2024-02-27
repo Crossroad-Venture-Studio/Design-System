@@ -1,3 +1,5 @@
+@import '../../core/spacing.css';
+
 /* 
  * Classes
  * -------
@@ -75,6 +77,14 @@ nav .fill,
 }
 
 /* Element spacing */
+.gap {
+  gap: var(--gap);
+}
+
+.text-gap {
+  gap: var(--text-gap);
+}
+
 .column.spread,
 .row.spread {
   justify-content: space-between;
