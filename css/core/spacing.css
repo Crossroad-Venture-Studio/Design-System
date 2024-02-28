@@ -88,11 +88,13 @@
 }
 
 .width-half {
+  width: var(--width-half);
   min-width: var(--width-half);
   max-width: var(--width-half);
 }
 
 .width-full {
+  width: var(--width-full);
   min-width: var(--width-full);
   max-width: var(--width-full);
 }
