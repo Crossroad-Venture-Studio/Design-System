@@ -44,6 +44,7 @@
   --border-radius-half: calc(0.5 * var(--border-radius));
   --border-radius-2x: calc(2 * var(--border-radius));
   --width-half: max(50%, min(100%, 375px));
+  --width-full: 100%;
 }
 
 /*
@@ -89,4 +90,9 @@
 .width-half {
   min-width: var(--width-half);
   max-width: var(--width-half);
+}
+
+.width-full {
+  min-width: var(--width-full);
+  max-width: var(--width-full);
 }
