@@ -20,4 +20,5 @@
   flex-direction: column;
   border-radius: var(--form-border-radius);
   gap: var(--gap-half);
+  align-items: flex-end;
 }
