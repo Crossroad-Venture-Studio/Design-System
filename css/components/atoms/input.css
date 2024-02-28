@@ -55,6 +55,8 @@ select,
   /* Font */
   font-weight: var(--input-font-weight);
   font-size: var(--input-font-size);
+  /* pointer event */
+  pointer-events: auto;
   /* animation */
   transition: var(--transition-time);
 }

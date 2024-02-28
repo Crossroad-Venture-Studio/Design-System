@@ -10,6 +10,8 @@
   text-decoration: none;
   -webkit-decoration: none;
   -webkit-text-decoration: none;
+  /* pointer event */
+  pointer-events: auto;
   /* annimation */
   transition: var(--transition-time);
 }

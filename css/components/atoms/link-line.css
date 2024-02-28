@@ -39,6 +39,8 @@
   /* Font */
   font-family: inherit;
   font-size: inherit;
+  /* pointer event */
+  pointer-events: auto;
 }
 
 .link-line > :last-child,
