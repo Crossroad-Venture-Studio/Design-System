@@ -193,6 +193,39 @@ strong.justify,
   font-style: oblique;
 }
 
+/* Line height */
+.line-height-80 {
+  line-height: 80%;
+}
+
+.line-height-90 {
+  line-height: 90%;
+}
+
+.line-height-100 {
+  line-height: 100%;
+}
+
+.line-height-110 {
+  line-height: 110%;
+}
+
+.line-height-120 {
+  line-height: 120%;
+}
+
+.line-height-130 {
+  line-height: 130%;
+}
+
+.line-height-140 {
+  line-height: 140%;
+}
+
+.line-height-150 {
+  line-height: 150%;
+}
+
 /* Text decorations */
 .underline {
   text-decoration-line: underline;
