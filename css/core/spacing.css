@@ -87,5 +87,6 @@
 }
 
 .width-half {
-  width: var(--width-half);
+  min-width: var(--width-half);
+  max-width: var(--width-half);
 }
