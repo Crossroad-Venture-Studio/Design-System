@@ -81,8 +81,8 @@ nav .fill,
   gap: var(--gap);
 }
 
-.half-gap {
-  gap: var(--half-gap);
+.gap-half {
+  gap: var(--gap-half);
 }
 
 .gap-2x {
@@ -93,8 +93,8 @@ nav .fill,
   gap: var(--text-gap);
 }
 
-.half-text-gap {
-  gap: var(--half-text-gap);
+.text-gap-half {
+  gap: var(--text-gap-half);
 }
 
 .text-gap-2x {
