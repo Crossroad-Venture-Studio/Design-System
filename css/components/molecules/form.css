@@ -15,8 +15,7 @@
  * Classes
  * -------
  */
-.form,
-form {
+.form {
   display: flex;
   flex-direction: column;
   border-radius: var(--form-border-radius);
