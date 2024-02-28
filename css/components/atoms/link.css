@@ -25,6 +25,7 @@
 /* Link statuses */
 .link, .link:visited, .link:hover, .link:active {
   color: inherit;
+  font-size: inherit;
 }
 
 .link:hover,
