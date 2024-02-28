@@ -23,6 +23,10 @@
   align-items: flex-end;
 }
 
-.form label {
+.form .label {
   width: 100%;
+}
+
+.form .label:not(.label:first-child) {
+  padding-top: var(--gap-half);
 }
