@@ -43,6 +43,7 @@
   --text-gap-2x: calc(2 * var(--text-gap));
   --border-radius-half: calc(0.5 * var(--border-radius));
   --border-radius-2x: calc(2 * var(--border-radius));
+  --half-width: max(50%, min(375px, calc(100% - var(--padding-horizontal-2x))));
 }
 
 /*
@@ -83,4 +84,8 @@
 
 .padding.safearea {
   padding: calc(var(--safe-area-top) + var(--padding-vertical)) calc(var(--safe-area-left) + var(--padding-horizontal)) calc(var(--safe-area-bottom) + var(--padding-vertical)) calc(var(--safe-area-right) + var(--padding-horizontal));
+}
+
+.half-width {
+  min-width: var(--half-width);
 }

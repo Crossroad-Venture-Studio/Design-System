@@ -31,7 +31,7 @@
   --size-12-24: min(max(2.1752vw, 12px), 24px);
   --size-12-16: min(max(1.6918vw, 12px), 16px);
   --size-12-14: min(max(1.571vw, 12px), 14px);
-  --size-0-24: min(max(1.4501vw, 0px), 12px);
+  --size-0-24: min(max(1.4501vw, 0px), 24px);
   --size-10-12: min(max(1.3293vw, 10px), 12px);
   --size-8-12: min(max(1.2085vw, 8px), 12px);
   --size-8-10: min(max(1.0876vw, 8px), 10px);
