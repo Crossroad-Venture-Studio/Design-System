@@ -43,7 +43,7 @@
   --text-gap-2x: calc(2 * var(--text-gap));
   --border-radius-half: calc(0.5 * var(--border-radius));
   --border-radius-2x: calc(2 * var(--border-radius));
-  --width-half: max(50%, calc(min(375px, 100%) - var(--padding-horizontal-2x)));
+  --width-half: max(50%, calc(min(100%, 375px) - var(--padding-horizontal-2x)));
 }
 
 /*
