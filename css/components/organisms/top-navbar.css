@@ -26,6 +26,7 @@
   gap: var(--navbar-gap);
   /* Appearance */
   backdrop-filter: blur(15px);
+  z-index: 1000;
 }
 
 /* If there's a row of buttons at the end of the navbar */
