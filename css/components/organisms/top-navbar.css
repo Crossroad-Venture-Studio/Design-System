@@ -60,12 +60,14 @@
 /* Font trim on buttons */
 .top-navbar .fat.vertical-trim:after {
   content: '';
+  font-family: var(--font-family);
   margin-top: var(--vertical-trim-top);
   display: table;
 }
 
 .top-navbar .fat.vertical-trim:before {
   content: '';
+  font-family: var(--font-family);
   margin-bottom: var(--vertical-trim-bottom);
   display: table;
 }
