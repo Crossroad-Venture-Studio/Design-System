@@ -48,7 +48,7 @@
 .top-navbar .button {
   font-family: var(--font-family);
   text-transform: capitalize;
-  font-size: 24px;
+  font-size: 14px;
   font-weight: 400;
 }
 
@@ -58,15 +58,18 @@
 }
 
 /* Font trim on buttons */
-.top-navbar .fat.vertical-trim:after {
+.top-navbar .button .fat.vertical-trim {
+  color: red;
+}
+.top-navbar .button .fat.vertical-trim:after {
   content: '';
-  margin-top: calc(-14 / 72 * 1em);
+  margin-top: var(--vertical-trim-top);
   display: table;
 }
 
-.top-navbar .fat.vertical-trim:before {
+.top-navbar .button .fat.vertical-trim:before {
   content: '';
-  margin-bottom: calc(-7 / 72 * 1em);
+  margin-bottom: var(--vertical-trim-bottom);
   display: table;
 }
 
