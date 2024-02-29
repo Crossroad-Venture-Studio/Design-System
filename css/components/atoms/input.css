@@ -50,7 +50,7 @@ select,
   width: 100%;
   padding: var(--input-padding-vertical) var(--input-padding-horizontal);
   border-radius: var(--input-border-radius);
-  opacity: 0.8;
+  opacity: 0.9;
   min-height: var(--input-min-height);
   /* Font */
   font-weight: var(--input-font-weight);

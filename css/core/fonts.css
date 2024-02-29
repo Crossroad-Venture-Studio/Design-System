@@ -125,7 +125,7 @@
 /* Arial Black */
 @font-face {
   font-family: 'Arial Black';
-  src: local('Arial Black'), url('../../fonts/Arial Black.ttf'), local('Gadget'), local('Arial Bold');
+  src: local('Arial Black'), url('../../fonts/Arial Black.ttf'), url('../../fonts/Metropolis-Black.otf'), local('Gadget'), local('Arial Bold');
 }
 
 /* Anime Ace */
