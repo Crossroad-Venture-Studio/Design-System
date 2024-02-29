@@ -48,7 +48,7 @@
 .top-navbar .button {
   font-family: var(--font-family);
   text-transform: capitalize;
-  font-size: 14px;
+  font-size: 24px;
   font-weight: 400;
 }
 
@@ -60,13 +60,13 @@
 /* Font trim on buttons */
 .top-navbar .fat.vertical-trim:after {
   content: '';
-  margin-top: var(--vertical-trim-top);
+  margin-top: calc(-14 / 72 * 1em);
   display: table;
 }
 
 .top-navbar .fat.vertical-trim:before {
   content: '';
-  margin-bottom: var(--vertical-trim-bottom);
+  margin-bottom: calc(-7 / 72 * 1em);
   display: table;
 }
 
