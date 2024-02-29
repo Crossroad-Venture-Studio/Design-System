@@ -59,13 +59,13 @@
 
 /* Font trim on buttons */
 .top-navbar .fat.vertical-trim:after {
-  content: '>';
-  margin-top: -30px;
+  content: '';
+  margin-top: var(--vertical-trim-top);
   display: table;
 }
 
 .top-navbar .fat.vertical-trim:before {
-  content: '<';
+  content: '';
   margin-bottom: var(--vertical-trim-bottom);
   display: table;
 }
