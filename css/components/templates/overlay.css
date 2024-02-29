@@ -24,6 +24,7 @@
   backdrop-filter: blur(30px);
   opacity: 0;
   pointer-events: none;
+  cursor: default;
   /* animation */
   transition: var(--transition-time);
 }
@@ -36,6 +37,9 @@
   display: flex;
   opacity: 1;
   pointer-events: auto;
+}
+
+.overlay.opened.cancelable {
   cursor: pointer;
 }
 
