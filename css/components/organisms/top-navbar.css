@@ -58,7 +58,7 @@
 }
 
 /* Font trim on buttons */
-.top-navbar .fat.vertical-trim:after {
+/* .top-navbar .fat.vertical-trim:after {
   content: '';
   font-family: var(--font-family);
   margin-top: var(--vertical-trim-top);
@@ -70,7 +70,7 @@
   font-family: var(--font-family);
   margin-bottom: var(--vertical-trim-bottom);
   display: table;
-}
+} */
 
 /* Icon in the navbar */
 .top-navbar .button .icon {
