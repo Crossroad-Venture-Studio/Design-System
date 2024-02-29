@@ -28,6 +28,10 @@
   transition: var(--transition-time);
 }
 
+.overlay.display {
+  display: flex;
+}
+
 .overlay.opened {
   display: flex;
   opacity: 1;
