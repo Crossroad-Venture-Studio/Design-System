@@ -5,7 +5,7 @@
   /* Position */
   position: absolute;
   top: 0;
-  right: calc(-1 * min(30vw, 100px));
+  right: calc(-1 * min(30dvw, 100px));
   /* Alignment */
   margin: 0;
   display: flex;
@@ -39,7 +39,7 @@
 
 /* Left align menu */
 .overlay .menu.left {
-  left: calc(-1 * min(30vw, 100px));
+  left: calc(-1 * min(30dvw, 100px));
   right: auto;
 }
 
