@@ -49,10 +49,12 @@
   font-family: var(--font-family);
   text-transform: capitalize;
   font-size: var(--size-12-14);
+  font-weight: 400;
 }
 
 .top-navbar .fat {
   font-family: var(--font-family);
+  font-weight: 400;
 }
 
 /* Font trim on buttons */
