@@ -100,6 +100,10 @@
   color: inherit;
 }
 
+.button.width-full {
+  width: 100%;
+}
+
 /* Large button */
 .button.large {
   min-width: var(--button-large-min-height);
