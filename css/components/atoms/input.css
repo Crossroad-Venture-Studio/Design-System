@@ -108,8 +108,8 @@ select,
 
 .input.large {
   min-height: var(--input-large-min-height);
-  padding: calc(var(--button-padding-vertical) + 2px) calc(var(--button-padding-horizontal) + 2px);
-  font-size: calc(var(--button-font-size) + 2px);
+  padding: calc(var(--input-padding-vertical) + 2px) calc(var(--input-padding-horizontal) + 2px);
+  font-size: calc(var(--input-font-size) + 2px);
 }
 
 .input.small {
