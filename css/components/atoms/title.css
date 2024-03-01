@@ -1,0 +1,18 @@
+@import "../../core/spacing.css";
+
+/* 
+ * Props
+ * -----
+ */
+ :root {
+  /* Properties */
+  --title-padding-top: var(--gap-half);
+ }
+
+/* 
+ * Class
+ * -----
+ */
+.title:not(.title:first-child) {
+  padding-top: var(--title-padding-top);
+}
