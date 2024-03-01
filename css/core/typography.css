@@ -34,9 +34,9 @@
 
   /* Vertical trim */
   --vertical-trim-top: calc(-14 / 72 * 1em);
-  --vertical-trim-bottom: calc(-7 / 72 * 1em);
+  --vertical-trim-bottom: calc(-3.2 / 72 * 1em);
   --fat-vertical-trim-top: calc(-21 / 72 * 1em);
-  --fat-vertical-trim-bottom: calc(-19.5 / 72 * 1em);
+  --fat-vertical-trim-bottom: calc(-13 / 72 * 1em);
 }
 
 /* Generic font */
