@@ -148,3 +148,10 @@
   font-style: normal;
   font-weight: 500 900;
 }
+
+/* Caveat */
+@font-face {
+  font-family: 'Caveat';
+  src: url('../../fonts/Caveat-VariableFont_wght.ttf'), url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap'), local('Caveat'), local('Comic Sans MS'), local('Comic Sans');
+  font-weight: 400 700;
+}

@@ -10,6 +10,7 @@
   /* Global */
   --font-family: 'Avenir Next';
   --fat-font-family: 'Arial Black';
+  --handwriting-font-family: 'Caveat';
   --comic-font-family: 'Anime Ace';
   --font-size: var(--size-14-16);
   --h0-font-size: var(--size-27-42);
@@ -178,6 +179,10 @@ strong.justify,
 
 .fat {
   font-family: var(--fat-font-family);
+}
+
+.handwriting {
+  font-family: var(--handwriting-font-family);
 }
 
 .comic {
