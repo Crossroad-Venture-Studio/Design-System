@@ -90,6 +90,10 @@ input[type=reset],
   pointer-events: none;
 }
 
+.invert {
+  filter: invert(1);
+}
+
 /* Responsive styles */
 @media only screen and (max-width: 528px) {
   /*
