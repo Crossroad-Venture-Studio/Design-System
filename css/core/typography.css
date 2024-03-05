@@ -89,6 +89,7 @@ i.left,
 b.left,
 a.left,
 strong.left,
+td.left,
 .text-align-left {
   text-align: left;
 }
@@ -105,6 +106,7 @@ i.center,
 b.center,
 a.center,
 strong.center,
+td.center,
 .text-align-center {
   text-align: center;
 }
@@ -121,6 +123,7 @@ i.right,
 b.right,
 a.right,
 strong.right,
+td.right,
 .text-align-right {
   text-align: right;
 }
@@ -137,6 +140,7 @@ i.justify,
 b.justify,
 a.justify,
 strong.justify,
+td.justify,
 .text-align-justify {
   text-align: justify;
 }
