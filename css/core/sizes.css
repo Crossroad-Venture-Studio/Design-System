@@ -17,6 +17,7 @@
   --size-24-98: min(max(7.2508vw, 24px), 96px);
   --size-24-48: min(max(4.3504vw, 24px), 48px);
   --size-24-36: min(max(3.6254vw, 24px), 36px);
+  --size-20-40: min(max(3.6254vw, 20px), 40px);
   --size-24-32: min(max(3.3837vw, 24px), 32px);
   --size-20-32: min(max(3.1420vw, 20px), 32px);
   --size-22-28: min(max(3.0211vw, 22px), 28px);
@@ -40,6 +41,11 @@
   --size-6-8: min(max(0.8459vw, 6px), 8px);
   --size-0-16: min(max(0.9668vw, 0px), 16px);
   --size-4-12: min(max(0.9668vw, 4px), 12px);
+  --size-2-8: min(max(0.6042vw, 2px), 8px);
   --size-0-12: min(max(0.7251vw, 0px), 12px);
   --size-0-10: min(max(0.6042vw, 0px), 10px);
+  --size-0-8: min(max(0.48338vw, 0px), 8px);
+  --size-2-4: min(max(0.36254vw, 2px), 4px);
+  --size-0-6: min(max(0.36254vw, 0px), 6px);
+  --size-0-4: min(max(0.24169vw, 0px), 4px);
 }
