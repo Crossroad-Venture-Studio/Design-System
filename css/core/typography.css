@@ -1,5 +1,6 @@
 @import 'sizes.css';
 @import 'fonts.css';
+@import 'colors.css';
 
 /* 
  * Font styles
@@ -410,4 +411,64 @@ strong.justify,
 
 .font-size-6-8 {
   font-size: var(--size-6-8);
+}
+
+.color-white {
+  color: var(--white);
+}
+
+.color-black {
+  color: var(--black);
+}
+
+.color-gray {
+  color: var(--blue);
+}
+
+.color-dark {
+  color: var(--dark);
+}
+
+.color-light {
+  color: var(--light);
+}
+
+.color-red {
+  color: var(--red);
+}
+
+.color-green {
+  color: var(--green);
+}
+
+.color-blue {
+  color: var(--blue);
+}
+
+.color-orange {
+  color: var(--orange);
+}
+
+.color-yellow {
+  color: var(--yellow);
+}
+
+.color-cyan {
+  color: var(--cyan);
+}
+
+.color-teal {
+  color: var(--teal);
+}
+
+.color-purple {
+  color: var(--purple);
+}
+
+.color-pink {
+  color: var(--pink);
+}
+
+.color-brown {
+  color: var(--brown);
 }
