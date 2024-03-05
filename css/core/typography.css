@@ -413,6 +413,7 @@ strong.justify,
   font-size: var(--size-6-8);
 }
 
+  /* Unsaturated text color */
 .color-white {
   color: var(--white);
 }
@@ -433,6 +434,7 @@ strong.justify,
   color: var(--light);
 }
 
+/* Primary text color */
 .color-red {
   color: var(--red);
 }
@@ -445,6 +447,7 @@ strong.justify,
   color: var(--blue);
 }
 
+/* Secondary text color */
 .color-orange {
   color: var(--orange);
 }
@@ -457,10 +460,6 @@ strong.justify,
   color: var(--cyan);
 }
 
-.color-teal {
-  color: var(--teal);
-}
-
 .color-purple {
   color: var(--purple);
 }
@@ -469,6 +468,43 @@ strong.justify,
   color: var(--pink);
 }
 
+/* Nuanced text color*/
 .color-brown {
   color: var(--brown);
+}
+
+.color-olive {
+  color: var(--olive);
+}
+
+.color-ocean {
+  color: var(--ocean);
+}
+
+.color-lime {
+  color: var(--lime);
+}
+
+.color-teal {
+  color: var(--teal);
+}
+
+.color-chocolate {
+  color: var(--chocolate);
+}
+
+.color-leather {
+  color: var(--leather);
+}
+
+.color-cream {
+  color: var(--cream);
+}
+
+.color-peach {
+  color: var(--peach);
+}
+
+.color-leaf {
+  color: var(--leaf);
 }
