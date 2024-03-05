@@ -276,6 +276,7 @@ strong.justify,
 
 .nowrap {
   text-wrap: nowrap;
+  white-space: nowrap;
 }
 
 .wrap {
