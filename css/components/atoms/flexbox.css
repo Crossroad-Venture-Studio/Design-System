@@ -55,8 +55,6 @@
 }
 
 /* Element stretching */
-nav .fill,
-.navbar .fill,
 .flex.fill,
 .flex .fill,
 .row .fill:not(.vertical),
