@@ -23,6 +23,18 @@
   align-items: flex-end;
 }
 
+.form.left {
+  align-items: flex-start;
+}
+
+.form.middle {
+  align-items: center;
+}
+
+.form.right {
+  align-items: flex-end;
+}
+
 .form .label {
   width: 100%;
 }
