@@ -29,6 +29,10 @@
   z-index: 1000;
 }
 
+.top-navbar .fill {
+  flex: 1;
+}
+
 /* If there's a row of buttons at the end of the navbar */
 .top-navbar > div:last-child {
   gap: var(--navbar-gap);
