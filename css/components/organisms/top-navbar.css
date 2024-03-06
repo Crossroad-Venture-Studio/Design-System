@@ -104,6 +104,6 @@
   /* Show icon buttons */
   .top-navbar .button .icon:not(.dot-not-hide),
   .top-navbar *:has(> .button:only-child .icon:not(.do-not-hide)) {
-    display: block;
+    display: inherit;
   }
 }
