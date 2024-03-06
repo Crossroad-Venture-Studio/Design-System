@@ -23,6 +23,6 @@
   padding: 0;
 }
 
-.container:has(> .icon) {
+.icon-container {
   min-width: var(--icon-size);
 }
