@@ -100,7 +100,9 @@
   color: inherit;
 }
 
-.button.width-full {
+.button.width-100-percent,
+.button.width-full,
+.button.fill {
   width: 100%;
 }
 
