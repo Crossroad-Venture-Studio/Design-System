@@ -11,6 +11,18 @@
   display: flex;
 }
 
+.flex.shrink,
+.row.shrink,
+.column.shrink {
+  flex-shrink: 1;
+}
+
+.flex.grow,
+.row.grow,
+.column.grow {
+  flex-grow: 1;
+}
+
 /* Reverse ordering */
 .flex.reverse,
 .row.reverse {
