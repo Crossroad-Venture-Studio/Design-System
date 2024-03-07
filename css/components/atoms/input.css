@@ -85,9 +85,14 @@ select,
 }
 
 /* Hover and focus */
-.input:hover,
 .input:focus {
   opacity: 1;
+}
+
+@media not all and (hover: none), (-ms-high-contrast: none) {
+  .input:hover {
+    opacity: 1;
+  }
 }
 
 /* Placeholder */

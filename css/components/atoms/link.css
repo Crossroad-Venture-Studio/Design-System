@@ -36,6 +36,15 @@
   -webkit-text-decoration: none;
 }
 
+@media not all and (hover: none), (-ms-high-contrast: none) {
+  .link:hover {
+    opacity: 0.8;
+    text-decoration: none;
+    -webkit-decoration: none;
+    -webkit-text-decoration: none;
+  }
+}
+
 .link:active,
 .link:active:hover {
   opacity: 1;
@@ -43,4 +52,7 @@
 
 .link:disabled {
   opacity: 0.5;
+  text-decoration: none;
+  -webkit-decoration: none;
+  -webkit-text-decoration: none;
 }

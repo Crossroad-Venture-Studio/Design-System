@@ -81,8 +81,10 @@
 }
 
 /* Hover, actie and disabled */
-.button:hover {
-  opacity: 0.8;
+@media not all and (hover: none), (-ms-high-contrast: none) {
+  .button:hover {
+    opacity: 0.8;
+  }
 }
 
 .button:active,

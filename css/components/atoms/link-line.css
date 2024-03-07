@@ -70,8 +70,10 @@
   transition: var(--transition-time);
 }
 
-.link-line a:hover {
-  opacity: 0.8;
+@media not all and (hover: none), (-ms-high-contrast: none) {
+  .link-line a:hover {
+    opacity: 0.8;
+  }
 }
 
 /* .link-line a:not(a[href]):not(a[onclick]):not(a[onmousedown]):not(a[ontouchstart]):not(a[onmouseup]):not(a[ontouchend]):not(a[onmousemove]):not(a[ondrag]):hover {
