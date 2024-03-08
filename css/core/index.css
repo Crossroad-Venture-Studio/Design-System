@@ -1,5 +1,8 @@
+/* global.css first, in case of overwriting */
+@import 'global.css';
+
+/* Other functionalities */
 @import 'animation/index.css';
 @import 'colors/index.css';
-@import 'global.css';
 @import 'sizes/index.css';
 @import 'typography/index.css';
