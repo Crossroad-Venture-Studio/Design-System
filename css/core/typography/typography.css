@@ -9,10 +9,10 @@
 
  :root {
   /* Global */
-  --font-family: 'Avenir Next';
-  --fat-font-family: 'Arial Black';
-  --handwriting-font-family: 'Caveat';
-  --comic-font-family: 'Anime Ace';
+  --font-family: 'Avenir Next', 'Avenir', 'Calibri', Tahoma, Arial, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
+  --fat-font-family: 'Arial Black', var(--font-family);
+  --handwriting-font-family: 'Caveat', var(--font-family);
+  --comic-font-family: 'Anime Ace', var(--font-family);
   --font-size: var(--size-14-16);
   --h0-font-size: var(--size-27-42);
   --h1-font-size: var(--size-24-36);

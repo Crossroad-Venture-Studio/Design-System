@@ -7,117 +7,117 @@
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-Thin.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-Thin.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 100;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-ThinItalic.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-ThinItalic.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 100;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-ExtraLight.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-ExtraLight.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 200;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-ExtraLightItalic.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-ExtraLightItalic.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 200;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-Light.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-Light.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 300;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-LightItalic.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-LightItalic.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 300;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-Regular.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-Regular.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-RegularItalic.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-RegularItalic.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 400;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-Medium.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-Medium.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 500;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-MediumItalic.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-MediumItalic.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 500;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-SemiBold.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-SemiBold.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 600;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-SemiBoldItalic.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-SemiBoldItalic.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 600;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-Bold.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-Bold.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 700;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-BoldItalic.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-BoldItalic.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 700;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-ExtraBold.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-ExtraBold.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 800;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-ExtraBoldItalic.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-ExtraBoldItalic.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 800;
   font-style: italic;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-Black.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-Black.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 900;
 }
 
 @font-face {
   font-family: 'Avenir Next';
-  src: url('../../fonts/Metropolis-BlackItalic.otf'), local('Times'), local('Avenir Next'), local('Avenir');
+  src: url('../../fonts/Metropolis-BlackItalic.otf'), local('Avenir Next'), local('Avenir');
   font-weight: 900;
   font-style: italic;
 }
