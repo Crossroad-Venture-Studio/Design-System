@@ -1,6 +1,6 @@
-@import 'sizes/sizes.css';
+@import '../sizes/sizes.css';
 @import 'font-faces.css';
-@import 'colors/colors.css';
+@import '../colors/colors.css';
 
 /* 
  * Font styles
