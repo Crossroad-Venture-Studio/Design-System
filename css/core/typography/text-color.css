@@ -6,97 +6,97 @@
  */
 
 /* Unsaturated text color */
-.color-white {
+.text-color-white {
   color: var(--white);
 }
 
-.color-black {
+.text-color-black {
   color: var(--black);
 }
 
-.color-gray {
+.text-color-gray {
   color: var(--blue);
 }
 
-.color-dark {
+.text-color-dark {
   color: var(--dark);
 }
 
-.color-light {
+.text-color-light {
   color: var(--light);
 }
 
 /* Primary text color */
-.color-red {
+.text-color-red {
   color: var(--red);
 }
 
-.color-green {
+.text-color-green {
   color: var(--green);
 }
 
-.color-blue {
+.text-color-blue {
   color: var(--blue);
 }
 
 /* Secondary text color */
-.color-orange {
+.text-color-orange {
   color: var(--orange);
 }
 
-.color-yellow {
+.text-color-yellow {
   color: var(--yellow);
 }
 
-.color-cyan {
+.text-color-cyan {
   color: var(--cyan);
 }
 
-.color-purple {
+.text-color-purple {
   color: var(--purple);
 }
 
-.color-pink {
+.text-color-pink {
   color: var(--pink);
 }
 
 /* Nuanced text color*/
-.color-brown {
+.text-color-brown {
   color: var(--brown);
 }
 
-.color-olive {
+.text-color-olive {
   color: var(--olive);
 }
 
-.color-ocean {
+.text-color-ocean {
   color: var(--ocean);
 }
 
-.color-lime {
+.text-color-lime {
   color: var(--lime);
 }
 
-.color-teal {
+.text-color-teal {
   color: var(--teal);
 }
 
-.color-chocolate {
+.text-color-chocolate {
   color: var(--chocolate);
 }
 
-.color-leather {
+.text-color-leather {
   color: var(--leather);
 }
 
-.color-cream {
+.text-color-cream {
   color: var(--cream);
 }
 
-.color-peach {
+.text-color-peach {
   color: var(--peach);
 }
 
-.color-leaf {
+.text-color-leaf {
   color: var(--leaf);
 }
