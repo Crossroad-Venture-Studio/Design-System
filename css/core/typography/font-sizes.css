@@ -1,0 +1,130 @@
+@import '../sizes/sizes.css';
+
+/* 
+ * Props
+ * -----
+ */
+:root {
+  /* Global */
+  --font-size: var(--size-14-16);
+  --h0-font-size: var(--size-27-42);
+  --h1-font-size: var(--size-24-36);
+  --h2-font-size: var(--size-22-28);
+  --h3-font-size: var(--size-20-24);
+  --h4-font-size: var(--size-18-20);
+  --h5-font-size: var(--size-16-18);
+  --h6-font-size: var(--size-14-16);
+
+  /* Specific font sizes */
+  --font-size-title: var(--size-48-64);
+  --font-size-heading: var(--size-40-48);
+  --font-size-section: var(--size-16-18);
+  --font-size-subsection: var(--size-14-16);
+  --font-size-text: var(--size-14-16);
+  --font-size-quote: var(--size-text);
+  --font-size-legend: var(--size-12-14);
+  --font-size-link: var(--size-text);
+  --font-size-button: var(--size-12-14);
+  --font-size-pill: var(--size-10-12);
+}
+
+/* 
+ * Classes
+ * -------
+ */
+h1.large {
+  font-size: var(--h0-font-size);
+}
+
+h1 {
+  font-size: var(--h1-font-size);
+}
+
+h2 {
+  font-size: var(--h2-font-size);
+}
+
+h3 {
+  font-size: var(--h3-font-size);
+}
+
+h4 {
+  font-size: var(--h4-font-size);
+}
+
+h5 {
+  font-size: var(--h5-font-size);
+}
+
+h6 {
+  font-size: var(--h6-font-size);
+}
+
+/* Other sizes */
+.font-size-96-128 {
+  font-size: var(--size-96-128);
+}
+
+.font-size-64-96 {
+  font-size: var(--size-64-96);
+}
+
+.font-size-48-64 {
+  font-size: var(--size-48-64);
+}
+
+.font-size-40-48 {
+  font-size: var(--size-40-48);
+}
+
+.font-size-36-44 {
+  font-size: var(--size-36-44);
+}
+
+.font-size-32-40 {
+  font-size: var(--size-32-40);
+}
+
+.font-size-28-36 {
+  font-size: var(--size-28-36);
+}
+
+.font-size-24-32 {
+  font-size: var(--size-24-32);
+}
+
+.font-size-22-28 {
+  font-size: var(--size-22-28);
+}
+
+.font-size-20-24 {
+  font-size: var(--size-20-24);
+}
+
+.font-size-18-20 {
+  font-size: var(--size-18-20);
+}
+
+.font-size-16-18 {
+  font-size: var(--size-16-18);
+}
+
+.font-size-14-16 {
+  font-size: var(--size-14-16);
+}
+
+.font-size-12-14 {
+  font-size: var(--size-12-14);
+}
+
+.font-size-10-12 {
+  font-size: var(--size-10-12);
+}
+
+.font-size-8-10 {
+  font-size: var(--size-8-10);
+}
+
+.font-size-6-8 {
+  font-size: var(--size-6-8);
+}

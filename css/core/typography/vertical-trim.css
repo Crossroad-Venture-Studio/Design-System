@@ -1,0 +1,39 @@
+/* 
+ * Props
+ * -----
+ */
+ :root {
+  --vertical-trim-top: calc(-14 / 72 * 1em);
+  --vertical-trim-bottom: calc(-3.2 / 72 * 1em);
+  --fat-vertical-trim-top: calc(-21 / 72 * 1em);
+  --fat-vertical-trim-bottom: calc(-13 / 72 * 1em);
+}
+
+/* 
+ * Classes
+ * -------
+ */
+ .vertical-trim:after {
+  content: '';
+  margin-top: var(--vertical-trim-top);
+  display: table;
+}
+
+.vertical-trim:before {
+  content: '';
+  margin-top: var(--vertical-trim-bottom);
+  display: table;
+}
+
+/* Font trim for Arial Black on buttons */
+.fat.vertical-trim:after {
+  content: '';
+  margin-top: var(--fat-vertical-trim-top);
+  display: table;
+}
+
+.fat.vertical-trim:before {
+  content: '';
+  margin-bottom: var(--fat-vertical-trim-bottom);
+  display: table;
+}

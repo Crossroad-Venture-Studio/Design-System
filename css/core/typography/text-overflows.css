@@ -1,0 +1,15 @@
+/* 
+ * Classes
+ * -------
+ */
+.ellipsis {
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden;
+}
+
+.clip {
+  text-overflow: clip;
+  white-space: nowrap;
+  overflow: hidden;
+}

@@ -1,0 +1,40 @@
+/* 
+ * Classes
+ * -------
+ */
+.underline {
+  text-decoration-line: underline;
+}
+
+.overline {
+  text-decoration-line: overline;
+}
+
+.underline.overline,
+.overline.underline {
+  text-decoration-line: underline overline;
+}
+
+.line-through {
+  text-decoration-line: line-through;
+}
+
+.blink {
+  text-decoration-line: blink;
+}
+
+.dotted {
+  text-decoration-style: dotted;
+}
+
+.wavy {
+  text-decoration-style: wavy;
+}
+
+.double {
+  text-decoration-style: double;
+}
+
+.dashed {
+  text-decoration-style: dashed;
+}
