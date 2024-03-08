@@ -1,0 +1,36 @@
+/* Colors & Props
+ * --------------
+ */
+:root {
+  --blur-small: 5px;
+  --blur-medium: 15px;
+  --blur-large: 30px;
+}
+
+/*
+ * Classes
+ * -------
+ */
+.background-blur-small {
+  backdrop-filter: blur(var(--blur-small));
+}
+
+.background-blur-medium {
+  backdrop-filter: blur(var(--blur-medium));
+}
+
+.background-blur-large {
+  backdrop-filter: blur(var(--blur-large));
+}
+
+.layer-blur-small {
+  filter: blur(var(--blur-small));
+}
+
+.layer-blur-medium {
+  filter: blur(var(--blur-medium));
+}
+
+.layer-blur-large {
+  filter: blur(var(--blur-large));
+}
