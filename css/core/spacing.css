@@ -55,6 +55,11 @@
   --width-80-percent: max(80%, min(100%, 375px));
   --width-90-percent: max(90%, min(100%, 375px));
   --width-100-percent: 100%;
+  --width-640px: min(100%, 640px);
+  --width-768px: min(100%, 768px);
+  --width-1024px: min(100%, 1024px);
+  --width-1280px: min(100%, 1280px);
+  --width-1536px: min(100%, 1536px);
 }
 
 /*
@@ -170,4 +175,34 @@
   width: var(--width-100-percent);
   min-width: var(--width-100-percent);
   max-width: var(--width-100-percent);
+}
+
+.width-640px {
+  width: var(--width-640px);
+  min-width: var(--width-640px);
+  max-width: var(--width-640px);
+}
+
+.width-768px {
+  width: var(--width-768px);
+  min-width: var(--width-768px);
+  max-width: var(--width-768px);
+}
+
+.width-1024px {
+  width: var(--width-1024px);
+  min-width: var(--width-1024px);
+  max-width: var(--width-1024px);
+}
+
+.width-1280px {
+  width: var(--width-1280px);
+  min-width: var(--width-1280px);
+  max-width: var(--width-1280px);
+}
+
+.width-1536px {
+  width: var(--width-1536px);
+  min-width: var(--width-1536px);
+  max-width: var(--width-1536px);
 }
