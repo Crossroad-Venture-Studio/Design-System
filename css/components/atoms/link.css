@@ -1,5 +1,9 @@
-@import "../../core/animation.css";
+@import '../../core/index.css';
 
+/* 
+ * Classes
+ * -------
+ */
 .link {
   cursor: pointer;
   margin: 0;

@@ -1,0 +1,30 @@
+/*
+ * Border radius variables
+ * -----------------------
+ */
+:root {
+  /* Dynamic border radius */
+  --border-radius: 8px;
+  --border-radius-round: 10000px;
+  --border-radius-square: 2px;
+
+  /* Calculated */
+  --border-radius-half: calc(0.5 * var(--border-radius));
+  --border-radius-2x: calc(2 * var(--border-radius));
+}
+
+/*
+ * Border radius classes
+ * ---------------------
+ */
+.border-radius {
+  border-radius: var(--border-radius);
+}
+
+.border-radius-square {
+  border-radius: var(--border-radius-square);
+}
+
+.border-radius-round {
+  border-radius: var(--border-radius-round);
+}

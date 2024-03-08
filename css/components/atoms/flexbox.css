@@ -1,10 +1,9 @@
-@import '../../core/spacing.css';
+@import '../../core/index.css';
 
 /* 
  * Classes
  * -------
  */
-
 .flex,
 .row,
 .column {

@@ -1,0 +1,41 @@
+@import 'padding.css';
+/*
+ * Margin variables
+ * ----------------
+ */
+:root {
+  /* Dynamic margin */
+  --margin: var(--padding);
+  --margin-horizontal: var(--margin);
+  --margin-vertical: var(--margin);
+
+  /* Calculated */
+  --margin-half: calc(0.5 * var(--margin));
+  --margin-2x: calc(2 * var(--margin));
+  --margin-horizontal-half: calc(0.5 * var(--margin-horizontal));
+  --margin-horizontal-2x: calc(2 * var(--margin-horizontal));
+  --margin-vertical-half: calc(0.5 * var(--margin-vertical));
+  --margin-vertical-2x: calc(2 * var(--margin-vertical));
+}
+
+/*
+ * Margin classes
+ * --------------
+ */
+.margin-none {
+  margin: 0;
+}
+
+.margin {
+  margin: var(--margin);
+}
+
+.margin-horizontal {
+  margin-left: var(--margin-horizontal);
+  margin-right: var(--margin-horizontal);
+}
+
+.margin-vertical {
+  margin-top: var(--margin-vertical);
+  margin-bottom: var(--margin-vertical);
+}

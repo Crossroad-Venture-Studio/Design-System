@@ -1,0 +1,29 @@
+@import 'padding.css';
+/*
+ * Gap variables
+ * -------------
+ */
+:root {
+  /* Dynamic gap */
+  --gap: var(--padding);
+  --text-gap: var(--size-8-12);
+
+  /* Calculated */
+  --gap-half: calc(0.5 * var(--gap));
+  --gap-2x: calc(2 * var(--gap));
+  --text-gap-half: calc(0.5 * var(--text-gap));
+  --text-gap-2x: calc(2 * var(--text-gap));
+}
+
+/*
+ * Gap classes
+ * -----------
+ */
+
+.gap {
+  gap: var(--gap);
+}
+
+.text-gap {
+  gap: var(--text-gap);
+}

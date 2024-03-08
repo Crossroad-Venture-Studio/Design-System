@@ -1,5 +1,4 @@
-@import "overlay.css";
-@import "../../core/typography.css";
+@import 'overlay.css';
 
 .overlay .menu {
   /* Position */

@@ -1,5 +1,5 @@
-@import "../../core/typography.css";
-@import "../atoms/button.css";
+@import '../../core/index.css';
+@import '../atoms/button.css';
 
 /* Navbar variables */
 :root {

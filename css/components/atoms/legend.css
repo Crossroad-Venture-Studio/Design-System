@@ -1,4 +1,4 @@
-@import "../../core/spacing.css";
+@import '../../core/index.css';
 
 /* 
  * Props
@@ -11,6 +11,10 @@
   --legend-line-height: 120%;
 }
 
+/* 
+ * Classes
+ * -------
+ */
 .legend {
   font-size: var(--legend-size);
   line-height: var(--legend-line-height);

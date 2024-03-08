@@ -1,7 +1,5 @@
-@import "../../core/animation.css";
-@import "../../core/colors.css";
-@import "../../core/spacing.css";
-@import "./button.css";
+@import '../../core/index.css';
+@import './button.css';
 
 /* 
  * Props

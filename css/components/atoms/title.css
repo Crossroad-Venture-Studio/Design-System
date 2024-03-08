@@ -1,4 +1,4 @@
-@import "../../core/spacing.css";
+@import '../../core/index.css';
 
 /* 
  * Props
@@ -10,8 +10,8 @@
  }
 
 /* 
- * Class
- * -----
+ * Classes
+ * -------
  */
 .title:not(.title:first-child) {
   padding-top: var(--title-padding-top);

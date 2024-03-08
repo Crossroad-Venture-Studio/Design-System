@@ -1,48 +1,8 @@
-@import "sizes.css";
 /*
- * Spacing variables
- * -----------------
+ * Width variables
+ * ---------------
  */
 :root {
-  /* Dynamic spacing */
-  --padding: var(--size-24-48);
-  --padding-horizontal: var(--padding);
-  --padding-vertical: var(--padding);
-  --margin: var(--padding);
-  --margin-horizontal: var(--margin);
-  --margin-vertical: var(--margin);
-  --gap: var(--padding);
-  --text-gap: var(--size-8-12);
-  --safe-area-top: env(safe-area-inset-top, 0px);
-  --safe-area-bottom: env(safe-area-inset-bottom, 0px);
-  --safe-area-left: env(safe-area-inset-left, 0px);
-  --safe-area-right: env(safe-area-inset-right, 0px);
-  --safe-area-horizontal: 0 var(--safe-area-left) 0 var(--safe-area-right);
-  --safe-area-vertical: var(--safe-area-top) 0 var(--safe-area-bottom) 0;
-  --safe-area: var(--safe-area-top) var(--safe-area-left) var(--safe-area-bottom) var(--safe-area-right);
-  --border-radius: 8px;
-  --border-radius-round: 10000px;
-  --border-radius-square: 2px;
-
-  /* Calculated */
-  --padding-half: calc(0.5 * var(--padding));
-  --padding-2x: calc(2 * var(--padding));
-  --padding-horizontal-half: calc(0.5 * var(--padding-horizontal));
-  --padding-horizontal-2x: calc(2 * var(--padding-horizontal));
-  --padding-vertical-half: calc(0.5 * var(--padding-vertical));
-  --padding-vertical-2x: calc(2 * var(--padding-vertical));
-  --margin-half: calc(0.5 * var(--margin));
-  --margin-2x: calc(2 * var(--margin));
-  --margin-horizontal-half: calc(0.5 * var(--margin-horizontal));
-  --margin-horizontal-2x: calc(2 * var(--margin-horizontal));
-  --margin-vertical-half: calc(0.5 * var(--margin-vertical));
-  --margin-vertical-2x: calc(2 * var(--margin-vertical));
-  --gap-half: calc(0.5 * var(--gap));
-  --gap-2x: calc(2 * var(--gap));
-  --text-gap-half: calc(0.5 * var(--text-gap));
-  --text-gap-2x: calc(2 * var(--text-gap));
-  --border-radius-half: calc(0.5 * var(--border-radius));
-  --border-radius-2x: calc(2 * var(--border-radius));
   --width-10-percent: max(10%, min(100%, 375px));
   --width-20-percent: max(20%, min(100%, 375px));
   --width-25-percent: max(25%, min(100%, 375px));
@@ -63,46 +23,9 @@
 }
 
 /*
- * Spacing classes
- * ---------------
+ * Width classes
+ * -------------
  */
-.padding {
-  padding: var(--padding);
-}
-
-.padding-horizontal {
-  padding-left: var(--padding-horizontal);
-  padding-right: var(--padding-horizontal);
-}
-
-.padding-vertical {
-  padding-top: var(--padding-vertical);
-  padding-bottom: var(--padding-vertical);
-}
-
-.margin {
-  margin: var(--margin);
-}
-
-.margin-horizontal {
-  margin-left: var(--margin-horizontal);
-  margin-right: var(--margin-horizontal);
-}
-
-.margin-vertical {
-  margin-top: var(--margin-vertical);
-  margin-bottom: var(--margin-vertical);
-}
-
-.safearea {
-  padding: var(--safe-area-top) var(--safe-area-left) var(--safe-area-bottom) var(--safe-area-right);
-}
-
-.padding.safearea {
-  padding: calc(var(--safe-area-top) + var(--padding-vertical)) calc(var(--safe-area-left) + var(--padding-horizontal)) calc(var(--safe-area-bottom) + var(--padding-vertical)) calc(var(--safe-area-right) + var(--padding-horizontal));
-}
-
-/* Breakpoints width */
 .width-10-percent {
   width: var(--width-10-percent);
   min-width: var(--width-10-percent);

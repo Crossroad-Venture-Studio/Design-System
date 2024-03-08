@@ -1,0 +1,46 @@
+@import 'sizes.css';
+@import 'safearea.css';
+/*
+ * Padding variables
+ * -----------------
+ */
+:root {
+  /* Dynamic padding */
+  --padding: var(--size-24-48);
+  --padding-horizontal: var(--padding);
+  --padding-vertical: var(--padding);
+
+  /* Calculated */
+  --padding-half: calc(0.5 * var(--padding));
+  --padding-2x: calc(2 * var(--padding));
+  --padding-horizontal-half: calc(0.5 * var(--padding-horizontal));
+  --padding-horizontal-2x: calc(2 * var(--padding-horizontal));
+  --padding-vertical-half: calc(0.5 * var(--padding-vertical));
+  --padding-vertical-2x: calc(2 * var(--padding-vertical));
+}
+
+/*
+ * Padding classes
+ * ---------------
+ */
+.padding-none {
+  padding: 0;
+}
+
+.padding {
+  padding: var(--padding);
+}
+
+.padding-horizontal {
+  padding-left: var(--padding-horizontal);
+  padding-right: var(--padding-horizontal);
+}
+
+.padding-vertical {
+  padding-top: var(--padding-vertical);
+  padding-bottom: var(--padding-vertical);
+}
+
+.padding.safearea {
+  padding: calc(var(--safe-area-top) + var(--padding-vertical)) calc(var(--safe-area-left) + var(--padding-horizontal)) calc(var(--safe-area-bottom) + var(--padding-vertical)) calc(var(--safe-area-right) + var(--padding-horizontal));
+}

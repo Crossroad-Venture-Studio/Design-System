@@ -1,4 +1,4 @@
-@import "../../core/spacing.css";
+@import '../../core/index.css';
 
 /* 
  * Props
@@ -11,6 +11,10 @@
   --quote-line-height: 150%;
 }
 
+/* 
+ * Classes
+ * -------
+ */
 .quote {
   font-size: var(--quote-size);
   line-height: var(--quote-line-height);
