@@ -14,6 +14,8 @@
   --input-border-radius-round: var(--border-radius-round);
   --input-font-weight: 500;
   --input-font-size: var(--size-13-16);
+  --input-font-size-large: calc(var(--input-font-size) + 2px);
+  --input-font-size-small: calc(var(--input-font-size) - 2px);
   --input-min-height: var(--button-min-height);
   --input-large-min-height: var(--button-large-min-height);
   --input-small-min-height: var(--button-small-min-height);
@@ -110,14 +112,14 @@ select,
 .input.large {
   min-height: var(--input-large-min-height);
   padding: calc(var(--input-padding-vertical) + 2px) calc(var(--input-padding-horizontal) + 2px);
-  font-size: calc(var(--input-font-size) + 2px);
+  font-size: var(--input-font-size-large);
 }
 
 .input.small {
   min-height: var(--input-small-min-height);
   border-radius: max(calc(var(--input-border-radius) - 2px), 0px);
   padding: calc(var(--input-padding-vertical) - 2px) calc(var(--input-padding-horizontal) - 2px);
-  font-size: calc(var(--button-font-size) - 2px);
+  font-size: var(--input-font-size-small);
 }
 
 /* adding arrow for select */
@@ -127,14 +129,23 @@ select.input {
     linear-gradient(135deg, gray 50%, transparent 50%),
     linear-gradient(to right, #ccc, #ccc);
   background-position:
-    calc(100% - 20px) calc(1em + 2px),
-    calc(100% - 15px) calc(1em + 2px),
-    calc(100% - 2.5em) 0.5em;
+    calc(100% - 1.25em) 1.125em,
+    calc(100% - 0.9375em) 1.125em,
+    calc(100% - 2.5em) 0;
   background-size:
     5px 5px,
     5px 5px,
-    1px 1.5em;
+    1px 100%;
   background-repeat: no-repeat;
+  padding-right: var(--size-48-56);
+}
+
+select.input.large {
+  padding-right: var(--size-48-56);
+}
+
+select.input.small {
+  padding-right: var(--size-48-56);
 }
 
 select.input.dark {
@@ -151,4 +162,5 @@ select.input.dark {
     5px 5px,
     1px 1.5em;
   background-repeat: no-repeat;
+  padding-right: 20px;
 }
