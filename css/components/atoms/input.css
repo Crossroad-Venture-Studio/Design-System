@@ -44,7 +44,6 @@ select,
  * -------
  */
 .input {
-  width: 100%;
   padding: var(--input-padding-vertical) var(--input-padding-horizontal);
   border-radius: var(--input-border-radius);
   opacity: 0.9;
