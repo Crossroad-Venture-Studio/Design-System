@@ -1,3 +1,7 @@
+/* 
+ * Props
+ * -----
+ */
 :root {
   /* Dynamic sizes */
   /* min(max( ((A + B) / (375 + 1280) * 100)vw, Apx), Bpx); */

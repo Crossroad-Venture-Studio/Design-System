@@ -1,5 +1,5 @@
 /* core.css first, incase of overwriting */
-@import 'core/index.css';
+@import './core/index.css';
 
 /* Other functionalities */
-@import 'components/index.css';
+@import './components/index.css';

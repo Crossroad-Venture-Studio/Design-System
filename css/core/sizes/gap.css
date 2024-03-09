@@ -1,4 +1,4 @@
-@import 'padding.css';
+@import './padding.css';
 /*
  * Gap variables
  * -------------
@@ -19,7 +19,6 @@
  * Gap classes
  * -----------
  */
-
 .gap {
   gap: var(--gap);
 }

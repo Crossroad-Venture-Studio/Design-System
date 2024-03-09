@@ -1,15 +1,15 @@
-@import 'font-family.css';
-@import 'font-size.css';
-@import 'font-style.css';
-@import 'font-weight.css';
-@import 'line-height.css';
-@import 'text-align.css';
-@import 'text-color.css';
-@import 'text-decoration.css';
-@import 'text-overflow.css';
-@import 'text-transform.css';
-@import 'text-wrap.css';
-@import 'vertical-trim.css';
+@import './font-family.css';
+@import './font-size.css';
+@import './font-style.css';
+@import './font-weight.css';
+@import './line-height.css';
+@import './text-align.css';
+@import './text-color.css';
+@import './text-decoration.css';
+@import './text-overflow.css';
+@import './text-transform.css';
+@import './text-wrap.css';
+@import './vertical-trim.css';
 
 /* Generic font */
 * {
