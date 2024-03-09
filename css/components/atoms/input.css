@@ -123,9 +123,9 @@ select,
 }
 
 /* adding arrow for select */
-select.input,
-select.input.dark,
-select.input.light {
+select.input:not(.hide-arrow),
+select.input.dark:not(.hide-arrow),
+select.input.light:not(.hide-arrow) {
   background-position:
     calc(100% - 1.25em) 1.125em,
     calc(100% - 0.9375em) 1.125em,
@@ -137,29 +137,29 @@ select.input.light {
   background-repeat: no-repeat !important;
   padding-right: var(--size-48-56);
 }
-select.input {
+select.input:not(.hide-arrow) {
   background-image:
     linear-gradient(45deg, transparent 50%, gray 50%),
     linear-gradient(135deg, gray 50%, transparent 50%),
     linear-gradient(to right, #ccc, #ccc) !important;
 }
 
-select.input.large {
+select.input.large:not(.hide-arrow) {
   padding-right: var(--size-48-56);
 }
 
-select.input.small {
+select.input.small:not(.hide-arrow) {
   padding-right: var(--size-48-56);
 }
 
-select.input.light {
+select.input.light:not(.hide-arrow) {
   background-image:
     linear-gradient(45deg, transparent 50%, #00000087 50%),
     linear-gradient(135deg, #00000087 50%, transparent 50%),
     linear-gradient(to right, #00000033, #00000033) !important;
 }
 
-select.input.dark {
+select.input.dark:not(.hide-arrow) {
   background-image:
     linear-gradient(45deg, transparent 50%, #FFFFFF87 50%),
     linear-gradient(135deg, #FFFFFF87 50%, transparent 50%),
