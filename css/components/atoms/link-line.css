@@ -70,6 +70,10 @@
   transition: var(--transition-time);
 }
 
+.link-line.divider:not(.link-line:last-child) {
+  border-bottom: 1px solid gray;
+}
+
 @media not all and (hover: none), (-ms-high-contrast: none) {
   .link-line a:hover {
     opacity: 0.8;
