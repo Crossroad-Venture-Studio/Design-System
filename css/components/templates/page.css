@@ -37,15 +37,15 @@
 }
 
 /* Add padding due to navbar */
-.page:has(nav),
-.page:has(.navbar) {
-  padding-top: calc(var(--navbar-height) + var(--padding-vertical));
+.page:has(.top-navbar),
+*:has(.top-navbar) .page {
+  padding-top: calc(var(--top-navbar-height) + var(--padding-vertical));
 }
 
 /* Tackling safe area at a current page or child navbar */
-.page:has(nav).safearea,
-.page:has(nav.safearea),
-.page:has(.navbar).safearea,
-.page:has(.navbar.safearea) {
-  padding-top: calc(var(--safe-area-top) + var(--navbar-height) + var(--padding-vertical));
+.page:has(.top-navbar).safearea,
+.page:has(.top-navbar.safearea),
+*:has(.top-navbar) .page.safearea,
+*:has(.top-navbar.safearea) .page  {
+  padding-top: calc(var(--safe-area-top) + var(--top-navbar-height) + var(--padding-vertical));
 }

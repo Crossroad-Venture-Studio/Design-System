@@ -2,10 +2,10 @@
 
 /* Navbar variables */
 :root {
-  --navbar-padding-horizontal: var(--size-20-32);
-  --navbar-padding-vertical: 12px;
-  --navbar-gap: var(--size-6-12);
-  --navbar-height: var(--size-48-64);
+  --top-navbar-padding-horizontal: var(--size-20-32);
+  --top-navbar-padding-vertical: 12px;
+  --top-navbar-gap: var(--size-6-12);
+  --top-navbar-height: var(--size-48-64);
 }
 
 /* Navbar style */
@@ -16,13 +16,13 @@
   left: 0;
   /* Sizes */
   width: 100%;
-  height: var(--navbar-height);
+  height: var(--top-navbar-height);
   /* Alignment */
-  padding-left: var(--navbar-padding-horizontal);
-  padding-right: var(--navbar-padding-horizontal);
+  padding-left: var(--top-navbar-padding-horizontal);
+  padding-right: var(--top-navbar-padding-horizontal);
   display: flex;
   align-items: center;
-  gap: var(--navbar-gap);
+  gap: var(--top-navbar-gap);
   /* Appearance */
   backdrop-filter: blur(15px);
   z-index: 1000;
@@ -34,17 +34,19 @@
 
 /* If there's a row of buttons at the end of the navbar */
 .top-navbar > div:last-child {
-  gap: var(--navbar-gap);
+  gap: var(--top-navbar-gap);
 }
 
 /* Tackling safe area at a parent page or current navbar */
-.page.safearea > .top-navbar,
-.page.safearea > * .top-navbar,
+*:has(> .safearea) > .top-navbar,
+*:has(> .safearea) > * .top-navbar,
+*.safearea > .top-navbar,
+*.safearea > * .top-navbar,
 .top-navbar.safearea {
-  height: calc(var(--safe-area-top) + var(--navbar-height));
+  height: calc(var(--safe-area-top) + var(--top-navbar-height));
   padding-top: var(--safe-area-top);
-  padding-left: calc(var(--navbar-padding-horizontal) + var(--safe-area-left));
-  padding-right: calc(var(--navbar-padding-horizontal) + var(--safe-area-right));
+  padding-left: calc(var(--top-navbar-padding-horizontal) + var(--safe-area-left));
+  padding-right: calc(var(--top-navbar-padding-horizontal) + var(--safe-area-right));
 }
 
 /* Button in the navbar */
