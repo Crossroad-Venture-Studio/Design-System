@@ -53,6 +53,7 @@
 .top-navbar .button {
   font-family: var(--font-family);
   text-transform: capitalize;
+  text-wrap: nowrap;
   font-size: 14px;
   font-weight: 400;
 }
