@@ -18,6 +18,7 @@
   --button-min-height: var(--size-32-40);
   --button-large-min-height: var(--size-40-48);
   --button-small-min-height: var(--size-24-32);
+  --button-bulky-min-height: var(--size-48-56);
   /* Pill properties */
   --pill-padding-horizontal: 10px;
   --pill-padding-vertical: 6px;
@@ -123,6 +124,14 @@
   font-size: calc(var(--button-font-size) - 2px);
 }
 
+/* Bulky button */
+.button.bulky {
+  min-width: var(--button-bulky-min-height);
+  min-height: var(--button-bulky-min-height);
+  padding: calc(var(--button-padding-vertical) + 4px) calc(var(--button-padding-horizontal) + 4px);
+  font-size: calc(var(--button-font-size) + 2px);
+}
+
 /* Round button */
 .button.round,
 .button.small.round {
@@ -136,6 +145,10 @@
 
 .button.small.square {
   border-radius: max(calc(var(--button-border-radius-square) - 2px), 0px);
+}
+
+.button.bulky.square {
+  border-radius: 0;
 }
 
 /* Pill */
