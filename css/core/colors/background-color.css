@@ -1,0 +1,192 @@
+@import './gradient.css';
+
+/* 
+ * Classes
+ * -------
+ */
+
+/* Unsaturated background color */
+.background-color-white {
+  background: var(--white);
+}
+
+.background-color-black {
+  background: var(--black);
+}
+
+.background-color-gray {
+  background: var(--gray);
+}
+
+.background-color-dark {
+  background: var(--dark);
+}
+
+.background-color-light {
+  background: var(--light);
+}
+
+/* Primary text color */
+.background-color-red {
+  background: var(--red);
+}
+
+.background-color-green {
+  background: var(--green);
+}
+
+.background-color-blue {
+  background: var(--blue);
+}
+
+/* Secondary background color */
+.background-color-orange {
+  background: var(--orange);
+}
+
+.background-color-yellow {
+  background: var(--yellow);
+}
+
+.background-color-cyan {
+  background: var(--cyan);
+}
+
+.background-color-purple {
+  background: var(--purple);
+}
+
+.background-color-pink {
+  background: var(--pink);
+}
+
+/* Nuanced background color*/
+.background-color-brown {
+  background: var(--brown);
+}
+
+.background-color-olive {
+  background: var(--olive);
+}
+
+.background-color-ocean {
+  background: var(--ocean);
+}
+
+.background-color-lime {
+  background: var(--lime);
+}
+
+.background-color-teal {
+  background: var(--teal);
+}
+
+.background-color-chocolate {
+  background: var(--chocolate);
+}
+
+.background-color-leather {
+  background: var(--leather);
+}
+
+.background-color-cream {
+  background: var(--cream);
+}
+
+.background-color-peach {
+  background: var(--peach);
+}
+
+.background-color-leaf {
+  background: var(--leaf);
+}
+
+/* Shaded background color*/
+.background-color-gray-1 {
+  background: var(--gray-1);
+}
+.background-color-gray-2 {
+  background: var(--gray-2);
+}
+.background-color-gray-3 {
+  background: var(--gray-3);
+}
+.background-color-gray-4 {
+  background: var(--gray-4);
+}
+.background-color-gray-5 {
+  background: var(--gray-5);
+}
+.background-color-gray-6 {
+  background: var(--gray-6);
+}
+
+.background-color-red-1 {
+  background: var(--red-1);
+}
+.background-color-red-2 {
+  background: var(--red-2);
+}
+.background-color-red-3 {
+  background: var(--red-3);
+}
+
+.background-color-green-1 {
+  background: var(--green-1);
+}
+.background-color-green-2 {
+  background: var(--green-2);
+}
+.background-color-green-3 {
+  background: var(--green-3);
+}
+
+.background-color-blue-1 {
+  background: var(--blue-1);
+}
+.background-color-blue-2 {
+  background: var(--blue-2);
+}
+.background-color-blue-3 {
+  background: var(--blue-3);
+}
+
+.background-color-orange-1 {
+  background: var(--orange-1);
+}
+.background-color-orange-2 {
+  background: var(--orange-2);
+}
+.background-color-orange-3 {
+  background: var(--orange-3);
+}
+
+.background-color-yellow-1 {
+  background: var(--yellow-1);
+}
+.background-color-yellow-2 {
+  background: var(--yellow-2);
+}
+.background-color-yellow-3 {
+  background: var(--yellow-3);
+}
+
+.background-color-purple-1 {
+  background: var(--purple-1);
+}
+.background-color-purple-2 {
+  background: var(--purple-2);
+}
+.background-color-purple-3 {
+  background: var(--purple-3);
+}
+
+.background-color-pink-1 {
+  background: var(--pink-1);
+}
+.background-color-pink-2 {
+  background: var(--pink-2);
+}
+.background-color-pink-3 {
+  background: var(--pink-3);
+}
