@@ -18,7 +18,7 @@
   --button-min-height: var(--size-32-40);
   --button-large-min-height: var(--size-40-48);
   --button-small-min-height: var(--size-24-32);
-  --button-bulky-min-height: var(--size-48-56);
+  --button-bulky-min-height: var(--size-64-72);
   /* Pill properties */
   --pill-padding-horizontal: 10px;
   --pill-padding-vertical: 6px;
