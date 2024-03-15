@@ -57,4 +57,5 @@
   --size-2-4: min(max(0.36254vw, 2px), 4px);
   --size-0-6: min(max(0.36254vw, 0px), 6px);
   --size-0-4: min(max(0.24169vw, 0px), 4px);
+  --size-0-2: min(max(0.12085vw, 0px), 2px);
 }
