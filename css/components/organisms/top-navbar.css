@@ -93,7 +93,7 @@
   margin-right: calc(2px - var(--button-padding-horizontal)) !important;
 }
 
-.top-navbar .background {
+.top-navbar .top-navbar-background {
   position: 'absolute';
   left: 0;
   bottom: 0;
