@@ -12,10 +12,16 @@
   /* Calculated */
   --margin-half: calc(0.5 * var(--margin));
   --margin-2x: calc(2 * var(--margin));
+  --margin-3x: calc(3 * var(--margin));
+  --margin-4x: calc(4 * var(--margin));
   --margin-horizontal-half: calc(0.5 * var(--margin-horizontal));
   --margin-horizontal-2x: calc(2 * var(--margin-horizontal));
+  --margin-horizontal-3x: calc(3 * var(--margin-horizontal));
+  --margin-horizontal-4x: calc(4 * var(--margin-horizontal));
   --margin-vertical-half: calc(0.5 * var(--margin-vertical));
   --margin-vertical-2x: calc(2 * var(--margin-vertical));
+  --margin-vertical-3x: calc(3 * var(--margin-vertical));
+  --margin-vertical-4x: calc(4 * var(--margin-vertical));
 }
 
 /*

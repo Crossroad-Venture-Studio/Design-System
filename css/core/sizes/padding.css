@@ -13,10 +13,16 @@
   /* Calculated */
   --padding-half: calc(0.5 * var(--padding));
   --padding-2x: calc(2 * var(--padding));
+  --padding-3x: calc(3 * var(--padding));
+  --padding-4x: calc(4 * var(--padding));
   --padding-horizontal-half: calc(0.5 * var(--padding-horizontal));
   --padding-horizontal-2x: calc(2 * var(--padding-horizontal));
+  --padding-horizontal-3x: calc(3 * var(--padding-horizontal));
+  --padding-horizontal-4x: calc(4 * var(--padding-horizontal));
   --padding-vertical-half: calc(0.5 * var(--padding-vertical));
   --padding-vertical-2x: calc(2 * var(--padding-vertical));
+  --padding-vertical-3x: calc(3 * var(--padding-vertical));
+  --padding-vertical-4x: calc(4 * var(--padding-vertical));
 }
 
 /*

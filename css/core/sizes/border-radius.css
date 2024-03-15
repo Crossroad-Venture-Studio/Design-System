@@ -11,6 +11,8 @@
   /* Calculated */
   --border-radius-half: calc(0.5 * var(--border-radius));
   --border-radius-2x: calc(2 * var(--border-radius));
+  --border-radius-3x: calc(3 * var(--border-radius));
+  --border-radius-4x: calc(4 * var(--border-radius));
 }
 
 /*

@@ -11,8 +11,12 @@
   /* Calculated */
   --gap-half: calc(0.5 * var(--gap));
   --gap-2x: calc(2 * var(--gap));
+  --gap-3x: calc(3 * var(--gap));
+  --gap-4x: calc(4 * var(--gap));
   --text-gap-half: calc(0.5 * var(--text-gap));
   --text-gap-2x: calc(2 * var(--text-gap));
+  --text-gap-3x: calc(3 * var(--text-gap));
+  --text-gap-4x: calc(4 * var(--text-gap));
 }
 
 /*
