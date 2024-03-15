@@ -181,11 +181,20 @@
 }
 
 /* Notification */
-.button.notification {
+.button.notification,
+.button.error-notification,
+.button.warning-notification,
+.button.success-notification,
+.button.info-notification {
   position: relative;
   overflow: visible;
 }
-.button.notification::after {
+
+.button.notification::after,
+.button.error-notification::after,
+.button.warning-notification::after,
+.button.success-notification::after,
+.button.info-notification::after {
   content: '';
   width: var(--size-8-10);
   height: var(--size-8-10);
@@ -194,4 +203,16 @@
   position: absolute;
   top: calc(2px - var(--size-0-4));
   right: calc(2px - var(--size-0-4));
+}
+
+.button.warning-notification::after {
+  background: var(--orange);
+}
+
+.button.success-notification::after {
+  background: var(--green);
+}
+
+.button.info-notification::after {
+  background: var(--blue);
 }
