@@ -93,12 +93,15 @@
   margin-right: calc(2px - var(--button-padding-horizontal)) !important;
 }
 
-/* .top-navbar .top-navbar-background {
-  position: 'absolute';
+.top-navbar .top-navbar-background {
+  position: absolute;
   left: 0;
-  bottom: 0;
+  bottom: 0px;
+  z-index: -1;
   width: 100%;
-} */
+  height: 100%;
+  overflow: visible;
+}
 
 /* Responsive styles: display button vs icons */
 @media only screen and (max-width: 800px) {
