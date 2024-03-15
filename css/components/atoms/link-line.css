@@ -62,7 +62,8 @@
   justify-content: flex-end;
 }
 
-.link-line a {
+.link-line a,
+a.link-line {
   text-decoration: none;
   -webkit-decoration: none;
   -webkit-text-decoration: none;
@@ -77,7 +78,8 @@
 }
 
 @media not all and (hover: none), (-ms-high-contrast: none) {
-  .link-line a:hover {
+  .link-line a:hover,
+  a.link-line:hover {
     opacity: 0.8;
   }
 }
