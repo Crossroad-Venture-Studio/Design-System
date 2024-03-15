@@ -192,6 +192,6 @@
   background: var(--red);
   border-radius: 100px;
   position: absolute;
-  top: calc(-1 * var(--size-0-2));
-  right: calc(-1 * var(--size-0-2));
+  top: calc(2px - var(--size-0-4));
+  right: calc(2px - var(--size-0-4));
 }
