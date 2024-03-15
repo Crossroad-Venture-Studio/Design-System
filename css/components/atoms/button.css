@@ -82,7 +82,7 @@
 
 /* Hover, actie and disabled */
 @media not all and (hover: none), (-ms-high-contrast: none) {
-  .button:hover:not(:disabled) {
+  .button:not(:disabled):hover {
     opacity: 0.8;
   }
 }
