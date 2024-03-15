@@ -179,3 +179,19 @@
 .button.pill.square {
   border-radius: var(--pill-border-radius-square);
 }
+
+/* Notification */
+.button.notification {
+  position: relative;
+  overflow: visible;
+}
+.button.notification::after {
+  content: '';
+  width: var(--size-8-10);
+  height: var(--size-8-10);
+  background: var(--red);
+  border-radius: 100px;
+  position: absolute;
+  top: calc(-1 * var(--size-0-2));
+  right: calc(-1 * var(--size-0-2));
+}
