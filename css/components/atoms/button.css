@@ -194,7 +194,9 @@
 .button.error-notification::after,
 .button.warning-notification::after,
 .button.success-notification::after,
-.button.info-notification::after {
+.button.info-notification::after,
+.button.light-notification::after,
+.button.dark-notification::after {
   content: '';
   width: var(--size-8-10);
   height: var(--size-8-10);
@@ -215,4 +217,12 @@
 
 .button.info-notification::after {
   background: var(--blue);
+}
+
+.button.light-notification::after {
+  background: var(--light);
+}
+
+.button.dark-notification::after {
+  background: var(--dark);
 }
