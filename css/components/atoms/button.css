@@ -185,7 +185,9 @@
 .button.error-notification,
 .button.warning-notification,
 .button.success-notification,
-.button.info-notification {
+.button.info-notification,
+.button.light-notification,
+.button.dark-notification {
   position: relative;
   overflow: visible;
 }
