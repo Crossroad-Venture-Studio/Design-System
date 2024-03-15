@@ -37,14 +37,70 @@
   padding: var(--padding);
 }
 
+.padding-half {
+  padding: var(--padding-half);
+}
+
+.padding-2x {
+  padding: var(--padding-2x);
+}
+
+.padding-3x {
+  padding: var(--padding-3x);
+}
+
+.padding-4x {
+  padding: var(--padding-4x);
+}
+
 .padding-horizontal {
   padding-left: var(--padding-horizontal);
   padding-right: var(--padding-horizontal);
 }
 
+.padding-horizontal-half {
+  padding-left: var(--padding-horizontal-half);
+  padding-right: var(--padding-horizontal-half);
+}
+
+.padding-horizontal-2x {
+  padding-left: var(--padding-horizontal-2x);
+  padding-right: var(--padding-horizontal-2x);
+}
+
+.padding-horizontal-3x {
+  padding-left: var(--padding-horizontal-3x);
+  padding-right: var(--padding-horizontal-3x);
+}
+
+.padding-horizontal-4x {
+  padding-left: var(--padding-horizontal-4x);
+  padding-right: var(--padding-horizontal-4x);
+}
+
 .padding-vertical {
   padding-top: var(--padding-vertical);
   padding-bottom: var(--padding-vertical);
+}
+
+.padding-vertical-half {
+  padding-top: var(--padding-vertical-half);
+  padding-bottom: var(--padding-vertical-half);
+}
+
+.padding-vertical-2x {
+  padding-top: var(--padding-vertical-2x);
+  padding-bottom: var(--padding-vertical-2x);
+}
+
+.padding-vertical-3x {
+  padding-top: var(--padding-vertical-3x);
+  padding-bottom: var(--padding-vertical-3x);
+}
+
+.padding-vertical-4x {
+  padding-top: var(--padding-vertical-4x);
+  padding-bottom: var(--padding-vertical-4x);
 }
 
 .padding.safearea {

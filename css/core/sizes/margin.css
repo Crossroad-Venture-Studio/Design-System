@@ -1,4 +1,4 @@
-@import './padding.css';
+@import './margin.css';
 /*
  * Margin variables
  * ----------------
@@ -36,12 +36,68 @@
   margin: var(--margin);
 }
 
+.margin-half {
+  margin: var(--margin-half);
+}
+
+.margin-2x {
+  margin: var(--margin-2x);
+}
+
+.margin-3x {
+  margin: var(--margin-3x);
+}
+
+.margin-4x {
+  margin: var(--margin-4x);
+}
+
 .margin-horizontal {
   margin-left: var(--margin-horizontal);
   margin-right: var(--margin-horizontal);
 }
 
+.margin-horizontal-half {
+  margin-left: var(--margin-horizontal-half);
+  margin-right: var(--margin-horizontal-half);
+}
+
+.margin-horizontal-2x {
+  margin-left: var(--margin-horizontal-2x);
+  margin-right: var(--margin-horizontal-2x);
+}
+
+.margin-horizontal-3x {
+  margin-left: var(--margin-horizontal-3x);
+  margin-right: var(--margin-horizontal-3x);
+}
+
+.margin-horizontal-4x {
+  margin-left: var(--margin-horizontal-4x);
+  margin-right: var(--margin-horizontal-4x);
+}
+
 .margin-vertical {
   margin-top: var(--margin-vertical);
   margin-bottom: var(--margin-vertical);
+}
+
+.margin-vertical-half {
+  margin-top: var(--margin-vertical-half);
+  margin-bottom: var(--margin-vertical-half);
+}
+
+.margin-vertical-2x {
+  margin-top: var(--margin-vertical-2x);
+  margin-bottom: var(--margin-vertical-2x);
+}
+
+.margin-vertical-3x {
+  margin-top: var(--margin-vertical-3x);
+  margin-bottom: var(--margin-vertical-3x);
+}
+
+.margin-vertical-4x {
+  margin-top: var(--margin-vertical-4x);
+  margin-bottom: var(--margin-vertical-4x);
 }

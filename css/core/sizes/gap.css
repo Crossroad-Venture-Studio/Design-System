@@ -27,6 +27,38 @@
   gap: var(--gap);
 }
 
+.gap-half {
+  gap: var(--gap-half);
+}
+
+.gap-2x {
+  gap: var(--gap-2x);
+}
+
+.gap-3x {
+  gap: var(--gap-3x);
+}
+
+.gap-4x {
+  gap: var(--gap-4x);
+}
+
 .text-gap {
   gap: var(--text-gap);
+}
+
+.text-gap-half {
+  gap: var(--text-gap-half);
+}
+
+.text-gap-2x {
+  gap: var(--text-gap-2x);
+}
+
+.text-gap-3x {
+  gap: var(--text-gap-3x);
+}
+
+.text-gap-4x {
+  gap: var(--text-gap-4x);
 }

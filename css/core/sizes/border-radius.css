@@ -30,3 +30,19 @@
 .border-radius-round {
   border-radius: var(--border-radius-round);
 }
+
+.border-radius-half {
+  border-radius: var(--border-radius-half);
+}
+
+.border-radius-2x {
+  border-radius: var(--border-radius-2x);
+}
+
+.border-radius-3x {
+  border-radius: var(--border-radius-3x);
+}
+
+.border-radius-4x {
+  border-radius: var(--border-radius-4x);
+}

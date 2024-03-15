@@ -86,30 +86,6 @@
 }
 
 /* Element spacing */
-.gap {
-  gap: var(--gap);
-}
-
-.gap-half {
-  gap: var(--gap-half);
-}
-
-.gap-2x {
-  gap: var(--gap);
-}
-
-.text-gap {
-  gap: var(--text-gap);
-}
-
-.text-gap-half {
-  gap: var(--text-gap-half);
-}
-
-.text-gap-2x {
-  gap: var(--text-gap-2x);
-}
-
 .column.spread,
 .row.spread {
   justify-content: space-between;
