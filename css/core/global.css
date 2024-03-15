@@ -2,9 +2,12 @@
 * {
   -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
-  overflow: visible;
   overflow-anchor: auto;
   scroll-behavior: smooth;
+}
+
+*:not(img):not(video):not(canvas) {
+  overflow: visible;
 }
 
 *:focus {
