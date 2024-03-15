@@ -6,6 +6,7 @@
   --top-navbar-padding-vertical: 12px;
   --top-navbar-gap: var(--size-6-12);
   --top-navbar-height: var(--size-48-64);
+  --top-navbar-logo-height: var(--size-18-24);
 }
 
 /* Navbar style */
@@ -101,6 +102,10 @@
   width: 100%;
   height: 100%;
   overflow: visible;
+}
+
+.top-navbar .top-navbar-logo {
+  min-height: var(--top-navbar-logo-height);
 }
 
 /* Responsive styles: display button vs icons */
