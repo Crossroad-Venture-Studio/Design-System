@@ -84,7 +84,7 @@
   transition: var(--transition-time);
 }
 
-/* Hover, actie and disabled */
+/* Hover, only for non-touchable devices */
 @media not all and (hover: none), (-ms-high-contrast: none) {
   .button:not(.button:disabled):hover {
     opacity: 0.8;
