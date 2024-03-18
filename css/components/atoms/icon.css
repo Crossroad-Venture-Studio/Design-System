@@ -8,6 +8,8 @@
   /* Properties */
   --icon-size: var(--size-18-24);
   --icon-size-half: calc(0.5 * var(--icon-size));
+  --icon-size-small: var(--size-12-18);
+  --icon-size-large: var(--size-24-32);
 }
 
 /* 
@@ -28,4 +30,12 @@
   align-items: center;
   justify-content: center;
   min-width: var(--icon-size);
+}
+
+.icon.small {
+  height: var(--icon-size-small);
+}
+
+.icon.large {
+  height: var(--icon-size-large);
 }
