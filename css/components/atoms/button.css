@@ -27,6 +27,10 @@
   --pill-font-family: var(--fat-font-family);
   --pill-font-size: var(--size-10-12);
   --pill-letter-spacing: 0.1em;
+  /* Notification offset */
+  --button-notifiction-size: var(--size-8-10);
+  --button-notification-offset: calc(2px - var(--size-0-4));
+  --button-notification-border-radius: 1000px;
 }
 
 /* 
@@ -200,13 +204,13 @@
 .button.light-notification::after,
 .button.dark-notification::after {
   content: '';
-  width: var(--size-8-10);
-  height: var(--size-8-10);
+  width: var(--button-notifiction-size);
+  height: var(--button-notifiction-size);
   background: var(--red);
-  border-radius: 100px;
+  border-radius: var(--button-notification-border-radius);
   position: absolute;
-  top: calc(2px - var(--size-0-4));
-  right: calc(2px - var(--size-0-4));
+  top: var(--button-notification-offset);
+  right: var(--button-notification-offset);
 }
 
 .button.warning-notification::after {
