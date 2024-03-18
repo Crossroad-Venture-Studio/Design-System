@@ -9,7 +9,7 @@
   --shadow-3: #00000005;
 
   /* Properties */
-  --super-close-shadow: 0px 2px 4px var(--shadow-2);
+  --super-close-shadow: 0px 1px 4px var(--shadow-2);
   --close-shadow: 0px 4px 5px var(--shadow-2);
   --medium-shadow: 0px 2px 15px var(--shadow-2);
   --wide-shadow: 0px 0px 30px var(--shadow-2);
