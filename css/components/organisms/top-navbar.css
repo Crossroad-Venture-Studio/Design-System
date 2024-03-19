@@ -105,9 +105,13 @@
   overflow: visible;
 }
 
-.top-navbar .top-navbar-logo {
+.top-navbar .top-navbar-logo-image {
   min-height: var(--top-navbar-logo-min-height);
   max-height: var(--top-navbar-logo-max-height);
+}
+
+.top-navbar .button.top-navbar-logo {
+  padding: 0;
 }
 
 /* Responsive styles: display button vs icons */
