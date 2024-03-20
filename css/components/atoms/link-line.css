@@ -57,11 +57,16 @@
   padding: 0;
   /* Font */
   text-overflow: ellipsis;
-  color: var(--dark);
+}
+
+.link-line.button,
+.link-line > :first-child {
+  color: var(--dark) !important;
 }
 
 .link-line > :last-child {
   justify-content: flex-end;
+  color: var(--dark);
 }
 
 .link-line .button,
