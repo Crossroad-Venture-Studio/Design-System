@@ -66,14 +66,13 @@
 
 .link-line > :last-child {
   justify-content: flex-end;
-  color: var(--dark);
+  color: var(--gray-2);
 }
 
 .link-line .button,
 .link-line.button {
   padding: 0;
   background: none;
-  color: var(--gray-2);
   transition: all var(--transition-time);
 }
 
