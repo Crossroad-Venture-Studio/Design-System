@@ -19,8 +19,8 @@
   display: flex;
   width: 100%;
   align-items: center;
-  gap: var(--link-line-gap);
-  padding: 0;
+  gap: var(--link-line-gap) !important;
+  padding: 0 !important;
   /* Color */
   color: var(--gray-2);
   background: none;
