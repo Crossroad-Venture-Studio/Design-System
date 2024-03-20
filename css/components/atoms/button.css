@@ -213,7 +213,7 @@
   right: var(--button-notification-offset);
 }
 
-.button.warning-notification::after {
+/* .button.warning-notification::after {
   background: var(--orange);
 }
 
@@ -231,4 +231,4 @@
 
 .button.dark-notification::after {
   background: var(--dark);
-}
+} */
