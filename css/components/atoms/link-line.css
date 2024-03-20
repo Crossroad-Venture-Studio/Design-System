@@ -68,7 +68,7 @@
 }
 
 /* Hover, only for non-touchable devices */
-@media not all and (hover: none), (pointer: coarse), (-ms-high-contrast: none) {
+@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   .link-line.button:hover {
     padding: 0;
     color: var(--gray-2) !important;
