@@ -64,7 +64,6 @@
 }
 
 .link-line.button > .link-line-button {
-  color: var(--gray-3);
   transition: var(--transition-time);
 }
 
