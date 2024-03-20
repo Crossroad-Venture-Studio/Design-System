@@ -65,6 +65,7 @@
 .link-line .button,
 .link-line.button {
   padding: 0;
+  background: none;
 }
 
 .link-line.divider:not(.link-line:last-child) {
