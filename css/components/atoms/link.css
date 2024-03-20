@@ -27,12 +27,11 @@
 }
 
 /* Link statuses */
-.link, .link:visited, .link:hover, .link:active {
+.link, .link:visited, .link:active {
   color: inherit;
   font-size: inherit;
 }
 
-.link:hover,
 .link:disabled {
   opacity: 0.8;
   text-decoration: none;
@@ -42,15 +41,21 @@
 
 @media not all and (hover: none), (-ms-high-contrast: none) {
   .link:hover {
+    color: inherit;
+    font-size: inherit;
     opacity: 0.8;
     text-decoration: none;
     -webkit-decoration: none;
     -webkit-text-decoration: none;
   }
+
+  .link:active:hover,
+  .link:hover:active {
+    opacity: 1;
+  }
 }
 
-.link:active,
-.link:active:hover {
+.link:active {
   opacity: 1;
 }
 
