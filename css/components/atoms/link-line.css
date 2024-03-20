@@ -72,7 +72,11 @@
   color: var(--gray-2);
   padding: 0;
   background: none;
-  transition: all var(--transition-time);
+}
+
+.link-line .button *,
+.link-line.button * {
+  transition: none;
 }
 
 /* Hover, only for non-touchable devices */
