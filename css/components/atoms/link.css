@@ -39,7 +39,7 @@
   -webkit-text-decoration: none;
 }
 
-@media not all and (hover: none), (-ms-high-contrast: none) {
+@media not all and (hover: none), (pointer: coarse), (-ms-high-contrast: none) {
   .link:hover {
     color: inherit;
     font-size: inherit;

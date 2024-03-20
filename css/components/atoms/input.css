@@ -87,7 +87,7 @@ select,
   opacity: 1;
 }
 
-@media not all and (hover: none), (-ms-high-contrast: none) {
+@media not all and (hover: none), (pointer: coarse), (-ms-high-contrast: none) {
   .input:hover {
     opacity: 1;
   }
