@@ -61,7 +61,7 @@
 
 .link-line.button,
 .link-line > :first-child {
-  color: var(--dark) !important;
+  color: var(--dark);
 }
 
 .link-line > :last-child {
