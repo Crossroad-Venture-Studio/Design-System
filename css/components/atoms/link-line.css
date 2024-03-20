@@ -76,6 +76,7 @@
   .link-line.button:hover {
     padding: 0;
     background: none;
+    transition: var(--transition-time);
   }
 }
 
