@@ -63,7 +63,7 @@
   color: var(--dark);
 }
 
-.link-line > :not(:first-child):last-child {
+.link-line > :not(:only-child):last-child {
   justify-content: flex-end;
 }
 
