@@ -77,12 +77,12 @@
   /* pointer event */
   pointer-events: auto;
   /* animation */
-  transition: var(--transition-time);
+  transition: all var(--transition-time);
 }
 
 .button * {
   font-size: inherit;
-  transition: var(--transition-time);
+  transition: all var(--transition-time);
 }
 
 /* Hover, only for non-touchable devices */

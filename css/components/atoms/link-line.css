@@ -67,7 +67,7 @@
 .link-line.button {
   padding: 0;
   background: none;
-  transition: var(--transition-time);
+  transition: all var(--transition-time);
 }
 
 /* Hover, only for non-touchable devices */
@@ -76,7 +76,7 @@
   .link-line.button:hover {
     padding: 0;
     background: none;
-    transition: var(--transition-time);
+    transition: all var(--transition-time);
   }
 }
 
