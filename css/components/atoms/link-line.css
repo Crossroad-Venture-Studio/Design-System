@@ -43,6 +43,7 @@
   font-size: inherit;
   /* pointer event */
   pointer-events: auto;
+  transition: var(--transition-time);
 }
 
 .link-line > :last-child,
@@ -66,6 +67,7 @@
 .link-line.button {
   padding: 0;
   background: none;
+  transition: var(--transition-time);
 }
 
 /* Hover, only for non-touchable devices */
