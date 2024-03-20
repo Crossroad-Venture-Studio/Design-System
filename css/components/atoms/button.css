@@ -90,11 +90,18 @@
   .button:not(.button:disabled):hover {
     opacity: 0.8;
   }
+
+  .button:hover {
+    color: inherit;
+  }
+
+  .button:hover:active,
+  .button:active:hover {
+    opacity: 1;
+  }
 }
 
-.button:active,
-.button:hover:active,
-.button:active:hover {
+.button:active {
   opacity: 1;
 }
 
@@ -103,7 +110,7 @@
   cursor: not-allowed;
 }
 
-.button, .button:visited, .button:hover, .button:active, .button:link {
+.button, .button:visited, .button:active, .button:link {
   color: inherit;
 }
 
