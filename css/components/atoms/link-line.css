@@ -59,18 +59,17 @@
   text-overflow: ellipsis;
 }
 
-.link-line.button,
-.link-line > :first-child {
+.link-line:not(.link-line.button) > :first-child {
   color: var(--dark);
 }
 
 .link-line > :last-child {
   justify-content: flex-end;
-  color: var(--gray-2);
 }
 
 .link-line .button,
 .link-line.button {
+  color: var(--gray-2);
   padding: 0;
   background: none;
   transition: all var(--transition-time);
