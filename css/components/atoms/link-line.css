@@ -69,7 +69,9 @@
     padding: 0;
     color: var(--gray-2);
     background: none;
-    opacity: 0.7;
+  }
+  .link-line.button:hover > .link-line-button {
+    color: var(--gray-3);
   }
 }
 
