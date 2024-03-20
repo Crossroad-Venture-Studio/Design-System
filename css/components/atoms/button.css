@@ -82,7 +82,7 @@
 
 .button * {
   font-size: inherit;
-  transition: all var(--transition-time);
+  /* transition: all var(--transition-time); */
 }
 
 /* Hover, only for non-touchable devices */

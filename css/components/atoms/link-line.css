@@ -78,7 +78,6 @@
     padding: 0;
     background: none;
     color: inherit;
-    transition: all var(--transition-time);
   }
 }
 
