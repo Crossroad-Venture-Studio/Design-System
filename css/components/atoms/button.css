@@ -29,7 +29,7 @@
   --pill-letter-spacing: 0.1em;
   /* Notification offset */
   --button-notifiction-size: var(--size-8-10);
-  --button-notification-offset: calc(4px - var(--size-0-6));
+  --button-notification-offset: calc(4px - var(--size-0-8));
   --button-notification-border-radius: 1000px;
 }
 
