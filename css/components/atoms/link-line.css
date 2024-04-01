@@ -60,6 +60,19 @@
   text-overflow: ellipsis;
 }
 
+.link-line.button.nowrap  > :first-child,
+.link-line.button.nowrap  > :last-child {
+  text-wrap: nowrap;
+}
+
+.link-line.button.nowrap-first  > :first-child {
+  text-wrap: nowrap;
+}
+
+.link-line.button.nowrap-last  > :last-child {
+  text-wrap: nowrap;
+}
+
 .link-line.button > :not(:only-child):last-child {
   justify-content: flex-end;
 }
