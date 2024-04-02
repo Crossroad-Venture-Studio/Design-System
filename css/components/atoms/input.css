@@ -59,6 +59,10 @@ select,
   transition: var(--transition-time);
 }
 
+textarea.input {
+  resize: none;
+}
+
 .input.light::placeholder,
 .input.light {
   color: var(--dark);
