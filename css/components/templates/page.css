@@ -16,7 +16,8 @@
   --page-safearea-padding: var(--page-safearea-padding-top) var(--page-safearea-padding-left) var(--page-safearea-padding-bottom) var(--page-safearea-padding-right);
   --page-navbar-padding-top: calc(var(--top-navbar-height) + var(--page-padding-vertical));
   --page-navbar-safearea-padding-top: calc(var(--top-navbar-height) + var(--page-safearea-padding-top));
-  --page-navbar-padding: var(--page-navbar-padding-top) var(--page-padding-vertical)
+  --page-navbar-padding: var(--page-navbar-padding-top) var(--page-padding-left) var(--page-padding-bottom) var(--page-padding-right);
+  --page-navbar-safearea-padding: var(--page-navbar-safearea-padding-top) var(--page-padding-safearea-left) var(--page-padding-safearea-bottom) var(--page-safearea-padding-right);
 }
 
 /* Page style */
