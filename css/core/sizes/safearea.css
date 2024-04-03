@@ -25,31 +25,31 @@
  */
 
 .safearea-top {
-  padding-top: var(--safe-area-top);
+  padding-top: var(--safearea-top);
 }
 
 .safearea-left {
-  padding-left: var(--safe-area-left);
+  padding-left: var(--safearea-left);
 }
 
 .safearea-bottom {
-  padding-bottom: var(--safe-area-bottom);
+  padding-bottom: var(--safearea-bottom);
 }
 
 .safearea-right {
-  padding-right: var(--safe-area-right);
+  padding-right: var(--safearea-right);
 }
 
 .safearea-horizontal {
-  padding-left: var(--safe-area-left);
-  padding-right: var(--safe-area-right);
+  padding-left: var(--safearea-left);
+  padding-right: var(--safearea-right);
 }
 
 .safearea-vertical {
-  padding-top: var(--safe-area-top);
-  padding-bottom: var(--safe-area-bottom);
+  padding-top: var(--safearea-top);
+  padding-bottom: var(--safearea-bottom);
 }
 
 .safearea {
-  padding: var(--safe-area);
+  padding: var(--safearea);
 }

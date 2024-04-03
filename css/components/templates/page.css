@@ -1,12 +1,31 @@
 @import '../organisms/top-navbar.css';
 
+/* Navbar variables */
+:root {
+  --page-padding-vertical: var(--padding-vertical);
+  --page-padding-horizontal: var(--padding-horizontal);
+  --page-padding-top: var(--page-padding-vertical);
+  --page-padding-left: var(--page-padding-horizontal);
+  --page-padding-bottom: var(--page-padding-vertical);
+  --page-padding-right: var(--page-padding-horizontal);
+  --page-padding: var(--page-padding-vertical) var(--page-padding-horizontal);
+  --page-safearea-padding-top: calc(var(--safearea-top) + var(--padding-vertical));
+  --page-safearea-padding-left: calc(var(--safearea-left) + var(--padding-horizontal));
+  --page-safearea-padding-bottom: calc(var(--safearea-bottom) + var(--padding-vertical));
+  --page-safearea-padding-right: calc(var(--safearea-right) + var(--padding-horizontal));
+  --page-safearea-padding: var(--page-safearea-padding-top) var(--page-safearea-padding-left) var(--page-safearea-padding-bottom) var(--page-safearea-padding-right);
+  --page-navbar-padding-top: calc(var(--top-navbar-height) + var(--page-padding-vertical));
+  --page-navbar-safearea-padding-top: calc(var(--top-navbar-height) + var(--page-safearea-padding-top));
+  --page-navbar-padding: var(--page-navbar-padding-top) var(--page-padding-vertical)
+}
+
 /* Page style */
 .page {
   /* Alignment */
   display: flex;
   flex-direction: column;
   margin: 0;
-  padding: var(--padding-vertical) var(--padding-horizontal);
+  padding: var(--page-padding);
   gap: var(--gap);
   /* Sizes */
   width: 100%;
@@ -33,13 +52,13 @@
 
 /* Add safearea */
 .page.safearea {
-  padding: calc(var(--safe-area-top) + var(--padding-vertical)) calc(var(--safe-area-left) + var(--padding-horizontal)) calc(var(--safe-area-bottom) + var(--padding-vertical)) calc(var(--safe-area-right) + var(--padding-horizontal));
+  padding: var(--page-safearea-padding);
 }
 
 /* Add padding due to navbar */
 .page:has(.top-navbar),
 *:has(.top-navbar) .page {
-  padding-top: calc(var(--top-navbar-height) + var(--padding-vertical));
+  padding-top: var(--page-navbar-padding-top);
 }
 
 /* Tackling safe area at a current page or child navbar */
@@ -47,5 +66,5 @@
 .page:has(.top-navbar.safearea),
 *:has(.top-navbar) .page.safearea,
 *:has(.top-navbar.safearea) .page  {
-  padding-top: calc(var(--safe-area-top) + var(--top-navbar-height) + var(--padding-vertical));
+  padding-top: var(--page-navbar-safearea-padding-top);
 }

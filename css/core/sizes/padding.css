@@ -104,5 +104,5 @@
 }
 
 .padding.safearea {
-  padding: calc(var(--safe-area-top) + var(--padding-vertical)) calc(var(--safe-area-left) + var(--padding-horizontal)) calc(var(--safe-area-bottom) + var(--padding-vertical)) calc(var(--safe-area-right) + var(--padding-horizontal));
+  padding: calc(var(--safearea-top) + var(--padding-vertical)) calc(var(--safearea-left) + var(--padding-horizontal)) calc(var(--safearea-bottom) + var(--padding-vertical)) calc(var(--safearea-right) + var(--padding-horizontal));
 }

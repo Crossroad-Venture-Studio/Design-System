@@ -45,10 +45,10 @@
 *.safearea > .top-navbar,
 *.safearea > * .top-navbar,
 .top-navbar.safearea {
-  height: calc(var(--safe-area-top) + var(--top-navbar-height));
-  padding-top: var(--safe-area-top);
-  padding-left: calc(var(--top-navbar-padding-horizontal) + var(--safe-area-left));
-  padding-right: calc(var(--top-navbar-padding-horizontal) + var(--safe-area-right));
+  height: calc(var(--safearea-top) + var(--top-navbar-height));
+  padding-top: var(--safearea-top);
+  padding-left: calc(var(--top-navbar-padding-horizontal) + var(--safearea-left));
+  padding-right: calc(var(--top-navbar-padding-horizontal) + var(--safearea-right));
 }
 
 /* Button in the navbar */

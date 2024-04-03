@@ -9,10 +9,10 @@
   margin: 0;
   display: flex;
   flex-direction: column;
-  padding-top: calc(var(--safe-area-top) + var(--padding-vertical-half));
-  padding-bottom: calc(var(--safe-area-bottom) + var(--padding-vertical-half));
+  padding-top: calc(var(--safearea-top) + var(--padding-vertical-half));
+  padding-bottom: calc(var(--safearea-bottom) + var(--padding-vertical-half));
   padding-left: var(--padding-horizontal-half);
-  padding-right: calc(var(--safe-area-right) + var(--padding-horizontal-half));
+  padding-right: calc(var(--safearea-right) + var(--padding-horizontal-half));
   gap: var(--gap-half);
   /* Sizes */
   height: 100%;
