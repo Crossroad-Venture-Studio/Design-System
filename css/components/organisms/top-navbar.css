@@ -57,12 +57,12 @@
   text-transform: capitalize;
   text-wrap: nowrap;
   font-size: 14px;
-  font-weight: 400;
+  font-weight: 500;
 }
 
 .top-navbar .fat {
   font-family: var(--font-family);
-  font-weight: 400;
+  font-weight: 500;
 }
 
 /* Font trim on buttons */
