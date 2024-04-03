@@ -29,6 +29,7 @@
   --size-20-32: min(max(3.1420vw, 20px), 32px);
   --size-22-28: min(max(3.0211vw, 22px), 28px);
   --size-20-24: min(max(2.6586vw, 20px), 24px);
+  --size-18-26: min(max(2.6586vw, 18px), 26px);
   --size-18-24: min(max(2.5378vw, 18px), 24px);
   --size-18-20: min(max(2.2961vw, 18px), 20px);
   --size-16-32: min(max(2.9003vw, 16px), 32px);
