@@ -22,6 +22,22 @@
   --margin-vertical-2x: calc(2 * var(--margin-vertical));
   --margin-vertical-3x: calc(3 * var(--margin-vertical));
   --margin-vertical-4x: calc(4 * var(--margin-vertical));
+  --margin-top-half: var(--margin-vertical-half);
+  --margin-top-2x: var(--margin-vertical-2x);
+  --margin-top-3x: var(--margin-vertical-3x);
+  --margin-top-4x: var(--margin-vertical-4x);
+  --margin-left-half: var(--margin-horizontal-half);
+  --margin-left-2x: var(--margin-horizontal-2x);
+  --margin-left-3x: var(--margin-horizontal-3x);
+  --margin-left-4x: var(--margin-horizontal-4x);
+  --margin-bottom-half: var(--margin-vertical-half);
+  --margin-bottom-2x: var(--margin-vertical-2x);
+  --margin-bottom-3x: var(--margin-vertical-3x);
+  --margin-bottom-4x: var(--margin-vertical-4x);
+  --margin-right-half: var(--margin-horizontal-half);
+  --margin-right-2x: var(--margin-horizontal-2x);
+  --margin-right-3x: var(--margin-horizontal-3x);
+  --margin-right-4x: var(--margin-horizontal-4x);
 }
 
 /*
@@ -100,4 +116,84 @@
 .margin-vertical-4x {
   margin-top: var(--margin-vertical-4x);
   margin-bottom: var(--margin-vertical-4x);
+}
+
+.margin-top {
+  margin-top: var(--margin-top);
+}
+
+.margin-top-half {
+  margin-top: var(--margin-top-half);
+}
+
+.margin-top-2x {
+  margin-top: var(--margin-top-2x);
+}
+
+.margin-top-3x {
+  margin-top: var(--margin-top-3x);
+}
+
+.margin-top-4x {
+  margin-top: var(--margin-top-4x);
+}
+
+.margin-left {
+  margin-left: var(--margin-left);
+}
+
+.margin-left-half {
+  margin-left: var(--margin-left-half);
+}
+
+.margin-left-2x {
+  margin-left: var(--margin-left-2x);
+}
+
+.margin-left-3x {
+  margin-left: var(--margin-left-3x);
+}
+
+.margin-left-4x {
+  margin-left: var(--margin-left-4x);
+}
+
+.margin-bottom {
+  margin-bottom: var(--margin-bottom);
+}
+
+.margin-bottom-half {
+  margin-bottom: var(--margin-bottom-half);
+}
+
+.margin-bottom-2x {
+  margin-bottom: var(--margin-bottom-2x);
+}
+
+.margin-bottom-3x {
+  margin-bottom: var(--margin-bottom-3x);
+}
+
+.margin-bottom-4x {
+  margin-bottom: var(--margin-bottom-4x);
+}
+
+.margin-right {
+  margin-right: var(--margin-right);
+}
+
+.margin-right-half {
+  margin-right: var(--margin-right-half);
+}
+
+.margin-right-2x {
+  margin-right: var(--margin-right-2x);
+}
+
+.margin-right-3x {
+  margin-right: var(--margin-right-3x);
+}
+
+.margin-right-4x {
+  margin-right: var(--margin-right-4x);
 }
