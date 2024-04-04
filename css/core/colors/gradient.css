@@ -14,6 +14,7 @@
   --green-lime-horizontal: linear-gradient(0deg, var(--green), var(--lime));
   --chocolate-leather-horizontal: linear-gradient(0deg, var(--chocolate), var(--leather));
   --blue-cyan-horizontal: linear-gradient(0deg, var(--blue), var(--cyan));
+  --blue-teal-horizontal: linear-gradient(0deg, var(--blue), var(--teal));
   --orange-pink-horizontal: linear-gradient(0deg, var(--orange), var(--pink));
   --purple-blue-horizontal: linear-gradient(0deg, var(--purple), var(--blue));
   --leather-olive-horizontal: linear-gradient(0deg, var(--leather), var(--olive));
@@ -34,6 +35,7 @@
   --green-lime-vertical: linear-gradient(90deg, var(--green), var(--lime));
   --chocolate-leather-vertical: linear-gradient(90deg, var(--chocolate), var(--leather));
   --blue-cyan-vertical: linear-gradient(90deg, var(--blue), var(--cyan));
+  --blue-teal-vertical: linear-gradient(90deg, var(--blue), var(--teal));
   --orange-pink-vertical: linear-gradient(90deg, var(--orange), var(--pink));
   --purple-blue-vertical: linear-gradient(90deg, var(--purple), var(--blue));
   --leather-olive-vertical: linear-gradient(90deg, var(--leather), var(--olive));
@@ -54,6 +56,7 @@
   --green-lime-diagonal: linear-gradient(45deg, var(--green), var(--lime));
   --chocolate-leather-diagonal: linear-gradient(45deg, var(--chocolate), var(--leather));
   --blue-cyan-diagonal: linear-gradient(45deg, var(--blue), var(--cyan));
+  --blue-teal-diagonal: linear-gradient(45deg, var(--blue), var(--teal));
   --orange-pink-diagonal: linear-gradient(45deg, var(--orange), var(--pink));
   --purple-blue-diagonal: linear-gradient(45deg, var(--purple), var(--blue));
   --leather-olive-diagonal: linear-gradient(45deg, var(--leather), var(--olive));
