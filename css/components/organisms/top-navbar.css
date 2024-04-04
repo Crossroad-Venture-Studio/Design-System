@@ -87,7 +87,7 @@
 }
 
 /* Margins */
-.top-navbar .button:first-child {
+.top-navbar .button:not(.top-navbar-logo):first-child {
   margin-left: calc(2px - var(--button-padding-horizontal)) !important;
 }
 
