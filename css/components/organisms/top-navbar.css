@@ -92,7 +92,7 @@
 }
 
 .top-navbar .button.back-button:first-child {
-  margin-left: calc(2px - 2 * var(--button-padding-horizontal)) !important;
+  margin-left: calc(2px - 1.5 * var(--button-padding-horizontal)) !important;
 }
 
 .top-navbar .button:last-child {
@@ -100,7 +100,7 @@
 }
 
 .top-navbar .button.next-button:last-child {
-  margin-right: calc(2px - 2 * var(--button-padding-horizontal)) !important;
+  margin-right: calc(2px - 1.5 * var(--button-padding-horizontal)) !important;
 }
 
 .top-navbar .top-navbar-background {
