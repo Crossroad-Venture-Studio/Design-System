@@ -87,7 +87,7 @@
 }
 
 /* Margins */
-.top-navbar .button:not(.top-navbar-logo):first-child {
+.top-navbar .button:not(.top-navbar-logo):first-child:not(.button:not(.top-navbar-logo):only-child) {
   margin-left: calc(2px - var(--button-padding-horizontal)) !important;
 }
 
