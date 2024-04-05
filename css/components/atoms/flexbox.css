@@ -163,4 +163,8 @@
   .row.responsive.right .column.left {
     align-items: flex-end;
   }
+
+  .row.responsive .column.fill {
+    width: 100%;
+  }
 }
