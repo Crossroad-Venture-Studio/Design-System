@@ -61,7 +61,6 @@
   font-family: var(--button-font-family);
   text-transform: uppercase;
   letter-spacing: var(--button-letter-spacing);
-  font-size: var(--button-font-size);
   font-weight: 900;
   text-wrap: balance;
   text-decoration: none;
@@ -78,6 +77,10 @@
   pointer-events: auto;
   /* animation */
   transition: all var(--transition-time);
+}
+
+.button:not(.button[class*='font-size-']) {
+  font-size: var(--button-font-size);
 }
 
 .button * {
