@@ -68,6 +68,11 @@
   margin: var(--margin-4x);
 }
 
+.margin-horizontal-none {
+  margin-left: 0;
+  margin-right: 0;
+}
+
 .margin-horizontal {
   margin-left: var(--margin-horizontal);
   margin-right: var(--margin-horizontal);
@@ -91,6 +96,11 @@
 .margin-horizontal-4x {
   margin-left: var(--margin-horizontal-4x);
   margin-right: var(--margin-horizontal-4x);
+}
+
+.margin-vertical-none {
+  margin-top: 0;
+  margin-bottom: 0;
 }
 
 .margin-vertical {
