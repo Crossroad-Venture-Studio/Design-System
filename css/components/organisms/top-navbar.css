@@ -36,6 +36,10 @@
   flex: 1;
 }
 
+.top-navbar.print {
+  display: none !important;
+}
+
 /* If there's a row of buttons at the end of the navbar */
 .top-navbar > div:last-child {
   gap: var(--top-navbar-gap);
