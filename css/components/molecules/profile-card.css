@@ -5,3 +5,7 @@
   border-radius: var(--border-radius);
   padding: var(--padding-half);
 }
+
+.profile-card img {
+  border-radius: var(--border-radius-round);
+}
