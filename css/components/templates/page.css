@@ -36,6 +36,11 @@
   overflow-x: hidden;
 }
 
+.page.print {
+  overflow: visible !important;
+  overflow-y: visible !important;
+}
+
 .page.scroll-x {
   overflow-x: auto;
 }
