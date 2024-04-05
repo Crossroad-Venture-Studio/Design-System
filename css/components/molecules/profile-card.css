@@ -1,0 +1,7 @@
+.profile-card {
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-half);
+  border-radius: var(--border-radius);
+  padding: var(--padding-half);
+}
