@@ -32,7 +32,16 @@
   width: 100%;
   height: 100%;
   /* Appearance */
-  overflow: auto;
+  overflow-y: auto;
+  overflow-x: hidden;
+}
+
+.page.scroll-x {
+  overflow-x: auto;
+}
+
+.page.scroll-y {
+  overflow-y: auto;
 }
 
 .page.middle {
