@@ -149,22 +149,22 @@
     flex-direction: column;
   }
 
-  .row.responsive .column.right,
-  .row.responsive .column.left {
+  .row.responsive .column.responsive.right,
+  .row.responsive .column.responsive.left {
     align-items: center;
   }
 
-  .row.responsive.left .column.right,
-  .row.responsive.left .column.left {
+  .row.responsive.left .column.responsive.right,
+  .row.responsive.left .column.responsive.left {
     align-items: flex-start;
   }
 
-  .row.responsive.right .column.right,
-  .row.responsive.right .column.left {
+  .row.responsive.right .column.responsive.right,
+  .row.responsive.right .column.responsive.left {
     align-items: flex-end;
   }
 
-  .row.responsive .column.fill {
+  .row.responsive .column.responsive.fill {
     width: 100%;
   }
 }
