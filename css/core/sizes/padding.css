@@ -73,6 +73,11 @@
   padding: var(--padding-4x);
 }
 
+.padding-horizontal-none {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .padding-horizontal {
   padding-left: var(--padding-horizontal);
   padding-right: var(--padding-horizontal);
@@ -96,6 +101,11 @@
 .padding-horizontal-4x {
   padding-left: var(--padding-horizontal-4x);
   padding-right: var(--padding-horizontal-4x);
+}
+
+.padding-vertical-none {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .padding-vertical {
