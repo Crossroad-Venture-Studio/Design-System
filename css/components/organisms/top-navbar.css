@@ -26,6 +26,8 @@
   align-items: center;
   gap: var(--top-navbar-gap);
   /* Appearance */
+  -webkit-backdrop-filter: blur(15px);
+  -moz-backdrop-filter: blur(15px);
   backdrop-filter: blur(15px);
   z-index: 1000;
 }

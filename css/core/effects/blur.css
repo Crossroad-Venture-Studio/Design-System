@@ -13,25 +13,37 @@
  * -------
  */
 .background-blur-small {
+  -webkit-backdrop-filter: blur(var(--blur-small));
+  -moz-backdrop-filter: blur(var(--blur-small));
   backdrop-filter: blur(var(--blur-small));
 }
 
 .background-blur-medium {
+  -webkit-backdrop-filter: blur(var(--blur-medium));
+  -moz-backdrop-filter: blur(var(--blur-medium));
   backdrop-filter: blur(var(--blur-medium));
 }
 
 .background-blur-large {
+  -webkit-backdrop-filter: blur(var(--blur-large));
+  -moz-backdrop-filter: blur(var(--blur-large));
   backdrop-filter: blur(var(--blur-large));
 }
 
 .layer-blur-small {
+  -webkit-filter: blur(var(--blur-small));
+  -moz-filter: blur(var(--blur-small));
   filter: blur(var(--blur-small));
 }
 
 .layer-blur-medium {
+  -webkit-filter: blur(var(--blur-medium));
+  -moz-filter: blur(var(--blur-medium));
   filter: blur(var(--blur-medium));
 }
 
 .layer-blur-large {
+  -webkit-filter: blur(var(--blur-large));
+  -moz-filter: blur(var(--blur-large));
   filter: blur(var(--blur-large));
 }
