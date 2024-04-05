@@ -153,4 +153,14 @@
   .row.responsive .column.left {
     align-items: center;
   }
+
+  .row.responsive.left .column.right,
+  .row.responsive.left .column.left {
+    align-items: flex-start;
+  }
+
+  .row.responsive.right .column.right,
+  .row.responsive.right .column.left {
+    align-items: flex-end;
+  }
 }
