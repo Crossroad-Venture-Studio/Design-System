@@ -8,6 +8,7 @@
   --top-navbar-height: var(--size-48-64);
   --top-navbar-logo-min-height: var(--size-18-24);
   --top-navbar-logo-max-height: 24px;
+  --top-navbar-scroll-y-percent: 0;
 }
 
 /* Navbar style */
