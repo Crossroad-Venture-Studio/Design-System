@@ -40,16 +40,16 @@ table,
 }
 
 .viewport-width {
-  width: 100vw;
+  min-width: 100vw;
 }
 
 .viewport-height {
-  height: 100vh;
+  min-height: 100vh;
 }
 
 .viewport-size {
-  width: 100vw;
-  height: 100vh;
+  min-width: 100vw;
+  min-height: 100vh;
 }
 
 nav,
