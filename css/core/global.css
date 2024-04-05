@@ -44,7 +44,12 @@ table,
 }
 
 .viewport-height {
-  width: 100vh;
+  height: 100vh;
+}
+
+.viewport-size {
+  width: 100vw;
+  height: 100vh;
 }
 
 nav,
