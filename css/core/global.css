@@ -2,12 +2,12 @@
 * {
   -webkit-tap-highlight-color: transparent;
   box-sizing: border-box;
-  /* overflow-anchor: auto; */
+  overflow-anchor: auto;
   scroll-behavior: smooth;
 }
 
 *:not(img):not(video):not(canvas) {
-  /* overflow: visible; */
+  overflow: auto;
 }
 
 *:focus {
@@ -22,6 +22,7 @@ body {
   background-color:black;
   color:white;
   font-weight: normal;
+  overflow: auto;
 }
 
 html,
