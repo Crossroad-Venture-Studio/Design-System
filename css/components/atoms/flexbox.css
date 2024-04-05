@@ -148,4 +148,9 @@
   .row.responsive {
     flex-direction: column;
   }
+
+  .row.responsive .column.right,
+  .row.responsive .column.left {
+    align-items: center;
+  }
 }
