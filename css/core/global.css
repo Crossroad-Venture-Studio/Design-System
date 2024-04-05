@@ -22,7 +22,7 @@ body {
   background-color:black;
   color:white;
   font-weight: normal;
-  overflow: auto;
+  /* overflow: auto; */
 }
 
 html,
