@@ -7,7 +7,7 @@
 }
 
 *:not(img):not(video):not(canvas) {
-  overflow: auto;
+  overflow: visible;
 }
 
 *:focus {
