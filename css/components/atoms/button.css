@@ -85,6 +85,20 @@
   transition: all var(--transition-time);
 }
 
+.button.padding-none {
+  padding: 0;
+}
+
+.button.padding-vertical-none {
+  padding-top: 0;
+  padding-bottom: 0;
+}
+
+.button.padding-horizontal-none {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 /* Hover, only for non-touchable devices */
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   .button:not(.button:disabled):hover {
