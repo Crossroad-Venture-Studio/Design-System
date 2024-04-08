@@ -7,6 +7,8 @@
   /* min(max( ((A + B) / (375 + 1280) * 100)vw, Apx), Bpx); */
   --size-96-128: min(max(13.5347vw, 98px), 128px);
   --size-64-128: min(max(11.6012vw, 64px), 128px);
+  --size-80-96: min(max(10.634vw, 80px), 96px);
+  --size-72-96: min(max(10.151vw, 72px), 96px);
   --size-64-96: min(max(9.6677vw, 64px), 96px);
   --size-64-72: min(max(8.2175vw, 64px), 72px);
   --size-48-96: min(max(8.7009vw, 48px), 96px);
