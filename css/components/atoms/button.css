@@ -80,15 +80,15 @@
   font-size: var(--button-font-size);
 }
 
-.button .button-text {
-  font-size: inherit;
-  font-weight: inherit;
-  text-transform: inherit;
-  font-family: inherit;
+.button:not(.ultra-thin):not(.thin):not(.semi-thin):not(.regular):not(.medium):not(.semi-bold):not(.bold):not(.ultra-bold):not(.heavy) {
+  font-weight: 600;
 }
 
 .button * {
   font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  font-family: inherit;
   transition: all var(--transition-time);
 }
 
