@@ -39,6 +39,7 @@
 /* Hover, only for non-touchable devices */
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   .profile-card-picture {
+    transition: all var(--transition-time);
     filter: saturate(0);
   }
 
