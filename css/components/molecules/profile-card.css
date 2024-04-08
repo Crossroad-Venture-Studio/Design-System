@@ -21,11 +21,11 @@
   text-align: center;
   text-wrap: balance;
   font-weight: 600;
-  font-size: var(--font-size-14-16);
+  font-size: var(--size-14-16);
 }
 
 .profile-card-title {
   text-align: center;
   text-wrap: balance;
-  font-size: var(--font-size-12-14);
+  font-size: var(--size-12-14);
 }
