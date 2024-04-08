@@ -10,9 +10,21 @@
   padding: var(--padding-half);
 }
 
-.profile-card .profile-card-picture {
+.profile-card-picture {
   border-radius: var(--border-radius-round);
   width: var(--profile-card-img-size);
   height: var(--profile-card-img-size);
   overflow: hidden;
+}
+
+.profile-card-name {
+  text-align: center;
+  text-wrap: balance;
+  font-weight: 700;
+}
+
+.profile-card-title {
+  text-align: center;
+  text-wrap: balance;
+  font-size: var(--font-size-12-14);
 }
