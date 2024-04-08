@@ -35,3 +35,14 @@
   text-wrap: balance;
   font-size: var(--size-12-14);
 }
+
+/* Hover, only for non-touchable devices */
+@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  .profile-card-picture {
+    filter: saturate(0);
+  }
+
+  .profile-card:hover .profile-card-picture {
+    filter: saturate(100);
+  }
+}
