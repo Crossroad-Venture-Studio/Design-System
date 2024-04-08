@@ -17,6 +17,12 @@
   overflow: hidden;
 }
 
+.profile-card-name-title {
+  justify-content: center;
+  align-items: center;
+  gap: var(--text-gap);
+}
+
 .profile-card-name {
   text-align: center;
   text-wrap: balance;
