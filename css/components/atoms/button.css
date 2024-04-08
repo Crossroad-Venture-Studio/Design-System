@@ -58,10 +58,7 @@
   border-radius: var(--button-border-radius);
   padding: var(--button-padding-vertical) var(--button-padding-horizontal);
   /* Font */
-  font-family: var(--button-font-family);
-  text-transform: uppercase;
   letter-spacing: var(--button-letter-spacing);
-  font-weight: 900;
   text-wrap: balance;
   text-decoration: none;
   -webkit-decoration: none;
@@ -81,6 +78,13 @@
 
 .button:not(.button[class*='font-size-']) {
   font-size: var(--button-font-size);
+}
+
+.button .button-text {
+  font-size: inherit;
+  font-weight: inherit;
+  text-transform: inherit;
+  font-family: inherit;
 }
 
 .button * {
