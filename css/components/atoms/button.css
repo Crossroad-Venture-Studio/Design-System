@@ -89,9 +89,9 @@
   font-weight: inherit;
   text-transform: inherit;
   font-family: inherit;
-  transition: all var(--transition-time);
   text-wrap: inherit;
   white-space: inherit;
+  transition: all var(--transition-time);
 }
 
 .button.padding-none {
