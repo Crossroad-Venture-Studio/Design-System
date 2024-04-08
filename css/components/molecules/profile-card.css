@@ -10,7 +10,7 @@
   padding: var(--padding-half);
 }
 
-.profile-card img {
+.profile-card .profile-card-picture {
   border-radius: var(--border-radius-round);
   width: var(--profile-card-img-size);
   height: var(--profile-card-img-size);
