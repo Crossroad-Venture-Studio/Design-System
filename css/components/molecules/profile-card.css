@@ -20,7 +20,8 @@
 .profile-card-name {
   text-align: center;
   text-wrap: balance;
-  font-weight: 700;
+  font-weight: 600;
+  font-size: var(--font-size-14-16);
 }
 
 .profile-card-title {
