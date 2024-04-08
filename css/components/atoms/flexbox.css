@@ -86,16 +86,19 @@
 }
 
 /* Element spacing */
+.flex.spread,
 .column.spread,
 .row.spread {
   justify-content: space-between;
 }
 
+.flex.spread.evenly,
 .column.spread.evenly,
 .row.spread.evenly {
   justify-content: space-evenly;
 }
 
+.flex.spread.around,
 .column.spread.around,
 .row.spread.around {
   justify-content: space-around;
