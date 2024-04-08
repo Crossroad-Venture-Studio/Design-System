@@ -28,3 +28,8 @@
   text-wrap: balance;
   font-size: var(--font-size-12-14);
 }
+
+.profile-card-linkedin {
+  background: var(--dark);
+  border-radius: 100px;
+}
