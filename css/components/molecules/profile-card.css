@@ -43,6 +43,6 @@
   }
 
   .profile-card:hover .profile-card-picture {
-    filter: saturate(100);
+    filter: saturate(1);
   }
 }
