@@ -87,7 +87,7 @@
 
 /* Icon in the navbar */
 .top-navbar .button .icon {
-  max-height: 18px;
+  max-height: 20px;
 }
 .top-navbar .button .icon:not(.do-not-hide) {
   display: none;
@@ -119,6 +119,12 @@
 
 .top-navbar .button.top-navbar-logo {
   padding: 0;
+}
+
+@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  .top-navbar .button {
+    font-size: 16px;
+  }
 }
 
 /* Responsive styles: display button vs icons */

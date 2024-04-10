@@ -6,7 +6,7 @@
  */
  :root {
   /* Properties */
-  --icon-size: var(--size-18-24);
+  --icon-size: var(--size-20-24);
   --icon-size-half: calc(0.5 * var(--icon-size));
   --icon-size-small: var(--size-12-18);
   --icon-size-large: var(--size-24-32);
