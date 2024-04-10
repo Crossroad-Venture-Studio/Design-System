@@ -2,18 +2,18 @@
  * Classes
  * -------
  */
-.aspect-auto	{
+.aspect-ratio-auto	{
   aspect-ratio: auto;
 }
 
-.aspect-square	{
+.aspect-ratio-square	{
   aspect-ratio: 1 / 1;
 }
 
-.aspect-video-16-9 {
+.aspect-ratio-video-16-9 {
   aspect-ratio: 16 / 9;
 }
 
-.aspect-video-4-3 {
+.aspect-ratio-video-4-3 {
   aspect-ratio: 4 / 3;
 }
