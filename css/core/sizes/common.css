@@ -16,8 +16,10 @@
   --size-48-64: min(max(6.7673vw, 48px), 64px);
   --size-48-56: min(max(6.2840vw, 48px), 56px);
   --size-36-64: min(max(6.0423vw, 36px), 64px);
-  --size-40-48: min(max(5.4381vw, 40px), 48px);
   --size-32-64: min(max(5.8006vw, 32px), 64px);
+  --size-40-48: min(max(5.4381vw, 40px), 48px);
+  --size-24-64: min(max(5.3172vw, 24px), 64px);
+  --size-20-64: min(max(5.0755vw, 20px), 64px);
   --size-36-44: min(max(4.8338vw, 36px), 44px);
   --size-32-40: min(max(4.3504vw, 32px), 40px);
   --size-28-44: min(max(4.3504vw, 28px), 44px);
