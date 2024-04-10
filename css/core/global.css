@@ -57,6 +57,14 @@ table,
   max-height: 100dvh;
 }
 
+.overflow-visible {
+  overflow: visible;
+}
+
+.overflow-hidden {
+  overflow: hidden;
+}
+
 nav,
 img,
 button,
