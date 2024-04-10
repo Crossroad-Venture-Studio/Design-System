@@ -63,7 +63,7 @@
   font-family: var(--font-family);
   text-transform: capitalize;
   text-wrap: nowrap;
-  font-size: 14px;
+  font-size: 16px;
   font-weight: 600;
 }
 
@@ -123,7 +123,7 @@
 
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   .top-navbar .button {
-    font-size: 16px;
+    font-size: 14px;
   }
 }
 
