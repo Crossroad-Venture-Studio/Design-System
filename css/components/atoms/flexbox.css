@@ -147,7 +147,7 @@
 }
 
 /* Responsive styles */
-@media only screen and (max-width: 528px) {
+@media only screen and (max-width: 640px) {
   .row.responsive {
     flex-direction: column;
   }
