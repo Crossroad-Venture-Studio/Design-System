@@ -65,7 +65,6 @@
   text-wrap: nowrap;
   font-size: 16px !important;
   font-weight: 600 !important;
-  font-family: var(--handwriting-font-family);
 }
 
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
