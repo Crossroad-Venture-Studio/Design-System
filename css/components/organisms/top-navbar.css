@@ -63,8 +63,14 @@
   font-family: var(--font-family);
   text-transform: capitalize;
   text-wrap: nowrap;
-  font-size: 20px;
+  font-size: 20px !important;
   font-weight: 600;
+}
+
+@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  .top-navbar .button {
+    font-size: 14px !important;
+  }
 }
 
 .top-navbar .fat {
@@ -119,12 +125,6 @@
 
 .top-navbar .button.top-navbar-logo {
   padding: 0;
-}
-
-@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
-  .top-navbar .button {
-    font-size: 14px;
-  }
 }
 
 /* Responsive styles: display button vs icons */
