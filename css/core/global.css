@@ -22,8 +22,8 @@ body {
   background-color:black;
   color:white;
   font-weight: normal;
-  width: 100dvw;
-  height: 100dvh;
+  width: 100vw;
+  height: 100vh;
   /* overflow: auto; */
 }
 
