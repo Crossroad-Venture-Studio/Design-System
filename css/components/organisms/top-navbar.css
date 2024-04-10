@@ -64,12 +64,13 @@
   text-transform: capitalize;
   text-wrap: nowrap;
   font-size: 15px !important;
-  font-weight: 600;
+  font-weight: 500 !important;
 }
 
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   .top-navbar .button {
     font-size: 14px !important;
+    font-weight: 600 !important;
   }
 }
 
