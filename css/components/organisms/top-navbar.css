@@ -63,8 +63,8 @@
   font-family: var(--font-family);
   text-transform: capitalize;
   text-wrap: nowrap;
-  font-size: 15px !important;
-  font-weight: 400 !important;
+  font-size: 14.5px !important;
+  font-weight: 500 !important;
 }
 
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
