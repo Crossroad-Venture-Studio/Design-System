@@ -57,6 +57,21 @@
   --_animation-duration: var(--infinite-scroller-speed-slow);
 }
 
+@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  .infinite-scroller-item {
+    transition: var(--transition-time);
+    filter: saturate(0);
+  }
+  .infinite-scroller-item:hover {
+    filter: saturate(1);
+  }
+}
+
+.infinite-scroller-item-img {
+    max-width: var(--size-48-64);
+    max-height: var(--size-48-64);
+}
+
 /*
  * Infinite scroller animations
  * ----------------------------

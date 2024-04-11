@@ -73,7 +73,7 @@
   /* pointer event */
   pointer-events: auto;
   /* animation */
-  transition: all var(--transition-time);
+  transition: var(--transition-time);
 }
 
 .button:not(.button[class*='font-size-']) {
