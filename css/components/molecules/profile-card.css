@@ -1,3 +1,5 @@
+@import '../common.css';
+
 :root {
   --profile-card-img-size: var(--size-72-96);
 }

@@ -1,0 +1,68 @@
+@import '../common.css';
+
+/*
+ * Infinite scroller variables
+ * ---------------------------
+ */
+:root {
+  --infinite-scroller-mask: linear-gradient(90deg, transparent, white 20%, white 80%, transparent);
+  --infinite-scroller-speed-fast: 20s;
+  --infinite-scroller-speed-slow: 60s;
+  --infinite-scroller-speed-normal: 40s;
+}
+
+/*
+ * Infinite scroller classes
+ * -------------------------
+ */
+.infinite-scroller {
+  max-width: 100%;
+}
+
+.infinite-scroller-inner {
+  padding-block: 1rem;
+  display: flex;
+  flex-wrap: wrap;
+  gap: var(--padding-half);
+}
+
+.infinite-scroller[data-animated="true"] {
+  overflow: hidden;
+  -webkit-mask: var(--infinite-scroller-mask);
+  -moz-mask: var(--infinite-scroller-mask);
+  -ms-mask: var(--infinite-scroller-mask);
+  mask: var(--infinite-scroller-mask);
+}
+
+.infinite-scroller[data-animated="true"] .infinite-scroller-inner {
+  width: max-content;
+  flex-wrap: nowrap;
+  animation: infinite-scroller-animation var(--_animation-duration, var(--infinite-scroller-speed-normal))
+    var(--_animation-direction, forwards) linear infinite;
+}
+
+.infinite-scroller[data-direction="right"] {
+  --_animation-direction: reverse;
+}
+
+.infinite-scroller[data-direction="left"] {
+  --_animation-direction: forwards;
+}
+
+.infinite-scroller[data-speed="fast"] {
+  --_animation-duration: var(--infinite-scroller-speed-fast);
+}
+
+.infinite-scroller[data-speed="slow"] {
+  --_animation-duration: var(--infinite-scroller-speed-slow);
+}
+
+/*
+ * Infinite scroller animations
+ * ----------------------------
+ */
+@keyframes infinite-scroller-animation {
+  to {
+    transform: translate(calc(-50% - 0.5rem));
+  }
+}
