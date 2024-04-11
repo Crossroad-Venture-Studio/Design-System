@@ -60,6 +60,7 @@
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   .infinite-scroller-item {
     transition: var(--transition-time);
+    background: red;
     filter: saturate(0);
   }
   .infinite-scroller-item:hover {
