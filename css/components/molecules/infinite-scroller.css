@@ -37,7 +37,7 @@
 .infinite-scroller[data-animated="true"] .infinite-scroller-inner {
   width: max-content;
   flex-wrap: nowrap;
-  animation: infinite-scroller-animation var(--_animation-duration, var(--infinite-scroller-speed-normal))
+  animation: scroll var(--_animation-duration, var(--infinite-scroller-speed-normal))
     var(--_animation-direction, forwards) linear infinite;
 }
 
@@ -79,7 +79,7 @@
  * Infinite scroller animations
  * ----------------------------
  */
-@keyframes infinite-scroller-animation {
+@keyframes scroll {
   to {
     transform: translate(calc(-50% - 0.5rem));
   }
