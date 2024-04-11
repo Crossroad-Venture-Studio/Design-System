@@ -3,8 +3,10 @@
  * ------------------
  */
  :root {
-  --viewport-width: 100dvw;
-  --viewport-height: 100dvh;
+  --vw: 1dvw;
+  --vh: 1dvh;
+  --viewport-width: calc(100 * var(--vw, 1dvw));
+  --viewport-height: calc(100 * var(--vh, 1dvh));
 }
 
 /*
