@@ -1,0 +1,24 @@
+/*
+ * Viewport variables
+ * ------------------
+ */
+ :root {
+  --viewport-width: 100dvw;
+  --viewport-height: 100dvh;
+}
+
+/*
+ * Viewport classes
+ * ----------------
+ */
+ .viewport-size,
+.viewport-width {
+  min-width: var(--viewport-width);
+  max-width: var(--viewport-width);
+}
+
+.viewport-size,
+.viewport-height {
+  min-height: var(--viewport-height);
+  max-height: var(--viewport-height);
+}

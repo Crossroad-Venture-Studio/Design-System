@@ -1,3 +1,5 @@
+@import './sizes/viewport.css';
+
 /* Global styles */
 * {
   -webkit-tap-highlight-color: transparent;
@@ -22,8 +24,8 @@ body {
   background-color:black;
   color:white;
   font-weight: normal;
-  width: 100vw;
-  height: 100vh;
+  width: var(--viewport-width);
+  height: var(--viewport-height);
   /* overflow: auto; */
 }
 
@@ -38,23 +40,6 @@ table,
 .no-space-around {
   margin: 0;
   padding: 0;
-}
-
-.viewport-width {
-  min-width: 100dvw;
-  max-width: 100dvw;
-}
-
-.viewport-height {
-  min-height: 100dvh;
-  max-height: 100dvh;
-}
-
-.viewport-size {
-  min-width: 100dvw;
-  max-width: 100dvw;
-  min-height: 100dvh;
-  max-height: 100dvh;
 }
 
 .overflow-visible {
