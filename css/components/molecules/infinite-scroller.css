@@ -43,6 +43,7 @@
 }
 
 .infinite-scroller[data-animated="true"] .infinite-scroller-inner {
+  align-items: center;
   padding-left: var(--infinite-scroller-gap);
   width: max-content;
   flex-wrap: nowrap;
