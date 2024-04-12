@@ -58,18 +58,16 @@
 }
 
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
-  .infinite-scroller-item-img {
+  .infinite-scroller-item {
     transition: var(--transition-time);
-    background: red;
     filter: saturate(0);
   }
-  .infinite-scroller-item-img:hover {
+  .infinite-scroller-item:hover {
     filter: saturate(1);
   }
 }
 
 .infinite-scroller-item-img {
-  background: blue;
     display: inline-block;
     width: 100%;
     height: 100%;
