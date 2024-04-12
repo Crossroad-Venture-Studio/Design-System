@@ -38,6 +38,8 @@
 }
 
 .infinite-scroller[data-animated="true"] .infinite-scroller-inner {
+  -webkit-backface-visibility: hidden;
+  backface-visibility: hidden;
   padding-left: var(--infinite-scroller-gap);
   width: max-content;
   flex-wrap: nowrap;
