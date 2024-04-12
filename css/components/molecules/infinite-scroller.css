@@ -9,6 +9,8 @@
   --infinite-scroller-speed-fast: 20s;
   --infinite-scroller-speed-slow: 60s;
   --infinite-scroller-speed-normal: 40s;
+  --infinite-scroller-animation: infinite-scroller-animation var(--_animation-duration, var(--infinite-scroller-speed-normal))
+  var(--_animation-direction, forwards) linear infinite;
 }
 
 /*
@@ -37,8 +39,7 @@
 .infinite-scroller[data-animated="true"] .infinite-scroller-inner {
   width: max-content;
   flex-wrap: nowrap;
-  animation: scroll var(--_animation-duration, var(--infinite-scroller-speed-normal))
-    var(--_animation-direction, forwards) linear infinite;
+  animation: var(--infinite-scroller-animation);
 }
 
 .infinite-scroller[data-direction="right"] {
@@ -58,6 +59,10 @@
 }
 
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  .infinite-scroller[data-animated="true"]:hover .infinite-scroller-inner {
+    animation: --infinite-scroller-animation paused;
+  }
+
   .infinite-scroller-item {
     transition: var(--transition-time);
     filter: saturate(0);
@@ -79,7 +84,7 @@
  * Infinite scroller animations
  * ----------------------------
  */
-@keyframes scroll {
+@keyframes infinite-scroller-animation {
   to {
     transform: translate(calc(-50% - 0.5rem));
   }
