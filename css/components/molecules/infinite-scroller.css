@@ -67,10 +67,10 @@
     transition: var(--transition-time);
   }
   .infinite-scroller-item:hover {
-    transform: scale(1.2);
-    -webkit-box-shadow: var(--infinite-scroller-item-shadow);
-    -moz-box-shadow: var(--infinite-scroller-item-shadow);
-    box-shadow: var(--infinite-scroller-item-shadow);
+    transform: scale(1.1);
+    -webkit-text-shadow: var(--infinite-scroller-item-shadow);
+    -moz-text-shadow: var(--infinite-scroller-item-shadow);
+    text-shadow: var(--infinite-scroller-item-shadow);
   }
 }
 
