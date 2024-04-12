@@ -46,6 +46,7 @@
   padding-left: var(--infinite-scroller-gap);
   width: max-content;
   flex-wrap: nowrap;
+  will-change: transform;
   animation: infinite-scroller-animation var(--_animation-duration, var(--infinite-scroller-speed-normal, 40s)) var(--_animation-direction, forwards) linear infinite;
 }
 
