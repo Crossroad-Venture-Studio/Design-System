@@ -65,10 +65,12 @@
 
   .infinite-scroller-item {
     transition: var(--transition-time);
-    filter: saturate(0);
+    filter: saturate(0.5);
+    opacity: 0.9;
   }
   .infinite-scroller-item:hover {
     filter: saturate(1);
+    opacity: 1;
   }
 }
 
