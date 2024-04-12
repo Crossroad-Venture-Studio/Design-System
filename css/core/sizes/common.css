@@ -7,6 +7,7 @@
 :root {
   /* Dynamic sizes */
   /* min(max(calc( ((A + B) / (375 + 1280) * 100) * var(--vw)), Apx), Bpx); */
+  --size-128-256: min(max(calc(23.2024 * var(--vw)), 128px), 256px);
   --size-96-128: min(max(calc(13.5347 * var(--vw)), 98px), 128px);
   --size-64-128: min(max(calc(11.6012 * var(--vw)), 64px), 128px);
   --size-80-96: min(max(calc(10.634 * var(--vw)), 80px), 96px);
