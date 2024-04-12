@@ -31,6 +31,7 @@
   overflow: hidden;
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  transform: translate3d(0,0,0);
   -webkit-mask: var(--infinite-scroller-mask);
   -moz-mask: var(--infinite-scroller-mask);
   -ms-mask: var(--infinite-scroller-mask);
@@ -40,6 +41,7 @@
 .infinite-scroller[data-animated="true"] .infinite-scroller-inner {
   -webkit-backface-visibility: hidden;
   backface-visibility: hidden;
+  transform: translate3d(0,0,0);
   padding-left: var(--infinite-scroller-gap);
   width: max-content;
   flex-wrap: nowrap;
