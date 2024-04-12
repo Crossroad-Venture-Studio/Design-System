@@ -73,6 +73,7 @@
   }
 }
 
+.infinite-scroller-item,
 .infinite-scroller-item-img {
     /* display: inline-block; */
     width: 100%;
