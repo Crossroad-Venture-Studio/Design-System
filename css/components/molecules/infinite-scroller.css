@@ -37,7 +37,7 @@
 .infinite-scroller[data-animated="true"] .infinite-scroller-inner {
   width: max-content;
   flex-wrap: nowrap;
-  animation: infinite-scroller-animation var(--_animation-duration, var(--infinite-scroller-speed-normal)) var(--_animation-direction, forwards) linear infinite;
+  animation: infinite-scroller-animation var(--_animation-duration, var(--infinite-scroller-speed-normal, 40s)) var(--_animation-direction, forwards) linear infinite;
 }
 
 .infinite-scroller[data-direction="right"] {
