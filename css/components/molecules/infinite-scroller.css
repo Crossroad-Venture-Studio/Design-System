@@ -56,9 +56,9 @@
   --_animation-duration: var(--infinite-scroller-speed-slow);
 }
 
-.infinite-scroller-item {
+/* .infinite-scroller-item {
   position: relative;
-}
+} */
 
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   .infinite-scroller[data-animated="true"]:hover .infinite-scroller-inner {
@@ -73,7 +73,6 @@
   }
 }
 
-.infinite-scroller-item,
 .infinite-scroller-item-img {
     /* display: inline-block; */
     width: 100%;
