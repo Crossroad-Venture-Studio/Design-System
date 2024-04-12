@@ -23,7 +23,7 @@
   padding-block: 1rem;
   display: flex;
   flex-wrap: wrap;
-  gap: var(--gap-half);
+  gap: var(--gap-2x);
 }
 
 .infinite-scroller[data-animated="true"] {
