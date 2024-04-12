@@ -67,7 +67,7 @@
     transition: var(--transition-time);
   }
   .infinite-scroller-item:hover {
-    transform: scale(1.1);
+    transform: scale(1.05);
     -webkit-text-shadow: var(--infinite-scroller-item-shadow);
     -moz-text-shadow: var(--infinite-scroller-item-shadow);
     text-shadow: var(--infinite-scroller-item-shadow);
