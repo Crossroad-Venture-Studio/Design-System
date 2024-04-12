@@ -5,7 +5,7 @@
  * ---------------------------
  */
 :root {
-  --infinite-scroller-mask: linear-gradient(90deg, transparent, white 10%, white 90%, transparent);
+  --infinite-scroller-mask: linear-gradient(90deg, transparent, white 5%, white 95%, transparent);
   --infinite-scroller-speed-fast: 20s;
   --infinite-scroller-speed-slow: 60s;
   --infinite-scroller-speed-normal: 40s;
