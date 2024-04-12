@@ -85,6 +85,9 @@
  * ----------------------------
  */
 @keyframes infinite-scroller-animation {
+  from {
+    transform: translate(0%);
+  }
   to {
     transform: translate(-50%);
   }
