@@ -22,7 +22,7 @@
 
 .infinite-scroller-inner {
   padding-block: 1rem;
-  padding-left: calc(0.76 * var(--infinite-scroller-gap));
+  /* padding-left: calc(0.76 * var(--infinite-scroller-gap)); */
   display: flex;
   flex-wrap: wrap;
   gap: var(--infinite-scroller-gap);
@@ -84,6 +84,6 @@
  */
 @keyframes infinite-scroller-animation {
   to {
-    transform: translate(calc(-50% - 0.5rem));
+    transform: translate(calc(-50% - 0.5 * var(--infinite-scroller-gap)));
   }
 }
