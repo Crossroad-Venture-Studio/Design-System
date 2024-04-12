@@ -22,6 +22,7 @@
 
 .infinite-scroller-inner {
   padding-block: 1rem;
+  padding-left: calc(var(1.56 * --infinite-scroller-gap));
   display: flex;
   flex-wrap: wrap;
   gap: var(--infinite-scroller-gap);
