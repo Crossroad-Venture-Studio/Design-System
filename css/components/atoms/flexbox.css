@@ -152,21 +152,32 @@
     flex-direction: column;
   }
 
+  .row.reverse-responsive  {
+    flex-direction: column-reverse;
+  }
+
+  .row.reverse-responsive .column.responsive.right,
+  .row.reverse-responsive .column.responsive.left,
   .row.responsive .column.responsive.right,
   .row.responsive .column.responsive.left {
     align-items: center;
   }
 
+  .row.reverse-responsive.left .column.responsive.right,
+  .row.reverse-responsive.left .column.responsive.left,
   .row.responsive.left .column.responsive.right,
   .row.responsive.left .column.responsive.left {
     align-items: flex-start;
   }
 
+  .row.reverse-responsive.right .column.responsive.right,
+  .row.reverse-responsive.right .column.responsive.left,
   .row.responsive.right .column.responsive.right,
   .row.responsive.right .column.responsive.left {
     align-items: flex-end;
   }
 
+  .row.reverse-responsive .column.responsive.fill,
   .row.responsive .column.responsive.fill {
     width: 100%;
   }
