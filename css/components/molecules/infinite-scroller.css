@@ -9,8 +9,8 @@
   --infinite-scroller-speed-fast: 20s;
   --infinite-scroller-speed-slow: 60s;
   --infinite-scroller-speed-normal: 40s;
-  --infinite-scroller-animation: infinite-scroller-animation var(--_animation-duration, var(--infinite-scroller-speed-normal))
-  var(--_animation-direction, forwards) linear infinite;
+  --infinite-scroller-animation: infinite-scroller-animation var(--_animation-duration, var(--infinite-scroller-speed-normal)) var(--_animation-direction, forwards) linear infinite;
+  --infinite-scroller-item-shadow: 0 0 30px #00000033;
 }
 
 /*
@@ -65,12 +65,12 @@
 
   .infinite-scroller-item {
     transition: var(--transition-time);
-    filter: saturate(0.4);
-    opacity: 0.8;
   }
   .infinite-scroller-item:hover {
-    filter: saturate(1);
-    opacity: 1;
+    transform: scale(1.2);
+    -webkit-box-shadow: var(--infinite-scroller-item-shadow);
+    -moz-box-shadow: var(--infinite-scroller-item-shadow);
+    box-shadow: var(--infinite-scroller-item-shadow);
   }
 }
 
