@@ -36,6 +36,7 @@
 }
 
 .infinite-scroller[data-animated="true"] .infinite-scroller-inner {
+  padding-left: var(--infinite-scroller-gap);
   width: max-content;
   flex-wrap: nowrap;
   animation: infinite-scroller-animation var(--_animation-duration, var(--infinite-scroller-speed-normal, 40s)) var(--_animation-direction, forwards) linear infinite;
@@ -83,6 +84,6 @@
  */
 @keyframes infinite-scroller-animation {
   to {
-    transform: translate(calc(-50% - 0.56 * var(--infinite-scroller-gap)));
+    transform: translate(-50%);
   }
 }
