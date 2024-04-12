@@ -60,7 +60,7 @@
 
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   .infinite-scroller[data-animated="true"]:hover .infinite-scroller-inner {
-    animation: --infinite-scroller-animation paused;
+    animation-play-state: paused;
   }
 
   .infinite-scroller-item {
