@@ -84,6 +84,7 @@
     height: 100%; */
     max-width: var(--size-128-256);
     max-height: var(--size-64-128);
+    object-fit: contain;
 }
 
 /*
