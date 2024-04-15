@@ -143,6 +143,10 @@
     display: none;
   }
 
+  .top-navbar .button:not(:has(.icon)):not(:has(.button-img)):not(.top-navbar-logo):not(.do-not-hide) {
+    outline: 2px solid red;
+  }
+
   /* Show icon buttons */
   .top-navbar .button:not(:has(.button-text)):not(.top-navbar-logo):not(.do-not-hide):has(.icon),
   .top-navbar .button:not(:has(.button-text)):not(.top-navbar-logo):not(.do-not-hide):has(.button-img),
