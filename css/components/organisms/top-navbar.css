@@ -125,17 +125,20 @@
   padding: 0;
 }
 
-/* .top-navbar .button:not(:has(.button-text)):not(.do-not-hide), */
 .top-navbar .button:not(:has(.button-text)):not(.top-navbar-logo):not(.do-not-hide),
 .top-navbar .button .button-img:not(.do-not-hide),
 .top-navbar .button .icon:not(.do-not-hide) {
   display: none;
 }
 
+.top-navbar .button:not(:has(.icon)):not(:has(.button-img)):not(.top-navbar-logo):not(.do-not-hide):has(.button-text) {
+  display: inherit;
+}
+
 /* Responsive styles: display button vs icons */
 @media only screen and (max-width: 800px) {
   /* Hide text buttons, that are not back or next */
-  /* .top-navbar .button:not(:has(.icon)):not(:has(.button-img)):not(.do-not-hide), */
+  .top-navbar .button:not(:has(.icon)):not(:has(.button-img)):not(.top-navbar-logo):not(.do-not-hide),
   .top-navbar .button *:not(.icon):not(.do-not-hide) {
     display: none;
   }
