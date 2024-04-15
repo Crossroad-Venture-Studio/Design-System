@@ -146,7 +146,7 @@
   }
 
   .top-navbar .button:not(:has(.icon)):not(:has(.button-img)):not(.top-navbar-logo):not(.do-not-hide) {
-    outline: 2px solid red;
+    outline: 2px solid blue;
   }
 
   /* Show icon buttons */
