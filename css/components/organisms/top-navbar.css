@@ -131,6 +131,10 @@
   display: none;
 }
 
+.top-navbar .button:not(:has(.button-text)):not(.top-navbar-logo):not(.do-not-hide) {
+  outline: 2px solid red;
+}
+
 /* Responsive styles: display button vs icons */
 @media only screen and (max-width: 800px) {
   /* Hide text buttons, that are not back or next */
