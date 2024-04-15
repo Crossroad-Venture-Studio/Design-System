@@ -126,13 +126,10 @@
 }
 
 /* .top-navbar .button:not(:has(.button-text)):not(.do-not-hide), */
+.top-navbar .button:not(:has(.button-text)):not(.top-navbar-logo):not(.do-not-hide),
 .top-navbar .button .button-img:not(.do-not-hide),
 .top-navbar .button .icon:not(.do-not-hide) {
   display: none;
-}
-
-.top-navbar .button:not(:has(.button-text)):not(.top-navbar-logo):not(.do-not-hide) {
-  outline: 2px solid red;
 }
 
 /* Responsive styles: display button vs icons */
@@ -144,6 +141,8 @@
   }
 
   /* Show icon buttons */
+  .top-navbar .button:not(:has(.button-text)):not(.top-navbar-logo):not(.do-not-hide):has(.icon),
+  .top-navbar .button:not(:has(.button-text)):not(.top-navbar-logo):not(.do-not-hide):has(.button-img),
   .top-navbar .button .icon:not(.dot-not-hide),
   .top-navbar *:has(> .button:only-child .icon:not(.do-not-hide)) {
     display: inherit;
