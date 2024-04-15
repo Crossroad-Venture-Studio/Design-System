@@ -97,12 +97,6 @@
   max-height: 20px;
 }
 
-.top-navbar .button:not(button:has(.button-text)):not(.do-not-hide),
-.top-navbar .button .button-img:not(.do-not-hide),
-.top-navbar .button .icon:not(.do-not-hide) {
-  display: none;
-}
-
 /* Margins */
 .top-navbar .button:not(.top-navbar-logo):first-child {
   margin-left: calc(2px - var(--button-padding-horizontal)) !important;
@@ -131,11 +125,17 @@
   padding: 0;
 }
 
+/* .top-navbar .button:not(:has(.button-text)):not(.do-not-hide), */
+.top-navbar .button .button-img:not(.do-not-hide),
+.top-navbar .button .icon:not(.do-not-hide) {
+  display: none;
+}
+
 /* Responsive styles: display button vs icons */
 @media only screen and (max-width: 800px) {
   /* Hide text buttons, that are not back or next */
-  .top-navbar .button *:not(.icon):not(.do-not-hide),
-  .top-navbar .button:not(:has(.icon)):not(:has(.button-img)):not(.do-not-hide) {
+  /* .top-navbar .button:not(:has(.icon)):not(:has(.button-img)):not(.do-not-hide), */
+  .top-navbar .button *:not(.icon):not(.do-not-hide) {
     display: none;
   }
 
