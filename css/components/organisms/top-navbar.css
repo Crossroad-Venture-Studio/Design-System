@@ -97,7 +97,7 @@
   max-height: 20px;
 }
 
-.top-navbar .button:not(:has(.button-text)):not(.do-not-hide),
+.top-navbar .button:not(button:has(.button-text)):not(.do-not-hide),
 .top-navbar .button .button-img:not(.do-not-hide),
 .top-navbar .button .icon:not(.do-not-hide) {
   display: none;
