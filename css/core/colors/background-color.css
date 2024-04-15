@@ -26,6 +26,14 @@
   background: var(--light);
 }
 
+.background-color-semi-dark {
+  background: var(--semi-dark);
+}
+
+.background-color-semi-light {
+  background: var(--semi-light);
+}
+
 /* Primary text color */
 .background-color-red {
   background: var(--red);
