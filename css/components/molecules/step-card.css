@@ -1,7 +1,7 @@
 @import '../common.css';
 
 :root {
-  --profile-card-img-size: var(--size-72-96);
+  --step-card-icon-size: 20px;
 }
 
 .step-card {
