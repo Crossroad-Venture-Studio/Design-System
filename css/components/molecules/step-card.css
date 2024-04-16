@@ -33,9 +33,10 @@
   text-wrap: balance;
   font-weight: 600;
   font-size: var(--size-20-24);
+  line-height: 120%;
 }
 
 .step-card-description {
-
   font-size: var(--size-14-16);
+  line-height: 120%;
 }
