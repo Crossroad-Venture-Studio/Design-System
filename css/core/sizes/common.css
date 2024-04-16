@@ -32,6 +32,7 @@
   --size-28-36: min(max(calc(3.8671 * var(--vw)), 28px), 36px);
   --size-24-98: min(max(calc(7.2508 * var(--vw)), 24px), 96px);
   --size-24-48: min(max(calc(4.3504 * var(--vw)), 24px), 48px);
+  --size-28-32: min(max(calc(3.6254 * var(--vw)), 28px), 32px);
   --size-24-36: min(max(calc(3.6254 * var(--vw)), 24px), 36px);
   --size-20-40: min(max(calc(3.6254 * var(--vw)), 20px), 40px);
   --size-24-32: min(max(calc(3.3837 * var(--vw)), 24px), 32px);

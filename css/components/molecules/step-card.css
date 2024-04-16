@@ -18,8 +18,8 @@
   text-align: center;
   text-wrap: balance;
   font-weight: 600;
-  width: 32px;
-  height: 32px;
+  width: var(--size-28-32);
+  height: var(--size-28-32);
   border-top-left-radius: 100px;
   border-top-right-radius: 100px;
   border-bottom-left-radius: 2px;
