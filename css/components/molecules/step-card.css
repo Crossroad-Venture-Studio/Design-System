@@ -30,14 +30,12 @@
 }
 
 .step-card-title {
-  /* text-align: center; */
   text-wrap: balance;
   font-weight: 600;
   font-size: var(--size-20-24);
 }
 
 .step-card-description {
-  /* text-align: center; */
-  text-wrap: balance;
+
   font-size: var(--size-14-16);
 }
