@@ -1,0 +1,26 @@
+@import '../common.css';
+
+:root {
+  --profile-card-img-size: var(--size-72-96);
+}
+
+.step-card {
+  align-items: center;
+  justify-content: center;
+  gap: var(--gap-half);
+  border-radius: var(--border-radius);
+  padding: var(--padding-half);
+}
+
+.step-card-title {
+  text-align: center;
+  text-wrap: balance;
+  font-weight: 600;
+  font-size: var(--size-14-16);
+}
+
+.step-card-description {
+  text-align: center;
+  text-wrap: balance;
+  font-size: var(--size-12-14);
+}
