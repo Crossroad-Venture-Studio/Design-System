@@ -18,6 +18,12 @@
   text-align: center;
   text-wrap: balance;
   font-weight: 600;
+  width: 48px;
+  height: 48px;
+  border-top-left-radius: 100px;
+  border-top-right-radius: 100px;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 100px;
   font-size: var(--size-14-16);
   color: var(--light, white);
   background: var(--dark, black);
@@ -27,11 +33,11 @@
   /* text-align: center; */
   text-wrap: balance;
   font-weight: 600;
-  font-size: var(--size-14-16);
+  font-size: var(--size-20-24);
 }
 
 .step-card-description {
   /* text-align: center; */
   text-wrap: balance;
-  font-size: var(--size-12-14);
+  font-size: var(--size-14-16);
 }
