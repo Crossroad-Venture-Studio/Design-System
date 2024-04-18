@@ -45,18 +45,17 @@
   --padding-right-2x: var(--padding-horizontal-2x);
   --padding-right-3x: var(--padding-horizontal-3x);
   --padding-right-4x: var(--padding-horizontal-4x);
-  --padding-10-percent: var(--width-10-percent);
-  --padding-20-percent: var(--width-20-percent);
-  --padding-25-percent: var(--width-25-percent);
-  --padding-30-percent: var(--width-30-percent);
-  --padding-40-percent: var(--width-40-percent);
-  --padding-50-percent: var(--width-50-percent);
-  --padding-60-percent: var(--width-60-percent);
-  --padding-70-percent: var(--width-70-percent);
-  --padding-75-percent: var(--width-75-percent);
-  --padding-80-percent: var(--width-80-percent);
-  --padding-90-percent: var(--width-90-percent);
-  --padding-100-percent: 100%;
+  --padding-for-width-10-percent: calc(50% - 0.5 * var(--width-10-percent));
+  --padding-for-width-20-percent: calc(50% - 0.5 * var(--width-20-percent));
+  --padding-for-width-25-percent: calc(50% - 0.5 * var(--width-25-percent));
+  --padding-for-width-30-percent: calc(50% - 0.5 * var(--width-30-percent));
+  --padding-for-width-40-percent: calc(50% - 0.5 * var(--width-40-percent));
+  --padding-for-width-50-percent: calc(50% - 0.5 * var(--width-50-percent));
+  --padding-for-width-60-percent: calc(50% - 0.5 * var(--width-60-percent));
+  --padding-for-width-70-percent: calc(50% - 0.5 * var(--width-70-percent));
+  --padding-for-width-75-percent: calc(50% - 0.5 * var(--width-75-percent));
+  --padding-for-width-80-percent: calc(50% - 0.5 * var(--width-80-percent));
+  --padding-for-width-90-percent: calc(50% - 0.5 * var(--width-90-percent));
 }
 
 /*
@@ -118,58 +117,58 @@
 }
 
 .padding-for-width-10-percent {
-  padding-left: calc(50% - 0.5 * var(--width-10-percent));
-  padding-right: calc(50% - 0.5 * var(--width-10-percent));
+  padding-left: var(--padding-for-width-10-percent);
+  padding-right: var(--padding-for-width-10-percent);
 }
 
 .padding-for-width-20-percent {
-  padding-left: calc(50% - 0.5 * var(--width-20-percent));
-  padding-right: calc(50% - 0.5 * var(--width-20-percent));
+  padding-left: var(--padding-for-width-20-percent);
+  padding-right: var(--padding-for-width-20-percent);
 }
 
 .padding-for-width-25-percent {
-  padding-left: calc(50% - 0.5 * var(--width-25-percent));
-  padding-right: calc(50% - 0.5 * var(--width-25-percent));
+  padding-left: var(--padding-for-width-25-percent);
+  padding-right: var(--padding-for-width-25-percent);
 }
 
 .padding-for-width-30-percent {
-  padding-left: calc(50% - 0.5 * var(--width-30-percent));
-  padding-right: calc(50% - 0.5 * var(--width-30-percent));
+  padding-left: var(--padding-for-width-30-percent);
+  padding-right: var(--padding-for-width-30-percent);
 }
 
 .padding-for-width-40-percent {
-  padding-left: calc(50% - 0.5 * var(--width-40-percent));
-  padding-right: calc(50% - 0.5 * var(--width-40-percent));
+  padding-left: var(--padding-for-width-40-percent);
+  padding-right: var(--padding-for-width-40-percent);
 }
 
 .padding-for-width-50-percent {
-  padding-left: calc(50% - 0.5 * var(--width-50-percent));
-  padding-right: calc(50% - 0.5 * var(--width-50-percent));
+  padding-left: var(--padding-for-width-50-percent);
+  padding-right: var(--padding-for-width-50-percent);
 }
 
 .padding-for-width-60-percent {
-  padding-left: calc(50% - 0.5 * var(--width-60-percent));
-  padding-right: calc(50% - 0.5 * var(--width-60-percent));
+  padding-left: var(--padding-for-width-60-percent);
+  padding-right: var(--padding-for-width-60-percent);
 }
 
 .padding-for-width-70-percent {
-  padding-left: calc(50% - 0.5 * var(--width-70-percent));
-  padding-right: calc(50% - 0.5 * var(--width-70-percent));
+  padding-left: var(--padding-for-width-70-percent);
+  padding-right: var(--padding-for-width-70-percent);
 }
 
 .padding-for-width-75-percent {
-  padding-left: calc(50% - 0.5 * var(--width-75-percent));
-  padding-right: calc(50% - 0.5 * var(--width-75-percent));
+  padding-left: var(--padding-for-width-75-percent);
+  padding-right: var(--padding-for-width-75-percent);
 }
 
 .padding-for-width-80-percent {
-  padding-left: calc(50% - 0.5 * var(--width-80-percent));
-  padding-right: calc(50% - 0.5 * var(--width-80-percent));
+  padding-left: var(--padding-for-width-80-percent);
+  padding-right: var(--padding-for-width-80-percent);
 }
 
 .padding-for-width-90-percent {
-  padding-left: calc(50% - 0.5 * var(--width-90-percent));
-  padding-right: calc(50% - 0.5 * var(--width-90-percent));
+  padding-left: var(--padding-for-width-90-percent);
+  padding-right: var(--padding-for-width-90-percent);
 }
 
 .padding-vertical-none {
