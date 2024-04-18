@@ -93,6 +93,10 @@ h6 {
   font-size: var(--size-32-64);
 }
 
+.font-size-32-48 {
+  font-size: var(--size-32-48);
+}
+
 .font-size-32-40 {
   font-size: var(--size-32-40);
 }
