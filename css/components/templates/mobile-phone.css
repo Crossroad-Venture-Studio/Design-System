@@ -5,7 +5,7 @@
   --mobile-phone-height: min(calc(100 * var(--vh) - var(--padding-2x)), 500px);
   --mobile-phone-size: min(max(calc(0.01 * var(--mobile-phone-height)), 5px), 30px);
   --mobile-phone-shadow-size: min(max(calc(0.08 * var(--mobile-phone-height)), 5px), 30px);
-  --mobile-phone-shadow: 0 0 var(--mobile-phone-shadow-size) #00000055;
+  --mobile-phone-shadow: 0 0 var(--mobile-phone-shadow-size) #00000033;
   --mobile-phone-inset-shadow: 0 0 var(--mobile-phone-size) #FFFFFF;
   --mobile-phone-border-radius: max(calc(0.06 * var(--mobile-phone-height)), 12px);
   --mobile-phone-inner-border-radius: calc(var(--mobile-phone-border-radius) - 0.5 * var(--mobile-phone-size));
