@@ -1,0 +1,47 @@
+
+
+.mobile-phone {
+  position: relative;
+  --mobile-phone-height: min(calc(100 * var(--vh) - var(--padding-2x)), 500px);
+  --mobile-phone-size: min(max(calc(0.01 * var(--mobile-phone-height)), 5px), 30px);
+  --mobile-phone-shadow-size: min(max(calc(0.08 * var(--mobile-phone-height)), 5px), 30px);
+  --mobile-phone-shadow: 0 0 var(--mobile-phone-shadow-size) #00000055;
+  --mobile-phone-inset-shadow: 0 0 var(--mobile-phone-size) #FFFFFF;
+  --mobile-phone-border-radius: max(calc(0.06 * var(--mobile-phone-height)), 12px);
+  --mobile-phone-inner-border-radius: calc(var(--mobile-phone-border-radius) - 0.5 * var(--mobile-phone-size));
+  border-radius: var(--mobile-phone-border-radius);
+  border: var(--mobile-phone-size) solid var(--dark);
+  min-width: max(min(20%, calc(0.5 * var(--mobile-phone-height))), 200px);
+  max-width: max(min(20%, calc(0.5 * var(--mobile-phone-height))), 200px);
+  aspect-ratio: 0.5;
+  box-shadow: var(--mobile-phone-shadow);
+  -webkit-box-shadow: var(--mobile-phone-shadow);
+  -moz-box-shadow: var(--mobile-phone-shadow);
+  background: var(--dark);
+  transition: var(--transition-time);
+}
+
+.mobile-phone > * {
+  border-radius: var(--mobile-phone-inner-border-radius);
+}
+
+.mobile-phone::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  border-radius: var(--mobile-phone-inner-border-radius);
+  box-shadow: inset var(--mobile-phone-inset-shadow);
+  -webkit-box-shadow: inset var(--mobile-phone-inset-shadow);
+  -moz-box-shadow: inset var(--mobile-phone-inset-shadow);
+  pointer-events: none;
+}
+
+@media only screen and (max-width: 800px) {
+  .mobile-phone {
+    min-width: min(var(--width-50-percent), calc(0.5 * var(--mobile-phone-height)));
+    max-width: min(var(--width-50-percent), calc(0.5 * var(--mobile-phone-height)));
+  }
+}
