@@ -72,7 +72,10 @@ textarea.input {
   background: #FFFFFF33;
   outline: solid 1px #00000033;
   backdrop-filter: blur(20px);
-  box-shadow: inset 0 0 10px #0000001A;
+  --shadow: inset 0 0 10px #0000001A;
+  -webkit-box-shadow: var(--shadow);
+  -moz-box-shadow: var(--shadow);
+  box-shadow: var(--shadow);
 }
 
 .input.dark::placeholder,
@@ -83,7 +86,10 @@ textarea.input {
   background: #00000033;
   outline: solid 1px #FFFFFF33;
   backdrop-filter: blur(20px);
-  box-shadow: inset 0 0 10px #0000001A;
+  --shadow: inset 0 0 10px #0000001A;
+  -webkit-box-shadow: var(--shadow);
+  -moz-box-shadow: var(--shadow);
+  box-shadow: var(--shadow);
 }
 
 /* Hover and focus */
