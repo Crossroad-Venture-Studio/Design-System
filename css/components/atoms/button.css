@@ -56,7 +56,7 @@
   width: fit-content;
   block-size: fit-content;
   border-radius: var(--button-border-radius);
-  /* padding: var(--button-padding-vertical) var(--button-padding-horizontal); */
+  padding: var(--button-padding-vertical) var(--button-padding-horizontal);
   /* Font */
   letter-spacing: var(--button-letter-spacing);
   text-wrap: balance;
