@@ -8,11 +8,11 @@
 
 .mobile-phone {
   position: relative;
-  --mobile-phone-size: min(max(calc(0.02 * var(--mobile-phone-width)), 5px), 30px);
-  --mobile-phone-shadow-size: min(max(calc(0.16 * var(--mobile-phone-width)), 5px), 30px);
+  --mobile-phone-size: min(max(calc(0.01 * var(--_mobile-phone-height)), 5px), 30px);
+  --mobile-phone-shadow-size: min(max(calc(0.08 * var(--_mobile-phone-height)), 5px), 30px);
   --mobile-phone-shadow: 0 0 var(--mobile-phone-shadow-size) #00000033;
   --mobile-phone-inset-shadow: 0 0 var(--mobile-phone-size) #FFFFFF;
-  --mobile-phone-border-radius: max(calc(0.12 * var(--mobile-phone-width)), 12px);
+  --mobile-phone-border-radius: max(calc(0.06 * var(--_mobile-phone-height)), 12px);
   --mobile-phone-inner-border-radius: calc(var(--mobile-phone-border-radius) - 0.5 * var(--mobile-phone-size));
   border-radius: var(--mobile-phone-border-radius);
   border: var(--mobile-phone-size) solid var(--dark);
