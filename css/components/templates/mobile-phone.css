@@ -1,18 +1,23 @@
 
 
+:root {
+  --_mobile-phone-height: min(calc(100 * var(--vh) - var(--padding-2x)), 500px);
+  --mobile-phone-width: max(min(20%, calc(0.5 * var(--_mobile-phone-height))), 200px);
+  --mobile-phone-height: calc(2 * var(--mobile-phone-width));
+}
+
 .mobile-phone {
   position: relative;
-  --mobile-phone-height: min(calc(100 * var(--vh) - var(--padding-2x)), 500px);
-  --mobile-phone-size: min(max(calc(0.01 * var(--mobile-phone-height)), 5px), 30px);
-  --mobile-phone-shadow-size: min(max(calc(0.08 * var(--mobile-phone-height)), 5px), 30px);
+  --mobile-phone-size: min(max(calc(0.02 * var(--mobile-phone-width)), 5px), 30px);
+  --mobile-phone-shadow-size: min(max(calc(0.16 * var(--mobile-phone-width)), 5px), 30px);
   --mobile-phone-shadow: 0 0 var(--mobile-phone-shadow-size) #00000033;
   --mobile-phone-inset-shadow: 0 0 var(--mobile-phone-size) #FFFFFF;
-  --mobile-phone-border-radius: max(calc(0.06 * var(--mobile-phone-height)), 12px);
+  --mobile-phone-border-radius: max(calc(0.12 * var(--mobile-phone-width)), 12px);
   --mobile-phone-inner-border-radius: calc(var(--mobile-phone-border-radius) - 0.5 * var(--mobile-phone-size));
   border-radius: var(--mobile-phone-border-radius);
   border: var(--mobile-phone-size) solid var(--dark);
-  min-width: max(min(20%, calc(0.5 * var(--mobile-phone-height))), 200px);
-  max-width: max(min(20%, calc(0.5 * var(--mobile-phone-height))), 200px);
+  min-width: var(--mobile-phone-width);
+  max-width: var(--mobile-phone-width);
   aspect-ratio: 0.5;
   box-shadow: var(--mobile-phone-shadow);
   -webkit-box-shadow: var(--mobile-phone-shadow);
@@ -41,7 +46,6 @@
 
 @media only screen and (max-width: 800px) {
   .mobile-phone {
-    min-width: min(var(--width-50-percent), calc(0.5 * var(--mobile-phone-height)));
-    max-width: min(var(--width-50-percent), calc(0.5 * var(--mobile-phone-height)));
+    --mobile-phone-width: min(var(--width-50-percent), calc(0.5 * var(--_mobile-phone-height)));
   }
 }
