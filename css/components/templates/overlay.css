@@ -29,7 +29,7 @@
   display: none;
   flex-direction: column;
   margin: 0;
-  padding: var(--overlay-padding);
+  /* padding: var(--overlay-padding); */
   gap: var(--gap);
   /* Appearance */
   overflow: hidden;
@@ -44,7 +44,7 @@
 }
 
 .overlay.safearea {
-  padding: var(--overlay-safearea-padding);
+  /* padding: var(--overlay-safearea-padding); */
 }
 
 .overlay.display {
