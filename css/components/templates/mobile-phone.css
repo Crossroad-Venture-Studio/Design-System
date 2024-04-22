@@ -26,11 +26,15 @@
   transition: var(--transition-time);
 }
 
+.mobile-phone.flat {
+  border: 0;
+}
+
 .mobile-phone > * {
   border-radius: var(--mobile-phone-inner-border-radius);
 }
 
-.mobile-phone::after {
+.mobile-phone:not(.flat)::after {
   content: '';
   position: absolute;
   width: 100%;
