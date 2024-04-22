@@ -48,11 +48,11 @@
 }
 
 .overlay.display {
-  display: flex;
+  display: flex !important;
 }
 
 .overlay.opened {
-  display: flex;
+  display: flex !important;
   opacity: 1;
   pointer-events: auto;
 }
