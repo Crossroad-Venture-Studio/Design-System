@@ -49,7 +49,6 @@
   justify-content: center;
   align-items: center;
   vertical-align: middle;
-  gap: var(--button-gap);
   /* Size and spacing */
   min-width: var(--button-min-height);
   min-height: var(--button-min-height);
@@ -76,7 +75,11 @@
   transition: var(--transition-time);
 }
 
-.button:not(.button[class*='font-size-']) {
+.button:not([class*='gap']) {
+  gap: var(--button-gap);
+}
+
+.button:not([class*='font-size-']) {
   font-size: var(--button-font-size);
 }
 
