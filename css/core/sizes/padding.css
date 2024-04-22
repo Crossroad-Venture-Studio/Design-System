@@ -296,17 +296,17 @@
 }
 
 .padding-top.safearea {
-  padding-top: calc(var(--safearea-top) + var(--padding-vertical));
+  padding-top: calc(var(--safearea-top) + var(--padding-top));
 }
 
 .padding-left.safearea {
-  padding-left: calc(var(--safearea-left) + var(--padding-horizontal));
+  padding-left: calc(var(--safearea-left) + var(--padding-left));
 }
 
 .padding-bottom.safearea {
-  padding-bottom: calc(var(--safearea-bottom) + var(--padding-vertical));
+  padding-bottom: calc(var(--safearea-bottom) + var(--padding-bottom));
 }
 
 .padding-right.safearea {
-  padding-right: calc(var(--safearea-right) + var(--padding-horizontal));
+  padding-right: calc(var(--safearea-right) + var(--padding-right));
 }
