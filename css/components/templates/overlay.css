@@ -1,5 +1,19 @@
 @import '../common.css';
 
+:root {
+  --overlay-padding-top: var(--padding-top-half);
+  --overlay-padding-left: var(--padding-left-half);
+  --overlay-padding-bottom: var(--padding-bottom-half);
+  --overlay-padding-right: var(--padding-right-half);
+  --overlay-padding: var(--overlay-padding-top) var(--overlay-padding-left) var(--overlay-padding-bottom) var(--overlay-padding-right);
+
+  --overlay-safearea-padding-top: calc(var(--safearea-top) + var(--overlay-padding-top));
+  --overlay-safearea-padding-left: calc(var(--safearea-left) + var(--overlay-padding-left));
+  --overlay-safearea-padding-bottom: calc(var(--safearea-bottom) + var(--overlay-padding-bottom));
+  --overlay-safearea-padding-right: calc(var(--safearea-right) + var(--overlay-padding-right));
+  --overlay-safearea-padding: var(--overlay-safearea-padding-top) var(--overlay-safearea-padding-left) var(--overlay-safearea-padding-bottom) var(--overlay-safearea-padding-right);
+}
+
 .overlay {
   /* Position */
   position: fixed;
@@ -14,7 +28,7 @@
   display: none;
   flex-direction: column;
   margin: 0;
-  padding: var(--padding-vertical) var(--padding-horizontal);
+  padding: var(--overlay-padding);
   gap: var(--gap);
   /* Appearance */
   overflow: hidden;
@@ -26,6 +40,10 @@
   cursor: default;
   /* animation */
   transition: var(--transition-time);
+}
+
+.overlay.safearea {
+  padding: var(--overlay-safearea-padding);
 }
 
 .overlay.display {

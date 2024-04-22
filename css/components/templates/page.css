@@ -9,10 +9,10 @@
   --page-padding-bottom: var(--page-padding-vertical);
   --page-padding-right: var(--page-padding-horizontal);
   --page-padding: var(--page-padding-vertical) var(--page-padding-horizontal);
-  --page-safearea-padding-top: calc(var(--safearea-top) + var(--padding-vertical));
-  --page-safearea-padding-left: calc(var(--safearea-left) + var(--padding-horizontal));
-  --page-safearea-padding-bottom: calc(var(--safearea-bottom) + var(--padding-vertical));
-  --page-safearea-padding-right: calc(var(--safearea-right) + var(--padding-horizontal));
+  --page-safearea-padding-top: calc(var(--safearea-top) + var(--padding-top));
+  --page-safearea-padding-left: calc(var(--safearea-left) + var(--padding-left));
+  --page-safearea-padding-bottom: calc(var(--safearea-bottom) + var(--padding-bottom));
+  --page-safearea-padding-right: calc(var(--safearea-right) + var(--padding-right));
   --page-safearea-padding: var(--page-safearea-padding-top) var(--page-safearea-padding-left) var(--page-safearea-padding-bottom) var(--page-safearea-padding-right);
   --page-navbar-padding-top: calc(var(--top-navbar-height) + var(--page-padding-vertical));
   --page-navbar-safearea-padding-top: calc(var(--top-navbar-height) + var(--page-safearea-padding-top));
