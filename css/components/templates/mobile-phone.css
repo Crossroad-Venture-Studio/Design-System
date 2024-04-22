@@ -28,6 +28,7 @@
 
 .mobile-phone.flat {
   border: 0;
+  --mobile-phone-inner-border-radius: var(--mobile-phone-border-radius);
 }
 
 .mobile-phone > * {
