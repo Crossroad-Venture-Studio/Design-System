@@ -1,0 +1,27 @@
+.highlight {
+  display: inline !important;
+  background: yellow;
+  word-wrap: break-word !important;
+}
+
+.highlight .semi-light {
+  background: #FFFFFF55;
+}
+
+.highlight .semi-dark {
+  background: #00000033;
+}
+
+.highlight .light {
+  background: var(--light);
+}
+
+.highlight .dark {
+  background: var(--dark);
+}
+
+.highlight .glass {
+  -webkit-backdrop-filter: blur(15px);
+  -moz-backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px);
+}
