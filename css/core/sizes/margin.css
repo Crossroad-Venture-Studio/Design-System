@@ -8,6 +8,10 @@
   --margin: var(--padding);
   --margin-horizontal: var(--margin);
   --margin-vertical: var(--margin);
+  --margin-top: var(--margin-vertical);
+  --margin-left: var(--margin-horizontal);
+  --margin-bottom: var(--margin-vertical);
+  --margin-right: var(--margin-horizontal);
 
   /* Calculated */
   --margin-half: calc(0.5 * var(--margin));
@@ -22,22 +26,22 @@
   --margin-vertical-2x: calc(2 * var(--margin-vertical));
   --margin-vertical-3x: calc(3 * var(--margin-vertical));
   --margin-vertical-4x: calc(4 * var(--margin-vertical));
-  --margin-top-half: var(--margin-vertical-half);
-  --margin-top-2x: var(--margin-vertical-2x);
-  --margin-top-3x: var(--margin-vertical-3x);
-  --margin-top-4x: var(--margin-vertical-4x);
-  --margin-left-half: var(--margin-horizontal-half);
-  --margin-left-2x: var(--margin-horizontal-2x);
-  --margin-left-3x: var(--margin-horizontal-3x);
-  --margin-left-4x: var(--margin-horizontal-4x);
-  --margin-bottom-half: var(--margin-vertical-half);
-  --margin-bottom-2x: var(--margin-vertical-2x);
-  --margin-bottom-3x: var(--margin-vertical-3x);
-  --margin-bottom-4x: var(--margin-vertical-4x);
-  --margin-right-half: var(--margin-horizontal-half);
-  --margin-right-2x: var(--margin-horizontal-2x);
-  --margin-right-3x: var(--margin-horizontal-3x);
-  --margin-right-4x: var(--margin-horizontal-4x);
+  --margin-top-half: calc(0.5 * var(--margin-top));
+  --margin-top-2x: calc(2 * var(--margin-top));
+  --margin-top-3x: calc(3 * var(--margin-top));
+  --margin-top-4x: calc(4 * var(--margin-top));
+  --margin-left-half: calc(0.5 * var(--margin-left));
+  --margin-left-2x: calc(2 * var(--margin-left));
+  --margin-left-3x: calc(3 * var(--margin-left));
+  --margin-left-4x: calc(4 * var(--margin-left));
+  --margin-bottom-half: calc(0.5 * var(--margin-bottom));
+  --margin-bottom-2x: calc(2 * var(--margin-bottom));
+  --margin-bottom-3x: calc(3 * var(--margin-bottom));
+  --margin-bottom-4x: calc(4 * var(--margin-bottom));
+  --margin-right-half: calc(0.5 * var(--margin-right));
+  --margin-right-2x: calc(2 * var(--margin-right));
+  --margin-right-3x: calc(3 * var(--margin-right));
+  --margin-right-4x: calc(4 * var(--margin-right));
 }
 
 /*
