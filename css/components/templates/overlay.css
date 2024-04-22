@@ -26,8 +26,7 @@
   max-width: 100dvw;
   max-height: 100dvh;
   /* Alignment */
-  display: none;
-  flex-direction: column;
+  display: none !important;
   margin: 0;
   /* padding: var(--overlay-padding); */
   gap: var(--gap);
@@ -48,11 +47,11 @@
 }
 
 .overlay.display {
-  display: flex;
+  display: flex !important;
 }
 
 .overlay.opened {
-  display: flex;
+  display: flex !important;
   opacity: 1;
   pointer-events: auto;
 }
