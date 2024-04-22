@@ -45,17 +45,17 @@
   --padding-right-2x: calc(2 * var(--padding-right));
   --padding-right-3x: calc(3 * var(--padding-right));
   --padding-right-4x: calc(4 * var(--padding-right));
-  --padding-for-width-10-percent: calc(50% - 0.5 * var(--width-10-percent));
-  --padding-for-width-20-percent: calc(50% - 0.5 * var(--width-20-percent));
-  --padding-for-width-25-percent: calc(50% - 0.5 * var(--width-25-percent));
-  --padding-for-width-30-percent: calc(50% - 0.5 * var(--width-30-percent));
-  --padding-for-width-40-percent: calc(50% - 0.5 * var(--width-40-percent));
-  --padding-for-width-50-percent: calc(50% - 0.5 * var(--width-50-percent));
-  --padding-for-width-60-percent: calc(50% - 0.5 * var(--width-60-percent));
-  --padding-for-width-70-percent: calc(50% - 0.5 * var(--width-70-percent));
-  --padding-for-width-75-percent: calc(50% - 0.5 * var(--width-75-percent));
-  --padding-for-width-80-percent: calc(50% - 0.5 * var(--width-80-percent));
-  --padding-for-width-90-percent: calc(50% - 0.5 * var(--width-90-percent));
+  --padding-for-width-10-percent: max(calc(50% - 0.5 * var(--width-10-percent)), 0px);
+  --padding-for-width-20-percent: max(calc(50% - 0.5 * var(--width-20-percent)), 0px);
+  --padding-for-width-25-percent: max(calc(50% - 0.5 * var(--width-25-percent)), 0px);
+  --padding-for-width-30-percent: max(calc(50% - 0.5 * var(--width-30-percent)), 0px);
+  --padding-for-width-40-percent: max(calc(50% - 0.5 * var(--width-40-percent)), 0px);
+  --padding-for-width-50-percent: max(calc(50% - 0.5 * var(--width-50-percent)), 0px);
+  --padding-for-width-60-percent: max(calc(50% - 0.5 * var(--width-60-percent)), 0px);
+  --padding-for-width-70-percent: max(calc(50% - 0.5 * var(--width-70-percent)), 0px);
+  --padding-for-width-75-percent: max(calc(50% - 0.5 * var(--width-75-percent)), 0px);
+  --padding-for-width-80-percent: max(calc(50% - 0.5 * var(--width-80-percent)), 0px);
+  --padding-for-width-90-percent: max(calc(50% - 0.5 * var(--width-90-percent)), 0px);
 }
 
 /*
