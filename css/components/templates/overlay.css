@@ -7,6 +7,7 @@
   --overlay-padding-right: var(--padding-right-half);
   --overlay-padding: var(--overlay-padding-top) var(--overlay-padding-left) var(--overlay-padding-bottom) var(--overlay-padding-right);
 
+  /* Safe area */
   --overlay-safearea-padding-top: calc(var(--safearea-top) + var(--overlay-padding-top));
   --overlay-safearea-padding-left: calc(var(--safearea-left) + var(--overlay-padding-left));
   --overlay-safearea-padding-bottom: calc(var(--safearea-bottom) + var(--overlay-padding-bottom));
