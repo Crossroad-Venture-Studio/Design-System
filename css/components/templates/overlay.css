@@ -27,6 +27,7 @@
   max-height: 100dvh;
   /* Alignment */
   display: none !important;
+  flex-direction: column;
   margin: 0;
   /* padding: var(--overlay-padding); */
   gap: var(--gap);
@@ -47,11 +48,11 @@
 }
 
 .overlay.display {
-  display: flex !important;
+  display: flex;
 }
 
 .overlay.opened {
-  display: flex !important;
+  display: flex;
   opacity: 1;
   pointer-events: auto;
 }
