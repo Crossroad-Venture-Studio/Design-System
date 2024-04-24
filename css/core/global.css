@@ -43,14 +43,6 @@ table,
   padding: 0;
 }
 
-.overflow-visible {
-  overflow: visible;
-}
-
-.overflow-hidden {
-  overflow: hidden;
-}
-
 nav,
 img,
 button,
@@ -74,70 +66,11 @@ input[type=reset],
      supported by Chrome, Edge, Opera and Firefox */
 }
 
-.hidden {
-  display: none;
-}
-
-.fixed {
-  position: fixed;
-  top: 0;
-  left: 0;
-}
-
-.relative {
-  position: relative;
-  top: 0;
-  left: 0;
-}
-
-.absolute {
-  position: absolute;
-  top: 0;
-  left: 0;
-}
-
-.no-pointer-event,
-.no-pointer-events,
-.pointer-events-none  {
-  pointer-events: none;
-}
-
-.pointer-events-all {
-  pointer-events: all;
-}
-
-.pointer-events-fill {
-  pointer-events: fill;
-}
-
-.pointer-events-stroke {
-  pointer-events: stroke;
-}
-
-.pointer-events-painted {
-  pointer-events: painted;
-}
-
-.pointer-events-visible {
-  pointer-events: visible;
-}
-
-.pointer-events-visible-fill {
-  pointer-events: visibleFill;
-}
-
-.pointer-events-visible-painted {
-  pointer-events: visiblePainted;
-}
-
-.pointer-events-visible-stroke {
-  pointer-events: visibleStroke;
-}
-
 .invert {
   filter: invert(1);
 }
 
+.no-border,
 .border-none {
   border: 0;
 }
