@@ -66,10 +66,6 @@ input[type=reset],
      supported by Chrome, Edge, Opera and Firefox */
 }
 
-.invert {
-  filter: invert(1);
-}
-
 .no-border,
 .border-none {
   border: 0;

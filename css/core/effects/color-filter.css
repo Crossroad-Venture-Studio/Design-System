@@ -1,0 +1,15 @@
+.invert {
+  filter: invert(1);
+}
+
+.bright {
+  filter: brightness(1);
+}
+
+.grayscale {
+  filter: grayscale(1);
+}
+
+.sepia {
+  filter: sepia(1);
+}
