@@ -29,7 +29,7 @@
   vertical-align: middle;
   text-transform: uppercase;
   font-family: var(--link-line-font-family);
-  font-size: var(--link-line-font-size);
+  /* font-size: var(--link-line-font-size); */
   text-wrap: balance;
   /* To prevent long press text selection */
   -webkit-touch-callout: none;
