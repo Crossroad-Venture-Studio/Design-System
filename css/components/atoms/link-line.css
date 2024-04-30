@@ -44,7 +44,7 @@
 .link-line.button * {
   /* Font */
   font-family: inherit;
-  font-size: inherit;
+  /* font-size: inherit; */
   transition: none;
 }
 
