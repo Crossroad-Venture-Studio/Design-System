@@ -40,6 +40,7 @@
   user-select: none;
 }
 
+.link-line.button:active *,
 .link-line.button * {
   /* Font */
   font-family: inherit;
