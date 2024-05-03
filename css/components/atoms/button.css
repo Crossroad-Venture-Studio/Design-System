@@ -77,9 +77,11 @@
 
 .button.nowrap,
 .button.nowrap > * {
-  flex-shrink: 0;
   text-wrap: nowrap;
   white-space: nowrap;
+}
+.button.nowrap  {
+  flex-shrink: 0;
 }
 
 .button:not([class*='gap']) {
