@@ -220,3 +220,27 @@
     flex-wrap: wrap;
   }
 }
+
+@media (hover: none), (pointer: coarse) {
+  .row.overflow-wrap.middle {
+    justify-content: flex-start !important;
+  }
+
+  .row.overflow-wrap::before {
+    content: ' ';
+  }
+  
+  .row.overflow-wrap::after {
+    content: ' ';
+  }
+  
+  .row.overflow-wrap.middle::before {
+    content: ' ';
+    margin-left: auto;
+  }
+  
+  .row.overflow-wrap.middle::after {
+    content: ' ';
+    margin-right: auto;
+  }
+}
