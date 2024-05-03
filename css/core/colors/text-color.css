@@ -5,6 +5,11 @@
  * -------
  */
 
+/* Disabling color */
+.text-color-none {
+  color: none;
+}
+
 /* Unsaturated text color */
 .text-color-white {
   color: var(--white);
