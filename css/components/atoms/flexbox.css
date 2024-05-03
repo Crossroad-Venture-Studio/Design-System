@@ -182,3 +182,23 @@
     width: 100%;
   }
 }
+
+.overflow-wrap {
+  overflow: auto;
+}
+
+.row.overflow-wrap {
+  overflow-x: auto;
+}
+
+.column.overflow-wrap {
+  overflow-y: auto;
+}
+
+@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  .row.overflow-wrap,
+  .column.overflow-wrap,
+  .overflow-wrap {
+    flex-wrap: wrap;
+  }
+}
