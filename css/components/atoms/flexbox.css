@@ -183,6 +183,24 @@
   }
 }
 
+.flex.wrap,
+.row.wrap,
+.column.wrap {
+  flex-wrap: wrap;
+}
+
+.flex.nowrap,
+.row.nowrap,
+.column.nowrap {
+  flex-wrap: nowrap;
+}
+
+.flex.wrap-reverse,
+.row.wrap-reverse,
+.column.wrap-reverse {
+  flex-wrap: wrap-reverse;
+}
+
 .overflow-wrap {
   overflow: auto;
 }
