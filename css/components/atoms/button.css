@@ -75,6 +75,7 @@
   transition: var(--transition-time);
 }
 
+.button.nowrap,
 .button.nowrap > * {
   text-wrap: nowrap;
   white-space: nowrap;
