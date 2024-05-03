@@ -1,0 +1,36 @@
+:root {
+  --chat-bubble-border-radius: var(--border-radius-4x);
+}
+
+.chat-bubble-container {
+  width: 80%;
+  border-radius: 4px;
+  gap: var(--gap-half);
+}
+
+.chat-bubble {
+  overflow: hidden;
+  padding: var(--padding-half);
+  --_shadow: 0 4px 10px #00000022;
+  -webkit-box-shadow: var(--_shadow);
+  -moz-box-shadow: var(--_shadow);
+  box-shadow: var(--_shadow);
+}
+
+.chat-bubble.start {
+  border-top-left-radius: var(--chat-bubble-border-radius);
+  border-top-right-radius: var(--chat-bubble-border-radius);
+}
+
+.chat-bubble.end:not(.user) {
+  border-bottom-left-radius: var(--chat-bubble-border-radius);
+}
+
+.chat-bubble.end.user {
+  border-bottom-right-radius: var(--chat-bubble-border-radius);
+}
+
+.chat-bubble-info {
+  opacity: 0.5;
+  font-size: var(--size-10-12);
+}
