@@ -75,6 +75,11 @@
   transition: var(--transition-time);
 }
 
+.button.nowrap > * {
+  text-wrap: nowrap;
+  white-space: nowrap;
+}
+
 .button:not([class*='gap']) {
   gap: var(--button-gap);
 }
