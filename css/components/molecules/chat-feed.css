@@ -8,4 +8,8 @@
   gap: var(--gap-half);
   margin: 0px -100px;
   padding: 0px 100px;
+
+  scrollbar-width: thin;
+  scrollbar-gutter: stable both-edges;
+  scrollbar-color: #878787AA transparent;
 }
