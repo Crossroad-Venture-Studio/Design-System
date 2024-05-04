@@ -9,10 +9,10 @@
 }
 
 .chat-bubble-container:has(.chat-bubble.user) {
-  padding-left: 20%;
+  padding-left: 10%;
 }
 .chat-bubble-container:has(.chat-bubble:not(.user)) {
-  padding-right: 20%;
+  padding-right: 10%;
 }
 
 .chat-bubble {
