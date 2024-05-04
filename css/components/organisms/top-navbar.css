@@ -6,6 +6,7 @@
   --top-navbar-padding-vertical: 12px;
   --top-navbar-gap: var(--size-6-12);
   --top-navbar-height: var(--size-48-64);
+  --top-navbar-safearea-height: calc(var(--safearea-top) + var(--top-navbar-height));
   --top-navbar-logo-min-height: var(--size-20-24);
   --top-navbar-logo-max-height: 24px;
 }
@@ -52,7 +53,7 @@
 *.safearea > .top-navbar,
 *.safearea > * .top-navbar,
 .top-navbar.safearea {
-  height: calc(var(--safearea-top) + var(--top-navbar-height));
+  height: var(--top-navbar-safearea-height);
   padding-top: var(--safearea-top);
   padding-left: calc(var(--top-navbar-padding-horizontal) + var(--safearea-left));
   padding-right: calc(var(--top-navbar-padding-horizontal) + var(--safearea-right));
