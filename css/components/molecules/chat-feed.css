@@ -1,0 +1,5 @@
+.chat-feed {
+  max-height: calc(var(--viewport-height) - var(--safearea-top) - var(--safearea-bottom) - var(--padding-2x) - var(--top-navbar-height));
+  overflow-y: auto;
+  color: var(--dark);
+}
