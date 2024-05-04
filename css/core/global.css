@@ -71,6 +71,12 @@ input[type=reset],
   border: 0;
 }
 
+@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  * {
+    scrollbar-width: thin;
+  }
+}
+
 /* Responsive styles */
 @media (hover: none), (pointer: coarse) {
   /*
