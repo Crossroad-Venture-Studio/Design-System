@@ -19,10 +19,14 @@
   border-radius: 4px;
   overflow: hidden;
   padding: var(--padding-half);
-  --_shadow: 0 4px 10px #00000022;
+  --_shadow: 4px 4px 10px #00000022;
   -webkit-box-shadow: var(--_shadow);
   -moz-box-shadow: var(--_shadow);
   box-shadow: var(--_shadow);
+}
+
+.chat-bubble.user {
+  --_shadow: -4px 4px 10px #00000022;
 }
 
 .chat-bubble.start {
