@@ -1,7 +1,3 @@
-:root {
-  --chat-bubble-border-radius: var(--border-radius-3x);
-}
-
 .chat-bubble-container {
   width: 100%;
   gap: var(--text-gap);
