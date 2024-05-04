@@ -2,6 +2,7 @@
   max-height: calc(var(--viewport-height) - var(--safearea-top) - var(--safearea-bottom) - var(--padding-2x) - var(--top-navbar-height));
   overflow-y: auto;
   overflow-x: visible;
+  width: auto;
   color: var(--dark);
   line-height: 150%;
   gap: var(--gap-half);
