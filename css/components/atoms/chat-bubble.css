@@ -5,6 +5,7 @@
 .chat-bubble-container {
   width: 100%;
   gap: var(--text-gap);
+  overflow-x: visible;
 }
 
 .chat-bubble-container:has(.chat-bubble.user) {
