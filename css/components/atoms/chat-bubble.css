@@ -3,9 +3,16 @@
 }
 
 .chat-bubble-container {
-  width: 80%;
+  width: 100%;
   border-radius: 4px;
   gap: var(--gap-half);
+}
+
+.chat-bubble-container:has(.chat-bubble.user) {
+  padding-left: 20%;
+}
+.chat-bubble-container:has(.chat-bubble:not(.user)) {
+  padding-right: 20%;
 }
 
 .chat-bubble {
@@ -23,11 +30,11 @@
 }
 
 .chat-bubble.end:not(.user) {
-  border-bottom-left-radius: var(--chat-bubble-border-radius);
+  border-bottom-right-radius: var(--chat-bubble-border-radius);
 }
 
 .chat-bubble.end.user {
-  border-bottom-right-radius: var(--chat-bubble-border-radius);
+  border-bottom-left-radius: var(--chat-bubble-border-radius);
 }
 
 .chat-bubble-info {
