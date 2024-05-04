@@ -5,6 +5,4 @@
   color: var(--dark);
   line-height: 150%;
   gap: var(--gap-half);
-  margin: 0px -32px;
-  padding: 0px 32px;
 }
