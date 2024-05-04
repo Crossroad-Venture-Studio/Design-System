@@ -1,5 +1,5 @@
 :root {
-  --chat-bubble-border-radius: var(--border-radius-4x);
+  --chat-bubble-border-radius: var(--border-radius-3x);
 }
 
 .chat-bubble-container {
