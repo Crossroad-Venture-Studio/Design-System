@@ -8,8 +8,12 @@
   gap: var(--gap-half);
   margin: -10px -16px -10px -16px;
   padding: 10px 16px 10px 16px;
+}
 
-  scrollbar-width: thin;
-  /* scrollbar-gutter: stable both-edges; */
-  scrollbar-color: #878787AA transparent;
+@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+  .chat-feed {
+    scrollbar-width: thin;
+    /* scrollbar-gutter: stable both-edges; */
+    scrollbar-color: #878787AA transparent;
+  }
 }
