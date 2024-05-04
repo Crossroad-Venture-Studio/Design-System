@@ -5,6 +5,6 @@
   color: var(--dark);
   line-height: 150%;
   gap: var(--gap-half);
-  margin-left: -100px;
-  padding-left: 100px;
+  margin: 0px -100px;
+  padding: 0px 100px;
 }
