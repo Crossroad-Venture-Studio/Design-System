@@ -41,11 +41,3 @@
   opacity: 0.5;
   font-size: var(--size-10-12);
 }
-
-.chat-bubble-container:has(.chat-bubble.user) .chat-bubble-info {
-  padding-right: var(--chat-bubble-border-radius);
-}
-
-.chat-bubble-container:has(.chat-bubble:not(.user)) .chat-bubble-info {
-  padding-left: var(--chat-bubble-border-radius);
-}
