@@ -65,21 +65,21 @@
   justify-content: center;
 }
 
-.flex.self-top,
-.row.self-top,
-.column.self-left {
+.flex > .self-top,
+.row > .self-top,
+.column > .self-left {
   align-self: flex-start;
 }
 
-.flex.self-bottom,
-.row.self-bottom,
-.column.self-right {
+.flex > .self-bottom,
+.row > .self-bottom,
+.column > .self-right {
   align-self: flex-end;
 }
 
-.flex.self-center,
-.row.self-center,
-.column.self-middle {
+.flex > .self-center,
+.row > .self-center,
+.column > .self-middle {
   align-self: center;
 }
 
