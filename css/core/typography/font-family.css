@@ -6,12 +6,12 @@
  */
  :root {
   /* Global */
-  --font-family: 'Avenir Next', 'Avenir', 'Calibri', Tahoma, Arial, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
-  --fat-font-family: 'Arial Black', var(--font-family);
-  --handwriting-font-family: 'Caveat', var(--font-family);
-  --comic-font-family: 'Anime Ace', var(--font-family);
-  --rounded-font-family: 'Gilroy', var(--font-family);
-  --default-font-family: var(--font-family);
+  --default-font-family: 'Avenir Next', 'Avenir', 'Calibri', Tahoma, Arial, 'HelveticaNeue-Light', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, sans-serif;
+  --font-family: var(--default-font-family);
+  --fat-font-family: 'Arial Black', var(--font-family), var(--default-font-family);
+  --handwriting-font-family: 'Caveat', var(--font-family), var(--default-font-family);
+  --comic-font-family: 'Anime Ace', var(--font-family), var(--default-font-family);
+  --rounded-font-family: 'Gilroy', var(--font-family), var(--default-font-family);
  }
 
 /* 
