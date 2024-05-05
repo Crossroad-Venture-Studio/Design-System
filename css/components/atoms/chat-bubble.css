@@ -24,7 +24,7 @@
   box-shadow: var(--_shadow);
 }
 
-.chat-bubble.user {
+.chat-bubble.shadow.user {
   --_shadow: -4px 4px 10px #0000001A;
 }
 
