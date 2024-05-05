@@ -176,7 +176,7 @@
   min-width: var(--button-small-min-height);
   min-height: var(--button-small-min-height);
   border-radius: max(calc(var(--button-border-radius) - 2px), 0px);
-  padding: calc(var(--button-padding-vertical) - 2px) calc(var(--button-padding-horizontal) + 1px);
+  padding: calc(var(--button-padding-vertical) - 2px) calc(var(--button-padding-horizontal) + 30px);
   font-size: calc(var(--button-font-size) - 2px);
 }
 
