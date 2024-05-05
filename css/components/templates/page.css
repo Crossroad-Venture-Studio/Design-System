@@ -65,6 +65,18 @@
   justify-content: flex-end;
 }
 
+.page > .self-left {
+  align-self: flex-start;
+}
+
+.page > .self-right {
+  align-self: flex-end;
+}
+
+.page > .self-middle {
+  align-self: center;
+}
+
 /* Add safearea */
 .page.safearea {
   padding: var(--page-safearea-padding);
