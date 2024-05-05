@@ -155,3 +155,34 @@
   src: url('../../../fonts/Caveat-VariableFont_wght.ttf'), url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap'), local('Caveat'), local('Comic Sans MS'), local('Comic Sans');
   font-weight: 400 700;
 }
+
+/* Gilroy */
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-Light.woff'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 100 300;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-Regular.woff'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-Medium.woff'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 500 600;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-Bold.woff'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 700 800;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-Heavy.woff'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 900;
+}

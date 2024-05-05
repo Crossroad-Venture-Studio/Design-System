@@ -10,6 +10,7 @@
   --fat-font-family: 'Arial Black', var(--font-family);
   --handwriting-font-family: 'Caveat', var(--font-family);
   --comic-font-family: 'Anime Ace', var(--font-family);
+  --rounded-font-family: 'Gilroy', var(--font-family);
   --default-font-family: var(--font-family);
  }
 
@@ -31,4 +32,8 @@
 
 .comic {
   font-family: var(--comic-font-family);
+}
+
+.rounded {
+  font-family: var(--rounded-font-family);
 }
