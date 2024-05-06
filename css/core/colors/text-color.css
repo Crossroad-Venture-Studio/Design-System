@@ -56,6 +56,20 @@
   color: var(--light) !important;
 }
 
+.text-color-semi-dark,
+:visited,
+:active,
+:link {
+  color: var(--semi-dark) !important;
+}
+
+.text-color-semi-light,
+:visited,
+:active,
+:link {
+  color: var(--semi-light) !important;
+}
+
 /* Primary text color */
 .text-color-red,
 .text-color-red:visited,
