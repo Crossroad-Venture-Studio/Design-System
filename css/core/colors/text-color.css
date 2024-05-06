@@ -22,9 +22,9 @@
 
 /* Unsaturated text color */
 .text-color-white,
-:visited,
-:active,
-:link {
+.text-color-white:visited,
+.text-color-white:active,
+.text-color-white:link {
   color: var(--white) !important;
 }
 
@@ -43,30 +43,30 @@
 }
 
 .text-color-dark,
-:visited,
-:active,
-:link {
+.text-color-dark:visited,
+.text-color-dark:active,
+.text-color-dark:link {
   color: var(--dark) !important;
 }
 
 .text-color-light,
-:visited,
-:active,
-:link {
+.text-color-light:visited,
+.text-color-light:active,
+.text-color-light:link {
   color: var(--light) !important;
 }
 
 .text-color-semi-dark,
-:visited,
-:active,
-:link {
+.text-color-semi-dark:visited,
+.text-color-semi-dark:active,
+.text-color-semi-dark:link {
   color: var(--semi-dark) !important;
 }
 
 .text-color-semi-light,
-:visited,
-:active,
-:link {
+.text-color-semi-light:visited,
+.text-color-semi-light:active,
+.text-color-semi-light:link {
   color: var(--semi-light) !important;
 }
 
@@ -269,9 +269,9 @@
   color: var(--green-2) !important;
 }
 .text-color-green-3,
-:visited,
-:active,
-:link {
+.text-color-green-3:visited,
+.text-color-green-3:active,
+.text-color-green-3:link {
   color: var(--green-3) !important;
 }
 
