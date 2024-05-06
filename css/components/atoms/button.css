@@ -153,9 +153,9 @@
   cursor: not-allowed;
 }
 
-.button, .button:visited, .button:active, .button:link {
+/* .button, .button:visited, .button:active, .button:link {
   color: inherit;
-}
+} */
 
 .button.width-100-percent,
 .button.width-full,
