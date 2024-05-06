@@ -187,71 +187,71 @@
 
 /* Shaded text color */
 .text-color-gray-1,
-:visited,
-:active,
-:link {
+.text-color-gray-1:visited,
+.text-color-gray-1:active,
+.text-color-gray-1:link {
   color: var(--gray-1) !important;
 }
 .text-color-gray-2,
-:visited,
-:active,
-:link {
+.text-color-gray-2:visited,
+.text-color-gray-2:active,
+.text-color-gray-2:link {
   color: var(--gray-2) !important;
 }
 .text-color-gray-3,
-:visited,
-:active,
-:link {
+.text-color-gray-3:visited,
+.text-color-gray-3:active,
+.text-color-gray-3:link {
   color: var(--gray-3) !important;
 }
 .text-color-gray-4,
-:visited,
-:active,
-:link {
+.text-color-gray-4:visited,
+.text-color-gray-4:active,
+.text-color-gray-4:link {
   color: var(--gray-4) !important;
 }
 .text-color-gray-5,
-:visited,
-:active,
-:link {
+.text-color-gray-5:visited,
+.text-color-gray-5:active,
+.text-color-gray-5:link {
   color: var(--gray-5) !important;
 }
 .text-color-gray-6,
-:visited,
-:active,
-:link {
+.text-color-gray-6:visited,
+.text-color-gray-6:active,
+.text-color-gray-6:link {
   color: var(--gray-6) !important;
 }
 
 .text-color-red-1,
-:visited,
-:active,
-:link {
+.text-color-red-1:visited,
+.text-color-red-1:active,
+.text-color-red-1:link {
   color: var(--red-1) !important;
 }
 .text-color-red-2,
-:visited,
-:active,
-:link {
+.text-color-red-2:visited,
+.text-color-red-2:active,
+.text-color-red-2:link {
   color: var(--red-2) !important;
 }
 .text-color-red-3,
-:visited,
-:active,
-:link {
+.text-color-red-3:visited,
+.text-color-red-3:active,
+.text-color-red-3:link {
   color: var(--red-3) !important;
 }
 
 .text-color-green-1,
-:visited,
-:active,
-:link {
+.text-color-green-1:visited,
+.text-color-green-1:active,
+.text-color-green-1:link {
   color: var(--green-1) !important;
 }
 .text-color-green-2,
-:visited,
-:active,
-:link {
+.text-color-green-1:visited,
+.text-color-green-1:active,
+.text-color-green-1:link {
   color: var(--green-2) !important;
 }
 .text-color-green-3,
@@ -262,96 +262,96 @@
 }
 
 .text-color-blue-1,
-:visited,
-:active,
-:link {
+.text-color-blue-1:visited,
+.text-color-blue-1:active,
+.text-color-blue-1:link {
   color: var(--blue-1) !important;
 }
 .text-color-blue-2,
-:visited,
-:active,
-:link {
+.text-color-blue-1:visited,
+.text-color-blue-1:active,
+.text-color-blue-1:link {
   color: var(--blue-2) !important;
 }
 .text-color-blue-3,
-:visited,
-:active,
-:link {
+.text-color-blue-3:visited,
+.text-color-blue-3:active,
+.text-color-blue-3:link {
   color: var(--blue-3) !important;
 }
 
 .text-color-orange-1,
-:visited,
-:active,
-:link {
+.text-color-orange-1:visited,
+.text-color-orange-1:active,
+.text-color-orange-1:link {
   color: var(--orange-1) !important;
 }
 .text-color-orange-2,
-:visited,
-:active,
-:link {
+.text-color-orange-2:visited,
+.text-color-orange-2:active,
+.text-color-orange-2:link {
   color: var(--orange-2) !important;
 }
 .text-color-orange-3,
-:visited,
-:active,
-:link {
+.text-color-orange-3:visited,
+.text-color-orange-3:active,
+.text-color-orange-3:link {
   color: var(--orange-3) !important;
 }
 
 .text-color-yellow-1,
-:visited,
-:active,
-:link {
+.text-color-yellow-1:visited,
+.text-color-yellow-1:active,
+.text-color-yellow-1:link {
   color: var(--yellow-1) !important;
 }
 .text-color-yellow-2,
-:visited,
-:active,
-:link {
+.text-color-yellow-2:visited,
+.text-color-yellow-2:active,
+.text-color-yellow-2:link {
   color: var(--yellow-2) !important;
 }
 .text-color-yellow-3,
-:visited,
-:active,
-:link {
+.text-color-yellow-3:visited,
+.text-color-yellow-3:active,
+.text-color-yellow-3:link {
   color: var(--yellow-3) !important;
 }
 
 .text-color-purple-1,
-:visited,
-:active,
-:link {
+.text-color-purple-1:visited,
+.text-color-purple-1:active,
+.text-color-purple-1:link {
   color: var(--purple-1) !important;
 }
 .text-color-purple-2,
-:visited,
-:active,
-:link {
+.text-color-purple-2:visited,
+.text-color-purple-2:active,
+.text-color-purple-2:link {
   color: var(--purple-2) !important;
 }
 .text-color-purple-3,
-:visited,
-:active,
-:link {
+.text-color-purple-3:visited,
+.text-color-purple-3:active,
+.text-color-purple-3:link {
   color: var(--purple-3) !important;
 }
 
 .text-color-pink-1,
-:visited,
-:active,
-:link {
+.text-color-pink-1:visited,
+.text-color-pink-1:active,
+.text-color-pink-1:link {
   color: var(--pink-1) !important;
 }
 .text-color-pink-2,
-:visited,
-:active,
-:link {
+.text-color-pink-2:visited,
+.text-color-pink-2:active,
+.text-color-pink-2:link {
   color: var(--pink-2) !important;
 }
 .text-color-pink-3,
-:visited,
-:active,
-:link {
+.text-color-pink-3:visited,
+.text-color-pink-3:active,
+.text-color-pink-3:link {
   color: var(--pink-3) !important;
 }
