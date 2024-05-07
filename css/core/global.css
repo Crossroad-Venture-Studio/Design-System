@@ -74,6 +74,7 @@ input[type=reset],
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   * {
     scrollbar-width: thin;
+    scrollbar-color: #878787AA transparent;
   }
 }
 
