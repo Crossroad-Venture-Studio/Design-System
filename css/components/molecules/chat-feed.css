@@ -1,5 +1,5 @@
 .chat-feed {
-  max-height: calc(0.8 * var(--viewport-height) - var(--safearea-top) - var(--safearea-bottom) - var(--padding-2x) - var(--top-navbar-height));
+  /* max-height: calc(0.8 * var(--viewport-height) - var(--safearea-top) - var(--safearea-bottom) - var(--padding-2x) - var(--top-navbar-height)); */
   overflow-y: auto;
   overflow-x: visible;
   width: auto;
@@ -13,10 +13,9 @@
   padding: 10px 16px 10px 16px;
 }
 
-@media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
+/* @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   .chat-feed {
     scrollbar-width: thin;
-    /* scrollbar-gutter: stable both-edges; */
     scrollbar-color: #878787AA transparent;
   }
-}
+} */
