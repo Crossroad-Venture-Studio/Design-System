@@ -8,10 +8,10 @@
   gap: var(--gap-half);
 }
 
-.chat-feed:has(.chat-bubble.shadow) {
+/* .chat-feed:has(.chat-bubble.shadow) {
   margin: -10px -16px -10px -16px;
   padding: 10px 16px 10px 16px;
-}
+} */
 
 /* @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
   .chat-feed {
