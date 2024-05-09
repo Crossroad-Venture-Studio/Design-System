@@ -159,30 +159,117 @@
 /* Gilroy */
 @font-face {
   font-family: 'Gilroy';
-  src: url('../../../fonts/Gilroy-Light.woff'), local('Gilroy'), local('Avenir Next'), local('Avenir');
-  font-weight: 100 300;
+  src: url('../../../fonts/Gilroy-Thin.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 100;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../../../fonts/Gilroy-Regular.woff'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  src: url('../../../fonts/Gilroy-ThinItalic.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-UltraLight.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-UltraLightItalic.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-Light.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-LightItalic.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-Regular.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
   font-weight: 400;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../../../fonts/Gilroy-Medium.woff'), local('Gilroy'), local('Avenir Next'), local('Avenir');
-  font-weight: 500 600;
+  src: url('../../../fonts/Gilroy-RegularItalic.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 400;
+  font-style: italic;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../../../fonts/Gilroy-Bold.woff'), local('Gilroy'), local('Avenir Next'), local('Avenir');
-  font-weight: 700 800;
+  src: url('../../../fonts/Gilroy-Medium.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 500;
 }
 
 @font-face {
   font-family: 'Gilroy';
-  src: url('../../../fonts/Gilroy-Heavy.woff'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  src: url('../../../fonts/Gilroy-MediumItalic.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-SemiBold.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-SemiBoldItalic.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 600;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-Bold.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-BoldItalic.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-ExtraBold.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 800;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-ExtraBoldItalic.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 800;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-Black.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
   font-weight: 900;
+}
+
+@font-face {
+  font-family: 'Gilroy';
+  src: url('../../../fonts/Gilroy-BlackItalic.ttf'), local('Gilroy'), local('Avenir Next'), local('Avenir');
+  font-weight: 900;
+  font-style: italic;
 }
