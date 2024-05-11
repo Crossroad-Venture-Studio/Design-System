@@ -15,6 +15,7 @@
   --size-64-96: min(max(calc(9.6677 * var(--vw)), 64px), 96px);
   --size-64-72: min(max(calc(8.2175 * var(--vw)), 64px), 72px);
   --size-48-96: min(max(calc(8.7009 * var(--vw)), 48px), 96px);
+  --size-56-84: min(max(calc(8.4592 * var(--vw)), 56px), 84px);
   --size-36-96: min(max(calc(7.9758 * var(--vw)), 36px), 96px);
   --size-56-72: min(max(calc(7.7341 * var(--vw)), 56px), 72px);
   --size-56-64: min(max(calc(7.2507 * var(--vw)), 56px), 64px);
