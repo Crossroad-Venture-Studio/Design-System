@@ -29,7 +29,8 @@
   --snow-white-horizontal: linear-gradient(0deg, var(--snow), var(--white));
   --pearl-white-horizontal: linear-gradient(0deg, var(--pearl), var(--white));
   --pearl-snow-horizontal: linear-gradient(0deg, var(--pearl), var(--snow));
-  --night-moon-horizontal: linear-gradient(0deg, var(--black) 25%, var(--night) 50%, var(--moon) 100%);
+  --night-moon-horizontal: linear-gradient(0deg, var(--night), var(--moon));
+  --black-night-moon-horizontal: linear-gradient(0deg, var(--black) 30%, var(--night) 60%, var(--moon) 100%);
 
   /*
    * Vertical gradients
@@ -57,7 +58,8 @@
   --snow-white-vertical: linear-gradient(90deg, var(--snow), var(--white));
   --pearl-white-vertical: linear-gradient(90deg, var(--pearl), var(--white));
   --pearl-snow-vertical: linear-gradient(90deg, var(--pearl), var(--snow));
-  --night-moon-vertical: linear-gradient(90deg, var(--black) 25%, var(--night) 50%, var(--moon) 100%);
+  --night-moon-vertical: linear-gradient(90deg, var(--night), var(--moon));
+  --black-night-moon-vertical: linear-gradient(90deg, var(--black) 30%, var(--night) 60%, var(--moon) 100%);
 
    /*
    * Diagonal gradients
@@ -87,5 +89,6 @@
   --pearl-snow-diagonal: linear-gradient(45deg, var(--pearl), var(--snow));
   --blue-1-snow-diagonal: linear-gradient(45deg, var(--blue-1), var(--snow));
   --blue-1-gray-diagonal: linear-gradient(45deg, var(--blue-1), var(--gray));
-  --night-moon-diagonal: linear-gradient(45deg, var(--black) 25%, var(--night) 50%, var(--moon) 100%);
+  --night-moon-diagonal: linear-gradient(45deg, var(--night), var(--moon));
+  --black-night-moon-diagonal: linear-gradient(45deg, var(--black) 30%, var(--night) 60%, var(--moon) 100%);
 }
