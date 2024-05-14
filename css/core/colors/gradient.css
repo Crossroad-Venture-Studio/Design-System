@@ -27,6 +27,8 @@
   --dark-gray-horizontal: linear-gradient(0deg, var(--dark), var(--gray));
   --black-gray-1-horizontal: linear-gradient(0deg, var(--black), var(--gray-1));
   --snow-white-horizontal: linear-gradient(0deg, var(--snow), var(--white));
+  --pearl-white-horizontal: linear-gradient(0deg, var(--pearl), var(--white));
+  --pearl-snow-horizontal: linear-gradient(0deg, var(--pearl), var(--snow));
 
   /*
    * Vertical gradients
@@ -52,6 +54,8 @@
   --dark-gray-vertical: linear-gradient(90deg, var(--dark), var(--gray));
   --black-gray-1-vertical: linear-gradient(90deg, var(--black), var(--gray-1));
   --snow-white-vertical: linear-gradient(90deg, var(--snow), var(--white));
+  --pearl-white-vertical: linear-gradient(90deg, var(--pearl), var(--white));
+  --pearl-snow-vertical: linear-gradient(90deg, var(--pearl), var(--snow));
 
    /*
    * Diagonal gradients
@@ -77,4 +81,6 @@
   --dark-gray-diagonal: linear-gradient(45deg, var(--dark), var(--gray));
   --black-gray-1-diagonal: linear-gradient(45deg, var(--black), var(--gray-1));
   --snow-white-diagonal: linear-gradient(45deg, var(--snow), var(--white));
+  --pearl-white-diagonal: linear-gradient(45deg, var(--pearl), var(--white));
+  --pearl-snow-diagonal: linear-gradient(45deg, var(--pearl), var(--snow));
 }
