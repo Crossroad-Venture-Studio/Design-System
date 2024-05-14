@@ -24,6 +24,8 @@
   --blue-1-ocean-horizontal: linear-gradient(0deg, var(--blue-1), var(--ocean));
   --blue-leaf-horizontal: linear-gradient(0deg, var(--blue), var(--leaf));
   --leaf-blue-horizontal: linear-gradient(0deg, var(--leaf), var(--blue));
+  --dark-gray-horizontal: linear-gradient(0deg, var(--dark), var(--gray));
+  --black-gray-1-horizontal: linear-gradient(0deg, var(--black), var(--gray-1));
 
   /*
    * Vertical gradients
@@ -46,6 +48,8 @@
   --blue-1-ocean-vertical: linear-gradient(90deg, var(--blue-1), var(--ocean));
   --blue-leaf-vertical: linear-gradient(90deg, var(--blue), var(--leaf));
   --leaf-blue-vertical: linear-gradient(90deg, var(--leaf), var(--blue));
+  --dark-gray-vertical: linear-gradient(90deg, var(--dark), var(--gray));
+  --black-gray-1-vertical: linear-gradient(90deg, var(--black), var(--gray-1));
 
    /*
    * Diagonal gradients
@@ -68,4 +72,6 @@
   --blue-1-ocean-diagonal: linear-gradient(45deg, var(--blue-1), var(--ocean));
   --blue-leaf-diagonal: linear-gradient(45deg, var(--blue), var(--leaf));
   --leaf-blue-diagonal: linear-gradient(45deg, var(--leaf), var(--blue));
+  --dark-gray-diagonal: linear-gradient(45deg, var(--dark), var(--gray));
+  --black-gray-1-diagonal: linear-gradient(45deg, var(--black), var(--gray-1));
 }
