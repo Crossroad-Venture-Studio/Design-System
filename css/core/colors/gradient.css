@@ -87,5 +87,5 @@
   --pearl-snow-diagonal: linear-gradient(45deg, var(--pearl), var(--snow));
   --blue-1-snow-diagonal: linear-gradient(45deg, var(--blue-1), var(--snow));
   --blue-1-gray-diagonal: linear-gradient(45deg, var(--blue-1), var(--gray));
-  --night-moon-diagonal: linear-gradient(45deg, var(--black) 30%, var(--night) 30%, var(--moon) 40%);
+  --night-moon-diagonal: linear-gradient(45deg, var(--black) 0 30%, var(--night) 30% 60%, var(--moon) 60% 100%);
 }
