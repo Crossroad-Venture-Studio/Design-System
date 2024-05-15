@@ -5,7 +5,7 @@
 :root {
   /* Dynamic border radius */
   --border-radius: 8px;
-  --border-radius-round: 10000px;
+  --border-radius-round: max(10000px, 100vh, 100vw);
   --border-radius-square: 2px;
 
   /* Calculated */
