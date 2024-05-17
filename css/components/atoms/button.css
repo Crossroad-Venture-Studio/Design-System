@@ -125,8 +125,6 @@
 }
 
 .button.disabled {
-  opacity: 1;
-  cursor: not-allowed !important;
   pointer-events: none !important;
 }
 
@@ -153,6 +151,12 @@
 .button:disabled {
   opacity: 0.5;
   cursor: not-allowed;
+}
+
+.button.disabled:hover,
+.button.disabled {
+  opacity: 1;
+  cursor: not-allowed !important;
 }
 
 .button, .button:visited, .button:active, .button:link {
