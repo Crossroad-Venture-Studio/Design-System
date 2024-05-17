@@ -125,12 +125,14 @@
 }
 
 .button.disabled {
+  opacity: 1;
+  cursor: not-allowed !important;
   pointer-events: none !important;
 }
 
 /* Hover, only for non-touchable devices */
 @media (hover: hover) and (pointer: fine), (-ms-high-contrast: active), (forced-colors: active) {
-  .button:not(.button:disabled):hover {
+  .button:not(:disabled):not(.disabled):hover {
     opacity: 0.8;
   }
 
