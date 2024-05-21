@@ -196,6 +196,8 @@ select.input.dark:not(.hide-arrow) {
     linear-gradient(to right, #FFFFFF33, #FFFFFF33) !important;
 }
 
+.input.no-arrows::-webkit-outer-spin-button,
+.input.no-arrows::-webkit-inner-spin-button,
 .input.hide-arrow::-webkit-outer-spin-button,
 .input.hide-arrow::-webkit-inner-spin-button {
   /* Chrome, Safari, Edge, Opera */
@@ -204,6 +206,7 @@ select.input.dark:not(.hide-arrow) {
 }
 
 /* Firefox */
+.input[type=number].no-arrows,
 .input[type=number].hide-arrow {
   appearance: textfield;
   -moz-appearance: textfield;
