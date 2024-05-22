@@ -7,7 +7,7 @@
 
 /* Disabling background */
 .background-none {
-  background-color: none !important;
+  background: none !important;
 }
 
 .background-color-none {
