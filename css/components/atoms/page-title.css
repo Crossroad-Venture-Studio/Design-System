@@ -1,0 +1,7 @@
+.page-title {
+  font-size: var(--size-40-48);
+}
+
+.page-title:not(:first-of-type) {
+  padding-top: var(--title-padding-top);
+}
