@@ -80,12 +80,14 @@
 /* Add safearea */
 .page.safearea {
   padding: var(--page-safearea-padding);
+  scroll-padding: var(--page-safearea-padding);
 }
 
 /* Add padding due to navbar */
 .page:has(.top-navbar),
 *:has(.top-navbar) .page {
   padding-top: var(--page-navbar-padding-top);
+  scroll-padding-top: var(--page-navbar-padding-top);
 }
 
 /* Tackling safe area at a current page or child navbar */
@@ -94,4 +96,5 @@
 *:has(.top-navbar) .page.safearea,
 *:has(.top-navbar.safearea) .page  {
   padding-top: var(--page-navbar-safearea-padding-top);
+  scroll-padding-top: var(--page-navbar-safearea-padding-top);
 }
