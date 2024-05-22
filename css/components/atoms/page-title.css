@@ -1,6 +1,6 @@
 .page-title {
   font-size: var(--size-40-48);
-  font-weight: 700;
+  font-weight: bold;
 }
 
 .page-title:not(:first-of-type) {
