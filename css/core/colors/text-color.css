@@ -199,6 +199,13 @@
   color: var(--leaf) !important;
 }
 
+.text-color-blueberry,
+.text-color-blueberry:visited,
+.text-color-blueberry:active,
+.text-color-blueberry:link {
+  color: var(--blueberry) !important;
+}
+
 /* Shaded text color */
 .text-color-gray-1,
 .text-color-gray-1:visited,

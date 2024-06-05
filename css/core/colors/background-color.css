@@ -122,6 +122,10 @@
   background-color: var(--leaf) !important;
 }
 
+.background-color-blueberry {
+  background-color: var(--blueberry) !important;
+}
+
 /* Shaded background color*/
 .background-color-gray-1 {
   background-color: var(--gray-1) !important;
