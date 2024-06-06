@@ -3,13 +3,13 @@
  * -------
  */
 .ellipsis {
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
+  text-overflow: ellipsis !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
 }
 
 .clip {
-  text-overflow: clip;
-  white-space: nowrap;
-  overflow: hidden;
+  text-overflow: clip !important;
+  white-space: nowrap !important;
+  overflow: hidden !important;
 }
