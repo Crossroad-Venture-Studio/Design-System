@@ -104,6 +104,7 @@
   text-wrap: inherit;
   white-space: inherit;
   transition: all var(--transition-time);
+  flex-shrink: 1;
 }
 
 .button.padding-none {
