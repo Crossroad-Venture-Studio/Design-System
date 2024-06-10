@@ -215,3 +215,316 @@
 .background-color-pink-3 {
   background-color: var(--pink-3) !important;
 }
+
+/* Gradient colors */
+.background-color-purple-pink-horizontal {
+  background: var(--purple-pink-horizontal);
+}
+
+.background-color-purple-orange-horizontal {
+  background: var(--purple-orange-horizontal);
+}
+
+.background-color-orange-yellow-horizontal {
+  background: var(--orange-yellow-horizontal);
+}
+
+.background-color-ocean-teal-horizontal {
+  background: var(--ocean-teal-horizontal);
+}
+
+.background-color-green-lime-horizontal {
+  background: var(--green-lime-horizontal);
+}
+
+.background-color-chocolate-leather-horizontal {
+  background: var(--chocolate-leather-horizontal);
+}
+
+.background-color-blue-cyan-horizontal {
+  background: var(--blue-cyan-horizontal);
+}
+
+.background-color-blue-teal-horizontal {
+  background: var(--blue-teal-horizontal);
+}
+
+.background-color-orange-pink-horizontal {
+  background: var(--orange-pink-horizontal);
+}
+
+.background-color-purple-blue-horizontal {
+  background: var(--purple-blue-horizontal);
+}
+
+.background-color-teal-pink-horizontal {
+  background: var(--teal-pink-horizontal);
+}
+
+.background-color-leather-olive-horizontal {
+  background: var(--leather-olive-horizontal);
+}
+
+.background-color-red-yellow-horizontal {
+  background: var(--red-yellow-horizontal);
+}
+
+.background-color-lime-yellow-horizontal {
+  background: var(--lime-yellow-horizontal);
+}
+
+.background-color-blue-1-ocean-horizontal {
+  background: var(--blue-1-ocean-horizontal);
+}
+
+.background-color-blue-leaf-horizontal {
+  background: var(--blue-leaf-horizontal);
+}
+
+.background-color-leaf-blue-horizontal {
+  background: var(--leaf-blue-horizontal);
+}
+
+.background-color-dark-gray-horizontal {
+  background: var(--dark-gray-horizontal);
+}
+
+.background-color-black-gray-1-horizontal {
+  background: var(--black-gray-1-horizontal);
+}
+
+.background-color-snow-white-horizontal {
+  background: var(--snow-white-horizontal);
+}
+
+.background-color-pearl-white-horizontal {
+  background: var(--pearl-white-horizontal);
+}
+
+.background-color-pearl-snow-horizontal {
+  background: var(--pearl-snow-horizontal);
+}
+
+.background-color-blue-1-snow-horizontal {
+  background: var(--blue-1-snow-horizontal);
+}
+
+.background-color-blue-1-gray-horizontal {
+  background: var(--blue-1-gray-horizontal);
+}
+
+.background-color-night-moon-horizontal {
+  background: var(--night-moon-horizontal);
+}
+
+.background-color-black-night-moon-horizontal {
+  background: var(--black-night-moon-horizontal);
+}
+
+.background-color-purple-pink-vertical {
+  background: var(--purple-pink-vertical);
+}
+
+.background-color-purple-orange-vertical {
+  background: var(--purple-orange-vertical);
+}
+
+.background-color-orange-yellow-vertical {
+  background: var(--orange-yellow-vertical);
+}
+
+.background-color-ocean-teal-vertical {
+  background: var(--ocean-teal-vertical);
+}
+
+.background-color-green-lime-vertical {
+  background: var(--green-lime-vertical);
+}
+
+.background-color-chocolate-leather-vertical {
+  background: var(--chocolate-leather-vertical);
+}
+
+.background-color-blue-cyan-vertical {
+  background: var(--blue-cyan-vertical);
+}
+
+.background-color-blue-teal-vertical {
+  background: var(--blue-teal-vertical);
+}
+
+.background-color-orange-pink-vertical {
+  background: var(--orange-pink-vertical);
+}
+
+.background-color-purple-blue-vertical {
+  background: var(--purple-blue-vertical);
+}
+
+.background-color-teal-pink-vertical {
+  background: var(--teal-pink-vertical);
+}
+
+.background-color-leather-olive-vertical {
+  background: var(--leather-olive-vertical);
+}
+
+.background-color-red-yellow-vertical {
+  background: var(--red-yellow-vertical);
+}
+
+.background-color-lime-yellow-vertical {
+  background: var(--lime-yellow-vertical);
+}
+
+.background-color-blue-1-ocean-vertical {
+  background: var(--blue-1-ocean-vertical);
+}
+
+.background-color-blue-leaf-vertical {
+  background: var(--blue-leaf-vertical);
+}
+
+.background-color-leaf-blue-vertical {
+  background: var(--leaf-blue-vertical);
+}
+
+.background-color-dark-gray-vertical {
+  background: var(--dark-gray-vertical);
+}
+
+.background-color-black-gray-1-vertical {
+  background: var(--black-gray-1-vertical);
+}
+
+.background-color-snow-white-vertical {
+  background: var(--snow-white-vertical);
+}
+
+.background-color-pearl-white-vertical {
+  background: var(--pearl-white-vertical);
+}
+
+.background-color-pearl-snow-vertical {
+  background: var(--pearl-snow-vertical);
+}
+
+.background-color-blue-1-snow-vertical {
+  background: var(--blue-1-snow-vertical);
+}
+
+.background-color-blue-1-gray-vertical {
+  background: var(--blue-1-gray-vertical);
+}
+
+.background-color-night-moon-vertical {
+  background: var(--night-moon-vertical);
+}
+
+.background-color-black-night-moon-vertical {
+  background: var(--black-night-moon-vertical);
+}
+
+.background-color-purple-pink-diagonal {
+  background: var(--purple-pink-diagonal);
+}
+
+.background-color-purple-orange-diagonal {
+  background: var(--purple-orange-diagonal);
+}
+
+.background-color-orange-yellow-diagonal {
+  background: var(--orange-yellow-diagonal);
+}
+
+.background-color-ocean-teal-diagonal {
+  background: var(--ocean-teal-diagonal);
+}
+
+.background-color-green-lime-diagonal {
+  background: var(--green-lime-diagonal);
+}
+
+.background-color-chocolate-leather-diagonal {
+  background: var(--chocolate-leather-diagonal);
+}
+
+.background-color-blue-cyan-diagonal {
+  background: var(--blue-cyan-diagonal);
+}
+
+.background-color-blue-teal-diagonal {
+  background: var(--blue-teal-diagonal);
+}
+
+.background-color-orange-pink-diagonal {
+  background: var(--orange-pink-diagonal);
+}
+
+.background-color-purple-blue-diagonal {
+  background: var(--purple-blue-diagonal);
+}
+
+.background-color-teal-pink-diagonal {
+  background: var(--teal-pink-diagonal);
+}
+
+.background-color-leather-olive-diagonal {
+  background: var(--leather-olive-diagonal);
+}
+
+.background-color-red-yellow-diagonal {
+  background: var(--red-yellow-diagonal);
+}
+
+.background-color-lime-yellow-diagonal {
+  background: var(--lime-yellow-diagonal);
+}
+
+.background-color-blue-1-ocean-diagonal {
+  background: var(--blue-1-ocean-diagonal);
+}
+
+.background-color-blue-leaf-diagonal {
+  background: var(--blue-leaf-diagonal);
+}
+
+.background-color-leaf-blue-diagonal {
+  background: var(--leaf-blue-diagonal);
+}
+
+.background-color-dark-gray-diagonal {
+  background: var(--dark-gray-diagonal);
+}
+
+.background-color-black-gray-1-diagonal {
+  background: var(--black-gray-1-diagonal);
+}
+
+.background-color-snow-white-diagonal {
+  background: var(--snow-white-diagonal);
+}
+
+.background-color-pearl-white-diagonal {
+  background: var(--pearl-white-diagonal);
+}
+
+.background-color-pearl-snow-diagonal {
+  background: var(--pearl-snow-diagonal);
+}
+
+.background-color-blue-1-snow-diagonal {
+  background: var(--blue-1-snow-diagonal);
+}
+
+.background-color-blue-1-gray-diagonal {
+  background: var(--blue-1-gray-diagonal);
+}
+
+.background-color-night-moon-diagonal {
+  background: var(--night-moon-diagonal);
+}
+
+.background-color-black-night-moon-diagonal {
+  background: var(--black-night-moon-diagonal);
+}
