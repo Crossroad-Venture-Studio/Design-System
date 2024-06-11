@@ -1,7 +1,8 @@
 .chatbot-image-container {
+  --_size: 96px;
   overflow: hidden;
-  width: 96px;
-  height: 96px;
+  width: var(--_size);
+  height: var(--_size);
   border-radius: var(--border-radius-round);
 }
 
