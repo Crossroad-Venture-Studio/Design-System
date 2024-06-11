@@ -1,8 +1,11 @@
+:root {
+  --chatbot-image-size: 96px;
+}
+
 .chatbot-image-container {
-  --_size: 96px;
   overflow: hidden;
-  width: var(--_size);
-  height: var(--_size);
+  width: var(--chatbot-image-size);
+  height: var(--chatbot-image-size);
   border-radius: var(--border-radius-round);
 }
 
