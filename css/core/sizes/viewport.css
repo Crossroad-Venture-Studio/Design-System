@@ -2,9 +2,10 @@
  * Viewport variables
  * ------------------
  */
- :root {
+:root {
   --vw: 1dvw;
   --vh: 1dvh;
+  --vs: 1;
   --viewport-width: calc(100 * var(--vw, 1dvw));
   --viewport-height: calc(100 * var(--vh, 1dvh));
 }
