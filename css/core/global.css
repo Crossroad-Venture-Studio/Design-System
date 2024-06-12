@@ -28,9 +28,9 @@ body {
   height: var(--viewport-height);
 }
 
-html.scaled,
-html:has(body.scaled)
-body.scaled {
+html.viewport-scaled,
+html:has(body.viewport-scaled)
+body.viewport-scaled {
   width: var(--viewport-width-scaled);
   height: var(--viewport-height-scaled);
 }
