@@ -5,16 +5,22 @@
 :root {
   --vw: 1dvw;
   --vh: 1dvh;
-  --vs: 1;
+  --vsx: 1;
+  --vsy: 1;
+  --vs: calc(var(--vsx, 1) * var(--vsy, 1));
+  --vw-scaled: calc(var(--vsx, 1) * var(--vw, 1dvw));
+  --vh-scaled: calc(var(--vsy, 1) * var(--vh, 1dvh));
   --viewport-width: calc(100 * var(--vw, 1dvw));
   --viewport-height: calc(100 * var(--vh, 1dvh));
+  --viewport-width-scaled: calc(100 * var(--vw-scaled, 1dvw));
+  --viewport-height-scaled: calc(100 * var(--vh-scaled, 1dvh));
 }
 
 /*
  * Viewport classes
  * ----------------
  */
- .viewport-size,
+.viewport-size,
 .viewport-width {
   min-width: var(--viewport-width);
   max-width: var(--viewport-width);
@@ -24,4 +30,16 @@
 .viewport-height {
   min-height: var(--viewport-height);
   max-height: var(--viewport-height);
+}
+
+.viewport-size-scaled,
+.viewport-width-scaled {
+  min-width: var(--viewport-width-scaled);
+  max-width: var(--viewport-width-scaled);
+}
+
+.viewport-size-scaled,
+.viewport-height-scaled {
+  min-height: var(--viewport-height-scaled);
+  max-height: var(--viewport-height-scaled);
 }
