@@ -1,5 +1,10 @@
 :root {
-  --chatbot-image-size: 96px;
+  --chatbot-image-size: calc(min(375px, var(--viewport-width)) * 0.256);
+}
+
+:root.viewport-scaled,
+:root:has(body.viewport-scaled) {
+  --chatbot-image-size: calc(min(375px, var(--viewport-width)) * 0.256 * var(--vs));
 }
 
 .chatbot-image-container {
