@@ -26,7 +26,13 @@ body {
   font-weight: normal;
   width: var(--viewport-width);
   height: var(--viewport-height);
-  /* overflow: auto; */
+}
+
+html.scaled,
+html:has(body.scaled)
+body.scaled {
+  width: var(--viewport-width-scaled);
+  height: var(--viewport-height-scaled);
 }
 
 .full  {
