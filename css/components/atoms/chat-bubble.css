@@ -36,6 +36,25 @@
   border-bottom-right-radius: 4px;
 }
 
+.chat-bubble-image-container {
+  --_size: calc(0.3 * min(var(--viewport-width), var(--viewport-height)));
+  width: var(--_size);
+  height: var(--_size);
+}
+
+:has(.scaled) body .chat-bubble-image-container,
+body.scaled {
+  --_size: calc(0.3 * min(var(--viewport-width-scaled), var(--viewport-height-scaled)));
+}
+
+.chat-bubble-image {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: calc(0.5 * var(--chat-bubble-border-radius));
+  overflow: hidden;
+}
+
 .chat-bubble-info {
   opacity: 0.5;
   font-size: var(--size-10-12);
