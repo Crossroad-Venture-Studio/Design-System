@@ -6,6 +6,7 @@
   --overlay-padding-bottom: var(--padding-bottom-half);
   --overlay-padding-right: var(--padding-right-half);
   --overlay-padding: var(--overlay-padding-top) var(--overlay-padding-left) var(--overlay-padding-bottom) var(--overlay-padding-right);
+  --overlay-backdrop-filter-blur: 30px;
 
   /* Safe area */
   --overlay-safearea-padding-top: calc(var(--safearea-top) + var(--overlay-padding-top));
@@ -35,7 +36,9 @@
   overflow: hidden;
   border: 0;
   background: #000000AA;
-  backdrop-filter: blur(30px);
+  backdrop-filter: blur(var(--overlay-backdrop-filter-blur));
+  -webkit-backdrop-filter: blur(var(--overlay-backdrop-filter-blur));
+  -moz-backdrop-filter: blur(var(--overlay-backdrop-filter-blur));
   opacity: 0;
   pointer-events: none;
   cursor: default;
