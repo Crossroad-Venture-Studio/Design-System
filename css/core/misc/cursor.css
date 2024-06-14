@@ -1,7 +1,23 @@
+
+.cursor-pointer,
 .pointer {
   cursor: pointer;
 }
 
+.cursor-default,
 .cursor {
   cursor: default;
+}
+
+.cursor-none,
+.no-cursor {
+  cursor: none;
+}
+
+.cursor-n-resize {
+  cursor: n-resize;
+}
+
+.cursor-auto {
+  cursor: auto;
 }
