@@ -82,6 +82,17 @@ input[type=reset],
     scrollbar-width: thin;
     scrollbar-color: #878787AA transparent;
   }
+
+  .hide-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .hide-scrollbar {
+    /* IE and Edge */
+    -ms-overflow-style: none;
+    /* Firefox */
+    scrollbar-width: none;
+  }
 }
 
 /* Responsive styles */
