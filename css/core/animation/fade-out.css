@@ -1,0 +1,15 @@
+.fade-out-animation {
+  --animation-time: 3s;
+  animation: fade-out-animation var(--animation-time);
+  opacity: 0;
+}
+
+@keyframes fade-out-animation {
+  from {
+    opacity: 1
+  }
+
+  to {
+    opacity: 0
+  }
+}
