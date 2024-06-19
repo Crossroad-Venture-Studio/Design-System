@@ -4,12 +4,22 @@
   opacity: 0;
 }
 
-@keyframes fade-out-animation {
+@keyframes wait-fade-out-animation {
   from {
-    opacity: 1
+    opacity: 1;
   }
 
   to {
-    opacity: 0
+    opacity: 1;
+  }
+}
+
+@keyframes fade-out-animation {
+  from {
+    opacity: 1;
+  }
+
+  to {
+    opacity: 0;
   }
 }
