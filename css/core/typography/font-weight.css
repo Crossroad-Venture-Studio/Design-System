@@ -2,6 +2,7 @@
  * Classes
  * -------
  */
+.extra-thin,
 .ultra-thin {
   font-weight: 100;
 }
@@ -30,6 +31,7 @@
   font-weight: 700;
 }
 
+.extra-bold,
 .ultra-bold {
   font-weight: 800;
 }
