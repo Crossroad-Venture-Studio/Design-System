@@ -35,7 +35,7 @@
   /* Appearance */
   overflow: hidden;
   border: 0;
-  background: #000000AA;
+  background: #00000087;
   backdrop-filter: blur(var(--overlay-backdrop-filter-blur));
   -webkit-backdrop-filter: blur(var(--overlay-backdrop-filter-blur));
   -moz-backdrop-filter: blur(var(--overlay-backdrop-filter-blur));
